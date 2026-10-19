@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "doricomcp": {
+      "command": "uv",
+      "args": ["run", "doricomcp"]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+[project]
+name = "doricomcp"
+version = "0.1.0"
+description = "MCP server that lets Claude read and write a live Dorico 6 score"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "mka142" }]
+requires-python = ">=3.12"
+keywords = ["dorico", "mcp", "music notation", "claude", "composition"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: MacOS",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Sound/Audio :: Editors",
+]
+dependencies = [
+    "mcp>=2.3.0",
+    "websockets>=17.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/mka142/doricomcp"
+Issues = "https://github.com/mka142/doricomcp/issues"
+
+[project.scripts]
+doricomcp = "doricomcp.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 160
+target-version = "py312"
+extend-exclude = ["re", "spikes", "catalog"]  # private research material, not published
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B", "UP", "ASYNC", "BLE", "SIM", "RUF"]
+# RUF005: list concatenation reads better for Lua step lists; ASYNC109: timeouts are part of the bridge API;
+# SIM108: if/else with a comment per branch is clearer than a long ternary
+ignore = ["RUF005", "ASYNC109", "SIM108"]

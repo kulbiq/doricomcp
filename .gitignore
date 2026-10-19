@@ -1,0 +1,15 @@
+# private research material (Dorico binary, decompilation, spikes): never published
+/re/
+/spikes/
+/PLAN.md
+/catalog/
+# local state
+.venv/
+.ruff_cache/
+__pycache__/
+*.pyc
+dist/
+/.claude/
+/fixtures/throwaway.dorico
+/doricomcp/data/confirm_last.png
+.DS_Store
