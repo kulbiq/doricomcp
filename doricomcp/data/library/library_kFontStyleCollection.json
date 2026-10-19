@@ -1,0 +1,256 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "font.barnumber",
+    "name": "Bar Number Font"
+   },
+   {
+    "entityID": "font.barrepeatcount",
+    "name": "Bar Repeat Count"
+   },
+   {
+    "entityID": "font.bravura",
+    "name": "Bravura"
+   },
+   {
+    "entityID": "font.chorddiagramfingering",
+    "name": "Chord Diagram Fingering Font"
+   },
+   {
+    "entityID": "font.chorddiagramfret",
+    "name": "Chord Diagram Fret Number Font"
+   },
+   {
+    "entityID": "font.chorddiagramfrethorizontal",
+    "name": "Chord Diagram Horizontal Fret Number Font"
+   },
+   {
+    "entityID": "font.chordsymbols",
+    "name": "Chord Symbols Font"
+   },
+   {
+    "entityID": "font.chordsymbolsbassseparator",
+    "name": "Chord Symbols Altered Bass Separator Font"
+   },
+   {
+    "entityID": "font.chordsymbolsmusictext",
+    "name": "Chord Symbols Music Text Font"
+   },
+   {
+    "entityID": "font.choruslyrics",
+    "name": "Chorus Lyrics Font"
+   },
+   {
+    "entityID": "font.choruslyricstranslation",
+    "name": "Chorus Lyrics Translation Font"
+   },
+   {
+    "entityID": "font.defaultmusic",
+    "name": "Default Music Font"
+   },
+   {
+    "entityID": "font.defaultmusictext",
+    "name": "Default Music Text Font"
+   },
+   {
+    "entityID": "font.defaulttext",
+    "name": "Default Text Font"
+   },
+   {
+    "entityID": "font.dynamicmusictext",
+    "name": "Dynamic Music Text Font"
+   },
+   {
+    "entityID": "font.dynamictext",
+    "name": "Dynamic Text Font"
+   },
+   {
+    "entityID": "font.figuredbass",
+    "name": "Figured Bass Font"
+   },
+   {
+    "entityID": "font.figuredbasstext",
+    "name": "Figured Bass Text Font"
+   },
+   {
+    "entityID": "font.fingering",
+    "name": "Fingering Font"
+   },
+   {
+    "entityID": "font.fingeringhornbranchaccidental",
+    "name": "Fingering Horn Branch Accidental Font"
+   },
+   {
+    "entityID": "font.fingeringhornbranchaltotext",
+    "name": "Fingering Horn Branch Alto Text Font"
+   },
+   {
+    "entityID": "font.fingeringhornbranchtext",
+    "name": "Fingering Horn Branch Text Font"
+   },
+   {
+    "entityID": "font.fingeringitalictext",
+    "name": "Fingering Text Italic Font"
+   },
+   {
+    "entityID": "font.fingeringtext",
+    "name": "Fingering Text Font"
+   },
+   {
+    "entityID": "font.framefilters",
+    "name": "Frame Filters"
+   },
+   {
+    "entityID": "font.galleyviewmarginlabels",
+    "name": "Galley View Margin Labels Text Font"
+   },
+   {
+    "entityID": "font.glissandolinetext",
+    "name": "Glissando Line Text Font"
+   },
+   {
+    "entityID": "font.guitarbendBUandBD",
+    "name": "Guitar Bend BU and BD Font"
+   },
+   {
+    "entityID": "font.guitarbendinterval",
+    "name": "Guitar Bend Interval Font"
+   },
+   {
+    "entityID": "font.guitartechniques",
+    "name": "Guitar Techniques Font"
+   },
+   {
+    "entityID": "font.horizontalline",
+    "name": "Horizontal Line Font"
+   },
+   {
+    "entityID": "font.lyrics",
+    "name": "Lyrics Font"
+   },
+   {
+    "entityID": "font.lyricstranslation",
+    "name": "Lyrics Translation Font"
+   },
+   {
+    "entityID": "font.lyricsversenumbers",
+    "name": "Lyrics Verse Numbers Font"
+   },
+   {
+    "entityID": "font.markertext",
+    "name": "Marker Text Font"
+   },
+   {
+    "entityID": "font.markertimecode",
+    "name": "Marker Timecode Font"
+   },
+   {
+    "entityID": "font.metronome",
+    "name": "Metronome Text Font"
+   },
+   {
+    "entityID": "font.metronomemusictext",
+    "name": "Metronome Music Text Font"
+   },
+   {
+    "entityID": "font.multirestbarcount",
+    "name": "Multi-bar Rest Bar Count Font"
+   },
+   {
+    "entityID": "font.multirestbarcountplain",
+    "name": "Multi-bar Rest Bar Count Plain Font"
+   },
+   {
+    "entityID": "font.multiresttacet",
+    "name": "Multi-bar Rest Tacet Font"
+   },
+   {
+    "entityID": "font.ossiastafflabel",
+    "name": "Ossia Staff Label"
+   },
+   {
+    "entityID": "font.pagenumber",
+    "name": "Page Number Font"
+   },
+   {
+    "entityID": "font.pedalline",
+    "name": "Pedal Line Font"
+   },
+   {
+    "entityID": "font.playingtechnique",
+    "name": "Playing Technique Font"
+   },
+   {
+    "entityID": "font.printmetadata",
+    "name": "Print Metadata Font"
+   },
+   {
+    "entityID": "font.printwatermark",
+    "name": "Print Watermark Font"
+   },
+   {
+    "entityID": "font.rehearsalmark",
+    "name": "Rehearsal Mark Font"
+   },
+   {
+    "entityID": "font.repeatendings",
+    "name": "Repeat Endings Font"
+   },
+   {
+    "entityID": "font.signpostflag",
+    "name": "Sign Post Flag"
+   },
+   {
+    "entityID": "font.tabnumbers",
+    "name": "Tablature Numbers Font"
+   },
+   {
+    "entityID": "font.tempo",
+    "name": "Immediate Tempo Text Font"
+   },
+   {
+    "entityID": "font.tempo.gradual",
+    "name": "Gradual Tempo Text Font"
+   },
+   {
+    "entityID": "font.timecode",
+    "name": "Timecode Font"
+   },
+   {
+    "entityID": "font.timesignature",
+    "name": "Time Signature Font"
+   },
+   {
+    "entityID": "font.timesignatureplain",
+    "name": "Time Signature Plain Font"
+   },
+   {
+    "entityID": "font.timesignatureplainseparators",
+    "name": "Time Signature Plain Separators Font"
+   },
+   {
+    "entityID": "font.trillinterval",
+    "name": "Trill Interval Font"
+   },
+   {
+    "entityID": "font.tuplet",
+    "name": "Tuplet Font"
+   },
+   {
+    "entityID": "font.tupletplain",
+    "name": "Tuplet Plain Font"
+   },
+   {
+    "entityID": "font.tupletplainroman",
+    "name": "Tuplet Plain Roman Font"
+   },
+   {
+    "entityID": "font.verticalline",
+    "name": "Vertical Line Font"
+   }
+  ]
+ }
+]

@@ -1,0 +1,156 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "paragraph.barnumbers.part",
+    "name": "Bar numbers (parts)"
+   },
+   {
+    "entityID": "paragraph.barnumbers.score",
+    "name": "Bar numbers (score)"
+   },
+   {
+    "entityID": "paragraph.composer",
+    "name": "Composer"
+   },
+   {
+    "entityID": "paragraph.condensationlabels",
+    "name": "Player Labels"
+   },
+   {
+    "entityID": "paragraph.copyright",
+    "name": "Copyright"
+   },
+   {
+    "entityID": "paragraph.cuelabels",
+    "name": "Cue Labels"
+   },
+   {
+    "entityID": "paragraph.defaulttext",
+    "name": "Default Text"
+   },
+   {
+    "entityID": "paragraph.figuredbasstastosolo",
+    "name": "Figured Bass Tasto Solo"
+   },
+   {
+    "entityID": "paragraph.flowtitle",
+    "name": "Flow Title"
+   },
+   {
+    "entityID": "paragraph.galleyviewsmarginlabels",
+    "name": "Galley View Margin Labels"
+   },
+   {
+    "entityID": "paragraph.harppedalsettings",
+    "name": "Harp Pedal Settings"
+   },
+   {
+    "entityID": "paragraph.header",
+    "name": "Header"
+   },
+   {
+    "entityID": "paragraph.instrumentchangelabels",
+    "name": "Instrument Change Labels"
+   },
+   {
+    "entityID": "paragraph.instrumentchangewarnings",
+    "name": "Instrument Change Warnings"
+   },
+   {
+    "entityID": "paragraph.layoutname",
+    "name": "Layout name"
+   },
+   {
+    "entityID": "paragraph.lyricist",
+    "name": "Lyricist"
+   },
+   {
+    "entityID": "paragraph.lyrics",
+    "name": "Lyrics"
+   },
+   {
+    "entityID": "paragraph.lyrics.chorus",
+    "name": "Lyrics (Chorus)"
+   },
+   {
+    "entityID": "paragraph.lyrics.chorus.translation",
+    "name": "Lyrics (Chorus Translation)"
+   },
+   {
+    "entityID": "paragraph.lyrics.translation",
+    "name": "Lyrics (Translation)"
+   },
+   {
+    "entityID": "paragraph.lyrics.versenumbers",
+    "name": "Lyrics (Verse Numbers)"
+   },
+   {
+    "entityID": "paragraph.miditriggerregionlabels",
+    "name": "MIDI Trigger Region Labels"
+   },
+   {
+    "entityID": "paragraph.pagenumber",
+    "name": "Page Number"
+   },
+   {
+    "entityID": "paragraph.percussionlegend",
+    "name": "Percussion Legend"
+   },
+   {
+    "entityID": "paragraph.playergrouplabels",
+    "name": "Player Group Labels"
+   },
+   {
+    "entityID": "paragraph.rehearsalmarks",
+    "name": "Rehearsal Marks"
+   },
+   {
+    "entityID": "paragraph.repeatcount",
+    "name": "Repeat Count"
+   },
+   {
+    "entityID": "paragraph.repeatmarkerjumps",
+    "name": "Repeat Marker Jumps"
+   },
+   {
+    "entityID": "paragraph.repeatmarkersections",
+    "name": "Repeat Marker Sections"
+   },
+   {
+    "entityID": "paragraph.stafflabels",
+    "name": "Staff Labels"
+   },
+   {
+    "entityID": "paragraph.stafflabelsgrid",
+    "name": "Staff Labels (Percussion Grid)"
+   },
+   {
+    "entityID": "paragraph.stafflabelsinner",
+    "name": "Staff Labels (Inner)"
+   },
+   {
+    "entityID": "paragraph.tacet",
+    "name": "Tacet"
+   },
+   {
+    "entityID": "paragraph.tempogradual",
+    "name": "Tempo (Gradual)"
+   },
+   {
+    "entityID": "paragraph.tempoimmediate",
+    "name": "Tempo (Immediate)"
+   },
+   {
+    "entityID": "paragraph.tempometronomemark",
+    "name": "Tempo (Metronome Mark)"
+   },
+   {
+    "entityID": "paragraph.title",
+    "name": "Title"
+   }
+  ]
+ }
+]

@@ -1,0 +1,140 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "ensemble.brass.brass4230",
+    "name": "Brass: 4230"
+   },
+   {
+    "entityID": "ensemble.brass.brass4331",
+    "name": "Brass: 4331"
+   },
+   {
+    "entityID": "ensemble.brass.brass6341",
+    "name": "Brass: 6341"
+   },
+   {
+    "entityID": "ensemble.brass.brass8341",
+    "name": "Brass: 8341"
+   },
+   {
+    "entityID": "ensemble.brass.fourhorns",
+    "name": "4 Horns"
+   },
+   {
+    "entityID": "ensemble.brass.fourtrumpets",
+    "name": "4 Trumpets"
+   },
+   {
+    "entityID": "ensemble.brass.sixhorns",
+    "name": "6 Horns"
+   },
+   {
+    "entityID": "ensemble.brass.threetrombones",
+    "name": "3 Trombones"
+   },
+   {
+    "entityID": "ensemble.brass.threetrumpets",
+    "name": "3 Trumpets"
+   },
+   {
+    "entityID": "ensemble.brass.trombonetuba",
+    "name": "3 Trombones, Tuba"
+   },
+   {
+    "entityID": "ensemble.choir.4part",
+    "name": "4-part Choir (SATB)"
+   },
+   {
+    "entityID": "ensemble.choir.8part",
+    "name": "8-part Choir (SSAATTBB)"
+   },
+   {
+    "entityID": "ensemble.choir.double",
+    "name": "Double Choir"
+   },
+   {
+    "entityID": "ensemble.fanfara",
+    "name": "Fanfara"
+   },
+   {
+    "entityID": "ensemble.percussion.harpkeyboard",
+    "name": "2 Harps, Celeste, Piano"
+   },
+   {
+    "entityID": "ensemble.percussion.timpanipercussion",
+    "name": "Timp., B.D., Cym."
+   },
+   {
+    "entityID": "ensemble.rhythm.jazz",
+    "name": "Jazz Rhythm Section"
+   },
+   {
+    "entityID": "ensemble.rhythm.pit",
+    "name": "Pit Rhythm Section"
+   },
+   {
+    "entityID": "ensemble.rhythm.pop",
+    "name": "Pop Rhythm Section"
+   },
+   {
+    "entityID": "ensemble.string.section",
+    "name": "String Section"
+   },
+   {
+    "entityID": "ensemble.string.section.no-bass",
+    "name": "String Section (No Bass)"
+   },
+   {
+    "entityID": "ensemble.string.violin-viola-cello",
+    "name": "Violin, Viola, Cello"
+   },
+   {
+    "entityID": "ensemble.string.violins-cello",
+    "name": "2 Violins, Cello"
+   },
+   {
+    "entityID": "ensemble.wind-brass.bigband",
+    "name": "Big Band Horns"
+   },
+   {
+    "entityID": "ensemble.wind-brass.pophorns.3",
+    "name": "3 Pop Horns"
+   },
+   {
+    "entityID": "ensemble.wind-brass.pophorns.4",
+    "name": "4 Pop Horns"
+   },
+   {
+    "entityID": "ensemble.wind-brass.pophorns.5",
+    "name": "5 Pop Horns"
+   },
+   {
+    "entityID": "ensemble.wind-brass.pophorns.6",
+    "name": "6 Pop Horns"
+   },
+   {
+    "entityID": "ensemble.wind.clarinet-choir",
+    "name": "Clarinet Choir"
+   },
+   {
+    "entityID": "ensemble.wind.double",
+    "name": "Double Woodwind"
+   },
+   {
+    "entityID": "ensemble.wind.saxophone-quartet",
+    "name": "Saxophone Quartet"
+   },
+   {
+    "entityID": "ensemble.wind.single",
+    "name": "Single Woodwind"
+   },
+   {
+    "entityID": "ensemble.wind.triple",
+    "name": "Triple Woodwind"
+   }
+  ]
+ }
+]

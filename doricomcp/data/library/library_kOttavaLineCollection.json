@@ -1,0 +1,36 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "line.ottava.down.15",
+    "name": "Two octaves down"
+   },
+   {
+    "entityID": "line.ottava.down.22",
+    "name": "Three octaves down"
+   },
+   {
+    "entityID": "line.ottava.down.8",
+    "name": "Octave down"
+   },
+   {
+    "entityID": "line.ottava.loco",
+    "name": "Loco"
+   },
+   {
+    "entityID": "line.ottava.up.15",
+    "name": "Two octaves up"
+   },
+   {
+    "entityID": "line.ottava.up.22",
+    "name": "Three octaves up"
+   },
+   {
+    "entityID": "line.ottava.up.8",
+    "name": "Octave up"
+   }
+  ]
+ }
+]

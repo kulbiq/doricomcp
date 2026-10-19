@@ -1,0 +1,560 @@
+{
+ "kNoteEvent": {
+  "selectedEventType": "kNoteEvent",
+  "propertieslist": {
+   "message": "propertieslist",
+   "openScoreID": 0,
+   "currentScope": "kLocal",
+   "eventTypes": [
+    "kNoteEvent"
+   ],
+   "properties": [
+    {
+     "name": "kEventMuted",
+     "displayName": "Suppress playback",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kAlways",
+      "kOnPasses"
+     ]
+    },
+    {
+     "name": "kEventMutedOnPasses",
+     "displayName": "Suppress on passes",
+     "valueType": "kRangeString"
+    },
+    {
+     "name": "kEventScale",
+     "displayName": "Scale",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kNormal",
+      "kCue",
+      "kGrace",
+      "kCueGrace"
+     ]
+    },
+    {
+     "name": "kEventCustomScale",
+     "displayName": "Custom scale",
+     "valueType": "kInt"
+    },
+    {
+     "name": "kEventColour",
+     "displayName": "Color",
+     "valueType": "kSteamColour"
+    },
+    {
+     "name": "kNoteOrRestEndsVoice",
+     "displayName": "Ends voice",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kEndImmediately",
+      "kEndAfterBarline"
+     ]
+    },
+    {
+     "name": "kNoteOrRestStartsVoice",
+     "displayName": "Starts voice",
+     "valueType": "kNull"
+    },
+    {
+     "name": "kEventPlayStartOffset",
+     "displayName": "Playback start offset",
+     "valueType": "kPlaybackTicks"
+    },
+    {
+     "name": "kEventPlayEndOffset",
+     "displayName": "Playback end offset",
+     "valueType": "kPlaybackTicks"
+    },
+    {
+     "name": "kNoteVelocity",
+     "displayName": "Velocity",
+     "valueType": "kInt"
+    },
+    {
+     "name": "kNoteAccidentalVisibility_v3",
+     "displayName": "Accidental",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kHide",
+      "kShow",
+      "kRoundBrackets",
+      "kSquareBrackets"
+     ]
+    },
+    {
+     "name": "kNoteUseArchaicAccidentalCancellation",
+     "displayName": "Trad. cancellation",
+     "valueType": "kBool"
+    },
+    {
+     "name": "kUseSplitStemForNotehead",
+     "displayName": "Split stem",
+     "valueType": "kBool"
+    },
+    {
+     "name": "kNoteEndHasLVTie",
+     "displayName": "Laissez vibrer tie",
+     "valueType": "kBoolAsNull"
+    },
+    {
+     "name": "kBeamSplitSecondary",
+     "displayName": "Split secondary beam",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kAuto",
+      "kQuaver",
+      "kSemiQuaver",
+      "kDemiSemiQuaver",
+      "kHemiDemiSemiQuaver",
+      "k128th",
+      "k256th",
+      "k512th",
+      "k1024th"
+     ]
+    },
+    {
+     "name": "kBeamPartialBeamDirection",
+     "displayName": "Partial beam direction",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kLeft",
+      "kRight"
+     ]
+    },
+    {
+     "name": "kBeamForcedDirection",
+     "displayName": "Beam direction",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kBeamFlat",
+      "kBeamSlopeUp",
+      "kBeamSlopeDown"
+     ]
+    },
+    {
+     "name": "kBeamChangeFannedBeamDirection",
+     "displayName": "Change fanned beam direction",
+     "valueType": "kNull"
+    },
+    {
+     "name": "kForcedTieDirection",
+     "displayName": "Direction",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kUp",
+      "kDown"
+     ]
+    },
+    {
+     "name": "kTieStyle",
+     "displayName": "Style",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kSolid",
+      "kDashed",
+      "kDotted",
+      "kHalfDashedStart",
+      "kHalfDashedEnd",
+      "kEditorial"
+     ]
+    },
+    {
+     "name": "kTieDashOrDotSize",
+     "displayName": "Dash/dot",
+     "valueType": "kStaveUnit"
+    },
+    {
+     "name": "kNoteHarmonicType",
+     "displayName": "Type",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kArtificial",
+      "kNatural"
+     ]
+    },
+    {
+     "name": "kNoteFingering",
+     "displayName": "Finger or position(s)",
+     "valueType": "kFingeringSequence"
+    },
+    {
+     "name": "kNoteFingeringSubstitution",
+     "displayName": "Substitution",
+     "valueType": "kFingeringForNote"
+    },
+    {
+     "name": "kNoteFingeringSubstitutionAppearance",
+     "displayName": "Substitution appearance",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kLine",
+      "kSlur"
+     ]
+    },
+    {
+     "name": "kNoteFingeringSubstitutionOffset",
+     "displayName": "Substitution offset",
+     "valueType": "kRhythmicLengthPair"
+    },
+    {
+     "name": "kNoteFingeringStaveRelativePosition",
+     "displayName": "Staff-relative position",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kAbove",
+      "kBelow"
+     ]
+    },
+    {
+     "name": "kNoteFingeringDrawInsideStave",
+     "displayName": "Position left of notehead",
+     "valueType": "kBoolAsNull"
+    },
+    {
+     "name": "kNoteInwardJazzArticulationType",
+     "displayName": "In",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kScoop",
+      "kLift",
+      "kPlopBend",
+      "kPlopSmooth",
+      "kGuitarVibratoBarScoop"
+     ]
+    },
+    {
+     "name": "kNoteOutwardJazzArticulationType",
+     "displayName": "Out",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kFallBend",
+      "kFallSmooth",
+      "kDoitBend",
+      "kDoitSmooth"
+     ]
+    },
+    {
+     "name": "kNoteheadParenthesisStyle",
+     "displayName": "Bracket style",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kCurve",
+      "kBracket"
+     ]
+    }
+   ]
+  }
+ },
+ "kBarDivisionEvent": {
+  "selectedEventType": "kBarDivisionEvent",
+  "propertieslist": {
+   "message": "propertieslist",
+   "openScoreID": 0,
+   "currentScope": "kLocal",
+   "eventTypes": [
+    "kBarDivisionEvent"
+   ],
+   "properties": [
+    {
+     "name": "kEventMuted",
+     "displayName": "Suppress playback",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kAlways",
+      "kOnPasses"
+     ]
+    },
+    {
+     "name": "kEventMutedOnPasses",
+     "displayName": "Suppress on passes",
+     "valueType": "kRangeString"
+    },
+    {
+     "name": "kEventScale",
+     "displayName": "Scale",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kNormal",
+      "kCue",
+      "kGrace",
+      "kCueGrace"
+     ]
+    },
+    {
+     "name": "kEventCustomScale",
+     "displayName": "Custom scale",
+     "valueType": "kInt"
+    },
+    {
+     "name": "kEventColour",
+     "displayName": "Color",
+     "valueType": "kSteamColour"
+    },
+    {
+     "name": "kBarNumberHide",
+     "displayName": "Hide bar number",
+     "valueType": "kBoolAsNull"
+    },
+    {
+     "name": "kBarDivisionForceEndOfInterchangeableRange",
+     "displayName": "End interchangeable",
+     "valueType": "kBool",
+     "currentValue": "false",
+     "setGlobally": true
+    },
+    {
+     "name": "kBarDivisionCommonTimeSig",
+     "displayName": "Common/Cut common",
+     "valueType": "kBool",
+     "currentValue": "false",
+     "setGlobally": true
+    },
+    {
+     "name": "kBarDivisionCombineAggregateTimeSignatures",
+     "displayName": "Combine compatible aggregates",
+     "valueType": "kBool"
+    },
+    {
+     "name": "kBarDivisionTimeSigOpenAppearance",
+     "displayName": "Open style",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kEmpty",
+      "kX",
+      "kN"
+     ]
+    },
+    {
+     "name": "kBarDivisionTimeSigDenominatorAppearance",
+     "displayName": "Denominator style",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kNumber",
+      "kNote",
+      "kNone"
+     ]
+    },
+    {
+     "name": "kBarDivisionTimeSigNumeratorAppearance",
+     "displayName": "Numerator style",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kNumber",
+      "kBeatGroup"
+     ]
+    },
+    {
+     "name": "kBarDivisionTimeSigInterchangeableSeparator",
+     "displayName": "Separator",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kParentheses",
+      "kBracket",
+      "kEqual",
+      "kSlash",
+      "kSpace",
+      "kHyphen"
+     ]
+    },
+    {
+     "name": "kTimeSignatureHide",
+     "displayName": "Hide time signature",
+     "valueType": "kBoolAsNull"
+    },
+    {
+     "name": "kBarDivisionCautionaryVisibilityAtEndOfSystem",
+     "displayName": "Cautionary at end of system",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kHide",
+      "kShow"
+     ]
+    }
+   ]
+  }
+ },
+ "kTonalityDivisionEvent": {
+  "selectedEventType": "kTonalityDivisionEvent",
+  "propertieslist": {
+   "message": "propertieslist",
+   "openScoreID": 0,
+   "currentScope": "kLocal",
+   "eventTypes": [
+    "kTonalityDivisionEvent"
+   ],
+   "properties": [
+    {
+     "name": "kEventMuted",
+     "displayName": "Suppress playback",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kAlways",
+      "kOnPasses"
+     ]
+    },
+    {
+     "name": "kEventMutedOnPasses",
+     "displayName": "Suppress on passes",
+     "valueType": "kRangeString"
+    },
+    {
+     "name": "kEventScale",
+     "displayName": "Scale",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kNormal",
+      "kCue",
+      "kGrace",
+      "kCueGrace"
+     ]
+    },
+    {
+     "name": "kEventCustomScale",
+     "displayName": "Custom scale",
+     "valueType": "kInt"
+    },
+    {
+     "name": "kEventColour",
+     "displayName": "Color",
+     "valueType": "kSteamColour"
+    },
+    {
+     "name": "kTonalityDivisionCautionaryVisibilityAtEndOfSystem",
+     "displayName": "Cautionary at end of system",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kHide",
+      "kShow"
+     ]
+    }
+   ]
+  }
+ },
+ "kDynamicGroupEvent": {
+  "selectedEventType": "kDynamicGroupEvent",
+  "propertieslist": {
+   "message": "propertieslist",
+   "openScoreID": 0,
+   "currentScope": "kLocal",
+   "eventTypes": [
+    "kDynamicGroupEvent"
+   ],
+   "properties": [
+    {
+     "name": "kEventMuted",
+     "displayName": "Suppress playback",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kAlways",
+      "kOnPasses"
+     ]
+    },
+    {
+     "name": "kEventMutedOnPasses",
+     "displayName": "Suppress on passes",
+     "valueType": "kRangeString"
+    },
+    {
+     "name": "kEventScale",
+     "displayName": "Scale",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kNormal",
+      "kCue",
+      "kGrace",
+      "kCueGrace"
+     ]
+    },
+    {
+     "name": "kEventCustomScale",
+     "displayName": "Custom scale",
+     "valueType": "kInt"
+    },
+    {
+     "name": "kEventColour",
+     "displayName": "Color",
+     "valueType": "kSteamColour"
+    },
+    {
+     "name": "kDynamicStaveRelativeVerticalPosition",
+     "displayName": "Placement",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kAbove",
+      "kBelow"
+     ]
+    }
+   ]
+  }
+ },
+ "kClefEvent": {
+  "selectedEventType": "kClefEvent",
+  "propertieslist": {
+   "message": "propertieslist",
+   "openScoreID": 0,
+   "currentScope": "kLocal",
+   "eventTypes": [
+    "kClefEvent"
+   ],
+   "properties": [
+    {
+     "name": "kEventMuted",
+     "displayName": "Suppress playback",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kAlways",
+      "kOnPasses"
+     ]
+    },
+    {
+     "name": "kEventMutedOnPasses",
+     "displayName": "Suppress on passes",
+     "valueType": "kRangeString"
+    },
+    {
+     "name": "kEventScale",
+     "displayName": "Scale",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kNormal",
+      "kCue",
+      "kGrace",
+      "kCueGrace"
+     ]
+    },
+    {
+     "name": "kEventCustomScale",
+     "displayName": "Custom scale",
+     "valueType": "kInt"
+    },
+    {
+     "name": "kEventColour",
+     "displayName": "Color",
+     "valueType": "kSteamColour"
+    },
+    {
+     "name": "kClefShowForTranspositionType",
+     "displayName": "Show for transposition",
+     "valueType": "kEnum",
+     "enumValues": [
+      "kScoreInC",
+      "kTransposingScore"
+     ]
+    },
+    {
+     "name": "kClefConcertPitchOctaveShift",
+     "displayName": "Octave shift",
+     "valueType": "kInt"
+    },
+    {
+     "name": "kClefHidden",
+     "displayName": "Hide",
+     "valueType": "kNull"
+    }
+   ]
+  }
+ }
+}

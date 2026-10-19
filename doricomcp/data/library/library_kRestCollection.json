@@ -1,0 +1,72 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "rest.rest1024th",
+    "name": "rest1024th"
+   },
+   {
+    "entityID": "rest.rest128th",
+    "name": "rest128th"
+   },
+   {
+    "entityID": "rest.rest16th",
+    "name": "rest16th"
+   },
+   {
+    "entityID": "rest.rest256th",
+    "name": "rest256th"
+   },
+   {
+    "entityID": "rest.rest32nd",
+    "name": "rest32nd"
+   },
+   {
+    "entityID": "rest.rest512th",
+    "name": "rest512th"
+   },
+   {
+    "entityID": "rest.rest64th",
+    "name": "rest64th"
+   },
+   {
+    "entityID": "rest.rest8th",
+    "name": "rest8th"
+   },
+   {
+    "entityID": "rest.restDoubleWhole",
+    "name": "restDoubleWhole"
+   },
+   {
+    "entityID": "rest.restHalf",
+    "name": "restHalf"
+   },
+   {
+    "entityID": "rest.restLonga",
+    "name": "restLonga"
+   },
+   {
+    "entityID": "rest.restMaxima",
+    "name": "restMaxima"
+   },
+   {
+    "entityID": "rest.restQuarter",
+    "name": "restQuarter"
+   },
+   {
+    "entityID": "rest.restQuarterOldStyle",
+    "name": "restQuarterOldStyle"
+   },
+   {
+    "entityID": "rest.restQuarterZStyle",
+    "name": "restQuarterZStyle"
+   },
+   {
+    "entityID": "rest.restWhole",
+    "name": "restWhole"
+   }
+  ]
+ }
+]

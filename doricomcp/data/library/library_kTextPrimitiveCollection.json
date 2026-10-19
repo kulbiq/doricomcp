@@ -1,0 +1,1136 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "text.artificialHarmonicTab",
+    "name": "AH 14"
+   },
+   {
+    "entityID": "text.csac.10",
+    "name": "10"
+   },
+   {
+    "entityID": "text.csac.11",
+    "name": "11"
+   },
+   {
+    "entityID": "text.csac.13",
+    "name": "13"
+   },
+   {
+    "entityID": "text.csac.2",
+    "name": "2"
+   },
+   {
+    "entityID": "text.csac.3",
+    "name": "3"
+   },
+   {
+    "entityID": "text.csac.4",
+    "name": "4"
+   },
+   {
+    "entityID": "text.csac.5",
+    "name": "5"
+   },
+   {
+    "entityID": "text.csac.5closedParenthesis",
+    "name": "5closedParenthesis"
+   },
+   {
+    "entityID": "text.csac.6",
+    "name": "6"
+   },
+   {
+    "entityID": "text.csac.7",
+    "name": "7"
+   },
+   {
+    "entityID": "text.csac.9",
+    "name": "9"
+   },
+   {
+    "entityID": "text.csac.accidental.kDoubleFlat.eses",
+    "name": "eses"
+   },
+   {
+    "entityID": "text.csac.accidental.kDoubleFlat.ses",
+    "name": "ses"
+   },
+   {
+    "entityID": "text.csac.accidental.kDoubleSharp.isis",
+    "name": "isis"
+   },
+   {
+    "entityID": "text.csac.accidental.kFlat.es",
+    "name": "es"
+   },
+   {
+    "entityID": "text.csac.accidental.kFlat.s",
+    "name": "s"
+   },
+   {
+    "entityID": "text.csac.accidental.kSharp.is",
+    "name": "is"
+   },
+   {
+    "entityID": "text.csac.accidental.kTripleFlat.eseses",
+    "name": "eseses"
+   },
+   {
+    "entityID": "text.csac.accidental.kTripleFlat.seses",
+    "name": "seses"
+   },
+   {
+    "entityID": "text.csac.accidental.kTripleSharp.isisis",
+    "name": "isisis"
+   },
+   {
+    "entityID": "text.csac.alteration.10",
+    "name": "10"
+   },
+   {
+    "entityID": "text.csac.alteration.11",
+    "name": "11"
+   },
+   {
+    "entityID": "text.csac.alteration.13",
+    "name": "13"
+   },
+   {
+    "entityID": "text.csac.alteration.2",
+    "name": "2"
+   },
+   {
+    "entityID": "text.csac.alteration.3",
+    "name": "3"
+   },
+   {
+    "entityID": "text.csac.alteration.4",
+    "name": "4"
+   },
+   {
+    "entityID": "text.csac.alteration.5",
+    "name": "5"
+   },
+   {
+    "entityID": "text.csac.alteration.6",
+    "name": "6"
+   },
+   {
+    "entityID": "text.csac.alteration.7",
+    "name": "7"
+   },
+   {
+    "entityID": "text.csac.alteration.9",
+    "name": "9"
+   },
+   {
+    "entityID": "text.csac.alteration.ADD.kUpperCase",
+    "name": "ADD"
+   },
+   {
+    "entityID": "text.csac.alteration.NO.kUpperCase.kNo",
+    "name": "NO"
+   },
+   {
+    "entityID": "text.csac.alteration.OMIT.kUpperCase.kOmit",
+    "name": "OMIT"
+   },
+   {
+    "entityID": "text.csac.alteration.SUS.kUpperCase",
+    "name": "SUS"
+   },
+   {
+    "entityID": "text.csac.alteration.add.kLowerCase",
+    "name": "add"
+   },
+   {
+    "entityID": "text.csac.alteration.comma",
+    "name": ","
+   },
+   {
+    "entityID": "text.csac.alteration.no.kLowerCase.kNo",
+    "name": "no"
+   },
+   {
+    "entityID": "text.csac.alteration.omit.kLowerCase.kOmit",
+    "name": "omit"
+   },
+   {
+    "entityID": "text.csac.alteration.sus.kLowerCase",
+    "name": "sus"
+   },
+   {
+    "entityID": "text.csac.alteredchord.kALT",
+    "name": "ALT"
+   },
+   {
+    "entityID": "text.csac.alteredchord.kALT.parenthesised",
+    "name": "(ALT)"
+   },
+   {
+    "entityID": "text.csac.alteredchord.kALTDot",
+    "name": "ALT."
+   },
+   {
+    "entityID": "text.csac.alteredchord.kALTDot.parenthesised",
+    "name": "(ALT.)"
+   },
+   {
+    "entityID": "text.csac.alteredchord.kAlt",
+    "name": "Alt"
+   },
+   {
+    "entityID": "text.csac.alteredchord.kAlt.parenthesised",
+    "name": "(Alt)"
+   },
+   {
+    "entityID": "text.csac.alteredchord.kAltDot",
+    "name": "Alt."
+   },
+   {
+    "entityID": "text.csac.alteredchord.kAltDot.parenthesised",
+    "name": "(Alt.)"
+   },
+   {
+    "entityID": "text.csac.alteredchord.kAltLowerCase",
+    "name": "alt"
+   },
+   {
+    "entityID": "text.csac.alteredchord.kAltLowerCase.parenthesised",
+    "name": "(alt)"
+   },
+   {
+    "entityID": "text.csac.alteredchord.kAltLowerCaseDot",
+    "name": "alt."
+   },
+   {
+    "entityID": "text.csac.alteredchord.kAltLowerCaseDot.parenthesised",
+    "name": "(alt.)"
+   },
+   {
+    "entityID": "text.csac.bass.on",
+    "name": "on"
+   },
+   {
+    "entityID": "text.csac.interval.k11",
+    "name": "11"
+   },
+   {
+    "entityID": "text.csac.interval.k13",
+    "name": "13"
+   },
+   {
+    "entityID": "text.csac.interval.k6",
+    "name": "6"
+   },
+   {
+    "entityID": "text.csac.interval.k7",
+    "name": "7"
+   },
+   {
+    "entityID": "text.csac.interval.k9",
+    "name": "9"
+   },
+   {
+    "entityID": "text.csac.interval.kMaj7.kLowerCaseMaj7",
+    "name": "maj"
+   },
+   {
+    "entityID": "text.csac.interval.kMaj7.kSentenceCaseMaj7",
+    "name": "Maj"
+   },
+   {
+    "entityID": "text.csac.interval.kMaj7.kUpperCaseM7",
+    "name": "M"
+   },
+   {
+    "entityID": "text.csac.interval.kMaj7.kUpperCaseMA7",
+    "name": "MA"
+   },
+   {
+    "entityID": "text.csac.kAlterations.parenthesis.closed",
+    "name": ")"
+   },
+   {
+    "entityID": "text.csac.kAlterations.parenthesis.open",
+    "name": "("
+   },
+   {
+    "entityID": "text.csac.kInterval.parenthesis.closed",
+    "name": ")"
+   },
+   {
+    "entityID": "text.csac.kInterval.parenthesis.open",
+    "name": "("
+   },
+   {
+    "entityID": "text.csac.kParentheses.parenthesis.closed",
+    "name": ")"
+   },
+   {
+    "entityID": "text.csac.kParentheses.parenthesis.open",
+    "name": "("
+   },
+   {
+    "entityID": "text.csac.linear6",
+    "name": "linear6"
+   },
+   {
+    "entityID": "text.csac.linear9",
+    "name": "linear9"
+   },
+   {
+    "entityID": "text.csac.nochord.nc",
+    "name": "N.C."
+   },
+   {
+    "entityID": "text.csac.openParenthesis",
+    "name": "openParenthesis"
+   },
+   {
+    "entityID": "text.csac.quality.5.k5",
+    "name": "5"
+   },
+   {
+    "entityID": "text.csac.quality.augmented.kAug.kLowerCase",
+    "name": "aug"
+   },
+   {
+    "entityID": "text.csac.quality.augmented.kAug.kUpperCase",
+    "name": "AUG"
+   },
+   {
+    "entityID": "text.csac.quality.dim.kLowerCaseDim",
+    "name": "dim"
+   },
+   {
+    "entityID": "text.csac.quality.dim.kLowerCaseDimWithDot",
+    "name": "dim."
+   },
+   {
+    "entityID": "text.csac.quality.dim7.kLowerCaseDimWithDotWithout7",
+    "name": "dim."
+   },
+   {
+    "entityID": "text.csac.quality.dim7.kLowerCaseDimWithout7",
+    "name": "dim"
+   },
+   {
+    "entityID": "text.csac.quality.major.kLowerCaseMa",
+    "name": "ma"
+   },
+   {
+    "entityID": "text.csac.quality.major.kLowerCaseMaj",
+    "name": "maj"
+   },
+   {
+    "entityID": "text.csac.quality.major.kUpperCaseM",
+    "name": "M"
+   },
+   {
+    "entityID": "text.csac.quality.minor.kLowerCaseM",
+    "name": "m"
+   },
+   {
+    "entityID": "text.csac.quality.minor.kLowerCaseMi",
+    "name": "mi"
+   },
+   {
+    "entityID": "text.csac.quality.minor.kLowerCaseMin",
+    "name": "min"
+   },
+   {
+    "entityID": "text.csac.quality.minor.kUpperCaseMi",
+    "name": "MI"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kAeolian.kLowerCase",
+    "name": "aeol"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kAeolian.kLowerCase.dot",
+    "name": "aeol."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kAeolian.kTitleCase",
+    "name": "Aeol"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kAeolian.kTitleCase.dot",
+    "name": "Aeol."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kDiminishedHalfWhole.kLowerCase",
+    "name": "dim H/W"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kDiminishedHalfWhole.kLowerCase.dot",
+    "name": "dim. H/W"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kDiminishedHalfWhole.kTitleCase",
+    "name": "Dim H/W"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kDiminishedHalfWhole.kTitleCase.dot",
+    "name": "Dim. H/W"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kDiminishedWholeHalf.kLowerCase",
+    "name": "dim W/H"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kDiminishedWholeHalf.kLowerCase.dot",
+    "name": "dim. W/H"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kDiminishedWholeHalf.kTitleCase",
+    "name": "Dim W/H"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kDiminishedWholeHalf.kTitleCase.dot",
+    "name": "Dim. W/H"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kDorian.kLowerCase",
+    "name": "dor"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kDorian.kLowerCase.dot",
+    "name": "dor."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kDorian.kTitleCase",
+    "name": "Dor"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kDorian.kTitleCase.dot",
+    "name": "Dor."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kHarmonicMinor.kLowerCase",
+    "name": "harm min"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kHarmonicMinor.kLowerCase.dot",
+    "name": "harm. min."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kHarmonicMinor.kTitleCase",
+    "name": "Harm Min"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kHarmonicMinor.kTitleCase.dot",
+    "name": "Harm. Min."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kIonian.kLowerCase",
+    "name": "ion"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kIonian.kLowerCase.dot",
+    "name": "ion."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kIonian.kTitleCase",
+    "name": "Ion"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kIonian.kTitleCase.dot",
+    "name": "Ion."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kLocrian.kLowerCase",
+    "name": "loc"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kLocrian.kLowerCase.dot",
+    "name": "loc."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kLocrian.kTitleCase",
+    "name": "Loc"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kLocrian.kTitleCase.dot",
+    "name": "Loc."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kLydian.kLowerCase",
+    "name": "lyd"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kLydian.kLowerCase.dot",
+    "name": "lyd."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kLydian.kTitleCase",
+    "name": "Lyd"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kLydian.kTitleCase.dot",
+    "name": "Lyd."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kMelodicMinor.kLowerCase",
+    "name": "mel min"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kMelodicMinor.kLowerCase.dot",
+    "name": "mel. min."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kMelodicMinor.kTitleCase",
+    "name": "Mel Min"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kMelodicMinor.kTitleCase.dot",
+    "name": "Mel. Min."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kMixolydian.kLowerCase",
+    "name": "mixo"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kMixolydian.kLowerCase.dot",
+    "name": "mixo."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kMixolydian.kTitleCase",
+    "name": "Mixo"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kMixolydian.kTitleCase.dot",
+    "name": "Mixo."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kPhrygian.kLowerCase",
+    "name": "phryg"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kPhrygian.kLowerCase.dot",
+    "name": "phryg."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kPhrygian.kTitleCase",
+    "name": "Phryg"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kPhrygian.kTitleCase.dot",
+    "name": "Phryg."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kWholeTone.kLowerCase",
+    "name": "wt"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kWholeTone.kLowerCase.dot",
+    "name": "w.t."
+   },
+   {
+    "entityID": "text.csac.quality.modal.kWholeTone.kTitleCase",
+    "name": "WT"
+   },
+   {
+    "entityID": "text.csac.quality.modal.kWholeTone.kTitleCase.dot",
+    "name": "W.T."
+   },
+   {
+    "entityID": "text.csac.quality.pedalonly.kPed",
+    "name": "ped"
+   },
+   {
+    "entityID": "text.csac.quality.pedalonly.kPedDot",
+    "name": "ped."
+   },
+   {
+    "entityID": "text.csac.quality.pedalonly.kPedal",
+    "name": "pedal"
+   },
+   {
+    "entityID": "text.csac.quality.rootonly.kBass",
+    "name": "bass"
+   },
+   {
+    "entityID": "text.csac.quality.rootonly.kOnly",
+    "name": "only"
+   },
+   {
+    "entityID": "text.csac.root.kNashville.1",
+    "name": "1"
+   },
+   {
+    "entityID": "text.csac.root.kNashville.2",
+    "name": "2"
+   },
+   {
+    "entityID": "text.csac.root.kNashville.3",
+    "name": "3"
+   },
+   {
+    "entityID": "text.csac.root.kNashville.4",
+    "name": "4"
+   },
+   {
+    "entityID": "text.csac.root.kNashville.5",
+    "name": "5"
+   },
+   {
+    "entityID": "text.csac.root.kNashville.6",
+    "name": "6"
+   },
+   {
+    "entityID": "text.csac.root.kNashville.7",
+    "name": "7"
+   },
+   {
+    "entityID": "text.csac.root.kSolfeggio.A.La",
+    "name": "La"
+   },
+   {
+    "entityID": "text.csac.root.kSolfeggio.B.Si",
+    "name": "Si"
+   },
+   {
+    "entityID": "text.csac.root.kSolfeggio.B.Ti",
+    "name": "Ti"
+   },
+   {
+    "entityID": "text.csac.root.kSolfeggio.C.Do",
+    "name": "Do"
+   },
+   {
+    "entityID": "text.csac.root.kSolfeggio.C.Ut",
+    "name": "Ut"
+   },
+   {
+    "entityID": "text.csac.root.kSolfeggio.D.ReWithAcuteAccent",
+    "name": "R\u00e9"
+   },
+   {
+    "entityID": "text.csac.root.kSolfeggio.D.ReWithoutAcuteAccent",
+    "name": "Re"
+   },
+   {
+    "entityID": "text.csac.root.kSolfeggio.E.Mi",
+    "name": "Mi"
+   },
+   {
+    "entityID": "text.csac.root.kSolfeggio.F.Fa",
+    "name": "Fa"
+   },
+   {
+    "entityID": "text.csac.root.kSolfeggio.G.So",
+    "name": "So"
+   },
+   {
+    "entityID": "text.csac.root.kSolfeggio.G.Sol",
+    "name": "Sol"
+   },
+   {
+    "entityID": "text.csac.root.kStandard.A",
+    "name": "A"
+   },
+   {
+    "entityID": "text.csac.root.kStandard.B",
+    "name": "B"
+   },
+   {
+    "entityID": "text.csac.root.kStandard.C",
+    "name": "C"
+   },
+   {
+    "entityID": "text.csac.root.kStandard.D",
+    "name": "D"
+   },
+   {
+    "entityID": "text.csac.root.kStandard.E",
+    "name": "E"
+   },
+   {
+    "entityID": "text.csac.root.kStandard.F",
+    "name": "F"
+   },
+   {
+    "entityID": "text.csac.root.kStandard.G",
+    "name": "G"
+   },
+   {
+    "entityID": "text.csac.root.kStandard.H",
+    "name": "H"
+   },
+   {
+    "entityID": "text.figbass10Plain",
+    "name": "figbass10Plain"
+   },
+   {
+    "entityID": "text.figbass11Plain",
+    "name": "figbass11Plain"
+   },
+   {
+    "entityID": "text.figbass12Plain",
+    "name": "figbass12Plain"
+   },
+   {
+    "entityID": "text.figbass13Plain",
+    "name": "figbass13Plain"
+   },
+   {
+    "entityID": "text.figbass14Plain",
+    "name": "figbass14Plain"
+   },
+   {
+    "entityID": "text.figbass15Plain",
+    "name": "figbass15Plain"
+   },
+   {
+    "entityID": "text.figbass16Plain",
+    "name": "figbass16Plain"
+   },
+   {
+    "entityID": "text.figbass17Plain",
+    "name": "figbass17Plain"
+   },
+   {
+    "entityID": "text.figbass18Plain",
+    "name": "figbass18Plain"
+   },
+   {
+    "entityID": "text.figbass19Plain",
+    "name": "figbass19Plain"
+   },
+   {
+    "entityID": "text.figbass2RaisedPlain",
+    "name": "figbass2Raised"
+   },
+   {
+    "entityID": "text.figbass4RaisedPlain",
+    "name": "figbass4Raised"
+   },
+   {
+    "entityID": "text.figbass5DiminishedPlain",
+    "name": "figbass5Diminished"
+   },
+   {
+    "entityID": "text.figbass5Raised1Plain",
+    "name": "figbass5Raised1Plain"
+   },
+   {
+    "entityID": "text.figbass5Raised2Plain",
+    "name": "figbass5Raised2Plain"
+   },
+   {
+    "entityID": "text.figbass6Raised2Plain",
+    "name": "figbass6Raised2Plain"
+   },
+   {
+    "entityID": "text.figbass6RaisedPlain",
+    "name": "figbass6RaisedPlain"
+   },
+   {
+    "entityID": "text.figbass7DiminishedPlain",
+    "name": "figbass7DiminishedPlain"
+   },
+   {
+    "entityID": "text.figbass7LoweredPlain",
+    "name": "figbass7LoweredPlain"
+   },
+   {
+    "entityID": "text.figbass7RaisedPlain",
+    "name": "figbass7RaisedPlain"
+   },
+   {
+    "entityID": "text.figbass9RaisedPlain",
+    "name": "figbass9RaisedPlain"
+   },
+   {
+    "entityID": "text.guitarPalmMute",
+    "name": "P.M."
+   },
+   {
+    "entityID": "text.guitarVibratoBarLine",
+    "name": "w/ bar"
+   },
+   {
+    "entityID": "text.guitarVibratoBarScoop",
+    "name": "Scoop"
+   },
+   {
+    "entityID": "text.naturalHarmonicTab",
+    "name": "NH"
+   },
+   {
+    "entityID": "text.pinchHarmonicTab",
+    "name": "PH"
+   },
+   {
+    "entityID": "text.pta.aeolianText",
+    "name": "Aeolian"
+   },
+   {
+    "entityID": "text.pta.airText",
+    "name": "Air"
+   },
+   {
+    "entityID": "text.pta.allaChitarraText",
+    "name": "Alla Chitarra"
+   },
+   {
+    "entityID": "text.pta.altoSulTastoAbbreviatedText",
+    "name": "Alto sul tasto"
+   },
+   {
+    "entityID": "text.pta.apertoText",
+    "name": "Aperto (text)"
+   },
+   {
+    "entityID": "text.pta.arcoText",
+    "name": "Arco"
+   },
+   {
+    "entityID": "text.pta.auTalonText",
+    "name": "Au talon"
+   },
+   {
+    "entityID": "text.pta.bisbigliandoText",
+    "name": "Bisbigliando (whisper)"
+   },
+   {
+    "entityID": "text.pta.bucketHarmonMuteStemInText",
+    "name": "Harmon mute, stem in (text)"
+   },
+   {
+    "entityID": "text.pta.bucketHarmonMuteStemOutText",
+    "name": "Harmon mute, stem out (text)"
+   },
+   {
+    "entityID": "text.pta.bucketHarmonMuteText",
+    "name": "Harmon mute (text)"
+   },
+   {
+    "entityID": "text.pta.bucketMuteText",
+    "name": "Bucket mute"
+   },
+   {
+    "entityID": "text.pta.colLegnoBattutoText",
+    "name": "Col Legno Battuto"
+   },
+   {
+    "entityID": "text.pta.colLegnoText",
+    "name": "Col Legno"
+   },
+   {
+    "entityID": "text.pta.colLegnoTrattoText",
+    "name": "Col Legno Tratto"
+   },
+   {
+    "entityID": "text.pta.conSordinoText",
+    "name": "Con sordino"
+   },
+   {
+    "entityID": "text.pta.cuivreText",
+    "name": "Cuivr\u00e9"
+   },
+   {
+    "entityID": "text.pta.cupMuteText",
+    "name": "Cup mute"
+   },
+   {
+    "entityID": "text.pta.detacheText",
+    "name": "D\u00e9tach\u00e9"
+   },
+   {
+    "entityID": "text.pta.flautandoText",
+    "name": "Flautando"
+   },
+   {
+    "entityID": "text.pta.flutterTongueFltText",
+    "name": "Flutter-tongue (flt.)"
+   },
+   {
+    "entityID": "text.pta.flutterTongueFlzText",
+    "name": "Flatterzunge (flz.)"
+   },
+   {
+    "entityID": "text.pta.flutterTongueFtText",
+    "name": "Flutter-tongue (f.t.)"
+   },
+   {
+    "entityID": "text.pta.frullatoText",
+    "name": "Frullato"
+   },
+   {
+    "entityID": "text.pta.jeteText",
+    "name": "Jet\u00e9 (text)"
+   },
+   {
+    "entityID": "text.pta.keyClicksText",
+    "name": "Key clicks"
+   },
+   {
+    "entityID": "text.pta.keyboardAboveSopraText",
+    "name": "Above (sopra)"
+   },
+   {
+    "entityID": "text.pta.keyboardBelowSottoText",
+    "name": "Below (sotto)"
+   },
+   {
+    "entityID": "text.pta.keyboardLeftHandText",
+    "name": "Left Hand (L.H.)"
+   },
+   {
+    "entityID": "text.pta.keyboardMDText",
+    "name": "m.d. (right hand)"
+   },
+   {
+    "entityID": "text.pta.keyboardMSText",
+    "name": "m.s. (left hand)"
+   },
+   {
+    "entityID": "text.pta.keyboardManoDestraText",
+    "name": "Mano destra (right hand)"
+   },
+   {
+    "entityID": "text.pta.keyboardManoSinistraText",
+    "name": "Mano sinistra (left hand)"
+   },
+   {
+    "entityID": "text.pta.keyboardRightHandText",
+    "name": "Right Hand (R.H.)"
+   },
+   {
+    "entityID": "text.pta.laissezVibrerText",
+    "name": "Laissez Vibrer (l.v.)"
+   },
+   {
+    "entityID": "text.pta.leftStickText",
+    "name": "Left (L)"
+   },
+   {
+    "entityID": "text.pta.legatoText",
+    "name": "Legato"
+   },
+   {
+    "entityID": "text.pta.marcatoText",
+    "name": "Marcato (text)"
+   },
+   {
+    "entityID": "text.pta.marteleText",
+    "name": "Martel\u00e9"
+   },
+   {
+    "entityID": "text.pta.martellatoText",
+    "name": "Martellato"
+   },
+   {
+    "entityID": "text.pta.modoOrdinarioText",
+    "name": "Modo Ordinario"
+   },
+   {
+    "entityID": "text.pta.moltoVibratoText",
+    "name": "Molto Vibrato"
+   },
+   {
+    "entityID": "text.pta.multiphonicText",
+    "name": "Multiphonic"
+   },
+   {
+    "entityID": "text.pta.muteOffText",
+    "name": "Mute Off (text)"
+   },
+   {
+    "entityID": "text.pta.muteText",
+    "name": "Mute (text)"
+   },
+   {
+    "entityID": "text.pta.naturaleText",
+    "name": "Naturale (nat.)"
+   },
+   {
+    "entityID": "text.pta.nonLaissezVibrerText",
+    "name": "Non Laissez Vibrer (non l.v.)"
+   },
+   {
+    "entityID": "text.pta.nonVibratoText",
+    "name": "Non Vibrato"
+   },
+   {
+    "entityID": "text.pta.openRemoveMuteText",
+    "name": "Open (remove mute)"
+   },
+   {
+    "entityID": "text.pta.openText",
+    "name": "Open (text)"
+   },
+   {
+    "entityID": "text.pta.ordinarioText",
+    "name": "Ordinario (ord.)"
+   },
+   {
+    "entityID": "text.pta.pdltText",
+    "name": "Pr\u00e8s de la Table (p.d.l.t.)"
+   },
+   {
+    "entityID": "text.pta.pizzText",
+    "name": "Pizzicato"
+   },
+   {
+    "entityID": "text.pta.plungerMuteText",
+    "name": "Plunger mute"
+   },
+   {
+    "entityID": "text.pta.pocoSulTastoAbbreviatedText",
+    "name": "Poco sul tasto"
+   },
+   {
+    "entityID": "text.pta.pocoVibratoText",
+    "name": "Poco Vibrato"
+   },
+   {
+    "entityID": "text.pta.puntaDArcoText",
+    "name": "Punta d'arco"
+   },
+   {
+    "entityID": "text.pta.rightStickText",
+    "name": "Right (R)"
+   },
+   {
+    "entityID": "text.pta.saltandoText",
+    "name": "Saltando"
+   },
+   {
+    "entityID": "text.pta.senzaSordinoText",
+    "name": "Senza sordino"
+   },
+   {
+    "entityID": "text.pta.senzaVibratoText",
+    "name": "Senza Vibrato"
+   },
+   {
+    "entityID": "text.pta.slapTongueText",
+    "name": "Slap-tongue"
+   },
+   {
+    "entityID": "text.pta.spiccText",
+    "name": "Spiccato"
+   },
+   {
+    "entityID": "text.pta.stoppedText",
+    "name": "Stopped (text)"
+   },
+   {
+    "entityID": "text.pta.straightMuteText",
+    "name": "Straight mute"
+   },
+   {
+    "entityID": "text.pta.sulPontText",
+    "name": "Sul ponticello (sul pont.)"
+   },
+   {
+    "entityID": "text.pta.sulTastoText",
+    "name": "Sul Tasto"
+   },
+   {
+    "entityID": "text.pta.unpitchedCenterText",
+    "name": "Center (Text)"
+   },
+   {
+    "entityID": "text.pta.unpitchedEdgeText",
+    "name": "Edge (Text)"
+   },
+   {
+    "entityID": "text.pta.unpitchedMuffledText",
+    "name": "Muffled"
+   },
+   {
+    "entityID": "text.pta.unpitchedSnaresOffText",
+    "name": "Snares Off"
+   },
+   {
+    "entityID": "text.pta.unpitchedSnaresOnText",
+    "name": "Snares On"
+   },
+   {
+    "entityID": "text.pta.vibraphoneHalfPedText",
+    "name": "Vibraphone Half Pedal (\u00bd ped.)"
+   },
+   {
+    "entityID": "text.pta.vibraphoneLvText",
+    "name": "Vibraphone Pedal (l.v.)"
+   },
+   {
+    "entityID": "text.pta.vibraphoneMotorOff",
+    "name": "Vibraphone Motor Off"
+   },
+   {
+    "entityID": "text.pta.vibraphoneMotorOn",
+    "name": "Vibraphone Motor On"
+   },
+   {
+    "entityID": "text.pta.vibraphonePedText",
+    "name": "Vibraphone Pedal (ped.)"
+   },
+   {
+    "entityID": "text.pta.vibratoText",
+    "name": "Vibrato"
+   },
+   {
+    "entityID": "text.pta.vocalConBoccaChiusa",
+    "name": "Con bocca chiusa"
+   },
+   {
+    "entityID": "text.pta.whistleToneText",
+    "name": "Whistle Tone"
+   },
+   {
+    "entityID": "text.pta.withMuteText",
+    "name": "With Mute (text)"
+   },
+   {
+    "entityID": "text.pta.xyloText",
+    "name": "Xylo"
+   },
+   {
+    "entityID": "text.trill.half-step.H",
+    "name": "Hollywood half-step H"
+   },
+   {
+    "entityID": "text.trill.half-step.H.T.",
+    "name": "Hollywood half-step H.T."
+   },
+   {
+    "entityID": "text.trill.half-step.HT",
+    "name": "Hollywood half-step HT"
+   },
+   {
+    "entityID": "text.trill.half-step.half",
+    "name": "Hollywood half-step half"
+   },
+   {
+    "entityID": "text.trill.half-step.halfT",
+    "name": "Hollywood half-step half-T"
+   },
+   {
+    "entityID": "text.trill.whole-step.W",
+    "name": "Hollywood whole-step W"
+   },
+   {
+    "entityID": "text.trill.whole-step.W.T.",
+    "name": "Hollywood whole-step W.T."
+   },
+   {
+    "entityID": "text.trill.whole-step.WT",
+    "name": "Hollywood whole-step WT"
+   },
+   {
+    "entityID": "text.trill.whole-step.one",
+    "name": "Hollywood whole-step 1"
+   }
+  ]
+ }
+]

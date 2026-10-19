@@ -1,0 +1,192 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "linestyle.brace.left",
+    "name": "Brace (left)"
+   },
+   {
+    "entityID": "linestyle.brace.right",
+    "name": "Brace (right)"
+   },
+   {
+    "entityID": "linestyle.curve-with-arrow.down",
+    "name": "Curve with arrow (down)"
+   },
+   {
+    "entityID": "linestyle.curve-with-arrow.up",
+    "name": "Curve with arrow (up)"
+   },
+   {
+    "entityID": "linestyle.dashedLineLong",
+    "name": "Dashed line (long)"
+   },
+   {
+    "entityID": "linestyle.dashedLineLongOutlineArrowhead",
+    "name": "Dashed line (long) with outline arrowhead"
+   },
+   {
+    "entityID": "linestyle.dashedLineLongSolidArrowhead",
+    "name": "Dashed line (long) with solid arrowhead"
+   },
+   {
+    "entityID": "linestyle.dashedLineShort",
+    "name": "Dashed line (short)"
+   },
+   {
+    "entityID": "linestyle.dashedLineShortInwardHook",
+    "name": "Dashed line (short) with inward-pointing hook"
+   },
+   {
+    "entityID": "linestyle.dashedLineShortInwardHooks",
+    "name": "Dashed line (short) with inward-pointing hooks"
+   },
+   {
+    "entityID": "linestyle.dashedLineShortOutlineArrowhead",
+    "name": "Dashed line (short) with outline arrowhead"
+   },
+   {
+    "entityID": "linestyle.dashedLineShortSolidArrowhead",
+    "name": "Dashed line (short) with solid arrowhead"
+   },
+   {
+    "entityID": "linestyle.dashedLineShortTerminalLine",
+    "name": "Dashed line (short) with terminal line"
+   },
+   {
+    "entityID": "linestyle.dashedLineShortTerminalLines",
+    "name": "Dashed line (short) with terminal lines"
+   },
+   {
+    "entityID": "linestyle.dashedVerticalLineShorRightHook",
+    "name": "Dashed vertical line (short) with right-pointing hook"
+   },
+   {
+    "entityID": "linestyle.dashedVerticalLineShorRightHooks",
+    "name": "Dashed vertical line (short) with right-pointing hooks"
+   },
+   {
+    "entityID": "linestyle.dashedVerticalLineShort",
+    "name": "Dashed vertical line (short)"
+   },
+   {
+    "entityID": "linestyle.dashedVerticalLineShortLeftHook",
+    "name": "Dashed vertical line (short) with left-pointing hook"
+   },
+   {
+    "entityID": "linestyle.dashedVerticalLineShortLeftHooks",
+    "name": "Dashed vertical line (short) with left-pointing hooks"
+   },
+   {
+    "entityID": "linestyle.dashedVerticalLineShortSolidArrowhead",
+    "name": "Dashed vertical line (short) with solid arrowhead"
+   },
+   {
+    "entityID": "linestyle.solidLine",
+    "name": "Solid line"
+   },
+   {
+    "entityID": "linestyle.solidLineInwardHook",
+    "name": "Solid line with inward-pointing hook"
+   },
+   {
+    "entityID": "linestyle.solidLineInwardHooks",
+    "name": "Solid line with inward-pointing hooks"
+   },
+   {
+    "entityID": "linestyle.solidLineOutlineArrowhead",
+    "name": "Solid line with outline arrowhead"
+   },
+   {
+    "entityID": "linestyle.solidLineSolidArrowhead",
+    "name": "Solid line with solid arrowhead"
+   },
+   {
+    "entityID": "linestyle.solidLineTerminalLine",
+    "name": "Solid line with terminal line"
+   },
+   {
+    "entityID": "linestyle.solidLineTerminalLines",
+    "name": "Solid line with terminal lines"
+   },
+   {
+    "entityID": "linestyle.solidLineThickTerminalLines",
+    "name": "Solid line (thick) with terminal lines"
+   },
+   {
+    "entityID": "linestyle.solidLineThickerTerminalLines",
+    "name": "Solid line (thicker) with terminal lines"
+   },
+   {
+    "entityID": "linestyle.solidVerticalLine",
+    "name": "Solid vertical line"
+   },
+   {
+    "entityID": "linestyle.solidVerticalLineLeftHook",
+    "name": "Solid vertical line with left-pointing hook"
+   },
+   {
+    "entityID": "linestyle.solidVerticalLineLeftHooks",
+    "name": "Solid vertical line with left-pointing hooks"
+   },
+   {
+    "entityID": "linestyle.solidVerticalLineRightHook",
+    "name": "Solid vertical line with right-pointing hook"
+   },
+   {
+    "entityID": "linestyle.solidVerticalLineRightHooks",
+    "name": "Solid vertical line with right-pointing hooks"
+   },
+   {
+    "entityID": "linestyle.solidVerticalLineSolidArrowhead",
+    "name": "Solid vertical line with solid arrowhead"
+   },
+   {
+    "entityID": "linestyle.wavyLine",
+    "name": "Wavy line"
+   },
+   {
+    "entityID": "linestyle.wavyLineNarrowWide",
+    "name": "Wavy line (narrow-wide)"
+   },
+   {
+    "entityID": "linestyle.wedgeFlatBottomThickThin",
+    "name": "Flat-bottom wedge (thick-thin)"
+   },
+   {
+    "entityID": "linestyle.wedgeFlatBottomThinThick",
+    "name": "Flat-bottom wedge (thin-thick)"
+   },
+   {
+    "entityID": "linestyle.wedgeFlatTopThickThin",
+    "name": "Flat-top wedge (thick-thin)"
+   },
+   {
+    "entityID": "linestyle.wedgeFlatTopThinThick",
+    "name": "Flat-top wedge (thin-thick)"
+   },
+   {
+    "entityID": "linestyle.wedgeSymmetricalThickThin",
+    "name": "Symmetrical wedge (thick-thin)"
+   },
+   {
+    "entityID": "linestyle.wedgeSymmetricalThinThick",
+    "name": "Symmetrical wedge (thin-thick)"
+   },
+   {
+    "entityID": "linestyle.wideWigglyLine",
+    "name": "Wide wiggly line"
+   },
+   {
+    "entityID": "linestyle.wigglyLine",
+    "name": "Wiggly line"
+   },
+   {
+    "entityID": "linestyle.wigglyLineSlowFast",
+    "name": "Wiggly line (slow-fast)"
+   }
+  ]
+ }
+]

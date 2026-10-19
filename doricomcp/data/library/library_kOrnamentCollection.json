@@ -1,0 +1,188 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "ornament.brassBend",
+    "name": "Bend"
+   },
+   {
+    "entityID": "ornament.brassFlip",
+    "name": "Flip"
+   },
+   {
+    "entityID": "ornament.brassJazzTurn",
+    "name": "Jazz turn"
+   },
+   {
+    "entityID": "ornament.brassSmear",
+    "name": "Smear"
+   },
+   {
+    "entityID": "ornament.haydn",
+    "name": "Haydn ornament"
+   },
+   {
+    "entityID": "ornament.mordent",
+    "name": "Mordent"
+   },
+   {
+    "entityID": "ornament.pinceCouperin",
+    "name": "Pinc\u00e9"
+   },
+   {
+    "entityID": "ornament.portDeVoixV",
+    "name": "Port de voix"
+   },
+   {
+    "entityID": "ornament.precompAppoggTrill",
+    "name": "Supported appoggiatura trill"
+   },
+   {
+    "entityID": "ornament.precompAppoggTrillSuffix",
+    "name": "Supported appoggiatura trill with two-note suffix"
+   },
+   {
+    "entityID": "ornament.precompCadence",
+    "name": "Cadence"
+   },
+   {
+    "entityID": "ornament.precompCadenceUpperPrefix",
+    "name": "Cadence with upper prefix"
+   },
+   {
+    "entityID": "ornament.precompCadenceUpperPrefixTurn",
+    "name": "Cadence with upper prefix and turn"
+   },
+   {
+    "entityID": "ornament.precompCadenceWithTurn",
+    "name": "Cadence with turn"
+   },
+   {
+    "entityID": "ornament.precompDescendingSlide",
+    "name": "Descending slide"
+   },
+   {
+    "entityID": "ornament.precompDoubleCadenceLowerPrefix",
+    "name": "Double cadence"
+   },
+   {
+    "entityID": "ornament.precompDoubleCadenceUpperPrefix",
+    "name": "Double cadence with upper prefix"
+   },
+   {
+    "entityID": "ornament.precompDoubleCadenceUpperPrefixTurn",
+    "name": "Double cadence with upper prefix and turn"
+   },
+   {
+    "entityID": "ornament.precompInvertedMordentUpperPrefix",
+    "name": "Double cadence with mordent and upper prefix"
+   },
+   {
+    "entityID": "ornament.precompMordentRelease",
+    "name": "Mordent with release"
+   },
+   {
+    "entityID": "ornament.precompMordentUpperPrefix",
+    "name": "Mordent with upper prefix"
+   },
+   {
+    "entityID": "ornament.precompPortDeVoixMordent",
+    "name": "Double cadence with mordent"
+   },
+   {
+    "entityID": "ornament.precompSlide",
+    "name": "Slide"
+   },
+   {
+    "entityID": "ornament.precompSlideTrillBach",
+    "name": "Slide-trill with two-note suffix (J.S. Bach)"
+   },
+   {
+    "entityID": "ornament.precompSlideTrillDAnglebert",
+    "name": "Slide-trill (D'Anglebert)"
+   },
+   {
+    "entityID": "ornament.precompSlideTrillMarpurg",
+    "name": "Slide-trill with one-note suffix (Marpurg)"
+   },
+   {
+    "entityID": "ornament.precompSlideTrillMuffat",
+    "name": "Slide-trill (Muffat)"
+   },
+   {
+    "entityID": "ornament.precompSlideTrillSuffixMuffat",
+    "name": "Slide-trill with two-note suffix (Muffat)"
+   },
+   {
+    "entityID": "ornament.precompTrillLowerSuffix",
+    "name": "Trill with lower suffix"
+   },
+   {
+    "entityID": "ornament.precompTrillSuffixDandrieu",
+    "name": "Trill with two-note suffix (Dandrieu)"
+   },
+   {
+    "entityID": "ornament.precompTrillWithMordent",
+    "name": "Trill with mordent"
+   },
+   {
+    "entityID": "ornament.precompTurnTrillBach",
+    "name": "Turn-trill with two-note suffix (J.S. Bach)"
+   },
+   {
+    "entityID": "ornament.precompTurnTrillDAnglebert",
+    "name": "Turn-trill (D'Anglebert)"
+   },
+   {
+    "entityID": "ornament.schleifer",
+    "name": "Schleifer"
+   },
+   {
+    "entityID": "ornament.shake3",
+    "name": "Shake"
+   },
+   {
+    "entityID": "ornament.shortTrill",
+    "name": "Short trill"
+   },
+   {
+    "entityID": "ornament.tremblement",
+    "name": "Tremblement"
+   },
+   {
+    "entityID": "ornament.tremblementCouperin",
+    "name": "Tremblement appuy\u00e9"
+   },
+   {
+    "entityID": "ornament.trill",
+    "name": "Trill"
+   },
+   {
+    "entityID": "ornament.turn",
+    "name": "Turn"
+   },
+   {
+    "entityID": "ornament.turnInverted",
+    "name": "Inverted turn"
+   },
+   {
+    "entityID": "ornament.turnSlash",
+    "name": "Turn with slash"
+   },
+   {
+    "entityID": "ornament.turnUp",
+    "name": "Turn up"
+   },
+   {
+    "entityID": "ornament.turnUpS",
+    "name": "Inverted turn up"
+   },
+   {
+    "entityID": "ornament.vibratoBarDip",
+    "name": "Vibrato Bar Dip"
+   }
+  ]
+ }
+]

@@ -1,0 +1,112 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "clef.alto",
+    "name": "Alto Clef"
+   },
+   {
+    "entityID": "clef.alto8ba",
+    "name": "Alto Clef 8 Below"
+   },
+   {
+    "entityID": "clef.baritone",
+    "name": "Baritone Clef"
+   },
+   {
+    "entityID": "clef.baritone-bass",
+    "name": "Baritone Bass Clef"
+   },
+   {
+    "entityID": "clef.bass",
+    "name": "Bass Clef"
+   },
+   {
+    "entityID": "clef.bass15ba",
+    "name": "Bass Clef 15 Below"
+   },
+   {
+    "entityID": "clef.bass15ma",
+    "name": "Bass Clef 15 Above"
+   },
+   {
+    "entityID": "clef.bass8ba",
+    "name": "Bass Clef 8 Below"
+   },
+   {
+    "entityID": "clef.bass8va",
+    "name": "Bass Clef 8 Above"
+   },
+   {
+    "entityID": "clef.frenchviolin",
+    "name": "French Violin Clef"
+   },
+   {
+    "entityID": "clef.invisible",
+    "name": "Invisible Clef"
+   },
+   {
+    "entityID": "clef.mezzo-soprano",
+    "name": "Mezzo-soprano Clef"
+   },
+   {
+    "entityID": "clef.percussion",
+    "name": "Percussion Clef"
+   },
+   {
+    "entityID": "clef.percussion2",
+    "name": "Percussion Clef (Rectangular)"
+   },
+   {
+    "entityID": "clef.percussionindian",
+    "name": "Indian Drum Clef"
+   },
+   {
+    "entityID": "clef.soprano",
+    "name": "Soprano Clef"
+   },
+   {
+    "entityID": "clef.sub-bass",
+    "name": "Sub-bass Clef"
+   },
+   {
+    "entityID": "clef.tab",
+    "name": "6-string Tab Clef"
+   },
+   {
+    "entityID": "clef.tab.4",
+    "name": "4-string Tab Clef"
+   },
+   {
+    "entityID": "clef.tenor",
+    "name": "Tenor Clef"
+   },
+   {
+    "entityID": "clef.tenor8ba",
+    "name": "Tenor Clef 8 Below"
+   },
+   {
+    "entityID": "clef.treble",
+    "name": "Treble Clef"
+   },
+   {
+    "entityID": "clef.treble15ba",
+    "name": "Treble Clef 15 Below"
+   },
+   {
+    "entityID": "clef.treble15ma",
+    "name": "Treble Clef 15 Above"
+   },
+   {
+    "entityID": "clef.treble8ba",
+    "name": "Treble Clef 8 Below"
+   },
+   {
+    "entityID": "clef.treble8va",
+    "name": "Treble Clef 8 Above"
+   }
+  ]
+ }
+]

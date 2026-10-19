@@ -1,0 +1,12 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "draw.line.horizontal",
+    "name": "Horizontal line"
+   }
+  ]
+ }
+]

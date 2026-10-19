@@ -1,0 +1,136 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "drumkitmap.gase.se_studio_kit",
+    "name": "Groove Agent SE Studio Kit"
+   },
+   {
+    "entityID": "drumkitmap.gm",
+    "name": "General MIDI"
+   },
+   {
+    "entityID": "drumkitmap.hse.latinpercussion",
+    "name": "HSSE Latin Percussion"
+   },
+   {
+    "entityID": "drumkitmap.hse.metallic-kit",
+    "name": "Metallic Kit"
+   },
+   {
+    "entityID": "drumkitmap.hse.tablas",
+    "name": "HSSE Tablas"
+   },
+   {
+    "entityID": "drumkitmap.hso.cowbell",
+    "name": "HSO Cowbell"
+   },
+   {
+    "entityID": "drumkitmap.hso.cymbal.large",
+    "name": "HSO Cymbal Large Combi KS"
+   },
+   {
+    "entityID": "drumkitmap.hso.fingercymbals",
+    "name": "HSO Finger cymbals"
+   },
+   {
+    "entityID": "drumkitmap.hso.grancassa",
+    "name": "HSO Gran Cassa Combi KS"
+   },
+   {
+    "entityID": "drumkitmap.hso.piatti_a_due.combikey",
+    "name": "HSO Piatti A Due Combi Key"
+   },
+   {
+    "entityID": "drumkitmap.hso.sleighbells",
+    "name": "HSO Sleigh bells"
+   },
+   {
+    "entityID": "drumkitmap.hso.snarecombi.key",
+    "name": "HSO Snare Combi Key"
+   },
+   {
+    "entityID": "drumkitmap.hso.snarecombi.ks",
+    "name": "HSO Snare Combi KS"
+   },
+   {
+    "entityID": "drumkitmap.hso.tambourine",
+    "name": "HSO Tambourine"
+   },
+   {
+    "entityID": "drumkitmap.hso.tamtam",
+    "name": "HSO Tam Tam"
+   },
+   {
+    "entityID": "drumkitmap.hso.templeblock.combi.key",
+    "name": "HSO Temple Block Combi Key"
+   },
+   {
+    "entityID": "drumkitmap.hso.trianglecombi",
+    "name": "HSO Triangle Combi Key"
+   },
+   {
+    "entityID": "drumkitmap.hso.woodblock.combi.key",
+    "name": "HSO Woodblock Combi Key"
+   },
+   {
+    "entityID": "drumkitmap.hsse.vibraslap",
+    "name": "HSSE Vibraslap"
+   },
+   {
+    "entityID": "drumkitmap.iconicasketch.percussionmap",
+    "name": "Iconica Sketch Percussion Map"
+   },
+   {
+    "entityID": "drumkitmap.keda.tabla",
+    "name": "Keda Tabla"
+   },
+   {
+    "entityID": "drumkitmap.marching.basses.dorico",
+    "name": "Marching Percussion Basics Basses"
+   },
+   {
+    "entityID": "drumkitmap.marching.cymbals.dorico",
+    "name": "Marching Percussion Basics Cymbals"
+   },
+   {
+    "entityID": "drumkitmap.marching.snares.dorico",
+    "name": "Marching Percussion Basics Snares"
+   },
+   {
+    "entityID": "drumkitmap.marching.tenors.dorico",
+    "name": "Marching Percussion Basics Tenors"
+   },
+   {
+    "entityID": "drumkitmap.vdl.bassline-autorl",
+    "name": "VDL Bass Line (Auto RL)"
+   },
+   {
+    "entityID": "drumkitmap.vdl.cymballine-16in",
+    "name": "VDL Cymbal Line 16in"
+   },
+   {
+    "entityID": "drumkitmap.vdl.cymballine-18in",
+    "name": "VDL Cymbal Line 18in"
+   },
+   {
+    "entityID": "drumkitmap.vdl.cymballine-20in",
+    "name": "VDL Cymbal Line 20in"
+   },
+   {
+    "entityID": "drumkitmap.vdl.snareline-autorl",
+    "name": "VDL Snare Line (Auto RL)"
+   },
+   {
+    "entityID": "drumkitmap.vdl.tenorline-autorl",
+    "name": "VDL Tenor Line (Auto RL)"
+   },
+   {
+    "entityID": "drumkitmap.xg",
+    "name": "Yamaha XG"
+   }
+  ]
+ }
+]

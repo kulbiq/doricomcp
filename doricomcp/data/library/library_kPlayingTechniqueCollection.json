@@ -1,0 +1,1200 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "pt.accent",
+    "name": "Accent"
+   },
+   {
+    "entityID": "pt.alternativeFingering",
+    "name": "Alternative fingering"
+   },
+   {
+    "entityID": "pt.arpeggioDown",
+    "name": "Arpeggio down"
+   },
+   {
+    "entityID": "pt.arpeggioUp",
+    "name": "Arpeggio up"
+   },
+   {
+    "entityID": "pt.artificialHarmonic",
+    "name": "Artificial harmonic"
+   },
+   {
+    "entityID": "pt.backstick",
+    "name": "Backstick"
+   },
+   {
+    "entityID": "pt.bartoksnapPizzicato",
+    "name": "Bartok/snap pizzicato"
+   },
+   {
+    "entityID": "pt.bassTone",
+    "name": "Bass tone"
+   },
+   {
+    "entityID": "pt.beaterDreads",
+    "name": "Dreads (beater)"
+   },
+   {
+    "entityID": "pt.beaterFelt",
+    "name": "Felt (beater)"
+   },
+   {
+    "entityID": "pt.beaterPuffy",
+    "name": "Puffy (beater)"
+   },
+   {
+    "entityID": "pt.beaterRods",
+    "name": "Rods (beater)"
+   },
+   {
+    "entityID": "pt.bell",
+    "name": "Bell"
+   },
+   {
+    "entityID": "pt.bellMute",
+    "name": "Bell mute"
+   },
+   {
+    "entityID": "pt.bend",
+    "name": "Bend"
+   },
+   {
+    "entityID": "pt.bowOnBridge",
+    "name": "Bow on bridge"
+   },
+   {
+    "entityID": "pt.bowOnTailpiece",
+    "name": "Bow on tailpiece"
+   },
+   {
+    "entityID": "pt.bowed",
+    "name": "Bowed"
+   },
+   {
+    "entityID": "pt.bucketMute",
+    "name": "Bucket mute"
+   },
+   {
+    "entityID": "pt.buzzPizzicato",
+    "name": "Buzz pizzicato"
+   },
+   {
+    "entityID": "pt.buzzRoll",
+    "name": "Buzz roll"
+   },
+   {
+    "entityID": "pt.centre",
+    "name": "Centre"
+   },
+   {
+    "entityID": "pt.choke",
+    "name": "Choke"
+   },
+   {
+    "entityID": "pt.chorus",
+    "name": "Chorus"
+   },
+   {
+    "entityID": "pt.circularRoll",
+    "name": "Circular roll"
+   },
+   {
+    "entityID": "pt.click",
+    "name": "Click"
+   },
+   {
+    "entityID": "pt.closed",
+    "name": "Closed"
+   },
+   {
+    "entityID": "pt.closedEnd",
+    "name": "Closed end"
+   },
+   {
+    "entityID": "pt.closedHole",
+    "name": "Closed hole"
+   },
+   {
+    "entityID": "pt.colLegnoBattuto",
+    "name": "Col legno battuto"
+   },
+   {
+    "entityID": "pt.colLegnoTratto",
+    "name": "Col legno tratto"
+   },
+   {
+    "entityID": "pt.colle",
+    "name": "Coll\u00e9"
+   },
+   {
+    "entityID": "pt.conVibrato",
+    "name": "Con vibrato"
+   },
+   {
+    "entityID": "pt.crescendo",
+    "name": "Crescendo"
+   },
+   {
+    "entityID": "pt.crescendoDiminuendo",
+    "name": "Crescendo-diminuendo"
+   },
+   {
+    "entityID": "pt.crossStick",
+    "name": "Cross stick"
+   },
+   {
+    "entityID": "pt.crunch",
+    "name": "Crunch"
+   },
+   {
+    "entityID": "pt.crunchChoke",
+    "name": "Crunch choke"
+   },
+   {
+    "entityID": "pt.crush",
+    "name": "Crush"
+   },
+   {
+    "entityID": "pt.crushDry",
+    "name": "Crush (dry)"
+   },
+   {
+    "entityID": "pt.crushFat",
+    "name": "Crush (fat)"
+   },
+   {
+    "entityID": "pt.cuivre",
+    "name": "Cuivr\u00e9"
+   },
+   {
+    "entityID": "pt.cupMute",
+    "name": "Cup mute"
+   },
+   {
+    "entityID": "pt.damp",
+    "name": "Damp"
+   },
+   {
+    "entityID": "pt.deadStroke",
+    "name": "Dead stroke"
+   },
+   {
+    "entityID": "pt.delay",
+    "name": "Delay"
+   },
+   {
+    "entityID": "pt.detache",
+    "name": "D\u00e9tach\u00e9"
+   },
+   {
+    "entityID": "pt.detacheLance",
+    "name": "D\u00e9tach\u00e9 lanc\u00e9"
+   },
+   {
+    "entityID": "pt.diminuendo",
+    "name": "Diminuendo"
+   },
+   {
+    "entityID": "pt.diminuendoCrescendo",
+    "name": "Diminuendo-crescendo"
+   },
+   {
+    "entityID": "pt.ding",
+    "name": "Ding"
+   },
+   {
+    "entityID": "pt.dipbend",
+    "name": "Dip/bend"
+   },
+   {
+    "entityID": "pt.distortion",
+    "name": "Distortion"
+   },
+   {
+    "entityID": "pt.doit",
+    "name": "Doit"
+   },
+   {
+    "entityID": "pt.doubleShotOverTheHeader",
+    "name": "Over the head double shot"
+   },
+   {
+    "entityID": "pt.doubleTongue",
+    "name": "Double-tongue"
+   },
+   {
+    "entityID": "pt.down",
+    "name": "Down"
+   },
+   {
+    "entityID": "pt.downbow",
+    "name": "Downbow"
+   },
+   {
+    "entityID": "pt.edgeCymbals",
+    "name": "Edge (cymbals)"
+   },
+   {
+    "entityID": "pt.edgeDrums",
+    "name": "Edge (drums)"
+   },
+   {
+    "entityID": "pt.edgeRebound",
+    "name": "Edge rebound"
+   },
+   {
+    "entityID": "pt.f",
+    "name": "f"
+   },
+   {
+    "entityID": "pt.fadeIn",
+    "name": "Fade in"
+   },
+   {
+    "entityID": "pt.fadeOut",
+    "name": "Fade out"
+   },
+   {
+    "entityID": "pt.fallDrop",
+    "name": "Fall (drop)"
+   },
+   {
+    "entityID": "pt.ff",
+    "name": "ff"
+   },
+   {
+    "entityID": "pt.fff",
+    "name": "fff"
+   },
+   {
+    "entityID": "pt.ffp",
+    "name": "ffp"
+   },
+   {
+    "entityID": "pt.fingerClick",
+    "name": "Finger click"
+   },
+   {
+    "entityID": "pt.flange",
+    "name": "Flange"
+   },
+   {
+    "entityID": "pt.flatCrash",
+    "name": "Flat crash"
+   },
+   {
+    "entityID": "pt.flatRoll",
+    "name": "Flat roll"
+   },
+   {
+    "entityID": "pt.flautando",
+    "name": "Flautando"
+   },
+   {
+    "entityID": "pt.flip",
+    "name": "Flip"
+   },
+   {
+    "entityID": "pt.flutterTongue",
+    "name": "Flutter-tongue"
+   },
+   {
+    "entityID": "pt.foot",
+    "name": "Foot"
+   },
+   {
+    "entityID": "pt.fouette",
+    "name": "Fouett\u00e9"
+   },
+   {
+    "entityID": "pt.fp",
+    "name": "fp"
+   },
+   {
+    "entityID": "pt.frame",
+    "name": "Frame"
+   },
+   {
+    "entityID": "pt.frictionSlide1",
+    "name": "Friction slide 1"
+   },
+   {
+    "entityID": "pt.frictionSlide2",
+    "name": "Friction slide 2"
+   },
+   {
+    "entityID": "pt.ghostNote",
+    "name": "Ghost note"
+   },
+   {
+    "entityID": "pt.glissandoDown",
+    "name": "Glissando down"
+   },
+   {
+    "entityID": "pt.glissandoUp",
+    "name": "Glissando up"
+   },
+   {
+    "entityID": "pt.growl",
+    "name": "Growl"
+   },
+   {
+    "entityID": "pt.guitarPizzicato",
+    "name": "Guitar pizzicato"
+   },
+   {
+    "entityID": "pt.halfHarmonic",
+    "name": "Half-harmonic"
+   },
+   {
+    "entityID": "pt.halfMuted",
+    "name": "Half-muted"
+   },
+   {
+    "entityID": "pt.halfOpen",
+    "name": "Half-open"
+   },
+   {
+    "entityID": "pt.harmonMuteStemExtended",
+    "name": "Harmon mute, stem extended"
+   },
+   {
+    "entityID": "pt.harmonMuteStemIn",
+    "name": "Harmon mute, stem in"
+   },
+   {
+    "entityID": "pt.harmonMuteStemOut",
+    "name": "Harmon mute, stem out"
+   },
+   {
+    "entityID": "pt.harnessHit",
+    "name": "Dress harness hit"
+   },
+   {
+    "entityID": "pt.harpHarmonic",
+    "name": "Harp harmonic"
+   },
+   {
+    "entityID": "pt.hiHat",
+    "name": "Hi-hat"
+   },
+   {
+    "entityID": "pt.hitBowl",
+    "name": "Bowl hit"
+   },
+   {
+    "entityID": "pt.hitCage",
+    "name": "Cage hit"
+   },
+   {
+    "entityID": "pt.hitLoose",
+    "name": "Hit (loose)"
+   },
+   {
+    "entityID": "pt.hitMedium",
+    "name": "Hit (medium)"
+   },
+   {
+    "entityID": "pt.hitOverTheHead",
+    "name": "Over the head hit"
+   },
+   {
+    "entityID": "pt.hitTight",
+    "name": "Hit (tight)"
+   },
+   {
+    "entityID": "pt.jazzTurn",
+    "name": "Jazz turn"
+   },
+   {
+    "entityID": "pt.jetWhistle",
+    "name": "Jet whistle"
+   },
+   {
+    "entityID": "pt.jete",
+    "name": "Jet\u00e9"
+   },
+   {
+    "entityID": "pt.keyClick",
+    "name": "Key click"
+   },
+   {
+    "entityID": "pt.keyClickWithPitch",
+    "name": "Key click with pitch"
+   },
+   {
+    "entityID": "pt.laissezVibrer",
+    "name": "Laissez vibrer"
+   },
+   {
+    "entityID": "pt.left",
+    "name": "Left (LH)"
+   },
+   {
+    "entityID": "pt.leftHandTap",
+    "name": "Left-hand tap"
+   },
+   {
+    "entityID": "pt.legato",
+    "name": "Legato"
+   },
+   {
+    "entityID": "pt.lhPizzicato",
+    "name": "LH pizzicato"
+   },
+   {
+    "entityID": "pt.loose",
+    "name": "Loose"
+   },
+   {
+    "entityID": "pt.marcato",
+    "name": "Marcato"
+   },
+   {
+    "entityID": "pt.martele",
+    "name": "Martel\u00e9"
+   },
+   {
+    "entityID": "pt.martellato",
+    "name": "Martellato"
+   },
+   {
+    "entityID": "pt.mf",
+    "name": "mf"
+   },
+   {
+    "entityID": "pt.motorOff",
+    "name": "Motor off"
+   },
+   {
+    "entityID": "pt.motorOn",
+    "name": "Motor on"
+   },
+   {
+    "entityID": "pt.mouthClosed",
+    "name": "Mouth closed"
+   },
+   {
+    "entityID": "pt.mouthOpen",
+    "name": "Mouth open"
+   },
+   {
+    "entityID": "pt.mouthPursed",
+    "name": "Mouth pursed"
+   },
+   {
+    "entityID": "pt.mouthSlightlyOpen",
+    "name": "Mouth slightly open"
+   },
+   {
+    "entityID": "pt.mouthWideOpen",
+    "name": "Mouth wide open"
+   },
+   {
+    "entityID": "pt.mouthpiecePop",
+    "name": "Mouthpiece pop"
+   },
+   {
+    "entityID": "pt.mp",
+    "name": "mp"
+   },
+   {
+    "entityID": "pt.muffledDamped",
+    "name": "Muffled/Damped"
+   },
+   {
+    "entityID": "pt.muffledStrings",
+    "name": "Muffled strings"
+   },
+   {
+    "entityID": "pt.multiphonic",
+    "name": "Multiphonic"
+   },
+   {
+    "entityID": "pt.muted",
+    "name": "Muted"
+   },
+   {
+    "entityID": "pt.nail",
+    "name": "Nail"
+   },
+   {
+    "entityID": "pt.nailPizzicato",
+    "name": "Nail pizzicato"
+   },
+   {
+    "entityID": "pt.nasalVoice",
+    "name": "Nasal voice"
+   },
+   {
+    "entityID": "pt.natural",
+    "name": "Natural"
+   },
+   {
+    "entityID": "pt.naturalHarmonic1",
+    "name": "Natural harmonic 1"
+   },
+   {
+    "entityID": "pt.naturalHarmonic2",
+    "name": "Natural harmonic 2"
+   },
+   {
+    "entityID": "pt.nonLegato",
+    "name": "Non legato"
+   },
+   {
+    "entityID": "pt.nonVibrato",
+    "name": "Non vibrato"
+   },
+   {
+    "entityID": "pt.open1",
+    "name": "Open 1"
+   },
+   {
+    "entityID": "pt.open2",
+    "name": "Open 2"
+   },
+   {
+    "entityID": "pt.openEnd",
+    "name": "Open end"
+   },
+   {
+    "entityID": "pt.openHole",
+    "name": "Open hole"
+   },
+   {
+    "entityID": "pt.overdrive",
+    "name": "Overdrive "
+   },
+   {
+    "entityID": "pt.overpressure",
+    "name": "Overpressure"
+   },
+   {
+    "entityID": "pt.p",
+    "name": "p"
+   },
+   {
+    "entityID": "pt.palmMuting",
+    "name": "Palm muting"
+   },
+   {
+    "entityID": "pt.pdlt",
+    "name": "P.d.l.t."
+   },
+   {
+    "entityID": "pt.pedal",
+    "name": "Pedal"
+   },
+   {
+    "entityID": "pt.pf",
+    "name": "pf"
+   },
+   {
+    "entityID": "pt.phaser",
+    "name": "Phaser"
+   },
+   {
+    "entityID": "pt.pickScrape",
+    "name": "Pick scrape"
+   },
+   {
+    "entityID": "pt.pince",
+    "name": "Pinc\u00e9"
+   },
+   {
+    "entityID": "pt.pinchHarmonic",
+    "name": "Pinch harmonic"
+   },
+   {
+    "entityID": "pt.ping",
+    "name": "Ping"
+   },
+   {
+    "entityID": "pt.pizzicato",
+    "name": "Pizzicato"
+   },
+   {
+    "entityID": "pt.pizzicatoAllaChitarra",
+    "name": "Pizzicato alla chitarra"
+   },
+   {
+    "entityID": "pt.pizzicatoSecco",
+    "name": "Pizzicato secco"
+   },
+   {
+    "entityID": "pt.plop",
+    "name": "Plop"
+   },
+   {
+    "entityID": "pt.plucked",
+    "name": "Plucked"
+   },
+   {
+    "entityID": "pt.plungerMute",
+    "name": "Plunger mute"
+   },
+   {
+    "entityID": "pt.pop",
+    "name": "Pop"
+   },
+   {
+    "entityID": "pt.portCrash",
+    "name": "Port crash"
+   },
+   {
+    "entityID": "pt.portamentoDown",
+    "name": "Portamento down"
+   },
+   {
+    "entityID": "pt.portamentoUp",
+    "name": "Portamento up"
+   },
+   {
+    "entityID": "pt.portatoloure",
+    "name": "Portato/Lour\u00e9"
+   },
+   {
+    "entityID": "pt.pp",
+    "name": "pp"
+   },
+   {
+    "entityID": "pt.ppp",
+    "name": "ppp"
+   },
+   {
+    "entityID": "pt.preBend",
+    "name": "Pre-bend"
+   },
+   {
+    "entityID": "pt.pressRoll",
+    "name": "Press roll"
+   },
+   {
+    "entityID": "pt.pull",
+    "name": "Pull"
+   },
+   {
+    "entityID": "pt.push",
+    "name": "Push"
+   },
+   {
+    "entityID": "pt.rake",
+    "name": "Rake"
+   },
+   {
+    "entityID": "pt.release",
+    "name": "Release"
+   },
+   {
+    "entityID": "pt.ricochet",
+    "name": "Ricochet"
+   },
+   {
+    "entityID": "pt.right",
+    "name": "Right (RH)"
+   },
+   {
+    "entityID": "pt.rightHandTap",
+    "name": "Right hand tap"
+   },
+   {
+    "entityID": "pt.rightHandTapTapping",
+    "name": "Right-hand tap (tapping)"
+   },
+   {
+    "entityID": "pt.rim",
+    "name": "Rim"
+   },
+   {
+    "entityID": "pt.rimKnock",
+    "name": "Rim knock"
+   },
+   {
+    "entityID": "pt.rimOnly",
+    "name": "Rim only"
+   },
+   {
+    "entityID": "pt.rimShot",
+    "name": "Rim shot"
+   },
+   {
+    "entityID": "pt.rip",
+    "name": "Rip"
+   },
+   {
+    "entityID": "pt.roll",
+    "name": "Roll"
+   },
+   {
+    "entityID": "pt.saltando",
+    "name": "Saltando"
+   },
+   {
+    "entityID": "pt.sautille",
+    "name": "Sautill\u00e9"
+   },
+   {
+    "entityID": "pt.scoop",
+    "name": "Scoop"
+   },
+   {
+    "entityID": "pt.scrape",
+    "name": "Scrape"
+   },
+   {
+    "entityID": "pt.scrapeLeft",
+    "name": "Scrape (left)"
+   },
+   {
+    "entityID": "pt.scrapeRight",
+    "name": "Scrape (right)"
+   },
+   {
+    "entityID": "pt.scratchIn",
+    "name": "Scratch in"
+   },
+   {
+    "entityID": "pt.scratchOut",
+    "name": "Scratch out"
+   },
+   {
+    "entityID": "pt.sf",
+    "name": "sf"
+   },
+   {
+    "entityID": "pt.sfp",
+    "name": "sfp"
+   },
+   {
+    "entityID": "pt.sfz",
+    "name": "sfz"
+   },
+   {
+    "entityID": "pt.shake",
+    "name": "Shake"
+   },
+   {
+    "entityID": "pt.shell",
+    "name": "Shell"
+   },
+   {
+    "entityID": "pt.shotOverTheHead",
+    "name": "Over the head shot"
+   },
+   {
+    "entityID": "pt.sideStick",
+    "name": "Side stick"
+   },
+   {
+    "entityID": "pt.simile",
+    "name": "Simile"
+   },
+   {
+    "entityID": "pt.sizzle",
+    "name": "Sizzle"
+   },
+   {
+    "entityID": "pt.sizzleSuck",
+    "name": "Sizzle suck"
+   },
+   {
+    "entityID": "pt.skank",
+    "name": "Skank"
+   },
+   {
+    "entityID": "pt.skin",
+    "name": "Skin"
+   },
+   {
+    "entityID": "pt.slap",
+    "name": "Slap"
+   },
+   {
+    "entityID": "pt.slapCongas",
+    "name": "Slap (congas)"
+   },
+   {
+    "entityID": "pt.slapTongue",
+    "name": "Slap tongue"
+   },
+   {
+    "entityID": "pt.slide",
+    "name": "Slide"
+   },
+   {
+    "entityID": "pt.slightBend",
+    "name": "Slight bend"
+   },
+   {
+    "entityID": "pt.smear",
+    "name": "Smear"
+   },
+   {
+    "entityID": "pt.snareOff",
+    "name": "Snares off"
+   },
+   {
+    "entityID": "pt.snareOn",
+    "name": "Snares on"
+   },
+   {
+    "entityID": "pt.snenor",
+    "name": "Snenor"
+   },
+   {
+    "entityID": "pt.soft",
+    "name": "Soft"
+   },
+   {
+    "entityID": "pt.sonsXylophoniques",
+    "name": "Sons xylophoniques"
+   },
+   {
+    "entityID": "pt.sostenutoPedal",
+    "name": "Sostenuto pedal"
+   },
+   {
+    "entityID": "pt.spiccato",
+    "name": "Spiccato"
+   },
+   {
+    "entityID": "pt.spoken",
+    "name": "Spoken"
+   },
+   {
+    "entityID": "pt.squeeze",
+    "name": "Squeeze"
+   },
+   {
+    "entityID": "pt.staccatissimo",
+    "name": "Staccatissimo"
+   },
+   {
+    "entityID": "pt.staccato",
+    "name": "Staccato"
+   },
+   {
+    "entityID": "pt.standClick",
+    "name": "Stand click"
+   },
+   {
+    "entityID": "pt.stickButt",
+    "name": "Stick (butt)"
+   },
+   {
+    "entityID": "pt.stickClick",
+    "name": "Stick click"
+   },
+   {
+    "entityID": "pt.stickShaft",
+    "name": "Stick (shaft)"
+   },
+   {
+    "entityID": "pt.stickShaft1",
+    "name": "Stick (shaft 1)"
+   },
+   {
+    "entityID": "pt.stickShaft2",
+    "name": "Stick (shaft 2)"
+   },
+   {
+    "entityID": "pt.stickShaft3",
+    "name": "Stick (shaft 3)"
+   },
+   {
+    "entityID": "pt.stickShaft4",
+    "name": "Stick (shaft 4)"
+   },
+   {
+    "entityID": "pt.stickShaft5",
+    "name": "Stick (shaft 5)"
+   },
+   {
+    "entityID": "pt.stickShaftOpen",
+    "name": "Stick (shaft open)"
+   },
+   {
+    "entityID": "pt.stickShot",
+    "name": "Stick shot"
+   },
+   {
+    "entityID": "pt.stickShoulder",
+    "name": "Stick (shoulder)"
+   },
+   {
+    "entityID": "pt.stickSnap",
+    "name": "Stick snap"
+   },
+   {
+    "entityID": "pt.stickTip",
+    "name": "Stick (tip)"
+   },
+   {
+    "entityID": "pt.stickTip1",
+    "name": "Stick (tip 1)"
+   },
+   {
+    "entityID": "pt.stickTip2",
+    "name": "Stick (tip 2)"
+   },
+   {
+    "entityID": "pt.stickTip3",
+    "name": "Stick (tip 3)"
+   },
+   {
+    "entityID": "pt.stickTip4",
+    "name": "Stick (tip 4)"
+   },
+   {
+    "entityID": "pt.stickTip5",
+    "name": "Stick (tip 5)"
+   },
+   {
+    "entityID": "pt.sticks",
+    "name": "Sticks"
+   },
+   {
+    "entityID": "pt.sticksIn",
+    "name": "Sticks in"
+   },
+   {
+    "entityID": "pt.stir",
+    "name": "Stir"
+   },
+   {
+    "entityID": "pt.stopped",
+    "name": "Stopped"
+   },
+   {
+    "entityID": "pt.straightMute",
+    "name": "Straight mute"
+   },
+   {
+    "entityID": "pt.strumDown",
+    "name": "Strum down"
+   },
+   {
+    "entityID": "pt.strumUp",
+    "name": "Strum up"
+   },
+   {
+    "entityID": "pt.suck",
+    "name": "Suck"
+   },
+   {
+    "entityID": "pt.sulPonticello",
+    "name": "Sul ponticello"
+   },
+   {
+    "entityID": "pt.sulTasto",
+    "name": "Sul tasto"
+   },
+   {
+    "entityID": "pt.sustainPedal",
+    "name": "Sustain pedal"
+   },
+   {
+    "entityID": "pt.swish",
+    "name": "Swish"
+   },
+   {
+    "entityID": "pt.swooshRoll",
+    "name": "Swoosh roll"
+   },
+   {
+    "entityID": "pt.tabla-ga",
+    "name": "Ga (open)"
+   },
+   {
+    "entityID": "pt.tabla-ge",
+    "name": "Ge (open)"
+   },
+   {
+    "entityID": "pt.tabla-gi",
+    "name": "Gi (muted open)"
+   },
+   {
+    "entityID": "pt.tabla-ke",
+    "name": "Ke (closed)"
+   },
+   {
+    "entityID": "pt.tabla-na",
+    "name": "Na (open)"
+   },
+   {
+    "entityID": "pt.tabla-ta",
+    "name": "Ta (muted open)"
+   },
+   {
+    "entityID": "pt.tabla-te",
+    "name": "Te (closed)"
+   },
+   {
+    "entityID": "pt.tabla-ti",
+    "name": "Ti (muted closed)"
+   },
+   {
+    "entityID": "pt.tabla-tu",
+    "name": "Tu (open)"
+   },
+   {
+    "entityID": "pt.tap",
+    "name": "Tap"
+   },
+   {
+    "entityID": "pt.tapChoke",
+    "name": "Tap choke"
+   },
+   {
+    "entityID": "pt.tapEdge",
+    "name": "Tap at edge"
+   },
+   {
+    "entityID": "pt.tapHalfway",
+    "name": "Tap halfway"
+   },
+   {
+    "entityID": "pt.tenuto",
+    "name": "Tenuto"
+   },
+   {
+    "entityID": "pt.throw",
+    "name": "Throw"
+   },
+   {
+    "entityID": "pt.throwoffOff",
+    "name": "Throwoff off"
+   },
+   {
+    "entityID": "pt.throwoffOn",
+    "name": "Throwoff on"
+   },
+   {
+    "entityID": "pt.tongueClick",
+    "name": "Tongue click"
+   },
+   {
+    "entityID": "pt.tongueFingerClick",
+    "name": "Tongue and finger click"
+   },
+   {
+    "entityID": "pt.tongueStop",
+    "name": "Tongue stop"
+   },
+   {
+    "entityID": "pt.tremblement",
+    "name": "Tremblement"
+   },
+   {
+    "entityID": "pt.tremolo",
+    "name": "Tremolo"
+   },
+   {
+    "entityID": "pt.trill",
+    "name": "Trill"
+   },
+   {
+    "entityID": "pt.trill.half",
+    "name": "Trill (half-step)"
+   },
+   {
+    "entityID": "pt.trill.whole",
+    "name": "Trill (whole step)"
+   },
+   {
+    "entityID": "pt.tripleTongue",
+    "name": "Triple-tongue"
+   },
+   {
+    "entityID": "pt.unaCorda",
+    "name": "Una corda"
+   },
+   {
+    "entityID": "pt.up",
+    "name": "Up"
+   },
+   {
+    "entityID": "pt.upbow",
+    "name": "Upbow"
+   },
+   {
+    "entityID": "pt.vacuumSuck",
+    "name": "Vacuum suck"
+   },
+   {
+    "entityID": "pt.vibrato",
+    "name": "Vibrato"
+   },
+   {
+    "entityID": "pt.vibratoBarDip",
+    "name": "Vibrato bar dip"
+   },
+   {
+    "entityID": "pt.vibratoBarLine",
+    "name": "Vibrato bar line"
+   },
+   {
+    "entityID": "pt.vibratoBarScoop",
+    "name": "Vibrato bar scoop"
+   },
+   {
+    "entityID": "pt.vocalDut",
+    "name": "Dut (vocal)"
+   },
+   {
+    "entityID": "pt.volumeSwell",
+    "name": "Volume swell"
+   },
+   {
+    "entityID": "pt.wahWahGuitar",
+    "name": "Wah-wah"
+   },
+   {
+    "entityID": "pt.wahWahOpen",
+    "name": "Wah-wah open"
+   },
+   {
+    "entityID": "pt.wahWahStopped",
+    "name": "Wah-wah stopped"
+   },
+   {
+    "entityID": "pt.whaleCall",
+    "name": "Whale call"
+   },
+   {
+    "entityID": "pt.whisper",
+    "name": "Whisper"
+   },
+   {
+    "entityID": "pt.whistle",
+    "name": "Whistle"
+   },
+   {
+    "entityID": "pt.whistleTone",
+    "name": "Whistle tone"
+   },
+   {
+    "entityID": "pt.wideVibrato",
+    "name": "Wide vibrato"
+   },
+   {
+    "entityID": "pt.zing",
+    "name": "Zing"
+   },
+   {
+    "entityID": "pt.zingFast",
+    "name": "Zing (fast)"
+   },
+   {
+    "entityID": "pt.zingSlow",
+    "name": "Zing (slow)"
+   }
+  ]
+ }
+]

@@ -1,0 +1,1924 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "chordDiagram.E",
+    "name": "E"
+   },
+   {
+    "entityID": "chordDiagram.a",
+    "name": "A"
+   },
+   {
+    "entityID": "chordDiagram.a-major-7th-open-position",
+    "name": "Amaj7, open position"
+   },
+   {
+    "entityID": "chordDiagram.a-major-open-position",
+    "name": "A open position"
+   },
+   {
+    "entityID": "chordDiagram.a-minor-7th-four-finger-shape",
+    "name": "Am7 four-finger shape"
+   },
+   {
+    "entityID": "chordDiagram.a-minor-7th-open-position",
+    "name": "Am7 open position"
+   },
+   {
+    "entityID": "chordDiagram.a-minor-7th-two-sevenths",
+    "name": "Am7 two sevenths"
+   },
+   {
+    "entityID": "chordDiagram.a-minor-open-position",
+    "name": "Am open position"
+   },
+   {
+    "entityID": "chordDiagram.a-sus-2-open-position",
+    "name": "Asus2 open position"
+   },
+   {
+    "entityID": "chordDiagram.a-sus-4-open-position",
+    "name": "Asus4 open position"
+   },
+   {
+    "entityID": "chordDiagram.a11",
+    "name": "A11"
+   },
+   {
+    "entityID": "chordDiagram.a13,_no_9",
+    "name": "A13 no 9"
+   },
+   {
+    "entityID": "chordDiagram.a13_b9",
+    "name": "A13b9 unmoveable"
+   },
+   {
+    "entityID": "chordDiagram.a5-open-position",
+    "name": "A5 open position"
+   },
+   {
+    "entityID": "chordDiagram.a6-four-finger-open-position",
+    "name": "A6, four finger open position"
+   },
+   {
+    "entityID": "chordDiagram.a69",
+    "name": "A69"
+   },
+   {
+    "entityID": "chordDiagram.a7",
+    "name": "A7"
+   },
+   {
+    "entityID": "chordDiagram.a7-open-position",
+    "name": "A7, open position"
+   },
+   {
+    "entityID": "chordDiagram.a7_#11",
+    "name": "A7#11"
+   },
+   {
+    "entityID": "chordDiagram.a7__no_3rd_dadgad",
+    "name": "A7, no 3rd dadgad"
+   },
+   {
+    "entityID": "chordDiagram.a7_b13",
+    "name": "A7b13"
+   },
+   {
+    "entityID": "chordDiagram.a7_b13,_no_5",
+    "name": "A7b13 no 5"
+   },
+   {
+    "entityID": "chordDiagram.a7_b9_b13,_unmovable",
+    "name": "A7b9b13, unmovable"
+   },
+   {
+    "entityID": "chordDiagram.a7_dadgad",
+    "name": "A7 dadgad"
+   },
+   {
+    "entityID": "chordDiagram.a7_e__rootless_dadgad",
+    "name": "A7/E, rootless dadgad"
+   },
+   {
+    "entityID": "chordDiagram.a7_e_no_3rd_dadgad",
+    "name": "A7/E no 3rd dadgad"
+   },
+   {
+    "entityID": "chordDiagram.a7_open_d",
+    "name": "A7 open-d"
+   },
+   {
+    "entityID": "chordDiagram.a7b5",
+    "name": "A7b5"
+   },
+   {
+    "entityID": "chordDiagram.a7b9",
+    "name": "A7b9"
+   },
+   {
+    "entityID": "chordDiagram.a7sus4",
+    "name": "A7sus4"
+   },
+   {
+    "entityID": "chordDiagram.a7sus4_(uke)",
+    "name": "A7sus4 (uke)"
+   },
+   {
+    "entityID": "chordDiagram.a9,_no_3",
+    "name": "A9 no 3rd"
+   },
+   {
+    "entityID": "chordDiagram.a9_b13,_rootless",
+    "name": "A9b13, rootless"
+   },
+   {
+    "entityID": "chordDiagram.a9_sus4_e_dadgad",
+    "name": "A9sus4/E dadgad"
+   },
+   {
+    "entityID": "chordDiagram.a_(mandolin)",
+    "name": "A (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.a_add11_open_d",
+    "name": "A add11 open-d"
+   },
+   {
+    "entityID": "chordDiagram.a_aug,_unmovable",
+    "name": "Aaug, unmovable"
+   },
+   {
+    "entityID": "chordDiagram.a_dadgad",
+    "name": "A dadgad"
+   },
+   {
+    "entityID": "chordDiagram.aadd2",
+    "name": "A add2"
+   },
+   {
+    "entityID": "chordDiagram.aadd2_(uke)",
+    "name": "A add2 (uke)"
+   },
+   {
+    "entityID": "chordDiagram.aaug",
+    "name": "Aaug"
+   },
+   {
+    "entityID": "chordDiagram.ab7_#9_b13_/c",
+    "name": "Ab7#9b13/C"
+   },
+   {
+    "entityID": "chordDiagram.ab9",
+    "name": "Ab9"
+   },
+   {
+    "entityID": "chordDiagram.ab_aug",
+    "name": "Abaug"
+   },
+   {
+    "entityID": "chordDiagram.abm6_(banjo)",
+    "name": "Abm6 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.abm7_b5_(mandolin)",
+    "name": "Abm7b5 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.abm9,_rootless_(5_on_top)_(banjo)",
+    "name": "Abm9 rootless, 5 on top (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.abm_(banjo)",
+    "name": "Abm (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.abmaj7_#11_/d",
+    "name": "Abmaj7#11/D"
+   },
+   {
+    "entityID": "chordDiagram.abmin9,_rootless",
+    "name": "Abm9 rootless"
+   },
+   {
+    "entityID": "chordDiagram.am",
+    "name": "Am"
+   },
+   {
+    "entityID": "chordDiagram.am11_open_g",
+    "name": "Am11 open-g"
+   },
+   {
+    "entityID": "chordDiagram.am6",
+    "name": "Am6"
+   },
+   {
+    "entityID": "chordDiagram.am6_(uke)",
+    "name": "Am6 (uke)"
+   },
+   {
+    "entityID": "chordDiagram.am7",
+    "name": "Am7"
+   },
+   {
+    "entityID": "chordDiagram.am7_dadgad",
+    "name": "Am7 dadgad"
+   },
+   {
+    "entityID": "chordDiagram.am7b5",
+    "name": "Am7b5"
+   },
+   {
+    "entityID": "chordDiagram.am7b5,_movable",
+    "name": "Am7b5, movable"
+   },
+   {
+    "entityID": "chordDiagram.am_(mandolin)",
+    "name": "Am (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.am_add11_open_g",
+    "name": "Am add11 open-g"
+   },
+   {
+    "entityID": "chordDiagram.am_b5_movable",
+    "name": "Amb5, movable"
+   },
+   {
+    "entityID": "chordDiagram.amaj7",
+    "name": "Amaj7"
+   },
+   {
+    "entityID": "chordDiagram.amaj7_#11",
+    "name": "Amaj7#11"
+   },
+   {
+    "entityID": "chordDiagram.amaj7_#11_add6",
+    "name": "Amaj7#11 add6"
+   },
+   {
+    "entityID": "chordDiagram.amaj7_#5",
+    "name": "Amaj7#5"
+   },
+   {
+    "entityID": "chordDiagram.amaj9_no_3",
+    "name": "Amaj9 no 3rd"
+   },
+   {
+    "entityID": "chordDiagram.amin11,_no_9",
+    "name": "Am11 no 9"
+   },
+   {
+    "entityID": "chordDiagram.amin11_(incl_9),_rootless",
+    "name": "Am11 (incl 9), rootless"
+   },
+   {
+    "entityID": "chordDiagram.amin11_(incl_9),_unmovable",
+    "name": "Am11 (incl 9), unmovable"
+   },
+   {
+    "entityID": "chordDiagram.amin9_unmovable_voicing",
+    "name": "Am9 unmovable voicing"
+   },
+   {
+    "entityID": "chordDiagram.amin_maj7",
+    "name": "Am maj7"
+   },
+   {
+    "entityID": "chordDiagram.amin_maj7,_doubled_5",
+    "name": "Am maj7 doubled 5"
+   },
+   {
+    "entityID": "chordDiagram.asus2_(mandolin)",
+    "name": "Asus2 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.asus4",
+    "name": "Asus4"
+   },
+   {
+    "entityID": "chordDiagram.b-major-9-open-position",
+    "name": "Bmaj9, open position"
+   },
+   {
+    "entityID": "chordDiagram.b-minor-9-half-barre",
+    "name": "Bm9, half barre"
+   },
+   {
+    "entityID": "chordDiagram.b-minor-9-open-position",
+    "name": "Bm9, open position"
+   },
+   {
+    "entityID": "chordDiagram.b11",
+    "name": "B11"
+   },
+   {
+    "entityID": "chordDiagram.b13_b9,_rootless",
+    "name": "B13b9, rootless"
+   },
+   {
+    "entityID": "chordDiagram.b13_b9,_rootless,_no_5",
+    "name": "B13b9, rootless, no 5"
+   },
+   {
+    "entityID": "chordDiagram.b69-open-position",
+    "name": "B69, open position"
+   },
+   {
+    "entityID": "chordDiagram.b7,_no_5_(banjo)",
+    "name": "B7 no 5 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.b7-open-position",
+    "name": "B7, open position"
+   },
+   {
+    "entityID": "chordDiagram.b7_(banjo)",
+    "name": "B7 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.b7_b13",
+    "name": "B7b13"
+   },
+   {
+    "entityID": "chordDiagram.b7sus4",
+    "name": "B7sus4"
+   },
+   {
+    "entityID": "chordDiagram.b_aug",
+    "name": "Baug"
+   },
+   {
+    "entityID": "chordDiagram.b_aug_(mandolin)",
+    "name": "Baug (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.b_open_d",
+    "name": "B open-d"
+   },
+   {
+    "entityID": "chordDiagram.bb-major-9-open-position",
+    "name": "Bbmaj9, open position"
+   },
+   {
+    "entityID": "chordDiagram.bb13,_no_9",
+    "name": "Bb13 no 9"
+   },
+   {
+    "entityID": "chordDiagram.bb13_b9",
+    "name": "Bb13b9"
+   },
+   {
+    "entityID": "chordDiagram.bb69",
+    "name": "Bb69"
+   },
+   {
+    "entityID": "chordDiagram.bb69,_no_5",
+    "name": "Bb69 no 5"
+   },
+   {
+    "entityID": "chordDiagram.bb69-open-position",
+    "name": "Bb69, open position"
+   },
+   {
+    "entityID": "chordDiagram.bb7#9",
+    "name": "Bb7#9"
+   },
+   {
+    "entityID": "chordDiagram.bb7#9,_rootless",
+    "name": "Bb7#9, rootless"
+   },
+   {
+    "entityID": "chordDiagram.bb7_#9_b13",
+    "name": "Bb7#9b13"
+   },
+   {
+    "entityID": "chordDiagram.bb7_(mandolin)",
+    "name": "Bb7 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.bb7_b13",
+    "name": "Bb7b13"
+   },
+   {
+    "entityID": "chordDiagram.bb7_b9",
+    "name": "Bb7b9"
+   },
+   {
+    "entityID": "chordDiagram.bb7_b9_b13",
+    "name": "Bb7b9b13"
+   },
+   {
+    "entityID": "chordDiagram.bb7b9",
+    "name": "Bb7b9"
+   },
+   {
+    "entityID": "chordDiagram.bb9-half-barre",
+    "name": "Bb9, half barre"
+   },
+   {
+    "entityID": "chordDiagram.bb9-no-5th",
+    "name": "Bb9 no 5"
+   },
+   {
+    "entityID": "chordDiagram.bb9_#11_",
+    "name": "Bb9#11"
+   },
+   {
+    "entityID": "chordDiagram.bb9_b13",
+    "name": "Bb9b13"
+   },
+   {
+    "entityID": "chordDiagram.bb_(mandolin)",
+    "name": "Bb (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.bb_add2_(banjo)",
+    "name": "Bb add2 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.bb_add2_(mandolin)",
+    "name": "Bb add2 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.bb_aug_(high_#5)",
+    "name": "Bbaug (high #5)"
+   },
+   {
+    "entityID": "chordDiagram.bb_aug_(low_#5)",
+    "name": "Bbaug (low #5)"
+   },
+   {
+    "entityID": "chordDiagram.bb_over_d",
+    "name": "Bb/D"
+   },
+   {
+    "entityID": "chordDiagram.bb_over_d_drop-d",
+    "name": "Bb/D drop-d"
+   },
+   {
+    "entityID": "chordDiagram.bbdim,_no_6",
+    "name": "Bbdim no 6"
+   },
+   {
+    "entityID": "chordDiagram.bbdim_4-note",
+    "name": "Bbdim 4-note"
+   },
+   {
+    "entityID": "chordDiagram.bbdim_5-note",
+    "name": "Bbdim 5-note"
+   },
+   {
+    "entityID": "chordDiagram.bbmaj7",
+    "name": "Bbmaj7"
+   },
+   {
+    "entityID": "chordDiagram.bbmaj7_(mandolin)",
+    "name": "Bbmaj7 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.bbmaj7_rooted_(mandolin)",
+    "name": "Bbmaj7 rooted (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.bdim",
+    "name": "Bdim"
+   },
+   {
+    "entityID": "chordDiagram.bm6",
+    "name": "Bm6"
+   },
+   {
+    "entityID": "chordDiagram.bm6,_no_5_(banjo)",
+    "name": "Bm6 no 5 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.bm6_(banjo)",
+    "name": "Bm6 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.bm7_(mandolin)",
+    "name": "Bm7 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.bm7_(or_d6)_(banjo)",
+    "name": "Bm7 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.bm7_b5_(banjo)",
+    "name": "Bm7b5 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.bm7_open_g",
+    "name": "Bm7 open-g"
+   },
+   {
+    "entityID": "chordDiagram.bm7b5",
+    "name": "Bm7b5"
+   },
+   {
+    "entityID": "chordDiagram.bm_(mandolin)",
+    "name": "Bm (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.bm__unmovable_open_g",
+    "name": "Bm, unmovable open-g"
+   },
+   {
+    "entityID": "chordDiagram.bm_add_b6_open_g",
+    "name": "Bm addb6 open-g"
+   },
+   {
+    "entityID": "chordDiagram.bm_open_g",
+    "name": "Bm open-g"
+   },
+   {
+    "entityID": "chordDiagram.bmaj7_(banjo)",
+    "name": "Bmaj7 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.bmin11,_no_9",
+    "name": "Bm11 no 9"
+   },
+   {
+    "entityID": "chordDiagram.bmin11_(incl_9)",
+    "name": "Bm11 (incl 9)"
+   },
+   {
+    "entityID": "chordDiagram.bmin69",
+    "name": "Bm69"
+   },
+   {
+    "entityID": "chordDiagram.c",
+    "name": "C"
+   },
+   {
+    "entityID": "chordDiagram.c#7_#9_b13",
+    "name": "C#7#9b13"
+   },
+   {
+    "entityID": "chordDiagram.c#sus4_",
+    "name": "C#sus4"
+   },
+   {
+    "entityID": "chordDiagram.c-major-7th-open-position",
+    "name": "Cmaj7, open position"
+   },
+   {
+    "entityID": "chordDiagram.c-major-open-position",
+    "name": "C, open position"
+   },
+   {
+    "entityID": "chordDiagram.c-sus-2-open-position",
+    "name": "Csus2, open position"
+   },
+   {
+    "entityID": "chordDiagram.c6,_movable",
+    "name": "C6, movable"
+   },
+   {
+    "entityID": "chordDiagram.c6-open-position",
+    "name": "C6, open position"
+   },
+   {
+    "entityID": "chordDiagram.c7",
+    "name": "C7"
+   },
+   {
+    "entityID": "chordDiagram.c7-open-position",
+    "name": "C7, open position"
+   },
+   {
+    "entityID": "chordDiagram.c7_b13",
+    "name": "C7b13"
+   },
+   {
+    "entityID": "chordDiagram.c7b9,_unmovable",
+    "name": "C7b9, unmovable"
+   },
+   {
+    "entityID": "chordDiagram.c7sus4",
+    "name": "C7sus4"
+   },
+   {
+    "entityID": "chordDiagram.c9_g_open_g",
+    "name": "C9/G open-g"
+   },
+   {
+    "entityID": "chordDiagram.c_(banjo)",
+    "name": "C (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.c_add9_open_d",
+    "name": "C add9 open-d"
+   },
+   {
+    "entityID": "chordDiagram.c_g_open_g",
+    "name": "C/G open-g"
+   },
+   {
+    "entityID": "chordDiagram.cadd2,_movable",
+    "name": "C add2, movable"
+   },
+   {
+    "entityID": "chordDiagram.cadd2,_unmovable",
+    "name": "C add2, unmovable"
+   },
+   {
+    "entityID": "chordDiagram.cadd2_(banjo)",
+    "name": "C add2 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.cadd2_(high_2)",
+    "name": "C add2 (high 2)"
+   },
+   {
+    "entityID": "chordDiagram.cadd2_(low_2)",
+    "name": "C add2 (low 2)"
+   },
+   {
+    "entityID": "chordDiagram.cadd2_(mandolin)",
+    "name": "C add2 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.cm",
+    "name": "Cm"
+   },
+   {
+    "entityID": "chordDiagram.cm6,_rootless_(mandolin)",
+    "name": "Cm6 rootless (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.cm_(banjo)",
+    "name": "Cm (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.cm_(mandolin)",
+    "name": "Cm (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.cmaj7",
+    "name": "Cmaj7"
+   },
+   {
+    "entityID": "chordDiagram.cmaj7_#11_add6",
+    "name": "Cmaj7#11 add6"
+   },
+   {
+    "entityID": "chordDiagram.cmaj7_#5",
+    "name": "Cmaj7#5"
+   },
+   {
+    "entityID": "chordDiagram.cmin_maj7",
+    "name": "Cm maj7"
+   },
+   {
+    "entityID": "chordDiagram.cmin_maj7,_doubled_5",
+    "name": "Cm maj7, doubled 5"
+   },
+   {
+    "entityID": "chordDiagram.csus2",
+    "name": "Csus2"
+   },
+   {
+    "entityID": "chordDiagram.csus4",
+    "name": "Csus4"
+   },
+   {
+    "entityID": "chordDiagram.d-major-7th-half-barre",
+    "name": "Dmaj7, half barre"
+   },
+   {
+    "entityID": "chordDiagram.d-major-7th-half-barre_drop-d",
+    "name": "Dmaj7, half barre drop-d"
+   },
+   {
+    "entityID": "chordDiagram.d-major-7th-open-position",
+    "name": "Dmaj7, open position"
+   },
+   {
+    "entityID": "chordDiagram.d-major-7th-open-position_drop-d",
+    "name": "Dmaj7, open position drop-d"
+   },
+   {
+    "entityID": "chordDiagram.d-major-open-position",
+    "name": "D, open position"
+   },
+   {
+    "entityID": "chordDiagram.d-major-open-position_drop-d",
+    "name": "D, open position drop-d"
+   },
+   {
+    "entityID": "chordDiagram.d-minor-7th-open-position",
+    "name": "Dm7, open position"
+   },
+   {
+    "entityID": "chordDiagram.d-minor-7th-open-position_drop-d",
+    "name": "Dm7, open position drop-d"
+   },
+   {
+    "entityID": "chordDiagram.d-minor-open-position",
+    "name": "Dm, open position"
+   },
+   {
+    "entityID": "chordDiagram.d-minor-open-position_drop-d",
+    "name": "Dm, open position drop-d"
+   },
+   {
+    "entityID": "chordDiagram.d-sus-2-open-position",
+    "name": "Dsus2, open position"
+   },
+   {
+    "entityID": "chordDiagram.d-sus-2-open-position_drop-d",
+    "name": "Dsus2, open position drop-d"
+   },
+   {
+    "entityID": "chordDiagram.d-sus-4-open-position",
+    "name": "Dsus4, open position"
+   },
+   {
+    "entityID": "chordDiagram.d-sus-4-open-position_drop-d",
+    "name": "Dsus4, open position drop-d"
+   },
+   {
+    "entityID": "chordDiagram.d5-open-position",
+    "name": "D5, open position"
+   },
+   {
+    "entityID": "chordDiagram.d5-open-position_drop-d",
+    "name": "D5, open position drop-d"
+   },
+   {
+    "entityID": "chordDiagram.d5_(banjo)",
+    "name": "D5 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.d5_dadgad",
+    "name": "D5 dadgad"
+   },
+   {
+    "entityID": "chordDiagram.d6-open-position",
+    "name": "D6, open position"
+   },
+   {
+    "entityID": "chordDiagram.d6-open-position_drop-d",
+    "name": "D6, open position drop-d"
+   },
+   {
+    "entityID": "chordDiagram.d69,_rootless_(E_bass)",
+    "name": "D69/E rootless"
+   },
+   {
+    "entityID": "chordDiagram.d69,_rootless_(f#_bass)",
+    "name": "D69/F# rootless"
+   },
+   {
+    "entityID": "chordDiagram.d7#11",
+    "name": "D7#11"
+   },
+   {
+    "entityID": "chordDiagram.d7-open-position",
+    "name": "D7, open position"
+   },
+   {
+    "entityID": "chordDiagram.d7-open-position_drop-d",
+    "name": "D7, open position drop-d"
+   },
+   {
+    "entityID": "chordDiagram.d7_(banjo)",
+    "name": "D7 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.d7_(mandolin)",
+    "name": "D7 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.d7__high_3_open_d",
+    "name": "D7 high 3rd open-d"
+   },
+   {
+    "entityID": "chordDiagram.d7__low_3_open_d",
+    "name": "D7 low 3rd open-d"
+   },
+   {
+    "entityID": "chordDiagram.d7__no_3_open_d",
+    "name": "D7 no 3rd open-d"
+   },
+   {
+    "entityID": "chordDiagram.d7__no_3_open_g",
+    "name": "D7 no 3rd open-g"
+   },
+   {
+    "entityID": "chordDiagram.d7_dadgad",
+    "name": "D7 dadgad"
+   },
+   {
+    "entityID": "chordDiagram.d7_open_d",
+    "name": "D7 open-d"
+   },
+   {
+    "entityID": "chordDiagram.d7b13",
+    "name": "D7b13"
+   },
+   {
+    "entityID": "chordDiagram.d7sus4",
+    "name": "D7sus4"
+   },
+   {
+    "entityID": "chordDiagram.d7sus4_drop-d",
+    "name": "D7sus4 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.d9,_no_3",
+    "name": "D9 no 3rd"
+   },
+   {
+    "entityID": "chordDiagram.d9,_no_3_drop-d",
+    "name": "D9 no 3rd drop-d"
+   },
+   {
+    "entityID": "chordDiagram.d9_b13,_no_3",
+    "name": "D9b13 no 3rd"
+   },
+   {
+    "entityID": "chordDiagram.d9_dadgad",
+    "name": "D9 dadgad"
+   },
+   {
+    "entityID": "chordDiagram.d_(banjo)",
+    "name": "D (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.d_(mandolin)",
+    "name": "D (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.d_add11_dadgad",
+    "name": "D add11 dadgad"
+   },
+   {
+    "entityID": "chordDiagram.d_aug",
+    "name": "Daug"
+   },
+   {
+    "entityID": "chordDiagram.d_dadgad",
+    "name": "D dadgad"
+   },
+   {
+    "entityID": "chordDiagram.d_dim,_no_6_(banjo)",
+    "name": "Ddim no 6 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.d_dim_(banjo)",
+    "name": "Ddim (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.d_open_d",
+    "name": "D open-d"
+   },
+   {
+    "entityID": "chordDiagram.db11,_rootless",
+    "name": "Db11 rootless"
+   },
+   {
+    "entityID": "chordDiagram.db13_b9,_rootless",
+    "name": "Db13b9 rootless"
+   },
+   {
+    "entityID": "chordDiagram.db_uke_usgb",
+    "name": "Dbm ukulele usgb"
+   },
+   {
+    "entityID": "chordDiagram.dbdim,_no_6",
+    "name": "Dbdim no 6"
+   },
+   {
+    "entityID": "chordDiagram.dbm6",
+    "name": "Dbm6"
+   },
+   {
+    "entityID": "chordDiagram.dbm7",
+    "name": "Dbm7"
+   },
+   {
+    "entityID": "chordDiagram.dbm7b5",
+    "name": "Dbm7b5"
+   },
+   {
+    "entityID": "chordDiagram.dbm9,_rootless_(banjo)",
+    "name": "Dbm9 rootless (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.dbm_add2",
+    "name": "Dbm add2"
+   },
+   {
+    "entityID": "chordDiagram.ddim",
+    "name": "Ddim"
+   },
+   {
+    "entityID": "chordDiagram.dm",
+    "name": "Dm"
+   },
+   {
+    "entityID": "chordDiagram.dm11_dadgad",
+    "name": "Dm11 dadgad"
+   },
+   {
+    "entityID": "chordDiagram.dm6",
+    "name": "Dm6"
+   },
+   {
+    "entityID": "chordDiagram.dm6_(mandolin)",
+    "name": "Dm6 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.dm6_drop-d",
+    "name": "Dm6 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.dm7_(banjo)",
+    "name": "Dm7 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.dm7_(mandolin)",
+    "name": "Dm7 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.dm7_b5_(banjo)",
+    "name": "Dm7b5 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.dm7_b5_(mandolin)",
+    "name": "Dm7b5 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.dm7b5",
+    "name": "Dm7b5"
+   },
+   {
+    "entityID": "chordDiagram.dm_(banjo)",
+    "name": "Dm (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.dm_(mandolin)",
+    "name": "Dm (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.dm_add2,_unmovable",
+    "name": "Dm add2, unmovable"
+   },
+   {
+    "entityID": "chordDiagram.dm_alt_dadgad",
+    "name": "Dm alt dadgad"
+   },
+   {
+    "entityID": "chordDiagram.dm_b5",
+    "name": "Dmb5"
+   },
+   {
+    "entityID": "chordDiagram.dm_dadgad",
+    "name": "Dm dadgad"
+   },
+   {
+    "entityID": "chordDiagram.dmaj7_#11",
+    "name": "Dmaj7#11"
+   },
+   {
+    "entityID": "chordDiagram.dmaj7_#11_drop-d",
+    "name": "Dmaj7#11 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.dmaj7_#5",
+    "name": "Dmaj7#5"
+   },
+   {
+    "entityID": "chordDiagram.dmaj7_(banjo)",
+    "name": "Dmaj7 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.dmaj7_(mandolin)",
+    "name": "Dmaj7 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.dmaj7_open_d",
+    "name": "Dmaj7 open-d"
+   },
+   {
+    "entityID": "chordDiagram.dmaj9_no_3",
+    "name": "Dmaj9 no 3rd"
+   },
+   {
+    "entityID": "chordDiagram.dmaj9_no_3_drop-d",
+    "name": "Dmaj9 no 3rd drop-d"
+   },
+   {
+    "entityID": "chordDiagram.dmin11,_no_9",
+    "name": "Dm11 no 9"
+   },
+   {
+    "entityID": "chordDiagram.dmin11,_no_9_(3rd_on_top)_drop-d",
+    "name": "Dm11 no 9 (3rd on top) drop-d"
+   },
+   {
+    "entityID": "chordDiagram.dmin11,_no_9_drop-d",
+    "name": "Dm11 no 9 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.dmin11_(incl_9)_drop-d",
+    "name": "Dm11 (incl 9), drop-d"
+   },
+   {
+    "entityID": "chordDiagram.dmin11_(incl_9)_rootless",
+    "name": "Dm11 (incl 9), rootless"
+   },
+   {
+    "entityID": "chordDiagram.dmin_maj7",
+    "name": "Dm maj7"
+   },
+   {
+    "entityID": "chordDiagram.dmin_maj7_drop-d",
+    "name": "Dm maj7 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.dsus2,_unison_d_(banjo)",
+    "name": "Dsus2, unison D (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.dsus2_(banjo)",
+    "name": "Dsus2 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.dsus4_uke_usgb",
+    "name": "Dsus4 ukulele usgb"
+   },
+   {
+    "entityID": "chordDiagram.e-major-7th-open-position",
+    "name": "Emaj7, open position"
+   },
+   {
+    "entityID": "chordDiagram.e-major-7th-open-position_drop-d",
+    "name": "Emaj7, open position drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e-major-open-position",
+    "name": "E, open position"
+   },
+   {
+    "entityID": "chordDiagram.e-major-open-position_drop-d",
+    "name": "E, open position drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e-minor-7th-most-open-position",
+    "name": "Em7, most open shape"
+   },
+   {
+    "entityID": "chordDiagram.e-minor-7th-most-open-position_drop-d",
+    "name": "Em7, most open shape drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e-minor-7th-three-finger-shape",
+    "name": "Em7, three finger shape"
+   },
+   {
+    "entityID": "chordDiagram.e-minor-7th-two-finger-shape",
+    "name": "Em7, two finger shape"
+   },
+   {
+    "entityID": "chordDiagram.e-minor-7th-two-sevenths-shape_drop-d",
+    "name": "Em7, two 7ths shape drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e-minor-9-open-position",
+    "name": "Em9, open position"
+   },
+   {
+    "entityID": "chordDiagram.e-minor-9-open-position_drop-d",
+    "name": "Em9, open position drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e-minor-open-position",
+    "name": "Em, open position"
+   },
+   {
+    "entityID": "chordDiagram.e-minor-open-position_drop-d",
+    "name": "Em, open position drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e-sus-4-open-position",
+    "name": "Esus4, open position"
+   },
+   {
+    "entityID": "chordDiagram.e-sus-4-open-position_drop-d",
+    "name": "Esus4, open position drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e11",
+    "name": "E11"
+   },
+   {
+    "entityID": "chordDiagram.e11_drop-d",
+    "name": "E11 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e13",
+    "name": "E13"
+   },
+   {
+    "entityID": "chordDiagram.e13,_no_9",
+    "name": "E13 no 9"
+   },
+   {
+    "entityID": "chordDiagram.e13,_no_9_drop-d",
+    "name": "E13 no 9 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e13_b9",
+    "name": "E13b9"
+   },
+   {
+    "entityID": "chordDiagram.e13_b9,_unmovable",
+    "name": "E13b9, unmovable"
+   },
+   {
+    "entityID": "chordDiagram.e13_no_5th_drop-d",
+    "name": "E13 no 5 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e5-open-position",
+    "name": "E5, open position"
+   },
+   {
+    "entityID": "chordDiagram.e5-open-position_drop-d",
+    "name": "E5, open position drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e6,_movable",
+    "name": "E6, movable"
+   },
+   {
+    "entityID": "chordDiagram.e6-open-position",
+    "name": "E6, open position"
+   },
+   {
+    "entityID": "chordDiagram.e69",
+    "name": "E69"
+   },
+   {
+    "entityID": "chordDiagram.e7",
+    "name": "E7"
+   },
+   {
+    "entityID": "chordDiagram.e7#9",
+    "name": "E7#9"
+   },
+   {
+    "entityID": "chordDiagram.e7#9,_rootless",
+    "name": "E7#9 rootless"
+   },
+   {
+    "entityID": "chordDiagram.e7#9_drop-d",
+    "name": "E7#9 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e7-7th-fret-position",
+    "name": "E7, 7th fret position"
+   },
+   {
+    "entityID": "chordDiagram.e7-minimal-open-position",
+    "name": "E7, minimal open position"
+   },
+   {
+    "entityID": "chordDiagram.e7-minimal-open-position_drop-d",
+    "name": "E7, minimal open position drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e7-open-position",
+    "name": "E7, open position"
+   },
+   {
+    "entityID": "chordDiagram.e7-open-position-with-two-7ths",
+    "name": "E7, open position with two 7ths"
+   },
+   {
+    "entityID": "chordDiagram.e7-open-position-with-two-7ths_drop-d",
+    "name": "E7, open position with two 7ths drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e7_#9_b13",
+    "name": "E7#9b13"
+   },
+   {
+    "entityID": "chordDiagram.e7_(banjo)",
+    "name": "E7 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.e7_(mandolin)",
+    "name": "E7 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.e7_b9_b13",
+    "name": "E7b9b13"
+   },
+   {
+    "entityID": "chordDiagram.e7_b9_b13,_no_5",
+    "name": "E7b9b13 no 5"
+   },
+   {
+    "entityID": "chordDiagram.e7_b9_b13,_no_5_drop-d",
+    "name": "E7b9b13 no 5 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e7_dadgad",
+    "name": "E7 dadgad"
+   },
+   {
+    "entityID": "chordDiagram.e7b13",
+    "name": "E7b13"
+   },
+   {
+    "entityID": "chordDiagram.e7b13_drop-d",
+    "name": "E7b13 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e7b9",
+    "name": "E7b9"
+   },
+   {
+    "entityID": "chordDiagram.e7b9_drop-d",
+    "name": "E7b9 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e7sus4",
+    "name": "E7sus4"
+   },
+   {
+    "entityID": "chordDiagram.e7sus4_drop-d",
+    "name": "E7sus4 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e9",
+    "name": "E9"
+   },
+   {
+    "entityID": "chordDiagram.e9_b13",
+    "name": "E9b13"
+   },
+   {
+    "entityID": "chordDiagram.e9_drop-d",
+    "name": "E9 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.e_(banjo)",
+    "name": "E (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.e_(mandolin)",
+    "name": "E (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.e_aug_(high_roots)",
+    "name": "Eaug (high roots)"
+   },
+   {
+    "entityID": "chordDiagram.e_aug_(low_roots)",
+    "name": "Eaug (low roots) drop-d"
+   },
+   {
+    "entityID": "chordDiagram.eadd2",
+    "name": "E add2"
+   },
+   {
+    "entityID": "chordDiagram.eadd2_(banjo)",
+    "name": "E add2 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.eb",
+    "name": "Eb"
+   },
+   {
+    "entityID": "chordDiagram.eb13_b9_/c",
+    "name": "Eb13b9/C"
+   },
+   {
+    "entityID": "chordDiagram.eb69",
+    "name": "Eb69"
+   },
+   {
+    "entityID": "chordDiagram.eb9",
+    "name": "Eb9"
+   },
+   {
+    "entityID": "chordDiagram.eb_(mandolin)",
+    "name": "Eb (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.eb_add2",
+    "name": "Eb add2"
+   },
+   {
+    "entityID": "chordDiagram.eb_aug_(banjo)",
+    "name": "Ebaug (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.ebdim,_no_6",
+    "name": "Ebdim no 6"
+   },
+   {
+    "entityID": "chordDiagram.ebm_open_d",
+    "name": "Ebm open-d"
+   },
+   {
+    "entityID": "chordDiagram.ebmaj7_uke_usgb",
+    "name": "Ebmaj7 ukulele usgb"
+   },
+   {
+    "entityID": "chordDiagram.ebmaj9",
+    "name": "Ebmaj9"
+   },
+   {
+    "entityID": "chordDiagram.em",
+    "name": "Em"
+   },
+   {
+    "entityID": "chordDiagram.em11__no_5_open_d",
+    "name": "Em11 no 5th open-d"
+   },
+   {
+    "entityID": "chordDiagram.em11_b_open_d",
+    "name": "Em11/B open-d"
+   },
+   {
+    "entityID": "chordDiagram.em6",
+    "name": "Em6"
+   },
+   {
+    "entityID": "chordDiagram.em6_(banjo)",
+    "name": "Em6 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.em6_drop-d",
+    "name": "Em6 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.em7_(banjo)",
+    "name": "Em7 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.em7_(mandolin)",
+    "name": "Em7 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.em7_dadgad",
+    "name": "Em7 dadgad"
+   },
+   {
+    "entityID": "chordDiagram.em7_open_g",
+    "name": "Em7 open-g"
+   },
+   {
+    "entityID": "chordDiagram.em7b5",
+    "name": "Em7b5"
+   },
+   {
+    "entityID": "chordDiagram.em7b5_drop-d",
+    "name": "Em7b5 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.em9,_rootless_(banjo)",
+    "name": "Em9 rootless (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.em9b5",
+    "name": "Em9b5"
+   },
+   {
+    "entityID": "chordDiagram.em_(banjo)",
+    "name": "Em (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.em_(doubled_3rd)_(mandolin)",
+    "name": "Em (doubled 3rd) (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.em_(doubled_root)_(mandolin)",
+    "name": "Em (doubled root) (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.em_add2",
+    "name": "Em add2"
+   },
+   {
+    "entityID": "chordDiagram.em_open_g",
+    "name": "Em open-g"
+   },
+   {
+    "entityID": "chordDiagram.emaj7",
+    "name": "Emaj7"
+   },
+   {
+    "entityID": "chordDiagram.emaj7_(banjo)",
+    "name": "Emaj7 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.emaj7_(mandolin)",
+    "name": "Emaj7 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.emaj9",
+    "name": "Emaj9"
+   },
+   {
+    "entityID": "chordDiagram.emin11,_incl_9",
+    "name": "Em11 (incl 9)"
+   },
+   {
+    "entityID": "chordDiagram.emin11,_incl_9,_no_5",
+    "name": "Em11 no 5 (incl 9)"
+   },
+   {
+    "entityID": "chordDiagram.emin11,_incl_9,_no_5_drop-d",
+    "name": "Em11 no 5 (incl 9) drop-d"
+   },
+   {
+    "entityID": "chordDiagram.emin11,_incl_9_drop-d",
+    "name": "Em11 (incl 9) drop-d"
+   },
+   {
+    "entityID": "chordDiagram.emin11,_no_9_(3rd_on_top)",
+    "name": "Em11 no 9 (3rd on top)"
+   },
+   {
+    "entityID": "chordDiagram.emin11,_no_9_drop-d",
+    "name": "Em11 no 9 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.emin9,_4-note",
+    "name": "Em9, 4-note"
+   },
+   {
+    "entityID": "chordDiagram.emin9,_higher_7th",
+    "name": "Em9, higher 7th"
+   },
+   {
+    "entityID": "chordDiagram.emin9,_rootless",
+    "name": "Em9, rootless"
+   },
+   {
+    "entityID": "chordDiagram.emin_maj7",
+    "name": "Em maj7"
+   },
+   {
+    "entityID": "chordDiagram.emin_maj7_(7_on_top)",
+    "name": "Em maj7 (7 on top)"
+   },
+   {
+    "entityID": "chordDiagram.emin_maj7_drop-d",
+    "name": "Em maj7 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.esus2",
+    "name": "Esus2"
+   },
+   {
+    "entityID": "chordDiagram.esus2_drop-d",
+    "name": "Esus2 drop-d"
+   },
+   {
+    "entityID": "chordDiagram.esus4_(banjo)",
+    "name": "Esus4 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.esus4_uke_usgb",
+    "name": "Esus4 ukulele usgb"
+   },
+   {
+    "entityID": "chordDiagram.f",
+    "name": "F"
+   },
+   {
+    "entityID": "chordDiagram.f#11",
+    "name": "F#11"
+   },
+   {
+    "entityID": "chordDiagram.f#7_#11",
+    "name": "F#7#11"
+   },
+   {
+    "entityID": "chordDiagram.f#7_(mandolin)",
+    "name": "F#7 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.f#7_b9_b13,_rootless",
+    "name": "F#7b9b13 rootless"
+   },
+   {
+    "entityID": "chordDiagram.f#m7_(mandolin)",
+    "name": "F#m7 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.f#m7_b5_(mandolin)",
+    "name": "F#m7b5 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.f#m7_with_thumb",
+    "name": "F#m7 using thumb"
+   },
+   {
+    "entityID": "chordDiagram.f#min11,_no_9",
+    "name": "F#m11 no 9"
+   },
+   {
+    "entityID": "chordDiagram.f,_unmovable_(mandolin)",
+    "name": "F, unmovable (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.f-major-7th-open-position",
+    "name": "Fmaj7, open position"
+   },
+   {
+    "entityID": "chordDiagram.f11",
+    "name": "F11"
+   },
+   {
+    "entityID": "chordDiagram.f13_no_5th",
+    "name": "F13 no 5"
+   },
+   {
+    "entityID": "chordDiagram.f6",
+    "name": "F6"
+   },
+   {
+    "entityID": "chordDiagram.f6_(banjo)",
+    "name": "F6 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.f7#11",
+    "name": "F7#11"
+   },
+   {
+    "entityID": "chordDiagram.f7#9",
+    "name": "F7#9"
+   },
+   {
+    "entityID": "chordDiagram.f7_#9_b13",
+    "name": "F7#9b13"
+   },
+   {
+    "entityID": "chordDiagram.f7_uke_usgb",
+    "name": "F7 ukulele usgb"
+   },
+   {
+    "entityID": "chordDiagram.f9_b13",
+    "name": "F9b13"
+   },
+   {
+    "entityID": "chordDiagram.f_dim,_no_6_(banjo)",
+    "name": "Fdim no 6 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.f_dim_(banjo)",
+    "name": "Fdim (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.f_m_open_d",
+    "name": "F#m open-d"
+   },
+   {
+    "entityID": "chordDiagram.fadd2",
+    "name": "F add2"
+   },
+   {
+    "entityID": "chordDiagram.fdim",
+    "name": "Fdim"
+   },
+   {
+    "entityID": "chordDiagram.fm",
+    "name": "Fm"
+   },
+   {
+    "entityID": "chordDiagram.fm7_b5_(banjo)",
+    "name": "Fm7b5 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.fm7b5",
+    "name": "Fm7b5"
+   },
+   {
+    "entityID": "chordDiagram.fm_add2,_unmovable",
+    "name": "Fm add2, unmovable"
+   },
+   {
+    "entityID": "chordDiagram.fm_b5",
+    "name": "Fmb5"
+   },
+   {
+    "entityID": "chordDiagram.fm_uke_usgb",
+    "name": "Fm ukulele usgb"
+   },
+   {
+    "entityID": "chordDiagram.fmaj7_#11",
+    "name": "Fmaj7#11"
+   },
+   {
+    "entityID": "chordDiagram.fmaj7_#11,_unmovable",
+    "name": "Fmaj7#11, unmovable"
+   },
+   {
+    "entityID": "chordDiagram.fmaj7_#11,_unmovable_drop-d",
+    "name": "Fmaj7#11, unmovable drop-d"
+   },
+   {
+    "entityID": "chordDiagram.fmaj7_#5",
+    "name": "Fmaj7#5"
+   },
+   {
+    "entityID": "chordDiagram.fmaj7_(mandolin)",
+    "name": "Fmaj7 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.fmaj7_with_thumb",
+    "name": "Fmaj7 using thumb"
+   },
+   {
+    "entityID": "chordDiagram.fsus2_(banjo)",
+    "name": "Fsus2 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.fsus4_(banjo)",
+    "name": "Fsus4 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.g",
+    "name": "G"
+   },
+   {
+    "entityID": "chordDiagram.g-major-7th-open-position",
+    "name": "Gmaj7, open position"
+   },
+   {
+    "entityID": "chordDiagram.g-major-most-open-position",
+    "name": "G, most open position"
+   },
+   {
+    "entityID": "chordDiagram.g-major-open-position",
+    "name": "G, open position"
+   },
+   {
+    "entityID": "chordDiagram.g-sus-2-four-finger-open-position",
+    "name": "Gsus2, four finger open position"
+   },
+   {
+    "entityID": "chordDiagram.g13",
+    "name": "G13"
+   },
+   {
+    "entityID": "chordDiagram.g13,_no_9",
+    "name": "G13 no 9"
+   },
+   {
+    "entityID": "chordDiagram.g13_b9,_rootless",
+    "name": "G13b9 rootless"
+   },
+   {
+    "entityID": "chordDiagram.g13_b9,_unmovable",
+    "name": "G13b9, unmovable"
+   },
+   {
+    "entityID": "chordDiagram.g6",
+    "name": "G6"
+   },
+   {
+    "entityID": "chordDiagram.g6-two-finger-open-position",
+    "name": "G6, two finger open position"
+   },
+   {
+    "entityID": "chordDiagram.g6-two-finger-open-position_drop-d",
+    "name": "G6, two finger open position drop-d"
+   },
+   {
+    "entityID": "chordDiagram.g7",
+    "name": "G7"
+   },
+   {
+    "entityID": "chordDiagram.g7-open-position",
+    "name": "G7, open position"
+   },
+   {
+    "entityID": "chordDiagram.g7-open-position-with-b-string-unfretted",
+    "name": "G7, open position with b string unfretted"
+   },
+   {
+    "entityID": "chordDiagram.g7_(banjo)",
+    "name": "G7 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.g7_(mandolin)",
+    "name": "G7 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.g7__voicing_2__open_g",
+    "name": "G7 (voicing 2) open-g"
+   },
+   {
+    "entityID": "chordDiagram.g7__voicing_3__open_g",
+    "name": "G7 (voicing 3) open-g"
+   },
+   {
+    "entityID": "chordDiagram.g7_b9_b13,_rootless",
+    "name": "G7b9b13 rootless"
+   },
+   {
+    "entityID": "chordDiagram.g7_open_g",
+    "name": "G7 open-g"
+   },
+   {
+    "entityID": "chordDiagram.g7b13/eb",
+    "name": "G7b13/Eb"
+   },
+   {
+    "entityID": "chordDiagram.g7b9",
+    "name": "G7b9"
+   },
+   {
+    "entityID": "chordDiagram.g7sus4",
+    "name": "G7sus4"
+   },
+   {
+    "entityID": "chordDiagram.g7sus4,_movable",
+    "name": "G7sus4, movable"
+   },
+   {
+    "entityID": "chordDiagram.g7sus4,_unmovable_voicing",
+    "name": "G7sus4, unmovable voicing"
+   },
+   {
+    "entityID": "chordDiagram.g9",
+    "name": "G9"
+   },
+   {
+    "entityID": "chordDiagram.g9,_rootless_(f_bass)_(banjo)",
+    "name": "G9/F rootless (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.g9_b13,_rootless",
+    "name": "G9b13 rootless"
+   },
+   {
+    "entityID": "chordDiagram.g9_dadgad",
+    "name": "G9 dadgad"
+   },
+   {
+    "entityID": "chordDiagram.g_(banjo)",
+    "name": "G (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.g_(mandolin)",
+    "name": "G (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.g_add9_dadgad",
+    "name": "G add9 dadgad"
+   },
+   {
+    "entityID": "chordDiagram.g_aug",
+    "name": "Gaug"
+   },
+   {
+    "entityID": "chordDiagram.g_aug,_movable",
+    "name": "Gaug, movable"
+   },
+   {
+    "entityID": "chordDiagram.g_aug,_unmovable",
+    "name": "Gaug, unmovable"
+   },
+   {
+    "entityID": "chordDiagram.g_dadgad",
+    "name": "G dadgad"
+   },
+   {
+    "entityID": "chordDiagram.g_dim",
+    "name": "Gdim"
+   },
+   {
+    "entityID": "chordDiagram.gadd2",
+    "name": "G add2"
+   },
+   {
+    "entityID": "chordDiagram.gadd2_(mandolin)",
+    "name": "G add2 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.gadd2_(uke)",
+    "name": "G add2 (uke)"
+   },
+   {
+    "entityID": "chordDiagram.gbm",
+    "name": "Gbm"
+   },
+   {
+    "entityID": "chordDiagram.gdim,_no_6",
+    "name": "Gdim no 6"
+   },
+   {
+    "entityID": "chordDiagram.gm",
+    "name": "Gm"
+   },
+   {
+    "entityID": "chordDiagram.gm6",
+    "name": "Gm6"
+   },
+   {
+    "entityID": "chordDiagram.gm6_(uke)",
+    "name": "Gm6 (uke)"
+   },
+   {
+    "entityID": "chordDiagram.gm7",
+    "name": "Gm7"
+   },
+   {
+    "entityID": "chordDiagram.gm7b5",
+    "name": "Gm7b5"
+   },
+   {
+    "entityID": "chordDiagram.gm9_d_open_d",
+    "name": "Gm9/D open-d"
+   },
+   {
+    "entityID": "chordDiagram.gm9_dadgad",
+    "name": "Gm9 dadgad"
+   },
+   {
+    "entityID": "chordDiagram.gm_(mandolin)",
+    "name": "Gm (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.gm_add9_d_open_d",
+    "name": "Gm add9/D open-d"
+   },
+   {
+    "entityID": "chordDiagram.gm_dadgad",
+    "name": "Gm dadgad"
+   },
+   {
+    "entityID": "chordDiagram.gmaj7",
+    "name": "Gmaj7"
+   },
+   {
+    "entityID": "chordDiagram.gmaj7_#5",
+    "name": "Gmaj7#5"
+   },
+   {
+    "entityID": "chordDiagram.gmaj7_(banjo)",
+    "name": "Gmaj7 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.gmaj7_(mandolin)",
+    "name": "Gmaj7 (mandolin)"
+   },
+   {
+    "entityID": "chordDiagram.gmaj7__voicing_1__open_g",
+    "name": "Gmaj7 (voicing 1) open-g"
+   },
+   {
+    "entityID": "chordDiagram.gmaj7__voicing_2__open_g",
+    "name": "Gmaj7 (voicing 2) open-g"
+   },
+   {
+    "entityID": "chordDiagram.gmaj9",
+    "name": "Gmaj9"
+   },
+   {
+    "entityID": "chordDiagram.gmin_maj7",
+    "name": "Gm maj7"
+   },
+   {
+    "entityID": "chordDiagram.gmin_maj7,_unmovable",
+    "name": "Gm maj7, unmovable"
+   },
+   {
+    "entityID": "chordDiagram.gsus2",
+    "name": "Gsus2"
+   },
+   {
+    "entityID": "chordDiagram.gsus4,_high_4th",
+    "name": "Gsus4, high 4th"
+   },
+   {
+    "entityID": "chordDiagram.gsus4,_low_4th",
+    "name": "Gsus4, low 4th"
+   },
+   {
+    "entityID": "chordDiagram.gsus4_(banjo)",
+    "name": "Gsus4 (banjo)"
+   },
+   {
+    "entityID": "chordDiagram.gsus4_(mandolin)",
+    "name": "Gsus4 (mandolin)"
+   }
+  ]
+ }
+]

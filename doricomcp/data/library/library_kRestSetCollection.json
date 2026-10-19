@@ -1,0 +1,20 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "restset.default",
+    "name": "Default rests"
+   },
+   {
+    "entityID": "restset.old-style",
+    "name": "Old-style quarter rests"
+   },
+   {
+    "entityID": "restset.z-style",
+    "name": "Z-style quarter rests"
+   }
+  ]
+ }
+]

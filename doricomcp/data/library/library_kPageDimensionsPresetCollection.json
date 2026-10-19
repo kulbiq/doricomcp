@@ -1,0 +1,84 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "pagedimension.a3",
+    "name": "A3"
+   },
+   {
+    "entityID": "pagedimension.a4",
+    "name": "A4"
+   },
+   {
+    "entityID": "pagedimension.a5",
+    "name": "A5"
+   },
+   {
+    "entityID": "pagedimension.b4",
+    "name": "B4"
+   },
+   {
+    "entityID": "pagedimension.b5",
+    "name": "B5"
+   },
+   {
+    "entityID": "pagedimension.band",
+    "name": "Band (5\" x 7\")"
+   },
+   {
+    "entityID": "pagedimension.c4",
+    "name": "C4"
+   },
+   {
+    "entityID": "pagedimension.concert",
+    "name": "Concert (9\" x 12\")"
+   },
+   {
+    "entityID": "pagedimension.executive",
+    "name": "Executive (7.25\" x 10.5\")"
+   },
+   {
+    "entityID": "pagedimension.folio",
+    "name": "Folio (8.5\" x 13\")"
+   },
+   {
+    "entityID": "pagedimension.hymn",
+    "name": "Hymn (5.25\" x 8.75\")"
+   },
+   {
+    "entityID": "pagedimension.legal",
+    "name": "Legal (8.5\" x 14\")"
+   },
+   {
+    "entityID": "pagedimension.letter",
+    "name": "Letter"
+   },
+   {
+    "entityID": "pagedimension.octavo",
+    "name": "Octavo (6.75\" x 10.5\")"
+   },
+   {
+    "entityID": "pagedimension.part9_5",
+    "name": "Part (9.5\" x 12.5\")"
+   },
+   {
+    "entityID": "pagedimension.part_10",
+    "name": "Part (10\" x 13\")"
+   },
+   {
+    "entityID": "pagedimension.quarto",
+    "name": "Quarto (Metric Demy)"
+   },
+   {
+    "entityID": "pagedimension.statement",
+    "name": "Statement (5.5\" x 8.5\")"
+   },
+   {
+    "entityID": "pagedimension.tabloid",
+    "name": "Tabloid"
+   }
+  ]
+ }
+]

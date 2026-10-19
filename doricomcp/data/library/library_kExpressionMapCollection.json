@@ -1,0 +1,172 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "xmap.cc11_dynamic",
+    "name": "CC11 Dynamics"
+   },
+   {
+    "entityID": "xmap.default",
+    "name": "Default"
+   },
+   {
+    "entityID": "xmap.hso.BassClarinet",
+    "name": "HSO Bass Clarinet"
+   },
+   {
+    "entityID": "xmap.hso.BassoonSolo",
+    "name": "HSO Bassoon Solo"
+   },
+   {
+    "entityID": "xmap.hso.CelliCombi",
+    "name": "HSO Celli Combi"
+   },
+   {
+    "entityID": "xmap.hso.CelloSolo",
+    "name": "HSO Cello Solo"
+   },
+   {
+    "entityID": "xmap.hso.ClarinetSolo",
+    "name": "HSO Clarinet Solo"
+   },
+   {
+    "entityID": "xmap.hso.DoubleBassSolo",
+    "name": "HSO Double Bass Solo Combi"
+   },
+   {
+    "entityID": "xmap.hso.DoubleBassesCombi",
+    "name": "HSO Double Basses Combi"
+   },
+   {
+    "entityID": "xmap.hso.EnglishHorn",
+    "name": "HSO English Horn"
+   },
+   {
+    "entityID": "xmap.hso.FluteSolo",
+    "name": "HSO Flute Solo"
+   },
+   {
+    "entityID": "xmap.hso.Horn4Players",
+    "name": "HSO Horn 4 Players"
+   },
+   {
+    "entityID": "xmap.hso.HornSolo",
+    "name": "HSO Horn Solo"
+   },
+   {
+    "entityID": "xmap.hso.OboeSolo",
+    "name": "HSO Oboe Solo"
+   },
+   {
+    "entityID": "xmap.hso.Piccolo",
+    "name": "HSO Piccolo"
+   },
+   {
+    "entityID": "xmap.hso.Timpani",
+    "name": "HSO Timpani"
+   },
+   {
+    "entityID": "xmap.hso.Trombone3Players",
+    "name": "HSO Trombone 3 Players"
+   },
+   {
+    "entityID": "xmap.hso.TromboneSolo",
+    "name": "HSO Trombone Solo"
+   },
+   {
+    "entityID": "xmap.hso.Trumpet3Players",
+    "name": "HSO Trumpet 3 Players"
+   },
+   {
+    "entityID": "xmap.hso.TrumpetSolo",
+    "name": "HSO Trumpet Solo"
+   },
+   {
+    "entityID": "xmap.hso.Tuba",
+    "name": "HSO Tuba"
+   },
+   {
+    "entityID": "xmap.hso.ViolaSolo",
+    "name": "HSO Viola Solo"
+   },
+   {
+    "entityID": "xmap.hso.ViolasCombi",
+    "name": "HSO Violas Combi"
+   },
+   {
+    "entityID": "xmap.hso.ViolinSolo",
+    "name": "HSO Violin Solo"
+   },
+   {
+    "entityID": "xmap.hso.ViolinsCombi",
+    "name": "HSO Violins Combi"
+   },
+   {
+    "entityID": "xmap.hsse.AcousticBassVX",
+    "name": "HSSE Acoustic Bass VX"
+   },
+   {
+    "entityID": "xmap.hsse.NylonGuitarVX",
+    "name": "HSSE Nylon Guitar VX"
+   },
+   {
+    "entityID": "xmap.iconicasketch.bass_clarinet",
+    "name": "Iconica Sketch Bass Clarinet"
+   },
+   {
+    "entityID": "xmap.iconicasketch.basses",
+    "name": "Iconica Sketch Basses"
+   },
+   {
+    "entityID": "xmap.iconicasketch.contrabassoon",
+    "name": "Iconica Sketch Contrabassoon"
+   },
+   {
+    "entityID": "xmap.iconicasketch.percussion_map",
+    "name": "Iconica Sketch Percussion Map"
+   },
+   {
+    "entityID": "xmap.iconicasketch.picc_fl_ob_cor_cl_bsn_tpt_euph",
+    "name": "Iconica Sketch Picc, Fl, Ob, Cor, Cl, Bsn, Tpt, Euph"
+   },
+   {
+    "entityID": "xmap.iconicasketch.tbns_hns",
+    "name": "Iconica Sketch Tbn, Hns"
+   },
+   {
+    "entityID": "xmap.iconicasketch.timpani",
+    "name": "Iconica Sketch Timpani"
+   },
+   {
+    "entityID": "xmap.iconicasketch.tuba",
+    "name": "Iconica Sketch Tuba"
+   },
+   {
+    "entityID": "xmap.iconicasketch.vlns_vlas_celli",
+    "name": "Iconica Sketch Vlns, Vlas, Celli"
+   },
+   {
+    "entityID": "xmap.modwheel",
+    "name": "Modulation Wheel Dynamics"
+   },
+   {
+    "entityID": "xmap.octavedown",
+    "name": "Transpose down 1 octave"
+   },
+   {
+    "entityID": "xmap.octaveup",
+    "name": "Transpose up 1 octave"
+   },
+   {
+    "entityID": "xmap.velocity_and_cc11_dynamic",
+    "name": "Velocity + CC11 Dynamic"
+   },
+   {
+    "entityID": "xmap.velocity_and_mod_wheel_dynamic",
+    "name": "Velocity + Mod Wheel Dynamic"
+   }
+  ]
+ }
+]

@@ -1,0 +1,272 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "accidental.12et.western.double-flat",
+    "name": "Double flat"
+   },
+   {
+    "entityID": "accidental.12et.western.double-sharp",
+    "name": "Double sharp"
+   },
+   {
+    "entityID": "accidental.12et.western.flat",
+    "name": "Flat"
+   },
+   {
+    "entityID": "accidental.12et.western.natural",
+    "name": "Natural"
+   },
+   {
+    "entityID": "accidental.12et.western.sharp",
+    "name": "Sharp"
+   },
+   {
+    "entityID": "accidental.12et.western.triple-flat",
+    "name": "Triple flat"
+   },
+   {
+    "entityID": "accidental.12et.western.triple-sharp",
+    "name": "Triple sharp"
+   },
+   {
+    "entityID": "accidental.17et.persian",
+    "name": "Koron"
+   },
+   {
+    "entityID": "accidental.17et.persian.double-flat",
+    "name": "Double flat"
+   },
+   {
+    "entityID": "accidental.17et.persian.double-sharp",
+    "name": "Double sharp"
+   },
+   {
+    "entityID": "accidental.17et.persian.flat",
+    "name": "Flat"
+   },
+   {
+    "entityID": "accidental.17et.persian.natural",
+    "name": "Natural"
+   },
+   {
+    "entityID": "accidental.17et.persian.sharp",
+    "name": "Sharp"
+   },
+   {
+    "entityID": "accidental.17et.persian.sori",
+    "name": "Sori"
+   },
+   {
+    "entityID": "accidental.24et.western.arrow-down.gould",
+    "name": "Arrow down (quarter-tone flat)"
+   },
+   {
+    "entityID": "accidental.24et.western.arrow-up.gould",
+    "name": "Arrow up (quarter-tone sharp)"
+   },
+   {
+    "entityID": "accidental.24et.western.double-flat-down.gould",
+    "name": "Five-quarter-tones flat"
+   },
+   {
+    "entityID": "accidental.24et.western.double-flat-up.gould",
+    "name": "Three-quarter-tones flat"
+   },
+   {
+    "entityID": "accidental.24et.western.double-flat.gould",
+    "name": "Double flat"
+   },
+   {
+    "entityID": "accidental.24et.western.double-flat.stein",
+    "name": "Double flat"
+   },
+   {
+    "entityID": "accidental.24et.western.double-sharp-down.gould",
+    "name": "Three-quarter-tones sharp"
+   },
+   {
+    "entityID": "accidental.24et.western.double-sharp-up.gould",
+    "name": "Five-quarter-tones sharp"
+   },
+   {
+    "entityID": "accidental.24et.western.double-sharp.gould",
+    "name": "Double sharp"
+   },
+   {
+    "entityID": "accidental.24et.western.double-sharp.stein",
+    "name": "Double sharp"
+   },
+   {
+    "entityID": "accidental.24et.western.flat-down.gould",
+    "name": "Three-quarter-tones flat (flat)"
+   },
+   {
+    "entityID": "accidental.24et.western.flat-up.gould",
+    "name": "Quarter-tone flat (flat)"
+   },
+   {
+    "entityID": "accidental.24et.western.flat.gould",
+    "name": "Flat"
+   },
+   {
+    "entityID": "accidental.24et.western.flat.stein",
+    "name": "Flat"
+   },
+   {
+    "entityID": "accidental.24et.western.natural-down.gould",
+    "name": "Quarter-tone flat (natural)"
+   },
+   {
+    "entityID": "accidental.24et.western.natural-up.gould",
+    "name": "Quarter-tone sharp (natural)"
+   },
+   {
+    "entityID": "accidental.24et.western.natural.gould",
+    "name": "Natural"
+   },
+   {
+    "entityID": "accidental.24et.western.natural.stein",
+    "name": "Natural"
+   },
+   {
+    "entityID": "accidental.24et.western.quarter-flat.stein",
+    "name": "Quarter-tone flat"
+   },
+   {
+    "entityID": "accidental.24et.western.quarter-sharp.stein",
+    "name": "Quarter-tone sharp"
+   },
+   {
+    "entityID": "accidental.24et.western.sharp-down.gould",
+    "name": "Quarter-tone sharp (sharp)"
+   },
+   {
+    "entityID": "accidental.24et.western.sharp-up.gould",
+    "name": "Three-quarter-tones sharp (sharp)"
+   },
+   {
+    "entityID": "accidental.24et.western.sharp.gould",
+    "name": "Sharp"
+   },
+   {
+    "entityID": "accidental.24et.western.sharp.stein",
+    "name": "Sharp"
+   },
+   {
+    "entityID": "accidental.24et.western.three-quarters-flat.stein",
+    "name": "Three-quarter-tones flat"
+   },
+   {
+    "entityID": "accidental.24et.western.three-quarters-sharp.stein",
+    "name": "Three-quarter-tones sharp"
+   },
+   {
+    "entityID": "accidental.24et.western.triple-flat.gould",
+    "name": "Triple flat"
+   },
+   {
+    "entityID": "accidental.24et.western.triple-flat.stein",
+    "name": "Triple flat"
+   },
+   {
+    "entityID": "accidental.24et.western.triple-sharp.gould",
+    "name": "Triple sharp"
+   },
+   {
+    "entityID": "accidental.24et.western.triple-sharp.stein",
+    "name": "Triple sharp"
+   },
+   {
+    "entityID": "accidental.53et.aeu.flat.bakiye",
+    "name": "Bakiye flat"
+   },
+   {
+    "entityID": "accidental.53et.aeu.flat.buyuk-mucenneb",
+    "name": "Buyuk mucenneb flat"
+   },
+   {
+    "entityID": "accidental.53et.aeu.flat.fazla",
+    "name": "Fazla flat"
+   },
+   {
+    "entityID": "accidental.53et.aeu.flat.kucuk-mucenneb",
+    "name": "Kucuk mucenneb flat"
+   },
+   {
+    "entityID": "accidental.53et.aeu.flat.tanini",
+    "name": "Tanini flat"
+   },
+   {
+    "entityID": "accidental.53et.aeu.natural",
+    "name": "Natural"
+   },
+   {
+    "entityID": "accidental.53et.aeu.sharp.bakiye",
+    "name": "Bakiye sharp"
+   },
+   {
+    "entityID": "accidental.53et.aeu.sharp.buyuk-mucenneb",
+    "name": "Buyuk mucenneb sharp"
+   },
+   {
+    "entityID": "accidental.53et.aeu.sharp.fazla",
+    "name": "Fazla sharp"
+   },
+   {
+    "entityID": "accidental.53et.aeu.sharp.kucuk-mucenneb",
+    "name": "Kucuk mucenneb sharp"
+   },
+   {
+    "entityID": "accidental.53et.aeu.sharp.tanini",
+    "name": "Tanini sharp"
+   },
+   {
+    "entityID": "accidental.53et.turkish-folk.flat.tanini",
+    "name": "Tanini flat"
+   },
+   {
+    "entityID": "accidental.53et.turkish-folk.flat1",
+    "name": "1 comma flat"
+   },
+   {
+    "entityID": "accidental.53et.turkish-folk.flat2",
+    "name": "2 commas flat"
+   },
+   {
+    "entityID": "accidental.53et.turkish-folk.flat3",
+    "name": "3 commas flat"
+   },
+   {
+    "entityID": "accidental.53et.turkish-folk.flat4",
+    "name": "4 commas flat"
+   },
+   {
+    "entityID": "accidental.53et.turkish-folk.natural",
+    "name": "Natural"
+   },
+   {
+    "entityID": "accidental.53et.turkish-folk.sharp.tanini",
+    "name": "Tanini sharp"
+   },
+   {
+    "entityID": "accidental.53et.turkish-folk.sharp1",
+    "name": "1 comma sharp"
+   },
+   {
+    "entityID": "accidental.53et.turkish-folk.sharp2",
+    "name": "2 commas sharp"
+   },
+   {
+    "entityID": "accidental.53et.turkish-folk.sharp3",
+    "name": "3 commas sharp"
+   },
+   {
+    "entityID": "accidental.53et.turkish-folk.sharp5",
+    "name": "5 commas sharp"
+   }
+  ]
+ }
+]

@@ -1,0 +1,16 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "pageset.fullscore",
+    "name": "Default Full Score"
+   },
+   {
+    "entityID": "pageset.part",
+    "name": "Default Part"
+   }
+  ]
+ }
+]

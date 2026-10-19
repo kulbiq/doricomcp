@@ -1,0 +1,220 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "frettedinstrumentdata.10-course-renaissance-lute-tenor-g-tuning-10-strings-14-frets",
+    "name": "10-course Renaissance lute (tenor), G tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.10-string-hawaiian-guitar-c6-tuning-10-strings-25-frets",
+    "name": "10-string Hawaiian guitar C6 tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.11-course-baroque-lute-d-minor-tuning-11-strings-14-frets",
+    "name": "11-course Baroque lute, D minor tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.12-course-baroque-lute-d-minor-tuning-12-strings-14-frets",
+    "name": "12-course Baroque lute, D minor tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.13-course-baroque-lute-d-minor-tuning-13-strings-14-frets",
+    "name": "13-course Baroque lute, D minor tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.14-course-baroque-theorbo-a-tuning-14-strings-12-frets",
+    "name": "14-course Baroque theorbo, A tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.6-course-renaissance-lute-tenor-g-tuning-6-strings-14-frets",
+    "name": "6-course Renaissance lute (tenor), G tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.6-string-hawaiian-guitar-c6-tuning-6-strings-25-frets",
+    "name": "6-string Hawaiian guitar C6 tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.7-course-renaissance-lute-tenor-g-tuning-7-strings-14-frets",
+    "name": "7-course Renaissance lute (tenor), G tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.8-course-renaissance-lute-tenor-g-tuning-8-strings-14-frets",
+    "name": "8-course Renaissance lute (tenor), G tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.8-string-hawaiian-guitar-high-c6-tuning-8-strings-25-frets",
+    "name": "8-string Hawaiian guitar high C6 tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.adf-tres-tuning-3-strings-17-frets",
+    "name": "ADF# tres tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.alto-domra-3-strings-19-frets",
+    "name": "Alto domra"
+   },
+   {
+    "entityID": "frettedinstrumentdata.basso-domra-3-strings-19-frets",
+    "name": "Basso domra"
+   },
+   {
+    "entityID": "frettedinstrumentdata.daa-dulcimer-tuning-3-strings-14-frets",
+    "name": "DAA dulcimer tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.dad-dulcimer-tuning-3-strings-14-frets",
+    "name": "DAD dulcimer tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.dadgad-guitar-tuning-6-strings-22-frets",
+    "name": "DADGAD guitar tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.dropped-d-guitar-tuning-6-strings-22-frets",
+    "name": "Dropped D guitar tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.gce-tres-tuning-3-strings-17-frets",
+    "name": "GCE tres tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.low-a-7-string-guitar-tuning-7-strings-22-frets",
+    "name": "Low A 7-string guitar tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.mexican-vihuela-tuning-5-strings-12-frets",
+    "name": "Mexican vihuela tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.minor-domra-3-strings-19-frets",
+    "name": "Minor domra"
+   },
+   {
+    "entityID": "frettedinstrumentdata.open-a-guitar-tuning-6-strings-22-frets",
+    "name": "Open A guitar tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.open-d-guitar-tuning-6-strings-22-frets",
+    "name": "Open D guitar tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.open-e-guitar-tuning-6-strings-22-frets",
+    "name": "Open E guitar tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.open-g-guitar-tuning-6-strings-22-frets",
+    "name": "Open G guitar tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.piccolo-domra-3-strings-19-frets",
+    "name": "Piccolo domra"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-4-string-bass-guitar-tuning-4-strings-24-frets",
+    "name": "Standard 4-string bass guitar tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-5-string-bass-guitar-tuning-5-strings-24-frets",
+    "name": "Standard 5-string bass guitar tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-6-string-bass-guitar-tuning-6-strings-24-frets",
+    "name": "Standard 6-string bass guitar tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-alto-balalaika-tuning-3-strings-26-frets",
+    "name": "Standard alto balalaika tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-bandola-tuning-4-strings-21-frets",
+    "name": "Standard bandola tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-bandurria-tuning-6-strings-12-frets",
+    "name": "Standard bandurria tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-banjo-tuning-5-strings-22-frets",
+    "name": "Standard banjo tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-bass-balalaika-tuning-3-strings-26-frets",
+    "name": "Standard bass balalaika tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-bordonua-tuning-5-strings-18-frets",
+    "name": "Standard bordon\u00faa tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-cavaquinho-tuning-4-strings-19-frets",
+    "name": "Standard cavaquinho tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-charango-tuning-5-strings-14-frets",
+    "name": "Standard charango tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-columbian-tiple-tuning-4-strings-18-frets",
+    "name": "Standard Columbian tiple tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-contrabass-balalaika-tuning-3-strings-26-frets",
+    "name": "Standard contrabass balalaika tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-e9-tuning-for-pedal-steel-guitar-10-strings-25-frets",
+    "name": "Standard E9 tuning for pedal steel guitar"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-guitar-tuning-6-strings-22-frets",
+    "name": "Standard guitar tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-guitar-tuning-6-strings-24-frets",
+    "name": "Standard guitar tuning 24 frets"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-guitarra-portuguesa-lisboa-tuning-6-strings-22-frets",
+    "name": "Standard Guitarra Portuguesa, Lisboa tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-mandolin-tuning-4-strings-22-frets",
+    "name": "Standard mandolin tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-prima-balalaika-tuning-3-strings-26-frets",
+    "name": "Standard prima balalaika tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-puerto-rican-cuatro-tuning-5-strings-19-frets",
+    "name": "Standard Puerto Rican cuatro tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-requinto-tuning-6-strings-21-frets",
+    "name": "Standard requinto tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-secunda-balalaika-tuning-3-strings-26-frets",
+    "name": "Standard secunda balalaika tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-tenor-banjo-tuning-4-strings-19-frets",
+    "name": "Standard tenor banjo tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-ukulele-tuning-4-strings-12-frets",
+    "name": "Standard ukulele tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-venezuelan-cuatro-tuning-4-strings-17-frets",
+    "name": "Standard Venezuelan cuatro tuning"
+   },
+   {
+    "entityID": "frettedinstrumentdata.standard-vihuela-tuning-6-strings-12-frets",
+    "name": "Standard vihuela tuning"
+   }
+  ]
+ }
+]

@@ -1,0 +1,116 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "kit-definition.instrument.orchestral.unpitched.percussion.1line",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.agogos",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.bongo.bells",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.bongos",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.cajon",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.congas",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.cowbells",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.cuica",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.drum.set",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.drum.set.basic",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.drums.tenor",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.jam.blocks",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.kempyang.ketuk",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.maracas",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.marching.bass.drums",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.marching.cymbals",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.marching.snare.drums",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.marching.tenor.drums",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.marching.tenor.drums.1spock",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.marching.tenor.drums.2spocks",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.roto.toms",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.tabla",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.temple.blocks",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.timbales",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.toms.floor",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.tomtoms",
+    "name": ""
+   },
+   {
+    "entityID": "kit-definition.kit.wood.blocks",
+    "name": ""
+   }
+  ]
+ }
+]

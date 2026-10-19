@@ -1,0 +1,100 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "percussion-instrument-data.cowbell",
+    "name": "percussion-instrument-data.cowbell"
+   },
+   {
+    "entityID": "percussion-instrument-data.crash-cymbal",
+    "name": "percussion-instrument-data.crash-cymbal"
+   },
+   {
+    "entityID": "percussion-instrument-data.kit.hi-hat",
+    "name": "percussion-instrument-data.kit.hi-hat"
+   },
+   {
+    "entityID": "percussion-instrument-data.kit.hi-hat.pedal",
+    "name": "percussion-instrument-data.kit.hi-hat.pedal"
+   },
+   {
+    "entityID": "percussion-instrument-data.marching-bass-drum",
+    "name": "percussion-instrument-data.marching-bass-drum"
+   },
+   {
+    "entityID": "percussion-instrument-data.marching-bass-drum-ensemble",
+    "name": "percussion-instrument-data.marching-bass-drum-ensemble"
+   },
+   {
+    "entityID": "percussion-instrument-data.marching-bass-drum.natural-rim",
+    "name": "percussion-instrument-data.marching-bass-drum.natural-rim"
+   },
+   {
+    "entityID": "percussion-instrument-data.marching-cymbal",
+    "name": "percussion-instrument-data.marching-cymbal"
+   },
+   {
+    "entityID": "percussion-instrument-data.marching-cymbal.natural-crunch-sizzle",
+    "name": "percussion-instrument-data.marching-cymbal.natural-crunch-sizzle"
+   },
+   {
+    "entityID": "percussion-instrument-data.marching-hi-hat",
+    "name": "percussion-instrument-data.marching-hi-hat"
+   },
+   {
+    "entityID": "percussion-instrument-data.marching-ride-cymbal",
+    "name": "percussion-instrument-data.marching-ride-cymbal"
+   },
+   {
+    "entityID": "percussion-instrument-data.marching-snare-drum-ensemble",
+    "name": "percussion-instrument-data.marching-snare-drum-ensemble"
+   },
+   {
+    "entityID": "percussion-instrument-data.marching-snare-drum-solo",
+    "name": "percussion-instrument-data.marching-snare-drum-solo"
+   },
+   {
+    "entityID": "percussion-instrument-data.marching-snare-drum.rim",
+    "name": "percussion-instrument-data.marching-snare-drum.rim"
+   },
+   {
+    "entityID": "percussion-instrument-data.marching-tenor-drum",
+    "name": "percussion-instrument-data.marching-tenor-drum"
+   },
+   {
+    "entityID": "percussion-instrument-data.marching-tenor-drum.natural-rimshot",
+    "name": "percussion-instrument-data.marching-tenor-drum.natural-rimshot"
+   },
+   {
+    "entityID": "percussion-instrument-data.natural-and-cross",
+    "name": "percussion-instrument-data.natural-and-cross"
+   },
+   {
+    "entityID": "percussion-instrument-data.natural-and-default",
+    "name": "percussion-instrument-data.natural-and-default"
+   },
+   {
+    "entityID": "percussion-instrument-data.slash-with-stems",
+    "name": "percussion-instrument-data.slash-with-stems"
+   },
+   {
+    "entityID": "percussion-instrument-data.slash-without-stems",
+    "name": "percussion-instrument-data.slash-without-stems"
+   },
+   {
+    "entityID": "percussion-instrument-data.snare",
+    "name": "percussion-instrument-data.snare"
+   },
+   {
+    "entityID": "percussion-instrument-data.tabla-larger",
+    "name": "percussion-instrument-data.tabla-larger"
+   },
+   {
+    "entityID": "percussion-instrument-data.tabla-smaller",
+    "name": "percussion-instrument-data.tabla-smaller"
+   }
+  ]
+ }
+]

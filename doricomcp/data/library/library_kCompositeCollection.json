@@ -1,0 +1,7200 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "comp.4stringTabClef",
+    "name": "4-string tab clef"
+   },
+   {
+    "entityID": "comp.57952",
+    "name": "57952"
+   },
+   {
+    "entityID": "comp.57954",
+    "name": "57954"
+   },
+   {
+    "entityID": "comp.57955",
+    "name": "57955"
+   },
+   {
+    "entityID": "comp.57956",
+    "name": "57956"
+   },
+   {
+    "entityID": "comp.59507",
+    "name": "59507"
+   },
+   {
+    "entityID": "comp.6stringTabClef",
+    "name": "6-string tab clef"
+   },
+   {
+    "entityID": "comp.accidental1CommaFlat",
+    "name": "1 comma flat"
+   },
+   {
+    "entityID": "comp.accidental1CommaSharp",
+    "name": "1 comma sharp"
+   },
+   {
+    "entityID": "comp.accidental2CommaFlat",
+    "name": "2 commas flat"
+   },
+   {
+    "entityID": "comp.accidental2CommaSharp",
+    "name": "2 commas sharp"
+   },
+   {
+    "entityID": "comp.accidental3CommaFlat",
+    "name": "3 commas flat"
+   },
+   {
+    "entityID": "comp.accidental3CommaSharp",
+    "name": "3 commas sharp"
+   },
+   {
+    "entityID": "comp.accidental4CommaFlat",
+    "name": "4 commas flat"
+   },
+   {
+    "entityID": "comp.accidental5CommaSharp",
+    "name": "5 commas sharp"
+   },
+   {
+    "entityID": "comp.accidentalArrowDown",
+    "name": "Arrow down (lower by one quarter-tone)"
+   },
+   {
+    "entityID": "comp.accidentalArrowUp",
+    "name": "Arrow up (raise by one quarter-tone)"
+   },
+   {
+    "entityID": "comp.accidentalBakiyeFlat",
+    "name": "Bakiye (flat)"
+   },
+   {
+    "entityID": "comp.accidentalBakiyeSharp",
+    "name": "Bakiye (sharp)"
+   },
+   {
+    "entityID": "comp.accidentalBracketLeft",
+    "name": "Accidental bracket, left"
+   },
+   {
+    "entityID": "comp.accidentalBracketRight",
+    "name": "Accidental bracket, right"
+   },
+   {
+    "entityID": "comp.accidentalBuyukMucennebFlat",
+    "name": "B\u00fcy\u00fck m\u00fccenneb (flat)"
+   },
+   {
+    "entityID": "comp.accidentalBuyukMucennebSharp",
+    "name": "B\u00fcy\u00fck m\u00fccenneb (sharp)"
+   },
+   {
+    "entityID": "comp.accidentalDoubleFlat",
+    "name": "Double flat"
+   },
+   {
+    "entityID": "comp.accidentalDoubleFlatArrowDown",
+    "name": "Double flat with arrow down"
+   },
+   {
+    "entityID": "comp.accidentalDoubleFlatArrowUp",
+    "name": "Double flat with arrow up"
+   },
+   {
+    "entityID": "comp.accidentalDoubleSharp",
+    "name": "Double sharp"
+   },
+   {
+    "entityID": "comp.accidentalDoubleSharpArrowDown",
+    "name": "Double sharp with arrow down"
+   },
+   {
+    "entityID": "comp.accidentalDoubleSharpArrowUp",
+    "name": "Double sharp with arrow up"
+   },
+   {
+    "entityID": "comp.accidentalFlat",
+    "name": "Flat"
+   },
+   {
+    "entityID": "comp.accidentalFlatForText",
+    "name": "Flat (for text)"
+   },
+   {
+    "entityID": "comp.accidentalKomaFlat",
+    "name": "Koma (flat)"
+   },
+   {
+    "entityID": "comp.accidentalKomaSharp",
+    "name": "Koma (sharp)"
+   },
+   {
+    "entityID": "comp.accidentalKoron",
+    "name": "Koron (quarter tone flat)"
+   },
+   {
+    "entityID": "comp.accidentalKucukMucennebFlat",
+    "name": "K\u00fc\u00e7\u00fck m\u00fccenneb (flat)"
+   },
+   {
+    "entityID": "comp.accidentalKucukMucennebSharp",
+    "name": "K\u00fc\u00e7\u00fck m\u00fccenneb (sharp)"
+   },
+   {
+    "entityID": "comp.accidentalNatural",
+    "name": "Natural"
+   },
+   {
+    "entityID": "comp.accidentalParensLeft",
+    "name": "Accidental parenthesis, left"
+   },
+   {
+    "entityID": "comp.accidentalParensRight",
+    "name": "Accidental parenthesis, right"
+   },
+   {
+    "entityID": "comp.accidentalQuarterToneFlat4",
+    "name": "Quarter-tone flat"
+   },
+   {
+    "entityID": "comp.accidentalQuarterToneFlatArrowUp",
+    "name": "Quarter-tone flat"
+   },
+   {
+    "entityID": "comp.accidentalQuarterToneFlatNaturalArrowDown",
+    "name": "Quarter-tone flat"
+   },
+   {
+    "entityID": "comp.accidentalQuarterToneSharp4",
+    "name": "Quarter-tone sharp"
+   },
+   {
+    "entityID": "comp.accidentalQuarterToneSharpArrowDown",
+    "name": "Quarter-tone sharp"
+   },
+   {
+    "entityID": "comp.accidentalQuarterToneSharpNaturalArrowUp",
+    "name": "Quarter-tone sharp"
+   },
+   {
+    "entityID": "comp.accidentalSharp",
+    "name": "Sharp"
+   },
+   {
+    "entityID": "comp.accidentalSharpForText",
+    "name": "Sharp (for text)"
+   },
+   {
+    "entityID": "comp.accidentalSori",
+    "name": "Sori (quarter tone sharp)"
+   },
+   {
+    "entityID": "comp.accidentalThreeQuarterTonesFlatArrowDown",
+    "name": "Three-quarter-tones flat"
+   },
+   {
+    "entityID": "comp.accidentalThreeQuartersFlat2",
+    "name": "Three-quarter-tones flat 2"
+   },
+   {
+    "entityID": "comp.accidentalThreeQuartersSharp2",
+    "name": "Three-quarter-tones sharp 2"
+   },
+   {
+    "entityID": "comp.accidentalThreeQuartersSharpArrowUp",
+    "name": "Three-quarter-tones sharp with arrow up"
+   },
+   {
+    "entityID": "comp.accidentalTripleFlat",
+    "name": "Triple flat"
+   },
+   {
+    "entityID": "comp.accidentalTripleSharp",
+    "name": "Triple sharp"
+   },
+   {
+    "entityID": "comp.arrowBlackLeft",
+    "name": "Arrow left black"
+   },
+   {
+    "entityID": "comp.arrowBlackRight",
+    "name": "Arrow right black"
+   },
+   {
+    "entityID": "comp.articAccentAbove",
+    "name": "Accent above"
+   },
+   {
+    "entityID": "comp.articAccentBelow",
+    "name": "Accent below"
+   },
+   {
+    "entityID": "comp.articMarcatoAbove",
+    "name": "Marcato above"
+   },
+   {
+    "entityID": "comp.articMarcatoBelow",
+    "name": "Marcato below"
+   },
+   {
+    "entityID": "comp.articStaccatissimoAbove",
+    "name": "Staccatissimo above"
+   },
+   {
+    "entityID": "comp.articStaccatissimoBelow",
+    "name": "Staccatissimo below"
+   },
+   {
+    "entityID": "comp.articStaccatissimoStrokeAbove",
+    "name": "Staccatissimo stroke above"
+   },
+   {
+    "entityID": "comp.articStaccatissimoStrokeBelow",
+    "name": "Staccatissimo stroke below"
+   },
+   {
+    "entityID": "comp.articStaccatissimoWedgeAbove",
+    "name": "Staccatissimo wedge above"
+   },
+   {
+    "entityID": "comp.articStaccatissimoWedgeBelow",
+    "name": "Staccatissimo wedge below"
+   },
+   {
+    "entityID": "comp.articStaccatoAbove",
+    "name": "Staccato above"
+   },
+   {
+    "entityID": "comp.articStaccatoBelow",
+    "name": "Staccato below"
+   },
+   {
+    "entityID": "comp.articStressAbove",
+    "name": "Stress above"
+   },
+   {
+    "entityID": "comp.articStressBelow",
+    "name": "Stress below"
+   },
+   {
+    "entityID": "comp.articTenutoAbove",
+    "name": "Tenuto above"
+   },
+   {
+    "entityID": "comp.articTenutoBelow",
+    "name": "Tenuto below"
+   },
+   {
+    "entityID": "comp.articUnstressAbove",
+    "name": "Unstress above"
+   },
+   {
+    "entityID": "comp.articUnstressBelow",
+    "name": "Unstress below"
+   },
+   {
+    "entityID": "comp.artificialHarmonicTab",
+    "name": "Artificial Harmonic (Tab)"
+   },
+   {
+    "entityID": "comp.augmentationDot",
+    "name": "Augmentation dot"
+   },
+   {
+    "entityID": "comp.barRepeat0",
+    "name": "Bar count 0"
+   },
+   {
+    "entityID": "comp.barRepeat1",
+    "name": "Bar count 1"
+   },
+   {
+    "entityID": "comp.barRepeat2",
+    "name": "Bar count 2"
+   },
+   {
+    "entityID": "comp.barRepeat3",
+    "name": "Bar count 3"
+   },
+   {
+    "entityID": "comp.barRepeat4",
+    "name": "Bar count 4"
+   },
+   {
+    "entityID": "comp.barRepeat5",
+    "name": "Bar count 5"
+   },
+   {
+    "entityID": "comp.barRepeat6",
+    "name": "Bar count 6"
+   },
+   {
+    "entityID": "comp.barRepeat7",
+    "name": "Bar count 7"
+   },
+   {
+    "entityID": "comp.barRepeat8",
+    "name": "Bar count 8"
+   },
+   {
+    "entityID": "comp.barRepeat9",
+    "name": "Bar count 9"
+   },
+   {
+    "entityID": "comp.bass.slash",
+    "name": "bass.slash"
+   },
+   {
+    "entityID": "comp.bass.slashdiagonal",
+    "name": "bass.slashdiagonal"
+   },
+   {
+    "entityID": "comp.bass.slashfraction",
+    "name": "bass.slashfraction"
+   },
+   {
+    "entityID": "comp.beamAccelRit1",
+    "name": "Accel./rit. beam 1 (widest)"
+   },
+   {
+    "entityID": "comp.beamAccelRit10",
+    "name": "Accel./rit. beam 10"
+   },
+   {
+    "entityID": "comp.beamAccelRit11",
+    "name": "Accel./rit. beam 11"
+   },
+   {
+    "entityID": "comp.beamAccelRit12",
+    "name": "Accel./rit. beam 12"
+   },
+   {
+    "entityID": "comp.beamAccelRit13",
+    "name": "Accel./rit. beam 13"
+   },
+   {
+    "entityID": "comp.beamAccelRit14",
+    "name": "Accel./rit. beam 14"
+   },
+   {
+    "entityID": "comp.beamAccelRit15",
+    "name": "Accel./rit. beam 15"
+   },
+   {
+    "entityID": "comp.beamAccelRit2",
+    "name": "Accel./rit. beam 2"
+   },
+   {
+    "entityID": "comp.beamAccelRit3",
+    "name": "Accel./rit. beam 3"
+   },
+   {
+    "entityID": "comp.beamAccelRit4",
+    "name": "Accel./rit. beam 4"
+   },
+   {
+    "entityID": "comp.beamAccelRit5",
+    "name": "Accel./rit. beam 5"
+   },
+   {
+    "entityID": "comp.beamAccelRit6",
+    "name": "Accel./rit. beam 6"
+   },
+   {
+    "entityID": "comp.beamAccelRit7",
+    "name": "Accel./rit. beam 7"
+   },
+   {
+    "entityID": "comp.beamAccelRit8",
+    "name": "Accel./rit. beam 8"
+   },
+   {
+    "entityID": "comp.beamAccelRit9",
+    "name": "Accel./rit. beam 9"
+   },
+   {
+    "entityID": "comp.beamAccelRitFinal",
+    "name": "Accel./rit. beam terminating line"
+   },
+   {
+    "entityID": "comp.brace",
+    "name": "Brace"
+   },
+   {
+    "entityID": "comp.braceflat",
+    "name": "Flat brace"
+   },
+   {
+    "entityID": "comp.bracelarge",
+    "name": "Large brace"
+   },
+   {
+    "entityID": "comp.bracelarger",
+    "name": "Larger brace"
+   },
+   {
+    "entityID": "comp.bracesmall",
+    "name": "Small brace"
+   },
+   {
+    "entityID": "comp.bracketBottom",
+    "name": "Bracket bottom"
+   },
+   {
+    "entityID": "comp.bracketTop",
+    "name": "Bracket top"
+   },
+   {
+    "entityID": "comp.brassBend",
+    "name": "Bend"
+   },
+   {
+    "entityID": "comp.brassDoitLong",
+    "name": "Doit (long)"
+   },
+   {
+    "entityID": "comp.brassDoitMedium",
+    "name": "Doit (medium)"
+   },
+   {
+    "entityID": "comp.brassDoitShort",
+    "name": "Doit (short)"
+   },
+   {
+    "entityID": "comp.brassFallLipLong",
+    "name": "Lip fall (long)"
+   },
+   {
+    "entityID": "comp.brassFallLipMedium",
+    "name": "Lip fall (medium)"
+   },
+   {
+    "entityID": "comp.brassFallLipShort",
+    "name": "Lip fall (short)"
+   },
+   {
+    "entityID": "comp.brassFlip",
+    "name": "Flip"
+   },
+   {
+    "entityID": "comp.brassHalfMute",
+    "name": "Brass half-mute"
+   },
+   {
+    "entityID": "comp.brassHarmonMuteStemIn",
+    "name": "Brass harmon mute stem in"
+   },
+   {
+    "entityID": "comp.brassHarmonMuteStemLeft",
+    "name": "Brass harmon mute stem left"
+   },
+   {
+    "entityID": "comp.brassHarmonMuteStemOut",
+    "name": "Brass harmon mute stem out"
+   },
+   {
+    "entityID": "comp.brassHarmonMuteStemRight",
+    "name": "Brass harmon mute stem right"
+   },
+   {
+    "entityID": "comp.brassJazzTurn",
+    "name": "Jazz turn"
+   },
+   {
+    "entityID": "comp.brassMute",
+    "name": "Brass mute"
+   },
+   {
+    "entityID": "comp.brassOpen",
+    "name": "Brass open"
+   },
+   {
+    "entityID": "comp.brassPlop",
+    "name": "Plop"
+   },
+   {
+    "entityID": "comp.brassScoop",
+    "name": "Scoop"
+   },
+   {
+    "entityID": "comp.brassSmear",
+    "name": "Smear"
+   },
+   {
+    "entityID": "comp.brassStoppedPlus",
+    "name": "Brass stopped"
+   },
+   {
+    "entityID": "comp.breathMarkComma",
+    "name": "Breath mark (comma)"
+   },
+   {
+    "entityID": "comp.breathMarkSalzedo",
+    "name": "Breath mark (Salzedo)"
+   },
+   {
+    "entityID": "comp.breathMarkTick",
+    "name": "Breath mark (tick-like)"
+   },
+   {
+    "entityID": "comp.breathMarkUpbow",
+    "name": "Breath mark (upbow-like)"
+   },
+   {
+    "entityID": "comp.buzzRoll",
+    "name": "Buzz roll"
+   },
+   {
+    "entityID": "comp.cClef",
+    "name": "C clef"
+   },
+   {
+    "entityID": "comp.cClef8ba",
+    "name": "C clef ottava bassa"
+   },
+   {
+    "entityID": "comp.cClefSmall",
+    "name": "C clef (small)"
+   },
+   {
+    "entityID": "comp.caesura",
+    "name": "Caesura"
+   },
+   {
+    "entityID": "comp.caesuraCurved",
+    "name": "Curved caesura"
+   },
+   {
+    "entityID": "comp.caesuraShort",
+    "name": "Short caesura"
+   },
+   {
+    "entityID": "comp.caesuraSingleStroke",
+    "name": "Single-stroke caesura"
+   },
+   {
+    "entityID": "comp.caesuraThick",
+    "name": "Thick caesura"
+   },
+   {
+    "entityID": "comp.codePoint",
+    "name": "Code point"
+   },
+   {
+    "entityID": "comp.csac.6.smufl.glyph.slash.diagonal.9",
+    "name": "6.slash.diagonal.9"
+   },
+   {
+    "entityID": "comp.csac.6.smufl.glyph.slash.stacked.9",
+    "name": "6.slash.stacked.9"
+   },
+   {
+    "entityID": "comp.csac.6.stacked.9",
+    "name": "6.stacked.9"
+   },
+   {
+    "entityID": "comp.csac.9.smufl.glyph.slash.stacked.6",
+    "name": "9.slash.stacked.6"
+   },
+   {
+    "entityID": "comp.csac.9.stacked.6",
+    "name": "9.stacked.6"
+   },
+   {
+    "entityID": "comp.csac.accidental.kDoubleFlat.eses",
+    "name": "eses"
+   },
+   {
+    "entityID": "comp.csac.accidental.kDoubleFlat.ses",
+    "name": "ses"
+   },
+   {
+    "entityID": "comp.csac.accidental.kDoubleSharp.isis",
+    "name": "isis"
+   },
+   {
+    "entityID": "comp.csac.accidental.kFlat.es",
+    "name": "es"
+   },
+   {
+    "entityID": "comp.csac.accidental.kFlat.s",
+    "name": "s"
+   },
+   {
+    "entityID": "comp.csac.accidental.kSharp.is",
+    "name": "is"
+   },
+   {
+    "entityID": "comp.csac.accidental.kTripleFlat.eseses",
+    "name": "eseses"
+   },
+   {
+    "entityID": "comp.csac.accidental.kTripleFlat.seses",
+    "name": "seses"
+   },
+   {
+    "entityID": "comp.csac.accidental.kTripleSharp.isisis",
+    "name": "isisis"
+   },
+   {
+    "entityID": "comp.csac.alteration.10",
+    "name": "10"
+   },
+   {
+    "entityID": "comp.csac.alteration.11",
+    "name": "11"
+   },
+   {
+    "entityID": "comp.csac.alteration.13",
+    "name": "13"
+   },
+   {
+    "entityID": "comp.csac.alteration.2",
+    "name": "2"
+   },
+   {
+    "entityID": "comp.csac.alteration.3",
+    "name": "3"
+   },
+   {
+    "entityID": "comp.csac.alteration.4",
+    "name": "4"
+   },
+   {
+    "entityID": "comp.csac.alteration.5",
+    "name": "5"
+   },
+   {
+    "entityID": "comp.csac.alteration.6",
+    "name": "6"
+   },
+   {
+    "entityID": "comp.csac.alteration.7",
+    "name": "7"
+   },
+   {
+    "entityID": "comp.csac.alteration.9",
+    "name": "9"
+   },
+   {
+    "entityID": "comp.csac.alteration.ADD.kUpperCase",
+    "name": "ADD"
+   },
+   {
+    "entityID": "comp.csac.alteration.NO.kUpperCase.kNo",
+    "name": "NO"
+   },
+   {
+    "entityID": "comp.csac.alteration.OMIT.kUpperCase.kOmit",
+    "name": "OMIT"
+   },
+   {
+    "entityID": "comp.csac.alteration.SUS.kUpperCase",
+    "name": "SUS"
+   },
+   {
+    "entityID": "comp.csac.alteration.add.kLowerCase",
+    "name": "add"
+   },
+   {
+    "entityID": "comp.csac.alteration.comma",
+    "name": ","
+   },
+   {
+    "entityID": "comp.csac.alteration.no.kLowerCase.kNo",
+    "name": "no"
+   },
+   {
+    "entityID": "comp.csac.alteration.omit.kLowerCase.kOmit",
+    "name": "omit"
+   },
+   {
+    "entityID": "comp.csac.alteration.sus.kLowerCase",
+    "name": "sus"
+   },
+   {
+    "entityID": "comp.csac.alteredchord.kALT",
+    "name": "ALT"
+   },
+   {
+    "entityID": "comp.csac.alteredchord.kALT.parenthesised",
+    "name": "(ALT)"
+   },
+   {
+    "entityID": "comp.csac.alteredchord.kALTDot",
+    "name": "ALT."
+   },
+   {
+    "entityID": "comp.csac.alteredchord.kALTDot.parenthesised",
+    "name": "(ALT.)"
+   },
+   {
+    "entityID": "comp.csac.alteredchord.kAlt",
+    "name": "Alt"
+   },
+   {
+    "entityID": "comp.csac.alteredchord.kAlt.parenthesised",
+    "name": "(Alt)"
+   },
+   {
+    "entityID": "comp.csac.alteredchord.kAltDot",
+    "name": "Alt."
+   },
+   {
+    "entityID": "comp.csac.alteredchord.kAltDot.parenthesised",
+    "name": "(Alt.)"
+   },
+   {
+    "entityID": "comp.csac.alteredchord.kAltLowerCase",
+    "name": "alt"
+   },
+   {
+    "entityID": "comp.csac.alteredchord.kAltLowerCase.parenthesised",
+    "name": "(alt)"
+   },
+   {
+    "entityID": "comp.csac.alteredchord.kAltLowerCaseDot",
+    "name": "alt."
+   },
+   {
+    "entityID": "comp.csac.alteredchord.kAltLowerCaseDot.parenthesised",
+    "name": "(alt.)"
+   },
+   {
+    "entityID": "comp.csac.bass.on",
+    "name": "on"
+   },
+   {
+    "entityID": "comp.csac.interval.k11",
+    "name": "11"
+   },
+   {
+    "entityID": "comp.csac.interval.k13",
+    "name": "13"
+   },
+   {
+    "entityID": "comp.csac.interval.k6",
+    "name": "6"
+   },
+   {
+    "entityID": "comp.csac.interval.k7",
+    "name": "7"
+   },
+   {
+    "entityID": "comp.csac.interval.k9",
+    "name": "9"
+   },
+   {
+    "entityID": "comp.csac.interval.kMaj7.kLowerCaseMaj7",
+    "name": "maj"
+   },
+   {
+    "entityID": "comp.csac.interval.kMaj7.kSentenceCaseMaj7",
+    "name": "Maj"
+   },
+   {
+    "entityID": "comp.csac.interval.kMaj7.kUpperCaseM7",
+    "name": "M"
+   },
+   {
+    "entityID": "comp.csac.interval.kMaj7.kUpperCaseMA7",
+    "name": "MA"
+   },
+   {
+    "entityID": "comp.csac.kAlterations.parenthesis.closed",
+    "name": ")"
+   },
+   {
+    "entityID": "comp.csac.kAlterations.parenthesis.open",
+    "name": "("
+   },
+   {
+    "entityID": "comp.csac.kInterval.parenthesis.closed",
+    "name": ")"
+   },
+   {
+    "entityID": "comp.csac.kInterval.parenthesis.open",
+    "name": "("
+   },
+   {
+    "entityID": "comp.csac.kParentheses.parenthesis.closed",
+    "name": ")"
+   },
+   {
+    "entityID": "comp.csac.kParentheses.parenthesis.open",
+    "name": "("
+   },
+   {
+    "entityID": "comp.csac.linear6.smufl.glyph.slash.linear.linear9",
+    "name": "linear6.slash.linear.9"
+   },
+   {
+    "entityID": "comp.csac.nochord.nc",
+    "name": "N.C."
+   },
+   {
+    "entityID": "comp.csac.openParenthesis.smufl.glyph.quality.augmented.kSharpSymbolWith5.5closedParenthesis",
+    "name": "openParenthesis.quality.augmented.kSharpSymbolWith5.5)"
+   },
+   {
+    "entityID": "comp.csac.openParenthesis.smufl.glyph.quality.augmented.kSharpSymbolWith5.small.5closedParenthesis",
+    "name": "openParenthesis.quality.augmented.kSharpSymbolWith5.small.5)"
+   },
+   {
+    "entityID": "comp.csac.quality.5.k5",
+    "name": "5"
+   },
+   {
+    "entityID": "comp.csac.quality.augmented.kAug.kLowerCase",
+    "name": "aug"
+   },
+   {
+    "entityID": "comp.csac.quality.augmented.kAug.kUpperCase",
+    "name": "AUG"
+   },
+   {
+    "entityID": "comp.csac.quality.dim.kLowerCaseDim",
+    "name": "dim"
+   },
+   {
+    "entityID": "comp.csac.quality.dim.kLowerCaseDimWithDot",
+    "name": "dim."
+   },
+   {
+    "entityID": "comp.csac.quality.dim7.kLowerCaseDimWithDotWithout7",
+    "name": "dim."
+   },
+   {
+    "entityID": "comp.csac.quality.dim7.kLowerCaseDimWithout7",
+    "name": "dim"
+   },
+   {
+    "entityID": "comp.csac.quality.major.kLowerCaseMa",
+    "name": "ma"
+   },
+   {
+    "entityID": "comp.csac.quality.major.kLowerCaseMaj",
+    "name": "maj"
+   },
+   {
+    "entityID": "comp.csac.quality.major.kUpperCaseM",
+    "name": "M"
+   },
+   {
+    "entityID": "comp.csac.quality.minor.kLowerCaseM",
+    "name": "m"
+   },
+   {
+    "entityID": "comp.csac.quality.minor.kLowerCaseMi",
+    "name": "mi"
+   },
+   {
+    "entityID": "comp.csac.quality.minor.kLowerCaseMin",
+    "name": "min"
+   },
+   {
+    "entityID": "comp.csac.quality.minor.kUpperCaseMi",
+    "name": "MI"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kAeolian.kLowerCase",
+    "name": "aeol"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kAeolian.kLowerCase.dot",
+    "name": "aeol."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kAeolian.kTitleCase",
+    "name": "Aeol"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kAeolian.kTitleCase.dot",
+    "name": "Aeol."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kDiminishedHalfWhole.kLowerCase",
+    "name": "dim H/W"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kDiminishedHalfWhole.kLowerCase.dot",
+    "name": "dim. H/W"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kDiminishedHalfWhole.kTitleCase",
+    "name": "Dim H/W"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kDiminishedHalfWhole.kTitleCase.dot",
+    "name": "Dim. H/W"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kDiminishedWholeHalf.kLowerCase",
+    "name": "dim W/H"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kDiminishedWholeHalf.kLowerCase.dot",
+    "name": "dim. W/H"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kDiminishedWholeHalf.kTitleCase",
+    "name": "Dim W/H"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kDiminishedWholeHalf.kTitleCase.dot",
+    "name": "Dim. W/H"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kDorian.kLowerCase",
+    "name": "dor"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kDorian.kLowerCase.dot",
+    "name": "dor."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kDorian.kTitleCase",
+    "name": "Dor"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kDorian.kTitleCase.dot",
+    "name": "Dor."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kHarmonicMinor.kLowerCase",
+    "name": "harm min"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kHarmonicMinor.kLowerCase.dot",
+    "name": "harm. min."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kHarmonicMinor.kTitleCase",
+    "name": "Harm Min"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kHarmonicMinor.kTitleCase.dot",
+    "name": "Harm. Min."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kIonian.kLowerCase",
+    "name": "ion"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kIonian.kLowerCase.dot",
+    "name": "ion."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kIonian.kTitleCase",
+    "name": "Ion"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kIonian.kTitleCase.dot",
+    "name": "Ion."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kLocrian.kLowerCase",
+    "name": "loc"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kLocrian.kLowerCase.dot",
+    "name": "loc."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kLocrian.kTitleCase",
+    "name": "Loc"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kLocrian.kTitleCase.dot",
+    "name": "Loc."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kLydian.kLowerCase",
+    "name": "lyd"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kLydian.kLowerCase.dot",
+    "name": "lyd."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kLydian.kTitleCase",
+    "name": "Lyd"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kLydian.kTitleCase.dot",
+    "name": "Lyd."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kMelodicMinor.kLowerCase",
+    "name": "mel min"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kMelodicMinor.kLowerCase.dot",
+    "name": "mel. min."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kMelodicMinor.kTitleCase",
+    "name": "Mel Min"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kMelodicMinor.kTitleCase.dot",
+    "name": "Mel. Min."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kMixolydian.kLowerCase",
+    "name": "mixo"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kMixolydian.kLowerCase.dot",
+    "name": "mixo."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kMixolydian.kTitleCase",
+    "name": "Mixo"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kMixolydian.kTitleCase.dot",
+    "name": "Mixo."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kPhrygian.kLowerCase",
+    "name": "phryg"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kPhrygian.kLowerCase.dot",
+    "name": "phryg."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kPhrygian.kTitleCase",
+    "name": "Phryg"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kPhrygian.kTitleCase.dot",
+    "name": "Phryg."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kWholeTone.kLowerCase",
+    "name": "wt"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kWholeTone.kLowerCase.dot",
+    "name": "w.t."
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kWholeTone.kTitleCase",
+    "name": "WT"
+   },
+   {
+    "entityID": "comp.csac.quality.modal.kWholeTone.kTitleCase.dot",
+    "name": "W.T."
+   },
+   {
+    "entityID": "comp.csac.quality.pedalonly.kPed",
+    "name": "ped"
+   },
+   {
+    "entityID": "comp.csac.quality.pedalonly.kPedDot",
+    "name": "ped."
+   },
+   {
+    "entityID": "comp.csac.quality.pedalonly.kPedal",
+    "name": "pedal"
+   },
+   {
+    "entityID": "comp.csac.quality.rootonly.kBass",
+    "name": "bass"
+   },
+   {
+    "entityID": "comp.csac.quality.rootonly.kOnly",
+    "name": "only"
+   },
+   {
+    "entityID": "comp.csac.root.kNashville.1",
+    "name": "1"
+   },
+   {
+    "entityID": "comp.csac.root.kNashville.2",
+    "name": "2"
+   },
+   {
+    "entityID": "comp.csac.root.kNashville.3",
+    "name": "3"
+   },
+   {
+    "entityID": "comp.csac.root.kNashville.4",
+    "name": "4"
+   },
+   {
+    "entityID": "comp.csac.root.kNashville.5",
+    "name": "5"
+   },
+   {
+    "entityID": "comp.csac.root.kNashville.6",
+    "name": "6"
+   },
+   {
+    "entityID": "comp.csac.root.kNashville.7",
+    "name": "7"
+   },
+   {
+    "entityID": "comp.csac.root.kSolfeggio.A.La",
+    "name": "La"
+   },
+   {
+    "entityID": "comp.csac.root.kSolfeggio.B.Si",
+    "name": "Si"
+   },
+   {
+    "entityID": "comp.csac.root.kSolfeggio.B.Ti",
+    "name": "Ti"
+   },
+   {
+    "entityID": "comp.csac.root.kSolfeggio.C.Do",
+    "name": "Do"
+   },
+   {
+    "entityID": "comp.csac.root.kSolfeggio.C.Ut",
+    "name": "Ut"
+   },
+   {
+    "entityID": "comp.csac.root.kSolfeggio.D.ReWithAcuteAccent",
+    "name": "R\u00e9"
+   },
+   {
+    "entityID": "comp.csac.root.kSolfeggio.D.ReWithoutAcuteAccent",
+    "name": "Re"
+   },
+   {
+    "entityID": "comp.csac.root.kSolfeggio.E.Mi",
+    "name": "Mi"
+   },
+   {
+    "entityID": "comp.csac.root.kSolfeggio.F.Fa",
+    "name": "Fa"
+   },
+   {
+    "entityID": "comp.csac.root.kSolfeggio.G.So",
+    "name": "So"
+   },
+   {
+    "entityID": "comp.csac.root.kSolfeggio.G.Sol",
+    "name": "Sol"
+   },
+   {
+    "entityID": "comp.csac.root.kStandard.A",
+    "name": "A"
+   },
+   {
+    "entityID": "comp.csac.root.kStandard.B",
+    "name": "B"
+   },
+   {
+    "entityID": "comp.csac.root.kStandard.C",
+    "name": "C"
+   },
+   {
+    "entityID": "comp.csac.root.kStandard.D",
+    "name": "D"
+   },
+   {
+    "entityID": "comp.csac.root.kStandard.E",
+    "name": "E"
+   },
+   {
+    "entityID": "comp.csac.root.kStandard.F",
+    "name": "F"
+   },
+   {
+    "entityID": "comp.csac.root.kStandard.G",
+    "name": "G"
+   },
+   {
+    "entityID": "comp.csac.root.kStandard.H",
+    "name": "H"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.10",
+    "name": "smufl.glyph.alteration.prefix.flat10"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.13",
+    "name": "smufl.glyph.alteration.prefix.flat13"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.5",
+    "name": "smufl.glyph.alteration.prefix.flat5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.6",
+    "name": "smufl.glyph.alteration.prefix.flat6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.9",
+    "name": "smufl.glyph.alteration.prefix.flat9"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.accAfterInterval.10",
+    "name": "smufl.glyph.alteration.prefix.flat.accAfterInterval10"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.accAfterInterval.13",
+    "name": "smufl.glyph.alteration.prefix.flat.accAfterInterval13"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.flat.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.accAfterInterval.6",
+    "name": "smufl.glyph.alteration.prefix.flat.accAfterInterval6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.accAfterInterval.9",
+    "name": "smufl.glyph.alteration.prefix.flat.accAfterInterval9"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.modal.2",
+    "name": "smufl.glyph.alteration.prefix.flat.modal2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.modal.3",
+    "name": "smufl.glyph.alteration.prefix.flat.modal3"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.modal.5",
+    "name": "smufl.glyph.alteration.prefix.flat.modal5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.modal.6",
+    "name": "smufl.glyph.alteration.prefix.flat.modal6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.modal.7",
+    "name": "smufl.glyph.alteration.prefix.flat.modal7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.modal.accAfterInterval.2",
+    "name": "smufl.glyph.alteration.prefix.flat.modal.accAfterInterval2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.modal.accAfterInterval.3",
+    "name": "smufl.glyph.alteration.prefix.flat.modal.accAfterInterval3"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.modal.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.flat.modal.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.modal.accAfterInterval.6",
+    "name": "smufl.glyph.alteration.prefix.flat.modal.accAfterInterval6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flat.modal.accAfterInterval.7",
+    "name": "smufl.glyph.alteration.prefix.flat.modal.accAfterInterval7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.10",
+    "name": "smufl.glyph.alteration.prefix.flatminus10"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.13",
+    "name": "smufl.glyph.alteration.prefix.flatminus13"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.5",
+    "name": "smufl.glyph.alteration.prefix.flatminus5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.6",
+    "name": "smufl.glyph.alteration.prefix.flatminus6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.9",
+    "name": "smufl.glyph.alteration.prefix.flatminus9"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.accAfterInterval.10",
+    "name": "smufl.glyph.alteration.prefix.flatminus.accAfterInterval10"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.accAfterInterval.13",
+    "name": "smufl.glyph.alteration.prefix.flatminus.accAfterInterval13"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.flatminus.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.accAfterInterval.6",
+    "name": "smufl.glyph.alteration.prefix.flatminus.accAfterInterval6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.accAfterInterval.9",
+    "name": "smufl.glyph.alteration.prefix.flatminus.accAfterInterval9"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.modal.2",
+    "name": "smufl.glyph.alteration.prefix.flatminus.modal2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.modal.3",
+    "name": "smufl.glyph.alteration.prefix.flatminus.modal3"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.modal.5",
+    "name": "smufl.glyph.alteration.prefix.flatminus.modal5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.modal.6",
+    "name": "smufl.glyph.alteration.prefix.flatminus.modal6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.modal.7",
+    "name": "smufl.glyph.alteration.prefix.flatminus.modal7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.modal.accAfterInterval.2",
+    "name": "smufl.glyph.alteration.prefix.flatminus.modal.accAfterInterval2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.modal.accAfterInterval.3",
+    "name": "smufl.glyph.alteration.prefix.flatminus.modal.accAfterInterval3"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.modal.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.flatminus.modal.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.modal.accAfterInterval.6",
+    "name": "smufl.glyph.alteration.prefix.flatminus.modal.accAfterInterval6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminus.modal.accAfterInterval.7",
+    "name": "smufl.glyph.alteration.prefix.flatminus.modal.accAfterInterval7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.10",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall10"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.13",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall13"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.5",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.6",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.9",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall9"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.accAfterInterval.10",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.accAfterInterval10"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.accAfterInterval.13",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.accAfterInterval13"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.accAfterInterval.6",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.accAfterInterval6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.accAfterInterval.9",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.accAfterInterval9"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.modal.2",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.modal2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.modal.3",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.modal3"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.modal.5",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.modal5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.modal.6",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.modal6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.modal.7",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.modal7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.modal.accAfterInterval.2",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.modal.accAfterInterval2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.modal.accAfterInterval.3",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.modal.accAfterInterval3"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.modal.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.modal.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.modal.accAfterInterval.6",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.modal.accAfterInterval6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatminussmall.modal.accAfterInterval.7",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.modal.accAfterInterval7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.10",
+    "name": "smufl.glyph.alteration.prefix.flatsmall10"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.13",
+    "name": "smufl.glyph.alteration.prefix.flatsmall13"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.5",
+    "name": "smufl.glyph.alteration.prefix.flatsmall5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.6",
+    "name": "smufl.glyph.alteration.prefix.flatsmall6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.9",
+    "name": "smufl.glyph.alteration.prefix.flatsmall9"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.accAfterInterval.10",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.accAfterInterval10"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.accAfterInterval.13",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.accAfterInterval13"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.accAfterInterval.6",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.accAfterInterval6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.accAfterInterval.9",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.accAfterInterval9"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.modal.2",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.modal2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.modal.3",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.modal3"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.modal.5",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.modal5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.modal.6",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.modal6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.modal.7",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.modal7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.modal.accAfterInterval.2",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.modal.accAfterInterval2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.modal.accAfterInterval.3",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.modal.accAfterInterval3"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.modal.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.modal.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.modal.accAfterInterval.6",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.modal.accAfterInterval6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.flatsmall.modal.accAfterInterval.7",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.modal.accAfterInterval7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.natural.modal.2",
+    "name": "smufl.glyph.alteration.prefix.natural.modal2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.natural.modal.3",
+    "name": "smufl.glyph.alteration.prefix.natural.modal3"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.natural.modal.4",
+    "name": "smufl.glyph.alteration.prefix.natural.modal4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.natural.modal.5",
+    "name": "smufl.glyph.alteration.prefix.natural.modal5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.natural.modal.6",
+    "name": "smufl.glyph.alteration.prefix.natural.modal6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.natural.modal.7",
+    "name": "smufl.glyph.alteration.prefix.natural.modal7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.natural.modal.accAfterInterval.2",
+    "name": "smufl.glyph.alteration.prefix.natural.modal.accAfterInterval2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.natural.modal.accAfterInterval.3",
+    "name": "smufl.glyph.alteration.prefix.natural.modal.accAfterInterval3"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.natural.modal.accAfterInterval.4",
+    "name": "smufl.glyph.alteration.prefix.natural.modal.accAfterInterval4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.natural.modal.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.natural.modal.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.natural.modal.accAfterInterval.6",
+    "name": "smufl.glyph.alteration.prefix.natural.modal.accAfterInterval6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.natural.modal.accAfterInterval.7",
+    "name": "smufl.glyph.alteration.prefix.natural.modal.accAfterInterval7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.naturalsmall.modal.2",
+    "name": "smufl.glyph.alteration.prefix.naturalsmall.modal2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.naturalsmall.modal.3",
+    "name": "smufl.glyph.alteration.prefix.naturalsmall.modal3"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.naturalsmall.modal.4",
+    "name": "smufl.glyph.alteration.prefix.naturalsmall.modal4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.naturalsmall.modal.5",
+    "name": "smufl.glyph.alteration.prefix.naturalsmall.modal5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.naturalsmall.modal.6",
+    "name": "smufl.glyph.alteration.prefix.naturalsmall.modal6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.naturalsmall.modal.7",
+    "name": "smufl.glyph.alteration.prefix.naturalsmall.modal7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval.2",
+    "name": "smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval.3",
+    "name": "smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval3"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval.4",
+    "name": "smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval.6",
+    "name": "smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval.7",
+    "name": "smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.11",
+    "name": "smufl.glyph.alteration.prefix.sharp11"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.4",
+    "name": "smufl.glyph.alteration.prefix.sharp4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.5",
+    "name": "smufl.glyph.alteration.prefix.sharp5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.7",
+    "name": "smufl.glyph.alteration.prefix.sharp7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.9",
+    "name": "smufl.glyph.alteration.prefix.sharp9"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.accAfterInterval.11",
+    "name": "smufl.glyph.alteration.prefix.sharp.accAfterInterval11"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.accAfterInterval.4",
+    "name": "smufl.glyph.alteration.prefix.sharp.accAfterInterval4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.sharp.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.accAfterInterval.7",
+    "name": "smufl.glyph.alteration.prefix.sharp.accAfterInterval7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.accAfterInterval.9",
+    "name": "smufl.glyph.alteration.prefix.sharp.accAfterInterval9"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.modal.2",
+    "name": "smufl.glyph.alteration.prefix.sharp.modal2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.modal.4",
+    "name": "smufl.glyph.alteration.prefix.sharp.modal4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.modal.5",
+    "name": "smufl.glyph.alteration.prefix.sharp.modal5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.modal.6",
+    "name": "smufl.glyph.alteration.prefix.sharp.modal6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.modal.accAfterInterval.2",
+    "name": "smufl.glyph.alteration.prefix.sharp.modal.accAfterInterval2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.modal.accAfterInterval.4",
+    "name": "smufl.glyph.alteration.prefix.sharp.modal.accAfterInterval4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.modal.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.sharp.modal.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharp.modal.accAfterInterval.6",
+    "name": "smufl.glyph.alteration.prefix.sharp.modal.accAfterInterval6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.11",
+    "name": "smufl.glyph.alteration.prefix.sharpplus11"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.4",
+    "name": "smufl.glyph.alteration.prefix.sharpplus4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.5",
+    "name": "smufl.glyph.alteration.prefix.sharpplus5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.7",
+    "name": "smufl.glyph.alteration.prefix.sharpplus7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.9",
+    "name": "smufl.glyph.alteration.prefix.sharpplus9"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.accAfterInterval.11",
+    "name": "smufl.glyph.alteration.prefix.sharpplus.accAfterInterval11"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.accAfterInterval.4",
+    "name": "smufl.glyph.alteration.prefix.sharpplus.accAfterInterval4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.sharpplus.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.accAfterInterval.7",
+    "name": "smufl.glyph.alteration.prefix.sharpplus.accAfterInterval7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.accAfterInterval.9",
+    "name": "smufl.glyph.alteration.prefix.sharpplus.accAfterInterval9"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.modal.2",
+    "name": "smufl.glyph.alteration.prefix.sharpplus.modal2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.modal.4",
+    "name": "smufl.glyph.alteration.prefix.sharpplus.modal4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.modal.5",
+    "name": "smufl.glyph.alteration.prefix.sharpplus.modal5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.modal.6",
+    "name": "smufl.glyph.alteration.prefix.sharpplus.modal6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.modal.accAfterInterval.2",
+    "name": "smufl.glyph.alteration.prefix.sharpplus.modal.accAfterInterval2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.modal.accAfterInterval.4",
+    "name": "smufl.glyph.alteration.prefix.sharpplus.modal.accAfterInterval4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.modal.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.sharpplus.modal.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplus.modal.accAfterInterval.6",
+    "name": "smufl.glyph.alteration.prefix.sharpplus.modal.accAfterInterval6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.11",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall11"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.4",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.5",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.7",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.9",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall9"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.accAfterInterval.11",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall.accAfterInterval11"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.accAfterInterval.4",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall.accAfterInterval4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.accAfterInterval.7",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall.accAfterInterval7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.accAfterInterval.9",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall.accAfterInterval9"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.modal.2",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall.modal2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.modal.4",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall.modal4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.modal.5",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall.modal5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.modal.6",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall.modal6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.modal.accAfterInterval.2",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall.modal.accAfterInterval2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.modal.accAfterInterval.4",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall.modal.accAfterInterval4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.modal.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall.modal.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpplussmall.modal.accAfterInterval.6",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall.modal.accAfterInterval6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.11",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall11"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.4",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.5",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.7",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.9",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall9"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.accAfterInterval.11",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall.accAfterInterval11"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.accAfterInterval.4",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall.accAfterInterval4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.accAfterInterval.7",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall.accAfterInterval7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.accAfterInterval.9",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall.accAfterInterval9"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.modal.2",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall.modal2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.modal.4",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall.modal4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.modal.5",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall.modal5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.modal.6",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall.modal6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.modal.accAfterInterval.2",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall.modal.accAfterInterval2"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.modal.accAfterInterval.4",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall.modal.accAfterInterval4"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.modal.accAfterInterval.5",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall.modal.accAfterInterval5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.alteration.prefix.sharpsmall.modal.accAfterInterval.6",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall.modal.accAfterInterval6"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.interval.kMaj7.kSharp7.7",
+    "name": "smufl.glyph.interval.kMaj7.kSharp7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.interval.kMaj7.kSharp7.small.7",
+    "name": "smufl.glyph.interval.kMaj7.kSharp7.small7"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.quality.augmented.kPlusSymbolWith5.5",
+    "name": "smufl.glyph.quality.augmented.kPlusSymbolWith5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.quality.augmented.kPlusSymbolWith5.small.5",
+    "name": "smufl.glyph.quality.augmented.kPlusSymbolWith5.small5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.quality.augmented.kSharpSymbolWith5.5",
+    "name": "smufl.glyph.quality.augmented.kSharpSymbolWith5"
+   },
+   {
+    "entityID": "comp.csac.smufl.glyph.quality.augmented.kSharpSymbolWith5.small.5",
+    "name": "smufl.glyph.quality.augmented.kSharpSymbolWith5.small5"
+   },
+   {
+    "entityID": "comp.csac.smufl.kCsymAugmented.1",
+    "name": "smufl.kCsymAugmented.1"
+   },
+   {
+    "entityID": "comp.csac.smufl.kCsymAugmented.2",
+    "name": "smufl.kCsymAugmented.2"
+   },
+   {
+    "entityID": "comp.csac.smufl.kCsymAugmented.3",
+    "name": "smufl.kCsymAugmented.3"
+   },
+   {
+    "entityID": "comp.csac.smufl.kCsymAugmentedSmall.1",
+    "name": "smufl.kCsymAugmentedSmall.1"
+   },
+   {
+    "entityID": "comp.csac.smufl.kCsymAugmentedSmall.2",
+    "name": "smufl.kCsymAugmentedSmall.2"
+   },
+   {
+    "entityID": "comp.csac.smufl.kCsymAugmentedSmall.3",
+    "name": "smufl.kCsymAugmentedSmall.3"
+   },
+   {
+    "entityID": "comp.csac.smufl.kCsymMinor.1",
+    "name": "smufl.kCsymMinor.1"
+   },
+   {
+    "entityID": "comp.csac.smufl.kCsymMinor.2",
+    "name": "smufl.kCsymMinor.2"
+   },
+   {
+    "entityID": "comp.csac.smufl.kCsymMinor.3",
+    "name": "smufl.kCsymMinor.3"
+   },
+   {
+    "entityID": "comp.csac.smufl.kCsymMinorSmall.1",
+    "name": "smufl.kCsymMinorSmall.1"
+   },
+   {
+    "entityID": "comp.csac.smufl.kCsymMinorSmall.2",
+    "name": "smufl.kCsymMinorSmall.2"
+   },
+   {
+    "entityID": "comp.csac.smufl.kCsymMinorSmall.3",
+    "name": "smufl.kCsymMinorSmall.3"
+   },
+   {
+    "entityID": "comp.csymAccidentalDoubleFlat",
+    "name": "csymAccidentalDoubleFlat"
+   },
+   {
+    "entityID": "comp.csymAccidentalDoubleFlatSmall",
+    "name": "csymAccidentalDoubleFlatSmall"
+   },
+   {
+    "entityID": "comp.csymAccidentalDoubleSharp",
+    "name": "csymAccidentalDoubleSharp"
+   },
+   {
+    "entityID": "comp.csymAccidentalDoubleSharpSmall",
+    "name": "csymAccidentalDoubleSharpSmall"
+   },
+   {
+    "entityID": "comp.csymAccidentalFlat",
+    "name": "csymAccidentalFlat"
+   },
+   {
+    "entityID": "comp.csymAccidentalFlatSmall",
+    "name": "csymAccidentalFlatSmall"
+   },
+   {
+    "entityID": "comp.csymAccidentalNatural",
+    "name": "csymAccidentalNatural"
+   },
+   {
+    "entityID": "comp.csymAccidentalNaturalSmall",
+    "name": "csymAccidentalNaturalSmall"
+   },
+   {
+    "entityID": "comp.csymAccidentalSharp",
+    "name": "csymAccidentalSharp"
+   },
+   {
+    "entityID": "comp.csymAccidentalSharpSmall",
+    "name": "csymAccidentalSharpSmall"
+   },
+   {
+    "entityID": "comp.csymAccidentalTripleFlat",
+    "name": "csymAccidentalTripleFlat"
+   },
+   {
+    "entityID": "comp.csymAccidentalTripleFlatSmall",
+    "name": "csymAccidentalTripleFlatSmall"
+   },
+   {
+    "entityID": "comp.csymAccidentalTripleSharp",
+    "name": "csymAccidentalTripleSharp"
+   },
+   {
+    "entityID": "comp.csymAccidentalTripleSharpSmall",
+    "name": "csymAccidentalTripleSharpSmall"
+   },
+   {
+    "entityID": "comp.csymAugmented.augmented",
+    "name": "csymAugmented.augmented"
+   },
+   {
+    "entityID": "comp.csymAugmentedSmall.augmentedsmall",
+    "name": "csymAugmentedSmall.augmentedsmall"
+   },
+   {
+    "entityID": "comp.csymDiminished",
+    "name": "Diminished"
+   },
+   {
+    "entityID": "comp.csymDiminished.dim7",
+    "name": "csymDiminished.dim7"
+   },
+   {
+    "entityID": "comp.csymDiminished.dimtriad",
+    "name": "csymDiminished.dimtriad"
+   },
+   {
+    "entityID": "comp.csymDiminishedSmall.dim7",
+    "name": "csymDiminishedSmall.dim7"
+   },
+   {
+    "entityID": "comp.csymDiminishedSmall.dimtriad",
+    "name": "csymDiminishedSmall.dimtriad"
+   },
+   {
+    "entityID": "comp.csymHalfDiminished",
+    "name": "csymHalfDiminished"
+   },
+   {
+    "entityID": "comp.csymHalfDiminishedSmall",
+    "name": "csymHalfDiminishedSmall"
+   },
+   {
+    "entityID": "comp.csymMajorSeventh",
+    "name": "Major seventh"
+   },
+   {
+    "entityID": "comp.csymMajorSeventh.maj7",
+    "name": "csymMajorSeventh.maj7"
+   },
+   {
+    "entityID": "comp.csymMajorSeventh.major",
+    "name": "csymMajorSeventh.major"
+   },
+   {
+    "entityID": "comp.csymMajorSeventhSmall.maj7",
+    "name": "csymMajorSeventhSmall.maj7"
+   },
+   {
+    "entityID": "comp.csymMajorSeventhSmall.majorsmall",
+    "name": "csymMajorSeventhSmall.majorsmall"
+   },
+   {
+    "entityID": "comp.csymMinor.minor",
+    "name": "csymMinor.minor"
+   },
+   {
+    "entityID": "comp.csymMinorSmall.minorsmall",
+    "name": "csymMinorSmall.minorsmall"
+   },
+   {
+    "entityID": "comp.csymParensLeftTall.100.percent",
+    "name": "csymParensLeftTall.100.percent"
+   },
+   {
+    "entityID": "comp.csymParensLeftTall.150.percent",
+    "name": "csymParensLeftTall.150.percent"
+   },
+   {
+    "entityID": "comp.csymParensLeftTall.200.percent",
+    "name": "csymParensLeftTall.200.percent"
+   },
+   {
+    "entityID": "comp.csymParensLeftTall.50.percent",
+    "name": "csymParensLeftTall.50.percent"
+   },
+   {
+    "entityID": "comp.csymParensLeftTall.75.percent",
+    "name": "csymParensLeftTall.75.percent"
+   },
+   {
+    "entityID": "comp.csymParensLeftVeryTall.150.percent",
+    "name": "csymParensLeftVeryTall.150.percent"
+   },
+   {
+    "entityID": "comp.csymParensRightTall.100.percent",
+    "name": "csymParensRightTall.100.percent"
+   },
+   {
+    "entityID": "comp.csymParensRightTall.150.percent",
+    "name": "csymParensRightTall.150.percent"
+   },
+   {
+    "entityID": "comp.csymParensRightTall.200.percent",
+    "name": "csymParensRightTall.200.percent"
+   },
+   {
+    "entityID": "comp.csymParensRightTall.50.percent",
+    "name": "csymParensRightTall.50.percent"
+   },
+   {
+    "entityID": "comp.csymParensRightTall.75.percent",
+    "name": "csymParensRightTall.75.percent"
+   },
+   {
+    "entityID": "comp.csymParensRightVeryTall.150.percent",
+    "name": "csymParensRightVeryTall.150.percent"
+   },
+   {
+    "entityID": "comp.curlew",
+    "name": "Curlew"
+   },
+   {
+    "entityID": "comp.dynamicClosedBracketForHairpin",
+    "name": "Right bracket for hairpin"
+   },
+   {
+    "entityID": "comp.dynamicClosedParenthesisForHairpin",
+    "name": "Right parenthesis for hairpin"
+   },
+   {
+    "entityID": "comp.dynamicCombinedSeparatorColon",
+    "name": "Colon separator for combined dynamics"
+   },
+   {
+    "entityID": "comp.dynamicCombinedSeparatorHyphen",
+    "name": "Hyphen separator for combined dynamics"
+   },
+   {
+    "entityID": "comp.dynamicCombinedSeparatorSlash",
+    "name": "Slash separator for combined dynamics"
+   },
+   {
+    "entityID": "comp.dynamicCombinedSeparatorSpace",
+    "name": "Space separator for combined dynamics"
+   },
+   {
+    "entityID": "comp.dynamicCrescendoHairpin",
+    "name": "Crescendo"
+   },
+   {
+    "entityID": "comp.dynamicDiminuendoHairpin",
+    "name": "Diminuendo"
+   },
+   {
+    "entityID": "comp.dynamicFF",
+    "name": "ff"
+   },
+   {
+    "entityID": "comp.dynamicFFF",
+    "name": "fff"
+   },
+   {
+    "entityID": "comp.dynamicFFFF",
+    "name": "ffff"
+   },
+   {
+    "entityID": "comp.dynamicFFFFF",
+    "name": "fffff"
+   },
+   {
+    "entityID": "comp.dynamicFFFFFF",
+    "name": "ffffff"
+   },
+   {
+    "entityID": "comp.dynamicForte",
+    "name": "Forte"
+   },
+   {
+    "entityID": "comp.dynamicFortePiano",
+    "name": "Forte-piano"
+   },
+   {
+    "entityID": "comp.dynamicForzando",
+    "name": "Forzando"
+   },
+   {
+    "entityID": "comp.dynamicMF",
+    "name": "mf"
+   },
+   {
+    "entityID": "comp.dynamicMP",
+    "name": "mp"
+   },
+   {
+    "entityID": "comp.dynamicMessaDiVoce",
+    "name": "Messa di voce"
+   },
+   {
+    "entityID": "comp.dynamicMezzo",
+    "name": "Mezzo"
+   },
+   {
+    "entityID": "comp.dynamicNiente",
+    "name": "Niente"
+   },
+   {
+    "entityID": "comp.dynamicNienteForHairpin",
+    "name": "Niente (for hairpins)"
+   },
+   {
+    "entityID": "comp.dynamicNientePlain",
+    "name": "Niente (plain)"
+   },
+   {
+    "entityID": "comp.dynamicOpenBracketForHairpin",
+    "name": "Left bracket for hairpin"
+   },
+   {
+    "entityID": "comp.dynamicOpenParenthesisForHairpin",
+    "name": "Left parenthesis for hairpin"
+   },
+   {
+    "entityID": "comp.dynamicPF",
+    "name": "pf"
+   },
+   {
+    "entityID": "comp.dynamicPP",
+    "name": "pp"
+   },
+   {
+    "entityID": "comp.dynamicPPP",
+    "name": "ppp"
+   },
+   {
+    "entityID": "comp.dynamicPPPP",
+    "name": "pppp"
+   },
+   {
+    "entityID": "comp.dynamicPPPPP",
+    "name": "ppppp"
+   },
+   {
+    "entityID": "comp.dynamicPPPPPP",
+    "name": "pppppp"
+   },
+   {
+    "entityID": "comp.dynamicPiano",
+    "name": "Piano"
+   },
+   {
+    "entityID": "comp.dynamicRinforzando",
+    "name": "Rinforzando"
+   },
+   {
+    "entityID": "comp.dynamicRinforzando1",
+    "name": "Rinforzando 1"
+   },
+   {
+    "entityID": "comp.dynamicRinforzando2",
+    "name": "Rinforzando 2"
+   },
+   {
+    "entityID": "comp.dynamicSforzando",
+    "name": "Sforzando"
+   },
+   {
+    "entityID": "comp.dynamicSforzando1",
+    "name": "Sforzando 1"
+   },
+   {
+    "entityID": "comp.dynamicSforzandoPianissimo",
+    "name": "Sforzando-pianissimo"
+   },
+   {
+    "entityID": "comp.dynamicSforzandoPiano",
+    "name": "Sforzando-piano"
+   },
+   {
+    "entityID": "comp.dynamicSforzato",
+    "name": "Sforzato"
+   },
+   {
+    "entityID": "comp.dynamicSforzatoFF",
+    "name": "Sforzatissimo"
+   },
+   {
+    "entityID": "comp.dynamicSforzatoPiano",
+    "name": "Sforzato-piano"
+   },
+   {
+    "entityID": "comp.dynamicZ",
+    "name": "Z"
+   },
+   {
+    "entityID": "comp.empty",
+    "name": "Empty"
+   },
+   {
+    "entityID": "comp.fClef",
+    "name": "F clef"
+   },
+   {
+    "entityID": "comp.fClef15ba",
+    "name": "F clef quindicesima bassa"
+   },
+   {
+    "entityID": "comp.fClef15ma",
+    "name": "F clef quindicesima alta"
+   },
+   {
+    "entityID": "comp.fClef8ba",
+    "name": "F clef ottava bassa"
+   },
+   {
+    "entityID": "comp.fClef8va",
+    "name": "F clef ottava alta"
+   },
+   {
+    "entityID": "comp.fClefSmall",
+    "name": "F clef (small)"
+   },
+   {
+    "entityID": "comp.fermataAbove",
+    "name": "Fermata above"
+   },
+   {
+    "entityID": "comp.fermataBelow",
+    "name": "Fermata below"
+   },
+   {
+    "entityID": "comp.fermataLongAbove",
+    "name": "Long fermata above"
+   },
+   {
+    "entityID": "comp.fermataLongAboveHenze",
+    "name": "Long fermata above (Henze)"
+   },
+   {
+    "entityID": "comp.fermataLongBelow",
+    "name": "Long fermata below"
+   },
+   {
+    "entityID": "comp.fermataLongBelowHenze",
+    "name": "Long fermata below (Henze)"
+   },
+   {
+    "entityID": "comp.fermataShortAbove",
+    "name": "Short fermata above"
+   },
+   {
+    "entityID": "comp.fermataShortAboveHenze",
+    "name": "Short fermata above (Henze)"
+   },
+   {
+    "entityID": "comp.fermataShortBelow",
+    "name": "Short fermata below"
+   },
+   {
+    "entityID": "comp.fermataShortBelowHenze",
+    "name": "Short fermata below (Henze)"
+   },
+   {
+    "entityID": "comp.fermataVeryLongAbove",
+    "name": "Very long fermata above"
+   },
+   {
+    "entityID": "comp.fermataVeryLongBelow",
+    "name": "Very long fermata below"
+   },
+   {
+    "entityID": "comp.fermataVeryShortAbove",
+    "name": "Very short fermata above"
+   },
+   {
+    "entityID": "comp.fermataVeryShortBelow",
+    "name": "Very short fermata below"
+   },
+   {
+    "entityID": "comp.figbass0",
+    "name": "Figured bass 0"
+   },
+   {
+    "entityID": "comp.figbass0Plain",
+    "name": "Figured bass 0 (plain)"
+   },
+   {
+    "entityID": "comp.figbass1",
+    "name": "Figured bass 1"
+   },
+   {
+    "entityID": "comp.figbass10",
+    "name": "Figured bass 10"
+   },
+   {
+    "entityID": "comp.figbass10Plain",
+    "name": "Figured bass 10 (plain)"
+   },
+   {
+    "entityID": "comp.figbass11",
+    "name": "Figured bass 11"
+   },
+   {
+    "entityID": "comp.figbass11Plain",
+    "name": "Figured bass 11 (plain)"
+   },
+   {
+    "entityID": "comp.figbass12",
+    "name": "Figured bass 12"
+   },
+   {
+    "entityID": "comp.figbass12Plain",
+    "name": "Figured bass 12 (plain)"
+   },
+   {
+    "entityID": "comp.figbass13",
+    "name": "Figured bass 13"
+   },
+   {
+    "entityID": "comp.figbass13Plain",
+    "name": "Figured bass 13 (plain)"
+   },
+   {
+    "entityID": "comp.figbass14",
+    "name": "Figured bass 14"
+   },
+   {
+    "entityID": "comp.figbass14Plain",
+    "name": "Figured bass 14 (plain)"
+   },
+   {
+    "entityID": "comp.figbass15",
+    "name": "Figured bass 15"
+   },
+   {
+    "entityID": "comp.figbass15Plain",
+    "name": "Figured bass 15 (plain)"
+   },
+   {
+    "entityID": "comp.figbass16",
+    "name": "Figured bass 16"
+   },
+   {
+    "entityID": "comp.figbass16Plain",
+    "name": "Figured bass 16 (plain)"
+   },
+   {
+    "entityID": "comp.figbass17",
+    "name": "Figured bass 17"
+   },
+   {
+    "entityID": "comp.figbass17Plain",
+    "name": "Figured bass 17 (plain)"
+   },
+   {
+    "entityID": "comp.figbass18",
+    "name": "Figured bass 18"
+   },
+   {
+    "entityID": "comp.figbass18Plain",
+    "name": "Figured bass 18 (plain)"
+   },
+   {
+    "entityID": "comp.figbass19",
+    "name": "Figured bass 19"
+   },
+   {
+    "entityID": "comp.figbass19Plain",
+    "name": "Figured bass 19 (plain)"
+   },
+   {
+    "entityID": "comp.figbass1Plain",
+    "name": "Figured bass 1 (plain)"
+   },
+   {
+    "entityID": "comp.figbass2",
+    "name": "Figured bass 2"
+   },
+   {
+    "entityID": "comp.figbass2Plain",
+    "name": "Figured bass 2 (plain)"
+   },
+   {
+    "entityID": "comp.figbass2Raised",
+    "name": "Figured bass 2 raised by half-step"
+   },
+   {
+    "entityID": "comp.figbass2RaisedPlain",
+    "name": "Figured bass 2 raised by half-step (plain)"
+   },
+   {
+    "entityID": "comp.figbass3",
+    "name": "Figured bass 3"
+   },
+   {
+    "entityID": "comp.figbass3Plain",
+    "name": "Figured bass 3 (plain)"
+   },
+   {
+    "entityID": "comp.figbass4",
+    "name": "Figured bass 4"
+   },
+   {
+    "entityID": "comp.figbass4Plain",
+    "name": "Figured bass 4 (plain)"
+   },
+   {
+    "entityID": "comp.figbass4Raised",
+    "name": "Figured bass 4 raised by half-step"
+   },
+   {
+    "entityID": "comp.figbass4RaisedPlain",
+    "name": "Figured bass 4 raised by half-step (plain)"
+   },
+   {
+    "entityID": "comp.figbass5",
+    "name": "Figured bass 5"
+   },
+   {
+    "entityID": "comp.figbass5Diminished",
+    "name": "Figured bass 5 diminished"
+   },
+   {
+    "entityID": "comp.figbass5DiminishedPlain",
+    "name": "Figured bass 5 diminished (plain)"
+   },
+   {
+    "entityID": "comp.figbass5Plain",
+    "name": "Figured bass 5 (plain)"
+   },
+   {
+    "entityID": "comp.figbass5Raised1",
+    "name": "Figured bass 5 raised by half-step 1"
+   },
+   {
+    "entityID": "comp.figbass5Raised1Plain",
+    "name": "Figured bass 5 raised by half-step 1 (plain)"
+   },
+   {
+    "entityID": "comp.figbass5Raised2",
+    "name": "Figured bass 5 raised by half-step 2"
+   },
+   {
+    "entityID": "comp.figbass5Raised2Plain",
+    "name": "Figured bass 5 raised by half-step 2 (plain)"
+   },
+   {
+    "entityID": "comp.figbass6",
+    "name": "Figured bass 6"
+   },
+   {
+    "entityID": "comp.figbass6Plain",
+    "name": "Figured bass 6 (plain)"
+   },
+   {
+    "entityID": "comp.figbass6Raised",
+    "name": "Figured bass 6 raised by half-step 1"
+   },
+   {
+    "entityID": "comp.figbass6Raised2",
+    "name": "Figured bass 6 raised by half-step 2"
+   },
+   {
+    "entityID": "comp.figbass6Raised2Plain",
+    "name": "Figured bass 6 raised by half-step 2 (plain)"
+   },
+   {
+    "entityID": "comp.figbass6RaisedPlain",
+    "name": "Figured bass 6 raised by half-step 1 (plain)"
+   },
+   {
+    "entityID": "comp.figbass7",
+    "name": "Figured bass 7"
+   },
+   {
+    "entityID": "comp.figbass7Diminished",
+    "name": "Figured bass 7 diminished"
+   },
+   {
+    "entityID": "comp.figbass7DiminishedPlain",
+    "name": "Figured bass 7 diminished (plain)"
+   },
+   {
+    "entityID": "comp.figbass7Lowered",
+    "name": "Figured bass 7 lowered by half-step"
+   },
+   {
+    "entityID": "comp.figbass7LoweredPlain",
+    "name": "Figured bass 7 lowered by half-step (plain)"
+   },
+   {
+    "entityID": "comp.figbass7Plain",
+    "name": "Figured bass 7 (plain)"
+   },
+   {
+    "entityID": "comp.figbass7Raised",
+    "name": "Figured bass 7 raised by half-step"
+   },
+   {
+    "entityID": "comp.figbass7RaisedPlain",
+    "name": "Figured bass 7 raised by half-step (plain)"
+   },
+   {
+    "entityID": "comp.figbass8",
+    "name": "Figured bass 8"
+   },
+   {
+    "entityID": "comp.figbass8Plain",
+    "name": "Figured bass 8 (plain)"
+   },
+   {
+    "entityID": "comp.figbass9",
+    "name": "Figured bass 9"
+   },
+   {
+    "entityID": "comp.figbass9Plain",
+    "name": "Figured bass 9 (plain)"
+   },
+   {
+    "entityID": "comp.figbass9Raised",
+    "name": "Figured bass 9 raised by half-step"
+   },
+   {
+    "entityID": "comp.figbass9RaisedPlain",
+    "name": "Figured bass 9 raised by half-step (plain)"
+   },
+   {
+    "entityID": "comp.figbassBracketLeft",
+    "name": "Figured bass left bracket"
+   },
+   {
+    "entityID": "comp.figbassBracketLeftPlain",
+    "name": "Figured bass left bracket (plain)"
+   },
+   {
+    "entityID": "comp.figbassBracketRight",
+    "name": "Figured bass right bracket"
+   },
+   {
+    "entityID": "comp.figbassBracketRightPlain",
+    "name": "Figured bass right bracket (plain)"
+   },
+   {
+    "entityID": "comp.figbassDoubleFlat",
+    "name": "Figured bass double flat"
+   },
+   {
+    "entityID": "comp.figbassDoubleFlatLongerStem",
+    "name": "Figured bass double flat (longer stem)"
+   },
+   {
+    "entityID": "comp.figbassDoubleSharp",
+    "name": "Figured bass double sharp"
+   },
+   {
+    "entityID": "comp.figbassDoubleSharpLongerStem",
+    "name": "Figured bass double sharp (longer stem)"
+   },
+   {
+    "entityID": "comp.figbassFlat",
+    "name": "Figured bass flat"
+   },
+   {
+    "entityID": "comp.figbassFlatLongerStem",
+    "name": "Figured bass flat (longer stem)"
+   },
+   {
+    "entityID": "comp.figbassNatural",
+    "name": "Figured bass natural"
+   },
+   {
+    "entityID": "comp.figbassNaturalLongerStem",
+    "name": "Figured bass natural (longer stem)"
+   },
+   {
+    "entityID": "comp.figbassParensLeft",
+    "name": "Figured bass left parenthesis"
+   },
+   {
+    "entityID": "comp.figbassParensLeftPlain",
+    "name": "Figured bass left parenthesis (plain)"
+   },
+   {
+    "entityID": "comp.figbassParensRight",
+    "name": "Figured bass right parenthesis"
+   },
+   {
+    "entityID": "comp.figbassParensRightPlain",
+    "name": "Figured bass right parenthesis (plain)"
+   },
+   {
+    "entityID": "comp.figbassPlus",
+    "name": "Figured bass plus"
+   },
+   {
+    "entityID": "comp.figbassPlusPlain",
+    "name": "Figured bass plus (plain)"
+   },
+   {
+    "entityID": "comp.figbassSharp",
+    "name": "Figured bass sharp"
+   },
+   {
+    "entityID": "comp.figbassSharpLongerStem",
+    "name": "Figured bass sharp (longer stem)"
+   },
+   {
+    "entityID": "comp.figbassTripleFlat",
+    "name": "Figured bass triple flat"
+   },
+   {
+    "entityID": "comp.figbassTripleFlatLongerStem",
+    "name": "Figured bass triple flat (longer stem)"
+   },
+   {
+    "entityID": "comp.figbassTripleSharp",
+    "name": "Figured bass triple sharp"
+   },
+   {
+    "entityID": "comp.figbassTripleSharpLongerStem",
+    "name": "Figured bass triple sharp (longer stem)"
+   },
+   {
+    "entityID": "comp.figurenotesABlack",
+    "name": "Figurenotes A (black note)"
+   },
+   {
+    "entityID": "comp.figurenotesAHalf",
+    "name": "Figurenotes A (half note)"
+   },
+   {
+    "entityID": "comp.figurenotesAWhole",
+    "name": "Figurenotes A (whole note)"
+   },
+   {
+    "entityID": "comp.figurenotesBBlack",
+    "name": "Figurenotes B (black note)"
+   },
+   {
+    "entityID": "comp.figurenotesBHalf",
+    "name": "Figurenotes B (half note)"
+   },
+   {
+    "entityID": "comp.figurenotesBWhole",
+    "name": "Figurenotes B (whole note)"
+   },
+   {
+    "entityID": "comp.figurenotesCBlack",
+    "name": "Figurenotes C (black note)"
+   },
+   {
+    "entityID": "comp.figurenotesCHalf",
+    "name": "Figurenotes C (half note)"
+   },
+   {
+    "entityID": "comp.figurenotesCWhole",
+    "name": "Figurenotes C (whole note)"
+   },
+   {
+    "entityID": "comp.figurenotesDBlack",
+    "name": "Figurenotes D (black note)"
+   },
+   {
+    "entityID": "comp.figurenotesDHalf",
+    "name": "Figurenotes D (half note)"
+   },
+   {
+    "entityID": "comp.figurenotesDWhole",
+    "name": "Figurenotes D (whole note)"
+   },
+   {
+    "entityID": "comp.figurenotesEBlack",
+    "name": "Figurenotes E (black note)"
+   },
+   {
+    "entityID": "comp.figurenotesEHalf",
+    "name": "Figurenotes E (half note)"
+   },
+   {
+    "entityID": "comp.figurenotesEWhole",
+    "name": "Figurenotes E (whole note)"
+   },
+   {
+    "entityID": "comp.figurenotesFBlack",
+    "name": "Figurenotes F (black note)"
+   },
+   {
+    "entityID": "comp.figurenotesFHalf",
+    "name": "Figurenotes F (half note)"
+   },
+   {
+    "entityID": "comp.figurenotesFWhole",
+    "name": "Figurenotes F (whole note)"
+   },
+   {
+    "entityID": "comp.figurenotesGBlack",
+    "name": "Figurenotes G (black note)"
+   },
+   {
+    "entityID": "comp.figurenotesGHalf",
+    "name": "Figurenotes G (half note)"
+   },
+   {
+    "entityID": "comp.figurenotesGWhole",
+    "name": "Figurenotes G (whole note)"
+   },
+   {
+    "entityID": "comp.fingering0",
+    "name": "Fingering 0 (open string)"
+   },
+   {
+    "entityID": "comp.fingering0Italic",
+    "name": "Fingering 0 italic (open string)"
+   },
+   {
+    "entityID": "comp.fingering0Plain",
+    "name": "Fingering 0 plain (open string)"
+   },
+   {
+    "entityID": "comp.fingering0PlainItalic",
+    "name": "Fingering 0 plain italic (open string)"
+   },
+   {
+    "entityID": "comp.fingering1",
+    "name": "Fingering 1 (thumb)"
+   },
+   {
+    "entityID": "comp.fingering1Italic",
+    "name": "Fingering 1 italic (thumb)"
+   },
+   {
+    "entityID": "comp.fingering1Plain",
+    "name": "Fingering 1 plain (thumb)"
+   },
+   {
+    "entityID": "comp.fingering1PlainItalic",
+    "name": "Fingering 1 plain italic (thumb)"
+   },
+   {
+    "entityID": "comp.fingering2",
+    "name": "Fingering 2 (index finger)"
+   },
+   {
+    "entityID": "comp.fingering2Italic",
+    "name": "Fingering 2 italic (index finger)"
+   },
+   {
+    "entityID": "comp.fingering2Plain",
+    "name": "Fingering 2 plain (index finger)"
+   },
+   {
+    "entityID": "comp.fingering2PlainItalic",
+    "name": "Fingering 2 plain italic (index finger)"
+   },
+   {
+    "entityID": "comp.fingering3",
+    "name": "Fingering 3 (middle finger)"
+   },
+   {
+    "entityID": "comp.fingering3Italic",
+    "name": "Fingering 3 italic (middle finger)"
+   },
+   {
+    "entityID": "comp.fingering3Plain",
+    "name": "Fingering 3 plain (middle finger)"
+   },
+   {
+    "entityID": "comp.fingering3PlainItalic",
+    "name": "Fingering 3 plain italic (middle finger)"
+   },
+   {
+    "entityID": "comp.fingering4",
+    "name": "Fingering 4 (ring finger)"
+   },
+   {
+    "entityID": "comp.fingering4Italic",
+    "name": "Fingering 4 italic (ring finger)"
+   },
+   {
+    "entityID": "comp.fingering4Plain",
+    "name": "Fingering 4 plain (ring finger)"
+   },
+   {
+    "entityID": "comp.fingering4PlainItalic",
+    "name": "Fingering 4 plain italic (ring finger)"
+   },
+   {
+    "entityID": "comp.fingering5",
+    "name": "Fingering 5 (little finger)"
+   },
+   {
+    "entityID": "comp.fingering5Italic",
+    "name": "Fingering 5 italic (little finger)"
+   },
+   {
+    "entityID": "comp.fingering5Plain",
+    "name": "Fingering 5 plain (little finger)"
+   },
+   {
+    "entityID": "comp.fingering5PlainItalic",
+    "name": "Fingering 5 plain italic (little finger)"
+   },
+   {
+    "entityID": "comp.fingering6",
+    "name": "Fingering 6"
+   },
+   {
+    "entityID": "comp.fingering6Italic",
+    "name": "Fingering 6 italic"
+   },
+   {
+    "entityID": "comp.fingering6Plain",
+    "name": "Fingering 6 plain"
+   },
+   {
+    "entityID": "comp.fingering6PlainItalic",
+    "name": "Fingering 6 plain italic"
+   },
+   {
+    "entityID": "comp.fingering7",
+    "name": "Fingering 7"
+   },
+   {
+    "entityID": "comp.fingering7Italic",
+    "name": "Fingering 7 italic"
+   },
+   {
+    "entityID": "comp.fingering7Plain",
+    "name": "Fingering 7 plain"
+   },
+   {
+    "entityID": "comp.fingering7PlainItalic",
+    "name": "Fingering 7 plain italic"
+   },
+   {
+    "entityID": "comp.fingering8",
+    "name": "Fingering 8"
+   },
+   {
+    "entityID": "comp.fingering8Italic",
+    "name": "Fingering 8 italic"
+   },
+   {
+    "entityID": "comp.fingering8Plain",
+    "name": "Fingering 8 plain"
+   },
+   {
+    "entityID": "comp.fingering8PlainItalic",
+    "name": "Fingering 8 plain italic"
+   },
+   {
+    "entityID": "comp.fingering9",
+    "name": "Fingering 9"
+   },
+   {
+    "entityID": "comp.fingering9Italic",
+    "name": "Fingering 9 italic"
+   },
+   {
+    "entityID": "comp.fingering9Plain",
+    "name": "Fingering 9 plain"
+   },
+   {
+    "entityID": "comp.fingering9PlainItalic",
+    "name": "Fingering 9 plain italic"
+   },
+   {
+    "entityID": "comp.fingeringALower",
+    "name": "Fingering anular (right-hand ring finger)"
+   },
+   {
+    "entityID": "comp.fingeringALowerPlain",
+    "name": "Fingering anular plain (right-hand ring finger)"
+   },
+   {
+    "entityID": "comp.fingeringALowerPlainItalic",
+    "name": "Fingering anular plain italic (right-hand ring finger)"
+   },
+   {
+    "entityID": "comp.fingeringCLower",
+    "name": "Fingering c (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.fingeringCLowerPlain",
+    "name": "Fingering c plain (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.fingeringCLowerPlainItalic",
+    "name": "Fingering c plain italic (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.fingeringELower",
+    "name": "Fingering e (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.fingeringELowerPlain",
+    "name": "Fingering e plain (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.fingeringELowerPlainItalic",
+    "name": "Fingering e plain italic (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.fingeringILower",
+    "name": "Fingering indicio (right-hand index finger)"
+   },
+   {
+    "entityID": "comp.fingeringILowerPlain",
+    "name": "Fingering indicio plain (right-hand index finger)"
+   },
+   {
+    "entityID": "comp.fingeringILowerPlainItalic",
+    "name": "Fingering indicio plain italic (right-hand index finger)"
+   },
+   {
+    "entityID": "comp.fingeringLeftBracket",
+    "name": "Fingering left bracket"
+   },
+   {
+    "entityID": "comp.fingeringLeftBracketItalic",
+    "name": "Fingering left bracket italic"
+   },
+   {
+    "entityID": "comp.fingeringLeftBracketPlain",
+    "name": "Fingering left bracket plain"
+   },
+   {
+    "entityID": "comp.fingeringLeftBracketPlainItalic",
+    "name": "Fingering left bracket plain italic"
+   },
+   {
+    "entityID": "comp.fingeringLeftParenthesis",
+    "name": "Fingering left parenthesis"
+   },
+   {
+    "entityID": "comp.fingeringLeftParenthesisItalic",
+    "name": "Fingering left parenthesis italic"
+   },
+   {
+    "entityID": "comp.fingeringLeftParenthesisPlain",
+    "name": "Fingering left parenthesis plain"
+   },
+   {
+    "entityID": "comp.fingeringLeftParenthesisPlainItalic",
+    "name": "Fingering left parenthesis plain italic"
+   },
+   {
+    "entityID": "comp.fingeringMLower",
+    "name": "Fingering medio (right-hand middle finger)"
+   },
+   {
+    "entityID": "comp.fingeringMLowerPlain",
+    "name": "Fingering medio plain (right-hand middle finger)"
+   },
+   {
+    "entityID": "comp.fingeringMLowerPlainItalic",
+    "name": "Fingering medio plain italic (right-hand middle finger)"
+   },
+   {
+    "entityID": "comp.fingeringMultipleNotes",
+    "name": "Multiple notes played by thumb or single finger"
+   },
+   {
+    "entityID": "comp.fingeringOLower",
+    "name": "Fingering o (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.fingeringOLowerPlain",
+    "name": "Fingering o plain (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.fingeringOLowerPlainItalic",
+    "name": "Fingering o plain italic (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.fingeringPLower",
+    "name": "Fingering pulgar (right-hand thumb)"
+   },
+   {
+    "entityID": "comp.fingeringPLowerPlain",
+    "name": "Fingering pulgar plain (right-hand thumb)"
+   },
+   {
+    "entityID": "comp.fingeringPLowerPlainItalic",
+    "name": "Fingering pulgar plain italic (right-hand thumb)"
+   },
+   {
+    "entityID": "comp.fingeringQLower",
+    "name": "Fingering q (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.fingeringQLowerPlain",
+    "name": "Fingering q plain (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.fingeringQLowerPlainItalic",
+    "name": "Fingering q plain italic (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.fingeringRightBracket",
+    "name": "Fingering right bracket"
+   },
+   {
+    "entityID": "comp.fingeringRightBracketItalic",
+    "name": "Fingering right bracket italic"
+   },
+   {
+    "entityID": "comp.fingeringRightBracketPlain",
+    "name": "Fingering right bracket plain"
+   },
+   {
+    "entityID": "comp.fingeringRightBracketPlainItalic",
+    "name": "Fingering right bracket plain italic"
+   },
+   {
+    "entityID": "comp.fingeringRightParenthesis",
+    "name": "Fingering right parenthesis"
+   },
+   {
+    "entityID": "comp.fingeringRightParenthesisItalic",
+    "name": "Fingering right parenthesis italic"
+   },
+   {
+    "entityID": "comp.fingeringRightParenthesisPlain",
+    "name": "Fingering right parenthesis plain"
+   },
+   {
+    "entityID": "comp.fingeringRightParenthesisPlainItalic",
+    "name": "Fingering right parenthesis plain italic"
+   },
+   {
+    "entityID": "comp.fingeringSLower",
+    "name": "Fingering s (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.fingeringSLowerPlain",
+    "name": "Fingering s plain (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.fingeringSLowerPlainItalic",
+    "name": "Fingering s plain italic (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.fingeringSeparatorMiddleDot",
+    "name": "Fingering middle dot separator"
+   },
+   {
+    "entityID": "comp.fingeringSeparatorSlash",
+    "name": "Fingering forward slash separator"
+   },
+   {
+    "entityID": "comp.fingeringSubstitutionAbove",
+    "name": "Finger substitution above"
+   },
+   {
+    "entityID": "comp.fingeringSubstitutionBelow",
+    "name": "Finger substitution below"
+   },
+   {
+    "entityID": "comp.fingeringTLower",
+    "name": "Fingering thumb (right-hand thumb)"
+   },
+   {
+    "entityID": "comp.fingeringTLowerPlain",
+    "name": "Fingering thumb plain (right-hand thumb)"
+   },
+   {
+    "entityID": "comp.fingeringTLowerPlainItalic",
+    "name": "Fingering thumb plain italic (right-hand thumb)"
+   },
+   {
+    "entityID": "comp.fingeringTUpper",
+    "name": "Fingering left-hand thumb"
+   },
+   {
+    "entityID": "comp.fingeringXLower",
+    "name": "Fingering x (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.fingeringXLowerPlain",
+    "name": "Fingering x plain (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.fingeringXLowerPlainItalic",
+    "name": "Fingering x plain italic (right-hand little finger)"
+   },
+   {
+    "entityID": "comp.flag1024thDown",
+    "name": "Combining flag 8 (1024th) below"
+   },
+   {
+    "entityID": "comp.flag1024thDownStraight",
+    "name": "Combining straight flag 8 (1024th) below"
+   },
+   {
+    "entityID": "comp.flag1024thUp",
+    "name": "Combining flag 8 (1024th) above"
+   },
+   {
+    "entityID": "comp.flag1024thUpShort",
+    "name": "Combining short flag 8 (1024th) above"
+   },
+   {
+    "entityID": "comp.flag1024thUpStraight",
+    "name": "Combining straight flag 8 (1024th) above"
+   },
+   {
+    "entityID": "comp.flag128thDown",
+    "name": "Combining flag 5 (128th) below"
+   },
+   {
+    "entityID": "comp.flag128thDownStraight",
+    "name": "Combining straight flag 5 (128th) below"
+   },
+   {
+    "entityID": "comp.flag128thUp",
+    "name": "Combining flag 5 (128th) above"
+   },
+   {
+    "entityID": "comp.flag128thUpShort",
+    "name": "Combining short flag 5 (128th) above"
+   },
+   {
+    "entityID": "comp.flag128thUpStraight",
+    "name": "Combining straight flag 5 (128th) above"
+   },
+   {
+    "entityID": "comp.flag16thDown",
+    "name": "Combining flag 2 (16th) below"
+   },
+   {
+    "entityID": "comp.flag16thDownStraight",
+    "name": "Combining straight flag 2 (16th) below"
+   },
+   {
+    "entityID": "comp.flag16thUp",
+    "name": "Combining flag 2 (16th) above"
+   },
+   {
+    "entityID": "comp.flag16thUpShort",
+    "name": "Combining short flag 2 (16th) above"
+   },
+   {
+    "entityID": "comp.flag16thUpStraight",
+    "name": "Combining straight flag 2 (16th) above"
+   },
+   {
+    "entityID": "comp.flag256thDown",
+    "name": "Combining flag 6 (256th) below"
+   },
+   {
+    "entityID": "comp.flag256thDownStraight",
+    "name": "Combining straight flag 6 (256th) below"
+   },
+   {
+    "entityID": "comp.flag256thUp",
+    "name": "Combining flag 6 (256th) above"
+   },
+   {
+    "entityID": "comp.flag256thUpShort",
+    "name": "Combining short flag 6 (256th) above"
+   },
+   {
+    "entityID": "comp.flag256thUpStraight",
+    "name": "Combining straight flag 6 (256th) above"
+   },
+   {
+    "entityID": "comp.flag32ndDown",
+    "name": "Combining flag 3 (32nd) below"
+   },
+   {
+    "entityID": "comp.flag32ndDownStraight",
+    "name": "Combining straight flag 3 (32nd) below"
+   },
+   {
+    "entityID": "comp.flag32ndUp",
+    "name": "Combining flag 3 (32nd) above"
+   },
+   {
+    "entityID": "comp.flag32ndUpShort",
+    "name": "Combining short flag 3 (32nd) above"
+   },
+   {
+    "entityID": "comp.flag32ndUpStraight",
+    "name": "Combining straight flag 3 (32nd) above"
+   },
+   {
+    "entityID": "comp.flag512thDown",
+    "name": "Combining flag 7 (512th) below"
+   },
+   {
+    "entityID": "comp.flag512thDownStraight",
+    "name": "Combining straight flag 7 (512th) below"
+   },
+   {
+    "entityID": "comp.flag512thUp",
+    "name": "Combining flag 7 (512th) above"
+   },
+   {
+    "entityID": "comp.flag512thUpShort",
+    "name": "Combining short flag 7 (512th) above"
+   },
+   {
+    "entityID": "comp.flag512thUpStraight",
+    "name": "Combining straight flag 7 (512th) above"
+   },
+   {
+    "entityID": "comp.flag64thDown",
+    "name": "Combining flag 4 (64th) below"
+   },
+   {
+    "entityID": "comp.flag64thDownStraight",
+    "name": "Combining straight flag 4 (64th) below"
+   },
+   {
+    "entityID": "comp.flag64thUp",
+    "name": "Combining flag 4 (64th) above"
+   },
+   {
+    "entityID": "comp.flag64thUpShort",
+    "name": "Combining short flag 4 (64th) above"
+   },
+   {
+    "entityID": "comp.flag64thUpStraight",
+    "name": "Combining straight flag 4 (64th) above"
+   },
+   {
+    "entityID": "comp.flag8thDown",
+    "name": "Combining flag 1 (8th) below"
+   },
+   {
+    "entityID": "comp.flag8thDownStraight",
+    "name": "Combining straight flag 1 (8th) below"
+   },
+   {
+    "entityID": "comp.flag8thUp",
+    "name": "Combining flag 1 (8th) above"
+   },
+   {
+    "entityID": "comp.flag8thUpShort",
+    "name": "Combining short flag 1 (8th) above"
+   },
+   {
+    "entityID": "comp.flag8thUpStraight",
+    "name": "Combining straight flag 1 (8th) above"
+   },
+   {
+    "entityID": "comp.gClef",
+    "name": "G clef"
+   },
+   {
+    "entityID": "comp.gClef15ba",
+    "name": "G clef quindicesima bassa"
+   },
+   {
+    "entityID": "comp.gClef15ma",
+    "name": "G clef quindicesima alta"
+   },
+   {
+    "entityID": "comp.gClef8ba",
+    "name": "G clef ottava bassa"
+   },
+   {
+    "entityID": "comp.gClef8va",
+    "name": "G clef ottava alta"
+   },
+   {
+    "entityID": "comp.gClefSmall",
+    "name": "G clef (small)"
+   },
+   {
+    "entityID": "comp.guitarBarreFull",
+    "name": "Full barr\u00e9"
+   },
+   {
+    "entityID": "comp.guitarBarreHalf",
+    "name": "Half barr\u00e9"
+   },
+   {
+    "entityID": "comp.guitarClosedWahPedal",
+    "name": "Wah pedal (closed)"
+   },
+   {
+    "entityID": "comp.guitarFadeIn",
+    "name": "Fade in"
+   },
+   {
+    "entityID": "comp.guitarFadeOut",
+    "name": "Fade out"
+   },
+   {
+    "entityID": "comp.guitarGolpe",
+    "name": "Golpe (tapping the pick guard)"
+   },
+   {
+    "entityID": "comp.guitarHalfOpenWahPedal",
+    "name": "Wah pedal (half-open)"
+   },
+   {
+    "entityID": "comp.guitarHammerOn",
+    "name": "Hammer on"
+   },
+   {
+    "entityID": "comp.guitarLeftHandTapping",
+    "name": "Left-hand tapping"
+   },
+   {
+    "entityID": "comp.guitarOpenWahPedal",
+    "name": "Wah pedal (open)"
+   },
+   {
+    "entityID": "comp.guitarPalmMute",
+    "name": "Palm Mute"
+   },
+   {
+    "entityID": "comp.guitarPullOff",
+    "name": "Pull off"
+   },
+   {
+    "entityID": "comp.guitarRightHandTapping",
+    "name": "Right-hand tapping"
+   },
+   {
+    "entityID": "comp.guitarShake",
+    "name": "Guitar shake"
+   },
+   {
+    "entityID": "comp.guitarString0",
+    "name": "String number 0"
+   },
+   {
+    "entityID": "comp.guitarString1",
+    "name": "String number 1"
+   },
+   {
+    "entityID": "comp.guitarString2",
+    "name": "String number 2"
+   },
+   {
+    "entityID": "comp.guitarString3",
+    "name": "String number 3"
+   },
+   {
+    "entityID": "comp.guitarString4",
+    "name": "String number 4"
+   },
+   {
+    "entityID": "comp.guitarString5",
+    "name": "String number 5"
+   },
+   {
+    "entityID": "comp.guitarString6",
+    "name": "String number 6"
+   },
+   {
+    "entityID": "comp.guitarString7",
+    "name": "String number 7"
+   },
+   {
+    "entityID": "comp.guitarString8",
+    "name": "String number 8"
+   },
+   {
+    "entityID": "comp.guitarString9",
+    "name": "String number 9"
+   },
+   {
+    "entityID": "comp.guitarStrumDown",
+    "name": "Strum direction down"
+   },
+   {
+    "entityID": "comp.guitarStrumUp",
+    "name": "Strum direction up"
+   },
+   {
+    "entityID": "comp.guitarTapDot",
+    "name": "Tapping dot"
+   },
+   {
+    "entityID": "comp.guitarTapPlusSign",
+    "name": "Tapping plus sign"
+   },
+   {
+    "entityID": "comp.guitarTapT",
+    "name": "Tapping T"
+   },
+   {
+    "entityID": "comp.guitarVibratoBarDip",
+    "name": "Guitar vibrato bar dip"
+   },
+   {
+    "entityID": "comp.guitarVibratoBarLine",
+    "name": "Vibrato bar line"
+   },
+   {
+    "entityID": "comp.guitarVibratoBarScoop",
+    "name": "Guitar vibrato bar scoop"
+   },
+   {
+    "entityID": "comp.guitarVibratoBarScoopCurved",
+    "name": "Guitar vibrato bar scoop (curved)"
+   },
+   {
+    "entityID": "comp.guitarVibratoBarScoopText",
+    "name": "Guitar vibrato bar scoop text"
+   },
+   {
+    "entityID": "comp.guitarVibratoStroke",
+    "name": "Guitar vibrato wiggle segment"
+   },
+   {
+    "entityID": "comp.guitarVolumeSwell",
+    "name": "Volume swell"
+   },
+   {
+    "entityID": "comp.guitarWideVibratoStroke",
+    "name": "Guitar wide vibrato stroke"
+   },
+   {
+    "entityID": "comp.harpMetalRod",
+    "name": "Metal rod pictogram"
+   },
+   {
+    "entityID": "comp.harpTuningKey",
+    "name": "Tuning key pictogram"
+   },
+   {
+    "entityID": "comp.harpTuningKeyGlissando",
+    "name": "Retune strings for glissando"
+   },
+   {
+    "entityID": "comp.harpTuningKeyHandle",
+    "name": "Use handle of tuning key pictogram"
+   },
+   {
+    "entityID": "comp.harpTuningKeyShank",
+    "name": "Use shank of tuning key pictogram"
+   },
+   {
+    "entityID": "comp.indianDrumClef",
+    "name": "Indian drum clef"
+   },
+   {
+    "entityID": "comp.keyboardBebung2",
+    "name": "Bebung 2 above"
+   },
+   {
+    "entityID": "comp.keyboardBebung2Below",
+    "name": "Bebung 2 below"
+   },
+   {
+    "entityID": "comp.keyboardBebung3",
+    "name": "Bebung 3 above"
+   },
+   {
+    "entityID": "comp.keyboardBebung3Below",
+    "name": "Bebung 3 below"
+   },
+   {
+    "entityID": "comp.keyboardBebung4",
+    "name": "Bebung 4 above"
+   },
+   {
+    "entityID": "comp.keyboardBebung4Below",
+    "name": "Bebung 4 below"
+   },
+   {
+    "entityID": "comp.keyboardHeel1",
+    "name": "Organ pedal heel 1"
+   },
+   {
+    "entityID": "comp.keyboardHeel2",
+    "name": "Organ pedal heel 2"
+   },
+   {
+    "entityID": "comp.keyboardHeel3",
+    "name": "Organ pedal heel 3"
+   },
+   {
+    "entityID": "comp.keyboardHeelToToe",
+    "name": "Organ pedal heel to toe"
+   },
+   {
+    "entityID": "comp.keyboardHeelToe",
+    "name": "Organ pedal heel toe"
+   },
+   {
+    "entityID": "comp.keyboardLeftPedalPictogram",
+    "name": "Left pedal pictogram"
+   },
+   {
+    "entityID": "comp.keyboardMiddlePedalPictogram",
+    "name": "Middle pedal pictogram"
+   },
+   {
+    "entityID": "comp.keyboardPedalLevelOneEighth",
+    "name": "Pedal level one eighth"
+   },
+   {
+    "entityID": "comp.keyboardPedalLevelOneHalf",
+    "name": "Pedal level one half"
+   },
+   {
+    "entityID": "comp.keyboardPedalLevelOneQuarter",
+    "name": "Pedal level one quarter"
+   },
+   {
+    "entityID": "comp.keyboardPedalLevelThreeQuarters",
+    "name": "Pedal level three quarters"
+   },
+   {
+    "entityID": "comp.keyboardPedalP",
+    "name": "Pedal P"
+   },
+   {
+    "entityID": "comp.keyboardPedalParensLeft",
+    "name": "Left parenthesis for pedal marking"
+   },
+   {
+    "entityID": "comp.keyboardPedalParensRight",
+    "name": "Right parenthesis for pedal marking"
+   },
+   {
+    "entityID": "comp.keyboardPedalPed",
+    "name": "Pedal mark"
+   },
+   {
+    "entityID": "comp.keyboardPedalPedWithoutDot",
+    "name": "Pedal Ped without dot"
+   },
+   {
+    "entityID": "comp.keyboardPedalS",
+    "name": "Pedal S"
+   },
+   {
+    "entityID": "comp.keyboardPedalSost",
+    "name": "Sostenuto pedal mark"
+   },
+   {
+    "entityID": "comp.keyboardPedalUp",
+    "name": "Pedal up mark"
+   },
+   {
+    "entityID": "comp.keyboardPluckInside",
+    "name": "Pluck strings inside piano (Maderna)"
+   },
+   {
+    "entityID": "comp.keyboardRightPedalPictogram",
+    "name": "Right pedal pictogram"
+   },
+   {
+    "entityID": "comp.keyboardToe1",
+    "name": "Organ pedal toe 1"
+   },
+   {
+    "entityID": "comp.keyboardToe2",
+    "name": "Organ pedal toe 2"
+   },
+   {
+    "entityID": "comp.keyboardToeToHeel",
+    "name": "Organ pedal toe to heel"
+   },
+   {
+    "entityID": "comp.mensuralNoteheadLongaWhite",
+    "name": "Longa/brevis notehead, white"
+   },
+   {
+    "entityID": "comp.mensuralNoteheadMaximaWhite",
+    "name": "Maxima notehead, white"
+   },
+   {
+    "entityID": "comp.metAugmentationDot",
+    "name": "Augmentation dot"
+   },
+   {
+    "entityID": "comp.metNote1024thUp",
+    "name": "1024th note stem up"
+   },
+   {
+    "entityID": "comp.metNote128thUp",
+    "name": "128th note  stem up"
+   },
+   {
+    "entityID": "comp.metNote16thUp",
+    "name": "16th note stem up"
+   },
+   {
+    "entityID": "comp.metNote256thUp",
+    "name": "256th note stem up"
+   },
+   {
+    "entityID": "comp.metNote32ndUp",
+    "name": "32nd note stem up"
+   },
+   {
+    "entityID": "comp.metNote512thUp",
+    "name": "512th note stem up"
+   },
+   {
+    "entityID": "comp.metNote64thUp",
+    "name": "64th note stem up"
+   },
+   {
+    "entityID": "comp.metNote8thUp",
+    "name": "Eighth note stem up"
+   },
+   {
+    "entityID": "comp.metNoteDoubleWhole",
+    "name": "Double whole note (round)"
+   },
+   {
+    "entityID": "comp.metNoteDoubleWholeSquare",
+    "name": "Double whole note (square)"
+   },
+   {
+    "entityID": "comp.metNoteHalfUp",
+    "name": "Half note stem up"
+   },
+   {
+    "entityID": "comp.metNoteQuarterUp",
+    "name": "Quarter note stem up"
+   },
+   {
+    "entityID": "comp.metNoteWhole",
+    "name": "Whole note"
+   },
+   {
+    "entityID": "comp.multirest0",
+    "name": "Bar count 0"
+   },
+   {
+    "entityID": "comp.multirest0plain",
+    "name": "Bar count 0 plain"
+   },
+   {
+    "entityID": "comp.multirest1",
+    "name": "Bar count 1"
+   },
+   {
+    "entityID": "comp.multirest1plain",
+    "name": "Bar count 1 plain"
+   },
+   {
+    "entityID": "comp.multirest2",
+    "name": "Bar count 2"
+   },
+   {
+    "entityID": "comp.multirest2plain",
+    "name": "Bar count 2 plain"
+   },
+   {
+    "entityID": "comp.multirest3",
+    "name": "Bar count 3"
+   },
+   {
+    "entityID": "comp.multirest3plain",
+    "name": "Bar count 3 plain"
+   },
+   {
+    "entityID": "comp.multirest4",
+    "name": "Bar count 4"
+   },
+   {
+    "entityID": "comp.multirest4plain",
+    "name": "Bar count 4 plain"
+   },
+   {
+    "entityID": "comp.multirest5",
+    "name": "Bar count 5"
+   },
+   {
+    "entityID": "comp.multirest5plain",
+    "name": "Bar count 5 plain"
+   },
+   {
+    "entityID": "comp.multirest6",
+    "name": "Bar count 6"
+   },
+   {
+    "entityID": "comp.multirest6plain",
+    "name": "Bar count 6 plain"
+   },
+   {
+    "entityID": "comp.multirest7",
+    "name": "Bar count 7"
+   },
+   {
+    "entityID": "comp.multirest7plain",
+    "name": "Bar count 7 plain"
+   },
+   {
+    "entityID": "comp.multirest8",
+    "name": "Bar count 8"
+   },
+   {
+    "entityID": "comp.multirest8plain",
+    "name": "Bar count 8 plain"
+   },
+   {
+    "entityID": "comp.multirest9",
+    "name": "Bar count 9"
+   },
+   {
+    "entityID": "comp.multirest9plain",
+    "name": "Bar count 9 plain"
+   },
+   {
+    "entityID": "comp.naturalHarmonicTab",
+    "name": "Natural Harmonic (Tab)"
+   },
+   {
+    "entityID": "comp.noteEmptyBlack",
+    "name": "Empty black note"
+   },
+   {
+    "entityID": "comp.noteEmptyHalf",
+    "name": "Empty half note"
+   },
+   {
+    "entityID": "comp.noteEmptyWhole",
+    "name": "Empty whole note"
+   },
+   {
+    "entityID": "comp.noteShapeArrowheadLeftBlack",
+    "name": "Arrowhead left black (Funk 7-shape re)"
+   },
+   {
+    "entityID": "comp.noteShapeArrowheadLeftWhite",
+    "name": "Arrowhead left white (Funk 7-shape re)"
+   },
+   {
+    "entityID": "comp.noteShapeDiamondBlack",
+    "name": "Diamond black (4-shape mi; 7-shape mi)"
+   },
+   {
+    "entityID": "comp.noteShapeDiamondBlackWalker4",
+    "name": "Diamond black (Walker 4-shape mi)"
+   },
+   {
+    "entityID": "comp.noteShapeDiamondWhite",
+    "name": "Diamond white (4-shape mi; 7-shape mi)"
+   },
+   {
+    "entityID": "comp.noteShapeDiamondWhiteWalker4",
+    "name": "Diamond white (Walker 4-shape mi)"
+   },
+   {
+    "entityID": "comp.noteShapeIsoscelesTriangleBlack",
+    "name": "Isosceles triangle black (Walker 7-shape ti)"
+   },
+   {
+    "entityID": "comp.noteShapeIsoscelesTriangleWhite",
+    "name": "Isosceles triangle white (Walker 7-shape ti)"
+   },
+   {
+    "entityID": "comp.noteShapeKeystoneBlack",
+    "name": "Inverted keystone black (Walker 7-shape do)"
+   },
+   {
+    "entityID": "comp.noteShapeKeystoneWhite",
+    "name": "Inverted keystone white (Walker 7-shape do)"
+   },
+   {
+    "entityID": "comp.noteShapeMoonBlack",
+    "name": "Moon black (Aikin 7-shape re)"
+   },
+   {
+    "entityID": "comp.noteShapeMoonLeftBlack",
+    "name": "Moon left black (Funk 7-shape do)"
+   },
+   {
+    "entityID": "comp.noteShapeMoonLeftWhite",
+    "name": "Moon left white (Funk 7-shape do)"
+   },
+   {
+    "entityID": "comp.noteShapeMoonWhite",
+    "name": "Moon white (Aikin 7-shape re)"
+   },
+   {
+    "entityID": "comp.noteShapeQuarterMoonBlack",
+    "name": "Quarter moon black (Walker 7-shape re)"
+   },
+   {
+    "entityID": "comp.noteShapeQuarterMoonWhite",
+    "name": "Quarter moon white (Walker 7-shape re)"
+   },
+   {
+    "entityID": "comp.noteShapeRoundBlack",
+    "name": "Round black (4-shape sol; 7-shape so)"
+   },
+   {
+    "entityID": "comp.noteShapeRoundWhite",
+    "name": "Round white (4-shape sol; 7-shape so)"
+   },
+   {
+    "entityID": "comp.noteShapeSquareBlack",
+    "name": "Square black (4-shape la; Aikin 7-shape la)"
+   },
+   {
+    "entityID": "comp.noteShapeSquareWhite",
+    "name": "Square white (4-shape la; Aikin 7-shape la)"
+   },
+   {
+    "entityID": "comp.noteShapeTriangleLeftBlack",
+    "name": "Triangle left black (stem up; 4-shape fa; 7-shape fa)"
+   },
+   {
+    "entityID": "comp.noteShapeTriangleLeftWhite",
+    "name": "Triangle left white (stem up; 4-shape fa; 7-shape fa)"
+   },
+   {
+    "entityID": "comp.noteShapeTriangleRightBlack",
+    "name": "Triangle right black (stem down; 4-shape fa; 7-shape fa)"
+   },
+   {
+    "entityID": "comp.noteShapeTriangleRightWhite",
+    "name": "Triangle right white (stem down; 4-shape fa; 7-shape fa)"
+   },
+   {
+    "entityID": "comp.noteShapeTriangleRoundBlack",
+    "name": "Triangle-round black (Aikin 7-shape ti)"
+   },
+   {
+    "entityID": "comp.noteShapeTriangleRoundLeftBlack",
+    "name": "Triangle-round left black (Funk 7-shape ti)"
+   },
+   {
+    "entityID": "comp.noteShapeTriangleRoundLeftWhite",
+    "name": "Triangle-round left white (Funk 7-shape ti)"
+   },
+   {
+    "entityID": "comp.noteShapeTriangleRoundWhite",
+    "name": "Triangle-round white (Aikin 7-shape ti)"
+   },
+   {
+    "entityID": "comp.noteShapeTriangleUpBlack",
+    "name": "Triangle up black (Aikin 7-shape do)"
+   },
+   {
+    "entityID": "comp.noteShapeTriangleUpWhite",
+    "name": "Triangle up white (Aikin 7-shape do)"
+   },
+   {
+    "entityID": "comp.noteheadABlack",
+    "name": "A (black note)"
+   },
+   {
+    "entityID": "comp.noteheadAFlatBlack",
+    "name": "A flat (black note)"
+   },
+   {
+    "entityID": "comp.noteheadAFlatHalf",
+    "name": "A flat (half note)"
+   },
+   {
+    "entityID": "comp.noteheadAFlatWhole",
+    "name": "A flat (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadAHalf",
+    "name": "A (half note)"
+   },
+   {
+    "entityID": "comp.noteheadASharpBlack",
+    "name": "A sharp (black note)"
+   },
+   {
+    "entityID": "comp.noteheadASharpHalf",
+    "name": "A sharp (half note)"
+   },
+   {
+    "entityID": "comp.noteheadASharpWhole",
+    "name": "A sharp (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadAWhole",
+    "name": "A (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadBBlack",
+    "name": "B (black note)"
+   },
+   {
+    "entityID": "comp.noteheadBFlatBlack",
+    "name": "B flat (black note)"
+   },
+   {
+    "entityID": "comp.noteheadBFlatHalf",
+    "name": "B flat (half note)"
+   },
+   {
+    "entityID": "comp.noteheadBFlatWhole",
+    "name": "B flat (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadBHalf",
+    "name": "B (half note)"
+   },
+   {
+    "entityID": "comp.noteheadBSharpBlack",
+    "name": "B sharp (black note)"
+   },
+   {
+    "entityID": "comp.noteheadBSharpHalf",
+    "name": "B sharp (half note)"
+   },
+   {
+    "entityID": "comp.noteheadBSharpWhole",
+    "name": "B sharp (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadBWhole",
+    "name": "B (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadBlack",
+    "name": "Black notehead"
+   },
+   {
+    "entityID": "comp.noteheadBlackOversized",
+    "name": "noteheadBlackOversized"
+   },
+   {
+    "entityID": "comp.noteheadCBlack",
+    "name": "C (black note)"
+   },
+   {
+    "entityID": "comp.noteheadCFlatBlack",
+    "name": "C flat (black note)"
+   },
+   {
+    "entityID": "comp.noteheadCFlatHalf",
+    "name": "C flat (half note)"
+   },
+   {
+    "entityID": "comp.noteheadCFlatWhole",
+    "name": "C flat (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadCHalf",
+    "name": "C (half note)"
+   },
+   {
+    "entityID": "comp.noteheadCSharpBlack",
+    "name": "C sharp (black note)"
+   },
+   {
+    "entityID": "comp.noteheadCSharpHalf",
+    "name": "C sharp (half note)"
+   },
+   {
+    "entityID": "comp.noteheadCSharpWhole",
+    "name": "C sharp (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadCWhole",
+    "name": "C (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadCircleX",
+    "name": "Circle X notehead"
+   },
+   {
+    "entityID": "comp.noteheadCircleXDoubleWhole",
+    "name": "Circle X double whole"
+   },
+   {
+    "entityID": "comp.noteheadCircleXHalf",
+    "name": "Circle X half"
+   },
+   {
+    "entityID": "comp.noteheadCircleXWhole",
+    "name": "Circle X whole"
+   },
+   {
+    "entityID": "comp.noteheadCircledBlack",
+    "name": "Circled black notehead"
+   },
+   {
+    "entityID": "comp.noteheadCircledBlackLarge",
+    "name": "Black notehead in large circle"
+   },
+   {
+    "entityID": "comp.noteheadCircledDoubleWhole",
+    "name": "Circled double whole notehead"
+   },
+   {
+    "entityID": "comp.noteheadCircledDoubleWholeLarge",
+    "name": "Double whole notehead in large circle"
+   },
+   {
+    "entityID": "comp.noteheadCircledHalf",
+    "name": "Circled half notehead"
+   },
+   {
+    "entityID": "comp.noteheadCircledHalfLarge",
+    "name": "Half notehead in large circle"
+   },
+   {
+    "entityID": "comp.noteheadCircledWhole",
+    "name": "Circled whole notehead"
+   },
+   {
+    "entityID": "comp.noteheadCircledWholeLarge",
+    "name": "Whole notehead in large circle"
+   },
+   {
+    "entityID": "comp.noteheadDBlack",
+    "name": "D (black note)"
+   },
+   {
+    "entityID": "comp.noteheadDFlatBlack",
+    "name": "D flat (black note)"
+   },
+   {
+    "entityID": "comp.noteheadDFlatHalf",
+    "name": "D flat (half note)"
+   },
+   {
+    "entityID": "comp.noteheadDFlatWhole",
+    "name": "D flat (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadDHalf",
+    "name": "D (half note)"
+   },
+   {
+    "entityID": "comp.noteheadDSharpBlack",
+    "name": "D sharp (black note)"
+   },
+   {
+    "entityID": "comp.noteheadDSharpHalf",
+    "name": "D sharp (half note)"
+   },
+   {
+    "entityID": "comp.noteheadDSharpWhole",
+    "name": "D sharp (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadDWhole",
+    "name": "D (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadDiamondBlack",
+    "name": "Diamond black notehead"
+   },
+   {
+    "entityID": "comp.noteheadDiamondBlackOld",
+    "name": "Diamond black notehead (old)"
+   },
+   {
+    "entityID": "comp.noteheadDiamondBlackWide",
+    "name": "Diamond black notehead (wide)"
+   },
+   {
+    "entityID": "comp.noteheadDiamondDoubleWhole",
+    "name": "Diamond double whole notehead"
+   },
+   {
+    "entityID": "comp.noteheadDiamondDoubleWholeOld",
+    "name": "Diamond double whole notehead (old)"
+   },
+   {
+    "entityID": "comp.noteheadDiamondHalf",
+    "name": "Diamond half notehead"
+   },
+   {
+    "entityID": "comp.noteheadDiamondHalfOld",
+    "name": "Diamond half notehead (old)"
+   },
+   {
+    "entityID": "comp.noteheadDiamondHalfWide",
+    "name": "Diamond half notehead (wide)"
+   },
+   {
+    "entityID": "comp.noteheadDiamondMinimaWhite",
+    "name": "Diamond half notehead (minima)"
+   },
+   {
+    "entityID": "comp.noteheadDiamondWhiteWide",
+    "name": "Diamond white notehead (wide)"
+   },
+   {
+    "entityID": "comp.noteheadDiamondWhole",
+    "name": "Diamond whole notehead"
+   },
+   {
+    "entityID": "comp.noteheadDiamondWholeOld",
+    "name": "Diamond whole notehead (old)"
+   },
+   {
+    "entityID": "comp.noteheadDoubleWhole",
+    "name": "Double whole (breve) notehead"
+   },
+   {
+    "entityID": "comp.noteheadDoubleWholeOversized",
+    "name": "noteheadDoubleWholeOversized"
+   },
+   {
+    "entityID": "comp.noteheadDoubleWholeSquare",
+    "name": "Double whole (breve) notehead (square)"
+   },
+   {
+    "entityID": "comp.noteheadDoubleWholeSquareOversized",
+    "name": "noteheadDoubleWholeSquareOversized"
+   },
+   {
+    "entityID": "comp.noteheadDoubleWholeWithX",
+    "name": "Double whole notehead with X"
+   },
+   {
+    "entityID": "comp.noteheadEBlack",
+    "name": "E (black note)"
+   },
+   {
+    "entityID": "comp.noteheadEFlatBlack",
+    "name": "E flat (black note)"
+   },
+   {
+    "entityID": "comp.noteheadEFlatHalf",
+    "name": "E flat (half note)"
+   },
+   {
+    "entityID": "comp.noteheadEFlatWhole",
+    "name": "E flat (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadEHalf",
+    "name": "E (half note)"
+   },
+   {
+    "entityID": "comp.noteheadESharpBlack",
+    "name": "E sharp (black note)"
+   },
+   {
+    "entityID": "comp.noteheadESharpHalf",
+    "name": "E sharp (half note)"
+   },
+   {
+    "entityID": "comp.noteheadESharpWhole",
+    "name": "E sharp (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadEWhole",
+    "name": "E (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadFBlack",
+    "name": "F (black note)"
+   },
+   {
+    "entityID": "comp.noteheadFFlatBlack",
+    "name": "F flat (black note)"
+   },
+   {
+    "entityID": "comp.noteheadFFlatHalf",
+    "name": "F flat (half note)"
+   },
+   {
+    "entityID": "comp.noteheadFFlatWhole",
+    "name": "F flat (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadFHalf",
+    "name": "F (half note)"
+   },
+   {
+    "entityID": "comp.noteheadFSharpBlack",
+    "name": "F sharp (black note)"
+   },
+   {
+    "entityID": "comp.noteheadFSharpHalf",
+    "name": "F sharp (half note)"
+   },
+   {
+    "entityID": "comp.noteheadFSharpWhole",
+    "name": "F sharp (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadFWhole",
+    "name": "F (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadGBlack",
+    "name": "G (black note)"
+   },
+   {
+    "entityID": "comp.noteheadGFlatBlack",
+    "name": "G flat (black note)"
+   },
+   {
+    "entityID": "comp.noteheadGFlatHalf",
+    "name": "G flat (half note)"
+   },
+   {
+    "entityID": "comp.noteheadGFlatWhole",
+    "name": "G flat (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadGHalf",
+    "name": "G (half note)"
+   },
+   {
+    "entityID": "comp.noteheadGSharpBlack",
+    "name": "G sharp (black note)"
+   },
+   {
+    "entityID": "comp.noteheadGSharpHalf",
+    "name": "G sharp (half note)"
+   },
+   {
+    "entityID": "comp.noteheadGSharpWhole",
+    "name": "G sharp (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadGWhole",
+    "name": "G (whole note)"
+   },
+   {
+    "entityID": "comp.noteheadHalf",
+    "name": "Half (minim) notehead"
+   },
+   {
+    "entityID": "comp.noteheadHalfOversized",
+    "name": "noteheadHalfOversized"
+   },
+   {
+    "entityID": "comp.noteheadHalfWithX",
+    "name": "Half notehead with X"
+   },
+   {
+    "entityID": "comp.noteheadLargeArrowDownBlack",
+    "name": "Large arrow down (lowest pitch) black notehead"
+   },
+   {
+    "entityID": "comp.noteheadLargeArrowDownDoubleWhole",
+    "name": "Large arrow down (lowest pitch) double whole notehead"
+   },
+   {
+    "entityID": "comp.noteheadLargeArrowDownHalf",
+    "name": "Large arrow down (lowest pitch) half notehead"
+   },
+   {
+    "entityID": "comp.noteheadLargeArrowDownWhole",
+    "name": "Large arrow down (lowest pitch) whole notehead"
+   },
+   {
+    "entityID": "comp.noteheadLargeArrowUpBlack",
+    "name": "Large arrow up (highest pitch) black notehead"
+   },
+   {
+    "entityID": "comp.noteheadLargeArrowUpDoubleWhole",
+    "name": "Large arrow up (highest pitch) double whole notehead"
+   },
+   {
+    "entityID": "comp.noteheadLargeArrowUpHalf",
+    "name": "Large arrow up (highest pitch) half notehead"
+   },
+   {
+    "entityID": "comp.noteheadLargeArrowUpWhole",
+    "name": "Large arrow up (highest pitch) whole notehead"
+   },
+   {
+    "entityID": "comp.noteheadMoonBlack",
+    "name": "Moon notehead black"
+   },
+   {
+    "entityID": "comp.noteheadMoonWhite",
+    "name": "Moon notehead white"
+   },
+   {
+    "entityID": "comp.noteheadParenthesisLeft",
+    "name": "Opening parenthesis"
+   },
+   {
+    "entityID": "comp.noteheadParenthesisRight",
+    "name": "Closing parenthesis"
+   },
+   {
+    "entityID": "comp.noteheadPlusBlack",
+    "name": "Plus notehead black"
+   },
+   {
+    "entityID": "comp.noteheadPlusDoubleWhole",
+    "name": "Plus notehead double whole"
+   },
+   {
+    "entityID": "comp.noteheadPlusHalf",
+    "name": "Plus notehead half"
+   },
+   {
+    "entityID": "comp.noteheadPlusWhole",
+    "name": "Plus notehead whole"
+   },
+   {
+    "entityID": "comp.noteheadRoundWhiteWithDot",
+    "name": "Round white notehead with dot"
+   },
+   {
+    "entityID": "comp.noteheadSlashDiamondWhite",
+    "name": "Large white slash diamond"
+   },
+   {
+    "entityID": "comp.noteheadSlashDiamondWhiteOversized",
+    "name": "White slash diamond (oversized)"
+   },
+   {
+    "entityID": "comp.noteheadSlashVerticalEnds",
+    "name": "Slash with vertical ends"
+   },
+   {
+    "entityID": "comp.noteheadSlashVerticalEndsMuted",
+    "name": "Muted slash with vertical ends"
+   },
+   {
+    "entityID": "comp.noteheadSlashVerticalEndsOversized",
+    "name": "Slash with vertical ends (oversized)"
+   },
+   {
+    "entityID": "comp.noteheadSlashVerticalEndsSmallOversized",
+    "name": "Small slash with vertical ends (oversized)"
+   },
+   {
+    "entityID": "comp.noteheadSlashWhiteDoubleWhole",
+    "name": "White slash double whole"
+   },
+   {
+    "entityID": "comp.noteheadSlashWhiteHalf",
+    "name": "White slash half"
+   },
+   {
+    "entityID": "comp.noteheadSlashWhiteMuted",
+    "name": "Muted white slash"
+   },
+   {
+    "entityID": "comp.noteheadSlashWhiteWhole",
+    "name": "White slash whole"
+   },
+   {
+    "entityID": "comp.noteheadSlashX",
+    "name": "Large X notehead"
+   },
+   {
+    "entityID": "comp.noteheadSlashedBlack1",
+    "name": "Slashed black notehead (bottom left to top right)"
+   },
+   {
+    "entityID": "comp.noteheadSlashedBlack2",
+    "name": "Slashed black notehead (top left to bottom right)"
+   },
+   {
+    "entityID": "comp.noteheadSlashedDoubleWhole1",
+    "name": "Slashed double whole notehead (bottom left to top right)"
+   },
+   {
+    "entityID": "comp.noteheadSlashedDoubleWhole2",
+    "name": "Slashed double whole notehead (top left to bottom right)"
+   },
+   {
+    "entityID": "comp.noteheadSlashedHalf1",
+    "name": "Slashed half notehead (bottom left to top right)"
+   },
+   {
+    "entityID": "comp.noteheadSlashedHalf2",
+    "name": "Slashed half notehead (top left to bottom right)"
+   },
+   {
+    "entityID": "comp.noteheadSlashedWhole1",
+    "name": "Slashed whole notehead (bottom left to top right)"
+   },
+   {
+    "entityID": "comp.noteheadSlashedWhole2",
+    "name": "Slashed whole notehead (top left to bottom right)"
+   },
+   {
+    "entityID": "comp.noteheadSquareBlack",
+    "name": "Square notehead black"
+   },
+   {
+    "entityID": "comp.noteheadSquareWhite",
+    "name": "Square notehead white"
+   },
+   {
+    "entityID": "comp.noteheadTriangleDownBlack",
+    "name": "Triangle notehead down black"
+   },
+   {
+    "entityID": "comp.noteheadTriangleDownDoubleWhole",
+    "name": "Triangle notehead down double whole"
+   },
+   {
+    "entityID": "comp.noteheadTriangleDownHalf",
+    "name": "Triangle notehead down half"
+   },
+   {
+    "entityID": "comp.noteheadTriangleDownWhole",
+    "name": "Triangle notehead down whole"
+   },
+   {
+    "entityID": "comp.noteheadTriangleLeftBlack",
+    "name": "Triangle notehead left black"
+   },
+   {
+    "entityID": "comp.noteheadTriangleLeftWhite",
+    "name": "Triangle notehead left white"
+   },
+   {
+    "entityID": "comp.noteheadTriangleRightBlack",
+    "name": "Triangle notehead right black"
+   },
+   {
+    "entityID": "comp.noteheadTriangleRightWhite",
+    "name": "Triangle notehead right white"
+   },
+   {
+    "entityID": "comp.noteheadTriangleUpBlack",
+    "name": "Triangle notehead up black"
+   },
+   {
+    "entityID": "comp.noteheadTriangleUpDoubleWhole",
+    "name": "Triangle notehead up double whole"
+   },
+   {
+    "entityID": "comp.noteheadTriangleUpHalf",
+    "name": "Triangle notehead up half"
+   },
+   {
+    "entityID": "comp.noteheadTriangleUpWhole",
+    "name": "Triangle notehead up whole"
+   },
+   {
+    "entityID": "comp.noteheadVoidWithX",
+    "name": "Void notehead with X"
+   },
+   {
+    "entityID": "comp.noteheadWhole",
+    "name": "Whole (semibreve) notehead"
+   },
+   {
+    "entityID": "comp.noteheadWholeOversized",
+    "name": "noteheadWholeOversized"
+   },
+   {
+    "entityID": "comp.noteheadWholeWithX",
+    "name": "Whole notehead with X"
+   },
+   {
+    "entityID": "comp.noteheadXBlack",
+    "name": "X notehead black"
+   },
+   {
+    "entityID": "comp.noteheadXBlackQuarter",
+    "name": "X notehead black (quarter note)"
+   },
+   {
+    "entityID": "comp.noteheadXDoubleWhole",
+    "name": "X notehead double whole"
+   },
+   {
+    "entityID": "comp.noteheadXHalf",
+    "name": "X notehead half"
+   },
+   {
+    "entityID": "comp.noteheadXOrnate",
+    "name": "Ornate X notehead"
+   },
+   {
+    "entityID": "comp.noteheadXOrnateEllipse",
+    "name": "Ornate X notehead in ellipse"
+   },
+   {
+    "entityID": "comp.noteheadXWhole",
+    "name": "X notehead whole"
+   },
+   {
+    "entityID": "comp.octaveBassa",
+    "name": "Bassa"
+   },
+   {
+    "entityID": "comp.octaveLoco",
+    "name": "Loco"
+   },
+   {
+    "entityID": "comp.octaveParensLeft",
+    "name": "Left parenthesis for octave signs"
+   },
+   {
+    "entityID": "comp.octaveParensRight",
+    "name": "Right parenthesis for octave signs"
+   },
+   {
+    "entityID": "comp.ornamentHaydn",
+    "name": "ornamentHaydn"
+   },
+   {
+    "entityID": "comp.ornamentMordent",
+    "name": "ornamentMordent"
+   },
+   {
+    "entityID": "comp.ornamentPinceCouperin",
+    "name": "ornamentPinceCouperin"
+   },
+   {
+    "entityID": "comp.ornamentPortDeVoixV",
+    "name": "ornamentPortDeVoixV"
+   },
+   {
+    "entityID": "comp.ornamentPrecompAppoggTrill",
+    "name": "ornamentPrecompAppoggTrill"
+   },
+   {
+    "entityID": "comp.ornamentPrecompAppoggTrillSuffix",
+    "name": "ornamentPrecompAppoggTrillSuffix"
+   },
+   {
+    "entityID": "comp.ornamentPrecompCadence",
+    "name": "ornamentPrecompCadence"
+   },
+   {
+    "entityID": "comp.ornamentPrecompCadenceUpperPrefix",
+    "name": "ornamentPrecompCadenceUpperPrefix"
+   },
+   {
+    "entityID": "comp.ornamentPrecompCadenceUpperPrefixTurn",
+    "name": "ornamentPrecompCadenceUpperPrefixTurn"
+   },
+   {
+    "entityID": "comp.ornamentPrecompCadenceWithTurn",
+    "name": "ornamentPrecompCadenceWithTurn"
+   },
+   {
+    "entityID": "comp.ornamentPrecompDescendingSlide",
+    "name": "ornamentPrecompDescendingSlide"
+   },
+   {
+    "entityID": "comp.ornamentPrecompDoubleCadenceLowerPrefix",
+    "name": "ornamentPrecompDoubleCadenceLowerPrefix"
+   },
+   {
+    "entityID": "comp.ornamentPrecompDoubleCadenceUpperPrefix",
+    "name": "ornamentPrecompDoubleCadenceUpperPrefix"
+   },
+   {
+    "entityID": "comp.ornamentPrecompDoubleCadenceUpperPrefixTurn",
+    "name": "ornamentPrecompDoubleCadenceUpperPrefixTurn"
+   },
+   {
+    "entityID": "comp.ornamentPrecompInvertedMordentUpperPrefix",
+    "name": "ornamentPrecompInvertedMordentUpperPrefix"
+   },
+   {
+    "entityID": "comp.ornamentPrecompMordentRelease",
+    "name": "ornamentPrecompMordentRelease"
+   },
+   {
+    "entityID": "comp.ornamentPrecompMordentUpperPrefix",
+    "name": "ornamentPrecompMordentUpperPrefix"
+   },
+   {
+    "entityID": "comp.ornamentPrecompPortDeVoixMordent",
+    "name": "ornamentPrecompPortDeVoixMordent"
+   },
+   {
+    "entityID": "comp.ornamentPrecompSlide",
+    "name": "ornamentPrecompSlide"
+   },
+   {
+    "entityID": "comp.ornamentPrecompSlideTrillBach",
+    "name": "ornamentPrecompSlideTrillBach"
+   },
+   {
+    "entityID": "comp.ornamentPrecompSlideTrillDAnglebert",
+    "name": "ornamentPrecompSlideTrillDAnglebert"
+   },
+   {
+    "entityID": "comp.ornamentPrecompSlideTrillMarpurg",
+    "name": "ornamentPrecompSlideTrillMarpurg"
+   },
+   {
+    "entityID": "comp.ornamentPrecompSlideTrillMuffat",
+    "name": "ornamentPrecompSlideTrillMuffat"
+   },
+   {
+    "entityID": "comp.ornamentPrecompSlideTrillSuffixMuffat",
+    "name": "ornamentPrecompSlideTrillSuffixMuffat"
+   },
+   {
+    "entityID": "comp.ornamentPrecompTrillLowerSuffix",
+    "name": "ornamentPrecompTrillLowerSuffix"
+   },
+   {
+    "entityID": "comp.ornamentPrecompTrillSuffixDandrieu",
+    "name": "ornamentPrecompTrillSuffixDandrieu"
+   },
+   {
+    "entityID": "comp.ornamentPrecompTrillWithMordent",
+    "name": "ornamentPrecompTrillWithMordent"
+   },
+   {
+    "entityID": "comp.ornamentPrecompTurnTrillBach",
+    "name": "ornamentPrecompTurnTrillBach"
+   },
+   {
+    "entityID": "comp.ornamentPrecompTurnTrillDAnglebert",
+    "name": "ornamentPrecompTurnTrillDAnglebert"
+   },
+   {
+    "entityID": "comp.ornamentSchleifer",
+    "name": "ornamentSchleifer"
+   },
+   {
+    "entityID": "comp.ornamentShake3",
+    "name": "ornamentShake3"
+   },
+   {
+    "entityID": "comp.ornamentShortTrill",
+    "name": "ornamentShortTrill"
+   },
+   {
+    "entityID": "comp.ornamentTremblement",
+    "name": "ornamentTremblement"
+   },
+   {
+    "entityID": "comp.ornamentTremblementCouperin",
+    "name": "ornamentTremblementCouperin"
+   },
+   {
+    "entityID": "comp.ornamentTrill",
+    "name": "ornamentTrill"
+   },
+   {
+    "entityID": "comp.ornamentTrillParenthesised",
+    "name": "Trill (parenthesized)"
+   },
+   {
+    "entityID": "comp.ornamentTurn",
+    "name": "ornamentTurn"
+   },
+   {
+    "entityID": "comp.ornamentTurnInverted",
+    "name": "ornamentTurnInverted"
+   },
+   {
+    "entityID": "comp.ornamentTurnSlash",
+    "name": "ornamentTurnSlash"
+   },
+   {
+    "entityID": "comp.ornamentTurnUp",
+    "name": "ornamentTurnUp"
+   },
+   {
+    "entityID": "comp.ornamentTurnUpS",
+    "name": "ornamentTurnUpS"
+   },
+   {
+    "entityID": "comp.ottava",
+    "name": "Ottava"
+   },
+   {
+    "entityID": "comp.ottavaAlta",
+    "name": "Ottava alta"
+   },
+   {
+    "entityID": "comp.ottavaBassa",
+    "name": "Ottava bassa"
+   },
+   {
+    "entityID": "comp.ottavaBassaBa",
+    "name": "Ottava bassa (ba)"
+   },
+   {
+    "entityID": "comp.ottavaBassaVb",
+    "name": "Ottava bassa (8vb)"
+   },
+   {
+    "entityID": "comp.pedalHalf",
+    "name": "Pedal half"
+   },
+   {
+    "entityID": "comp.pedalSostenuto",
+    "name": "Pedal sostenuto"
+   },
+   {
+    "entityID": "comp.pedalSustain",
+    "name": "Pedal sustain"
+   },
+   {
+    "entityID": "comp.pedalUnaCorda",
+    "name": "Pedal una corda"
+   },
+   {
+    "entityID": "comp.pedalUp",
+    "name": "Pedal up"
+   },
+   {
+    "entityID": "comp.pinchHarmonicTab",
+    "name": "Pinch Harmonic (Tab)"
+   },
+   {
+    "entityID": "comp.pta.aeolianText",
+    "name": "Aeolian"
+   },
+   {
+    "entityID": "comp.pta.airText",
+    "name": "Air"
+   },
+   {
+    "entityID": "comp.pta.allaChitarraText",
+    "name": "Alla Chitarra"
+   },
+   {
+    "entityID": "comp.pta.altoSulTastoAbbreviatedText",
+    "name": "Alto sul tasto"
+   },
+   {
+    "entityID": "comp.pta.apertoText",
+    "name": "Aperto (text)"
+   },
+   {
+    "entityID": "comp.pta.arcoText",
+    "name": "Arco"
+   },
+   {
+    "entityID": "comp.pta.auTalonText",
+    "name": "Au talon"
+   },
+   {
+    "entityID": "comp.pta.bisbigliandoText",
+    "name": "Bisbigliando (whisper)"
+   },
+   {
+    "entityID": "comp.pta.bucketHarmonMuteStemInText",
+    "name": "Harmon mute, stem in (text)"
+   },
+   {
+    "entityID": "comp.pta.bucketHarmonMuteStemOutText",
+    "name": "Harmon mute, stem out (text)"
+   },
+   {
+    "entityID": "comp.pta.bucketHarmonMuteText",
+    "name": "Harmon mute (text)"
+   },
+   {
+    "entityID": "comp.pta.bucketMuteText",
+    "name": "Bucket mute"
+   },
+   {
+    "entityID": "comp.pta.colLegnoBattutoText",
+    "name": "Col Legno Battuto"
+   },
+   {
+    "entityID": "comp.pta.colLegnoText",
+    "name": "Col Legno"
+   },
+   {
+    "entityID": "comp.pta.colLegnoTrattoText",
+    "name": "Col Legno Tratto"
+   },
+   {
+    "entityID": "comp.pta.conSordinoText",
+    "name": "Con sordino"
+   },
+   {
+    "entityID": "comp.pta.cuivreText",
+    "name": "Cuivr\u00e9"
+   },
+   {
+    "entityID": "comp.pta.cupMuteText",
+    "name": "Cup mute"
+   },
+   {
+    "entityID": "comp.pta.detacheText",
+    "name": "D\u00e9tach\u00e9"
+   },
+   {
+    "entityID": "comp.pta.flautandoText",
+    "name": "Flautando"
+   },
+   {
+    "entityID": "comp.pta.flutterTongueFltText",
+    "name": "Flutter-tongue (flt.)"
+   },
+   {
+    "entityID": "comp.pta.flutterTongueFlzText",
+    "name": "Flatterzunge (flz.)"
+   },
+   {
+    "entityID": "comp.pta.flutterTongueFtText",
+    "name": "Flutter-tongue (f.t.)"
+   },
+   {
+    "entityID": "comp.pta.frullatoText",
+    "name": "Frullato"
+   },
+   {
+    "entityID": "comp.pta.jeteText",
+    "name": "Jet\u00e9 (text)"
+   },
+   {
+    "entityID": "comp.pta.keyClicksText",
+    "name": "Key clicks"
+   },
+   {
+    "entityID": "comp.pta.keyboardAboveSopraText",
+    "name": "Above (sopra)"
+   },
+   {
+    "entityID": "comp.pta.keyboardBelowSottoText",
+    "name": "Below (sotto)"
+   },
+   {
+    "entityID": "comp.pta.keyboardLeftHandText",
+    "name": "Left Hand (L.H.)"
+   },
+   {
+    "entityID": "comp.pta.keyboardMDText",
+    "name": "m.d. (right hand)"
+   },
+   {
+    "entityID": "comp.pta.keyboardMSText",
+    "name": "m.s. (left hand)"
+   },
+   {
+    "entityID": "comp.pta.keyboardManoDestraText",
+    "name": "Mano destra (right hand)"
+   },
+   {
+    "entityID": "comp.pta.keyboardManoSinistraText",
+    "name": "Mano sinistra (left hand)"
+   },
+   {
+    "entityID": "comp.pta.keyboardRightHandText",
+    "name": "Right Hand (R.H.)"
+   },
+   {
+    "entityID": "comp.pta.laissezVibrerText",
+    "name": "Laissez Vibrer (l.v.)"
+   },
+   {
+    "entityID": "comp.pta.leftStickText",
+    "name": "Left (L)"
+   },
+   {
+    "entityID": "comp.pta.legatoText",
+    "name": "Legato"
+   },
+   {
+    "entityID": "comp.pta.marcatoText",
+    "name": "Marcato (text)"
+   },
+   {
+    "entityID": "comp.pta.marteleText",
+    "name": "Martel\u00e9"
+   },
+   {
+    "entityID": "comp.pta.martellatoText",
+    "name": "Martellato"
+   },
+   {
+    "entityID": "comp.pta.modoOrdinarioText",
+    "name": "Modo Ordinario"
+   },
+   {
+    "entityID": "comp.pta.moltoVibratoText",
+    "name": "Molto Vibrato"
+   },
+   {
+    "entityID": "comp.pta.multiphonicText",
+    "name": "Multiphonic"
+   },
+   {
+    "entityID": "comp.pta.muteOffText",
+    "name": "Mute Off (text)"
+   },
+   {
+    "entityID": "comp.pta.muteText",
+    "name": "Mute (text)"
+   },
+   {
+    "entityID": "comp.pta.naturaleText",
+    "name": "Naturale (nat.)"
+   },
+   {
+    "entityID": "comp.pta.nonLaissezVibrerText",
+    "name": "Non Laissez Vibrer (non l.v.)"
+   },
+   {
+    "entityID": "comp.pta.nonVibratoText",
+    "name": "Non Vibrato"
+   },
+   {
+    "entityID": "comp.pta.openRemoveMuteText",
+    "name": "Open (remove mute)"
+   },
+   {
+    "entityID": "comp.pta.openText",
+    "name": "Open (text)"
+   },
+   {
+    "entityID": "comp.pta.ordinarioText",
+    "name": "Ordinario (ord.)"
+   },
+   {
+    "entityID": "comp.pta.pdltText",
+    "name": "Pr\u00e8s de la Table (p.d.l.t.)"
+   },
+   {
+    "entityID": "comp.pta.pizzText",
+    "name": "Pizzicato"
+   },
+   {
+    "entityID": "comp.pta.plungerMuteText",
+    "name": "Plunger mute"
+   },
+   {
+    "entityID": "comp.pta.pocoSulTastoAbbreviatedText",
+    "name": "Poco sul tasto"
+   },
+   {
+    "entityID": "comp.pta.pocoVibratoText",
+    "name": "Poco Vibrato"
+   },
+   {
+    "entityID": "comp.pta.puntaDArcoText",
+    "name": "Punta d'arco"
+   },
+   {
+    "entityID": "comp.pta.rightStickText",
+    "name": "Right (R)"
+   },
+   {
+    "entityID": "comp.pta.saltandoText",
+    "name": "Saltando"
+   },
+   {
+    "entityID": "comp.pta.senzaSordinoText",
+    "name": "Senza sordino"
+   },
+   {
+    "entityID": "comp.pta.senzaVibratoText",
+    "name": "Senza Vibrato"
+   },
+   {
+    "entityID": "comp.pta.slapTongueText",
+    "name": "Slap-tongue"
+   },
+   {
+    "entityID": "comp.pta.spiccText",
+    "name": "Spiccato"
+   },
+   {
+    "entityID": "comp.pta.stoppedText",
+    "name": "Stopped (text)"
+   },
+   {
+    "entityID": "comp.pta.straightMuteText",
+    "name": "Straight mute"
+   },
+   {
+    "entityID": "comp.pta.sulPontText",
+    "name": "Sul ponticello (sul pont.)"
+   },
+   {
+    "entityID": "comp.pta.sulTastoText",
+    "name": "Sul Tasto"
+   },
+   {
+    "entityID": "comp.pta.unpitchedCenterText",
+    "name": "Center (Text)"
+   },
+   {
+    "entityID": "comp.pta.unpitchedEdgeText",
+    "name": "Edge (Text)"
+   },
+   {
+    "entityID": "comp.pta.unpitchedMuffledText",
+    "name": "Muffled"
+   },
+   {
+    "entityID": "comp.pta.unpitchedSnaresOffText",
+    "name": "Snares Off"
+   },
+   {
+    "entityID": "comp.pta.unpitchedSnaresOnText",
+    "name": "Snares On"
+   },
+   {
+    "entityID": "comp.pta.vibraphoneHalfPedText",
+    "name": "Vibraphone Half Pedal (\u00bd ped.)"
+   },
+   {
+    "entityID": "comp.pta.vibraphoneLvText",
+    "name": "Vibraphone Pedal (l.v.)"
+   },
+   {
+    "entityID": "comp.pta.vibraphoneMotorOff",
+    "name": "Vibraphone Motor Off"
+   },
+   {
+    "entityID": "comp.pta.vibraphoneMotorOn",
+    "name": "Vibraphone Motor On"
+   },
+   {
+    "entityID": "comp.pta.vibraphonePedText",
+    "name": "Vibraphone Pedal (ped.)"
+   },
+   {
+    "entityID": "comp.pta.vibratoText",
+    "name": "Vibrato"
+   },
+   {
+    "entityID": "comp.pta.vocalConBoccaChiusa",
+    "name": "Con bocca chiusa"
+   },
+   {
+    "entityID": "comp.pta.whistleToneText",
+    "name": "Whistle Tone"
+   },
+   {
+    "entityID": "comp.pta.withMuteText",
+    "name": "With Mute (text)"
+   },
+   {
+    "entityID": "comp.pta.xyloText",
+    "name": "Xylo"
+   },
+   {
+    "entityID": "comp.quindicesima",
+    "name": "Quindicesima"
+   },
+   {
+    "entityID": "comp.quindicesimaAlta",
+    "name": "Quindicesima alta"
+   },
+   {
+    "entityID": "comp.quindicesimaBassa",
+    "name": "Quindicesima bassa"
+   },
+   {
+    "entityID": "comp.quindicesimaBassaMb",
+    "name": "Quindicesima bassa (mb)"
+   },
+   {
+    "entityID": "comp.repeat1Bar",
+    "name": "Repeat last bar"
+   },
+   {
+    "entityID": "comp.repeat2Bars",
+    "name": "Repeat last two bars"
+   },
+   {
+    "entityID": "comp.repeat3Bars",
+    "name": "Repeat last three bars"
+   },
+   {
+    "entityID": "comp.repeat4Bars",
+    "name": "Repeat last four bars"
+   },
+   {
+    "entityID": "comp.repeatBarlineDot",
+    "name": "Repeat barline dot"
+   },
+   {
+    "entityID": "comp.rest1024th",
+    "name": "1024th rest"
+   },
+   {
+    "entityID": "comp.rest128th",
+    "name": "128th (semihemidemisemiquaver) rest"
+   },
+   {
+    "entityID": "comp.rest16th",
+    "name": "16th (semiquaver) rest"
+   },
+   {
+    "entityID": "comp.rest256th",
+    "name": "256th rest"
+   },
+   {
+    "entityID": "comp.rest32nd",
+    "name": "32nd (demisemiquaver) rest"
+   },
+   {
+    "entityID": "comp.rest512th",
+    "name": "512th rest"
+   },
+   {
+    "entityID": "comp.rest64th",
+    "name": "64th (hemidemisemiquaver) rest"
+   },
+   {
+    "entityID": "comp.rest8th",
+    "name": "Eighth (quaver) rest"
+   },
+   {
+    "entityID": "comp.restDoubleWhole",
+    "name": "Double whole (breve) rest"
+   },
+   {
+    "entityID": "comp.restHalf",
+    "name": "Half (minim) rest"
+   },
+   {
+    "entityID": "comp.restLonga",
+    "name": "Longa rest"
+   },
+   {
+    "entityID": "comp.restMaxima",
+    "name": "Maxima rest"
+   },
+   {
+    "entityID": "comp.restQuarter",
+    "name": "Quarter (crotchet) rest"
+   },
+   {
+    "entityID": "comp.restQuarterOldStyle",
+    "name": "Old-style quarter (crotchet) rest"
+   },
+   {
+    "entityID": "comp.restQuarterZStyle",
+    "name": "Z-style quarter (crotchet) rest"
+   },
+   {
+    "entityID": "comp.restWhole",
+    "name": "Whole (semibreve) rest"
+   },
+   {
+    "entityID": "comp.reversedBracketBottom",
+    "name": "Reversed bracket bottom"
+   },
+   {
+    "entityID": "comp.reversedBracketTop",
+    "name": "Reversed bracket top"
+   },
+   {
+    "entityID": "comp.salzedoAeolianAscending",
+    "name": "Salzedo aeolian ascending"
+   },
+   {
+    "entityID": "comp.salzedoAeolianDescending",
+    "name": "Salzedo aeolian descending"
+   },
+   {
+    "entityID": "comp.salzedoDampAbove",
+    "name": "Salzedo damp above"
+   },
+   {
+    "entityID": "comp.salzedoDampBelow",
+    "name": "Salzedo damp below"
+   },
+   {
+    "entityID": "comp.salzedoDampBothHands",
+    "name": "Salzedo damp both hands"
+   },
+   {
+    "entityID": "comp.salzedoDampLowStrings",
+    "name": "Salzedo damp low strings"
+   },
+   {
+    "entityID": "comp.salzedoFluidicSoundsLeft",
+    "name": "Salzedo fluidic sounds left"
+   },
+   {
+    "entityID": "comp.salzedoFluidicSoundsRight",
+    "name": "Salzedo fluidic sounds right"
+   },
+   {
+    "entityID": "comp.salzedoIsolatedSounds",
+    "name": "Salzedo isolated sounds"
+   },
+   {
+    "entityID": "comp.salzedoMetallicSounds",
+    "name": "Salzedo metallic sounds"
+   },
+   {
+    "entityID": "comp.salzedoMetallicSoundsOneString",
+    "name": "Salzedo metallic sounds (one string)"
+   },
+   {
+    "entityID": "comp.salzedoMuffleTotally",
+    "name": "Salzedo muffle totally"
+   },
+   {
+    "entityID": "comp.salzedoOboicFlux",
+    "name": "Salzedo oboic flux"
+   },
+   {
+    "entityID": "comp.salzedoPlayUpperEnd",
+    "name": "Salzedo play upper end"
+   },
+   {
+    "entityID": "comp.salzedoSlide",
+    "name": "Salzedo slide"
+   },
+   {
+    "entityID": "comp.salzedoSnareDrum",
+    "name": "Salzedo snare drum"
+   },
+   {
+    "entityID": "comp.salzedoTamTamSounds",
+    "name": "Salzedo tam tam sounds"
+   },
+   {
+    "entityID": "comp.salzedoThunderEffect",
+    "name": "Salzedo thunder effect"
+   },
+   {
+    "entityID": "comp.salzedoTimpanicSounds",
+    "name": "Salzedo timpanic sounds"
+   },
+   {
+    "entityID": "comp.salzedoWhistlingSounds",
+    "name": "Salzedo whistling sounds"
+   },
+   {
+    "entityID": "comp.space",
+    "name": "Space"
+   },
+   {
+    "entityID": "comp.staffDivideArrowDown",
+    "name": "Staff divide arrow down"
+   },
+   {
+    "entityID": "comp.staffDivideArrowUp",
+    "name": "Staff divide arrow up"
+   },
+   {
+    "entityID": "comp.staffDivideArrowUpDown",
+    "name": "Staff divide arrows"
+   },
+   {
+    "entityID": "comp.stringsBowBehindBridge",
+    "name": "Bow behind bridge (sul ponticello)"
+   },
+   {
+    "entityID": "comp.stringsBowBehindBridgeFourStrings",
+    "name": "Bow behind bridge on four strings"
+   },
+   {
+    "entityID": "comp.stringsBowBehindBridgeOneString",
+    "name": "Bow behind bridge on one string"
+   },
+   {
+    "entityID": "comp.stringsBowBehindBridgeThreeStrings",
+    "name": "Bow behind bridge on three strings"
+   },
+   {
+    "entityID": "comp.stringsBowBehindBridgeTwoStrings",
+    "name": "Bow behind bridge on two strings"
+   },
+   {
+    "entityID": "comp.stringsBowOnBridge",
+    "name": "Bow on top of bridge"
+   },
+   {
+    "entityID": "comp.stringsBowOnTailpiece",
+    "name": "Bow on tailpiece"
+   },
+   {
+    "entityID": "comp.stringsBuzzPizzicato",
+    "name": "Buzz pizzicato"
+   },
+   {
+    "entityID": "comp.stringsChangeBowDirection",
+    "name": "Change bow direction, indeterminate"
+   },
+   {
+    "entityID": "comp.stringsDownBow",
+    "name": "Down bow (above)"
+   },
+   {
+    "entityID": "comp.stringsDownBowBelow",
+    "name": "Down bow (below)"
+   },
+   {
+    "entityID": "comp.stringsFingernailFlick",
+    "name": "Fingernail flick"
+   },
+   {
+    "entityID": "comp.stringsFouette",
+    "name": "Fouett\u00e9"
+   },
+   {
+    "entityID": "comp.stringsHalfHarmonic",
+    "name": "Half-harmonic"
+   },
+   {
+    "entityID": "comp.stringsHarmonic",
+    "name": "Harmonic"
+   },
+   {
+    "entityID": "comp.stringsJete",
+    "name": "Jet\u00e9 (gettato) above"
+   },
+   {
+    "entityID": "comp.stringsJeteBelow",
+    "name": "Jet\u00e9 (gettato) below"
+   },
+   {
+    "entityID": "comp.stringsLeftHandPizzicato",
+    "name": "Left-hand pizzicato"
+   },
+   {
+    "entityID": "comp.stringsMuteOff",
+    "name": "Mute off"
+   },
+   {
+    "entityID": "comp.stringsMuteOn",
+    "name": "Mute on"
+   },
+   {
+    "entityID": "comp.stringsOverpressureDownBow",
+    "name": "Overpressure, down bow"
+   },
+   {
+    "entityID": "comp.stringsOverpressureNoDirection",
+    "name": "Overpressure, no bow direction"
+   },
+   {
+    "entityID": "comp.stringsOverpressurePossibileDownBow",
+    "name": "Overpressure possibile, down bow"
+   },
+   {
+    "entityID": "comp.stringsOverpressurePossibileUpBow",
+    "name": "Overpressure possibile, up bow"
+   },
+   {
+    "entityID": "comp.stringsOverpressureUpBow",
+    "name": "Overpressure, up bow"
+   },
+   {
+    "entityID": "comp.stringsPluckedWithFingernails",
+    "name": "Plucked with fingernails"
+   },
+   {
+    "entityID": "comp.stringsSnapPizzicato",
+    "name": "Snap pizzicato (above)"
+   },
+   {
+    "entityID": "comp.stringsSnapPizzicatoBelow",
+    "name": "Snap pizzicato (below)"
+   },
+   {
+    "entityID": "comp.stringsThumbPosition",
+    "name": "Thumb position"
+   },
+   {
+    "entityID": "comp.stringsUpBow",
+    "name": "Up bow (above)"
+   },
+   {
+    "entityID": "comp.stringsUpBowBelow",
+    "name": "Up bow (below)"
+   },
+   {
+    "entityID": "comp.systemDivider",
+    "name": "System divider"
+   },
+   {
+    "entityID": "comp.systemDividerExtraLong",
+    "name": "Extra long system divider"
+   },
+   {
+    "entityID": "comp.systemDividerLong",
+    "name": "Long system divider"
+   },
+   {
+    "entityID": "comp.tabnumber0",
+    "name": "Tablature number 0"
+   },
+   {
+    "entityID": "comp.tabnumber1",
+    "name": "Tablature number 1"
+   },
+   {
+    "entityID": "comp.tabnumber2",
+    "name": "Tablature number 2"
+   },
+   {
+    "entityID": "comp.tabnumber3",
+    "name": "Tablature number 3"
+   },
+   {
+    "entityID": "comp.tabnumber4",
+    "name": "Tablature number 4"
+   },
+   {
+    "entityID": "comp.tabnumber5",
+    "name": "Tablature number 5"
+   },
+   {
+    "entityID": "comp.tabnumber6",
+    "name": "Tablature number 6"
+   },
+   {
+    "entityID": "comp.tabnumber7",
+    "name": "Tablature number 7"
+   },
+   {
+    "entityID": "comp.tabnumber8",
+    "name": "Tablature number 8"
+   },
+   {
+    "entityID": "comp.tabnumber9",
+    "name": "Tablature number 9"
+   },
+   {
+    "entityID": "comp.tabnumberFullStop",
+    "name": "Tablature number period (full stop)"
+   },
+   {
+    "entityID": "comp.tabnumberLeftParenthesis",
+    "name": "Tablature number left parenthesis"
+   },
+   {
+    "entityID": "comp.tabnumberQuestionMark",
+    "name": "Tablature number question mark"
+   },
+   {
+    "entityID": "comp.tabnumberRightParenthesis",
+    "name": "Tablature number right parenthesis"
+   },
+   {
+    "entityID": "comp.tabnumberX",
+    "name": "Tablature number X"
+   },
+   {
+    "entityID": "comp.timeSig0",
+    "name": "Time signature 0"
+   },
+   {
+    "entityID": "comp.timeSig0Large",
+    "name": "Time signature 0 (large)"
+   },
+   {
+    "entityID": "comp.timeSig0Narrow",
+    "name": "Time signature 0 (narrow)"
+   },
+   {
+    "entityID": "comp.timeSig0Plain",
+    "name": "Time signature 0 (plain)"
+   },
+   {
+    "entityID": "comp.timeSig1",
+    "name": "Time signature 1"
+   },
+   {
+    "entityID": "comp.timeSig1Large",
+    "name": "Time signature 1 (large)"
+   },
+   {
+    "entityID": "comp.timeSig1Narrow",
+    "name": "Time signature 1 (narrow)"
+   },
+   {
+    "entityID": "comp.timeSig1Plain",
+    "name": "Time signature 1 (plain)"
+   },
+   {
+    "entityID": "comp.timeSig2",
+    "name": "Time signature 2"
+   },
+   {
+    "entityID": "comp.timeSig2Large",
+    "name": "Time signature 2 (large)"
+   },
+   {
+    "entityID": "comp.timeSig2Narrow",
+    "name": "Time signature 2 (narrow)"
+   },
+   {
+    "entityID": "comp.timeSig2Plain",
+    "name": "Time signature 2 (plain)"
+   },
+   {
+    "entityID": "comp.timeSig3",
+    "name": "Time signature 3"
+   },
+   {
+    "entityID": "comp.timeSig3Large",
+    "name": "Time signature 3 (large)"
+   },
+   {
+    "entityID": "comp.timeSig3Narrow",
+    "name": "Time signature 3 (narrow)"
+   },
+   {
+    "entityID": "comp.timeSig3Plain",
+    "name": "Time signature 3 (plain)"
+   },
+   {
+    "entityID": "comp.timeSig4",
+    "name": "Time signature 4"
+   },
+   {
+    "entityID": "comp.timeSig4Large",
+    "name": "Time signature 4 (large)"
+   },
+   {
+    "entityID": "comp.timeSig4Narrow",
+    "name": "Time signature 4 (narrow)"
+   },
+   {
+    "entityID": "comp.timeSig4Plain",
+    "name": "Time signature 4 (plain)"
+   },
+   {
+    "entityID": "comp.timeSig5",
+    "name": "Time signature 5"
+   },
+   {
+    "entityID": "comp.timeSig5Large",
+    "name": "Time signature 5 (large)"
+   },
+   {
+    "entityID": "comp.timeSig5Narrow",
+    "name": "Time signature 5 (narrow)"
+   },
+   {
+    "entityID": "comp.timeSig5Plain",
+    "name": "Time signature 5 (plain)"
+   },
+   {
+    "entityID": "comp.timeSig6",
+    "name": "Time signature 6"
+   },
+   {
+    "entityID": "comp.timeSig6Large",
+    "name": "Time signature 6 (large)"
+   },
+   {
+    "entityID": "comp.timeSig6Narrow",
+    "name": "Time signature 6 (narrow)"
+   },
+   {
+    "entityID": "comp.timeSig6Plain",
+    "name": "Time signature 6 (plain)"
+   },
+   {
+    "entityID": "comp.timeSig7",
+    "name": "Time signature 7"
+   },
+   {
+    "entityID": "comp.timeSig7Large",
+    "name": "Time signature 7 (large)"
+   },
+   {
+    "entityID": "comp.timeSig7Narrow",
+    "name": "Time signature 7 (narrow)"
+   },
+   {
+    "entityID": "comp.timeSig7Plain",
+    "name": "Time signature 7 (plain)"
+   },
+   {
+    "entityID": "comp.timeSig8",
+    "name": "Time signature 8"
+   },
+   {
+    "entityID": "comp.timeSig8Large",
+    "name": "Time signature 8 (large)"
+   },
+   {
+    "entityID": "comp.timeSig8Narrow",
+    "name": "Time signature 8 (narrow)"
+   },
+   {
+    "entityID": "comp.timeSig8Plain",
+    "name": "Time signature 8 (plain)"
+   },
+   {
+    "entityID": "comp.timeSig9",
+    "name": "Time signature 9"
+   },
+   {
+    "entityID": "comp.timeSig9Large",
+    "name": "Time signature 9 (large)"
+   },
+   {
+    "entityID": "comp.timeSig9Narrow",
+    "name": "Time signature 9 (narrow)"
+   },
+   {
+    "entityID": "comp.timeSig9Plain",
+    "name": "Time signature 9 (plain)"
+   },
+   {
+    "entityID": "comp.timeSigBracketLeft",
+    "name": "Left bracket for whole time signature"
+   },
+   {
+    "entityID": "comp.timeSigBracketLeftLarge",
+    "name": "Left bracket for whole time signature (large)"
+   },
+   {
+    "entityID": "comp.timeSigBracketLeftNarrow",
+    "name": "Left bracket for whole time signature (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigBracketLeftPlain",
+    "name": "Left bracket for whole time signature (plain)"
+   },
+   {
+    "entityID": "comp.timeSigBracketLeftSmall",
+    "name": "Left bracket for numerator only"
+   },
+   {
+    "entityID": "comp.timeSigBracketLeftSmallLarge",
+    "name": "Left bracket for numerator only (large)"
+   },
+   {
+    "entityID": "comp.timeSigBracketLeftSmallNarrow",
+    "name": "Left bracket for numerator only (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigBracketLeftSmallPlain",
+    "name": "Left bracket for numerator only (plain)"
+   },
+   {
+    "entityID": "comp.timeSigBracketRight",
+    "name": "Right bracket for whole time signature"
+   },
+   {
+    "entityID": "comp.timeSigBracketRightLarge",
+    "name": "Right bracket for whole time signature (large)"
+   },
+   {
+    "entityID": "comp.timeSigBracketRightNarrow",
+    "name": "Right bracket for whole time signature (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigBracketRightPlain",
+    "name": "Right bracket for whole time signature (plain)"
+   },
+   {
+    "entityID": "comp.timeSigBracketRightSmall",
+    "name": "Right bracket for numerator only"
+   },
+   {
+    "entityID": "comp.timeSigBracketRightSmallLarge",
+    "name": "Right bracket for numerator only (large)"
+   },
+   {
+    "entityID": "comp.timeSigBracketRightSmallNarrow",
+    "name": "Right bracket for numerator only (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigBracketRightSmallPlain",
+    "name": "Right bracket for numerator only (plain)"
+   },
+   {
+    "entityID": "comp.timeSigCombDenominator",
+    "name": "Control character for denominator digit"
+   },
+   {
+    "entityID": "comp.timeSigCombDenominatorLarge",
+    "name": "Control character for denominator digit (large)"
+   },
+   {
+    "entityID": "comp.timeSigCombDenominatorNarrow",
+    "name": "Control character for denominator digit (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigCombDenominatorPlain",
+    "name": "Control character for denominator digit (plain)"
+   },
+   {
+    "entityID": "comp.timeSigCombNumerator",
+    "name": "Control character for numerator digit"
+   },
+   {
+    "entityID": "comp.timeSigCombNumeratorLarge",
+    "name": "Control character for numerator digit (large)"
+   },
+   {
+    "entityID": "comp.timeSigCombNumeratorNarrow",
+    "name": "Control character for numerator digit (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigCombNumeratorPlain",
+    "name": "Control character for numerator digit (plain)"
+   },
+   {
+    "entityID": "comp.timeSigComma",
+    "name": "Time signature comma"
+   },
+   {
+    "entityID": "comp.timeSigCommaLarge",
+    "name": "Time signature comma (large)"
+   },
+   {
+    "entityID": "comp.timeSigCommaNarrow",
+    "name": "Time signature comma (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigCommaPlain",
+    "name": "Time signature comma (plain)"
+   },
+   {
+    "entityID": "comp.timeSigCommon",
+    "name": "Common time"
+   },
+   {
+    "entityID": "comp.timeSigCommonLarge",
+    "name": "Common time (large)"
+   },
+   {
+    "entityID": "comp.timeSigCommonNarrow",
+    "name": "Common time (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigCommonPlain",
+    "name": "Common time (plain)"
+   },
+   {
+    "entityID": "comp.timeSigCut2",
+    "name": "Cut time, Bach"
+   },
+   {
+    "entityID": "comp.timeSigCut2Large",
+    "name": "Cut time, Bach (large)"
+   },
+   {
+    "entityID": "comp.timeSigCut2Narrow",
+    "name": "Cut time, Bach (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigCut2Plain",
+    "name": "Cut time, Bach (plain)"
+   },
+   {
+    "entityID": "comp.timeSigCutCommon",
+    "name": "Cut time"
+   },
+   {
+    "entityID": "comp.timeSigCutCommonLarge",
+    "name": "Cut time (large)"
+   },
+   {
+    "entityID": "comp.timeSigCutCommonNarrow",
+    "name": "Cut time (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigCutCommonPlain",
+    "name": "Cut time (plain)"
+   },
+   {
+    "entityID": "comp.timeSigEquals",
+    "name": "Time signature equals"
+   },
+   {
+    "entityID": "comp.timeSigEqualsLarge",
+    "name": "Time signature equals (large)"
+   },
+   {
+    "entityID": "comp.timeSigEqualsNarrow",
+    "name": "Time signature equals (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigEqualsPlain",
+    "name": "Time signature equals (plain)"
+   },
+   {
+    "entityID": "comp.timeSigFractionHalf",
+    "name": "Time signature fraction \u00bd"
+   },
+   {
+    "entityID": "comp.timeSigFractionHalfLarge",
+    "name": "Time signature fraction \u00bd (large)"
+   },
+   {
+    "entityID": "comp.timeSigFractionHalfNarrow",
+    "name": "Time signature fraction \u00bd (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigFractionHalfPlain",
+    "name": "Time signature fraction \u00bd (plain)"
+   },
+   {
+    "entityID": "comp.timeSigFractionOneThird",
+    "name": "Time signature fraction \u2153"
+   },
+   {
+    "entityID": "comp.timeSigFractionOneThirdLarge",
+    "name": "Time signature fraction \u2153 (large)"
+   },
+   {
+    "entityID": "comp.timeSigFractionOneThirdNarrow",
+    "name": "Time signature fraction \u2153 (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigFractionOneThirdPlain",
+    "name": "Time signature fraction \u2153 (plain)"
+   },
+   {
+    "entityID": "comp.timeSigFractionQuarter",
+    "name": "Time signature fraction \u00bc"
+   },
+   {
+    "entityID": "comp.timeSigFractionQuarterLarge",
+    "name": "Time signature fraction \u00bc (large)"
+   },
+   {
+    "entityID": "comp.timeSigFractionQuarterNarrow",
+    "name": "Time signature fraction \u00bc (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigFractionQuarterPlain",
+    "name": "Time signature fraction \u00bc (plain)"
+   },
+   {
+    "entityID": "comp.timeSigFractionThreeQuarters",
+    "name": "Time signature fraction \u00be"
+   },
+   {
+    "entityID": "comp.timeSigFractionThreeQuartersLarge",
+    "name": "Time signature fraction \u00be (large)"
+   },
+   {
+    "entityID": "comp.timeSigFractionThreeQuartersNarrow",
+    "name": "Time signature fraction \u00be (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigFractionThreeQuartersPlain",
+    "name": "Time signature fraction \u00be (plain)"
+   },
+   {
+    "entityID": "comp.timeSigFractionTwoThirds",
+    "name": "Time signature fraction \u2154"
+   },
+   {
+    "entityID": "comp.timeSigFractionTwoThirdsLarge",
+    "name": "Time signature fraction \u2154 (large)"
+   },
+   {
+    "entityID": "comp.timeSigFractionTwoThirdsNarrow",
+    "name": "Time signature fraction \u2154 (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigFractionTwoThirdsPlain",
+    "name": "Time signature fraction \u2154 (plain)"
+   },
+   {
+    "entityID": "comp.timeSigFractionalSlash",
+    "name": "Time signature fraction slash"
+   },
+   {
+    "entityID": "comp.timeSigFractionalSlashLarge",
+    "name": "Time signature fraction slash (large)"
+   },
+   {
+    "entityID": "comp.timeSigFractionalSlashNarrow",
+    "name": "Time signature fraction slash (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigFractionalSlashPlain",
+    "name": "Time signature fraction slash (plain)"
+   },
+   {
+    "entityID": "comp.timeSigMinus",
+    "name": "Time signature minus"
+   },
+   {
+    "entityID": "comp.timeSigMinusLarge",
+    "name": "Time signature minus (large)"
+   },
+   {
+    "entityID": "comp.timeSigMinusNarrow",
+    "name": "Time signature minus (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigMinusPlain",
+    "name": "Time signature minus (plain)"
+   },
+   {
+    "entityID": "comp.timeSigMultiply",
+    "name": "Time signature multiply"
+   },
+   {
+    "entityID": "comp.timeSigMultiplyLarge",
+    "name": "Time signature multiply (large)"
+   },
+   {
+    "entityID": "comp.timeSigMultiplyNarrow",
+    "name": "Time signature multiply (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigMultiplyPlain",
+    "name": "Time signature multiply (plain)"
+   },
+   {
+    "entityID": "comp.timeSigOpenPenderecki",
+    "name": "Open time signature (Penderecki)"
+   },
+   {
+    "entityID": "comp.timeSigOpenPendereckiLarge",
+    "name": "Open time signature (Penderecki) (large)"
+   },
+   {
+    "entityID": "comp.timeSigOpenPendereckiNarrow",
+    "name": "Open time signature (Penderecki) (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigOpenPendereckiPlain",
+    "name": "Open time signature (Penderecki) (plain)"
+   },
+   {
+    "entityID": "comp.timeSigParensLeft",
+    "name": "Left parenthesis for whole time signature"
+   },
+   {
+    "entityID": "comp.timeSigParensLeftLarge",
+    "name": "Left parenthesis for whole time signature (large)"
+   },
+   {
+    "entityID": "comp.timeSigParensLeftNarrow",
+    "name": "Left parenthesis for whole time signature (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigParensLeftPlain",
+    "name": "Left parenthesis for whole time signature (plain)"
+   },
+   {
+    "entityID": "comp.timeSigParensLeftSmall",
+    "name": "Left parenthesis for numerator only"
+   },
+   {
+    "entityID": "comp.timeSigParensLeftSmallLarge",
+    "name": "Left parenthesis for numerator only (large)"
+   },
+   {
+    "entityID": "comp.timeSigParensLeftSmallNarrow",
+    "name": "Left parenthesis for numerator only (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigParensLeftSmallPlain",
+    "name": "Left parenthesis for numerator only (plain)"
+   },
+   {
+    "entityID": "comp.timeSigParensRight",
+    "name": "Right parenthesis for whole time signature"
+   },
+   {
+    "entityID": "comp.timeSigParensRightLarge",
+    "name": "Right parenthesis for whole time signature (large)"
+   },
+   {
+    "entityID": "comp.timeSigParensRightNarrow",
+    "name": "Right parenthesis for whole time signature (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigParensRightPlain",
+    "name": "Right parenthesis for whole time signature (plain)"
+   },
+   {
+    "entityID": "comp.timeSigParensRightSmall",
+    "name": "Right parenthesis for numerator only"
+   },
+   {
+    "entityID": "comp.timeSigParensRightSmallLarge",
+    "name": "Right parenthesis for numerator only (large)"
+   },
+   {
+    "entityID": "comp.timeSigParensRightSmallNarrow",
+    "name": "Right parenthesis for numerator only (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigParensRightSmallPlain",
+    "name": "Right parenthesis for numerator only (plain)"
+   },
+   {
+    "entityID": "comp.timeSigPlus",
+    "name": "Time signature +"
+   },
+   {
+    "entityID": "comp.timeSigPlusLarge",
+    "name": "Time signature + (large)"
+   },
+   {
+    "entityID": "comp.timeSigPlusNarrow",
+    "name": "Time signature + (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigPlusPlain",
+    "name": "Time signature + (plain)"
+   },
+   {
+    "entityID": "comp.timeSigPlusSmall",
+    "name": "Time signature + (for numerators)"
+   },
+   {
+    "entityID": "comp.timeSigPlusSmallLarge",
+    "name": "Time signature + (for numerators) (large)"
+   },
+   {
+    "entityID": "comp.timeSigPlusSmallNarrow",
+    "name": "Time signature + (for numerators) (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigPlusSmallPlain",
+    "name": "Time signature + (for numerators) (plain)"
+   },
+   {
+    "entityID": "comp.timeSigSlash",
+    "name": "Time signature slash separator"
+   },
+   {
+    "entityID": "comp.timeSigSlashLarge",
+    "name": "Time signature slash separator (large)"
+   },
+   {
+    "entityID": "comp.timeSigSlashNarrow",
+    "name": "Time signature slash separator (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigSlashPlain",
+    "name": "Time signature slash separator (plain)"
+   },
+   {
+    "entityID": "comp.timeSigX",
+    "name": "Open time signature"
+   },
+   {
+    "entityID": "comp.timeSigXLarge",
+    "name": "Open time signature (large)"
+   },
+   {
+    "entityID": "comp.timeSigXNarrow",
+    "name": "Open time signature (narrow)"
+   },
+   {
+    "entityID": "comp.timeSigXPlain",
+    "name": "Open time signature (plain)"
+   },
+   {
+    "entityID": "comp.timesig_augmentationDot",
+    "name": "Augmentation dot"
+   },
+   {
+    "entityID": "comp.timesig_note1024thDown",
+    "name": "1024th note stem down"
+   },
+   {
+    "entityID": "comp.timesig_note1024thUp",
+    "name": "1024th note stem up"
+   },
+   {
+    "entityID": "comp.timesig_note128thDown",
+    "name": "128th note stem down"
+   },
+   {
+    "entityID": "comp.timesig_note128thUp",
+    "name": "128th note stem up"
+   },
+   {
+    "entityID": "comp.timesig_note16thDown",
+    "name": "16th note stem down"
+   },
+   {
+    "entityID": "comp.timesig_note16thUp",
+    "name": "16th note stem up"
+   },
+   {
+    "entityID": "comp.timesig_note256thDown",
+    "name": "256th note stem down"
+   },
+   {
+    "entityID": "comp.timesig_note256thUp",
+    "name": "256th note stem up"
+   },
+   {
+    "entityID": "comp.timesig_note32ndDown",
+    "name": "32nd note stem down"
+   },
+   {
+    "entityID": "comp.timesig_note32ndUp",
+    "name": "32nd note stem up"
+   },
+   {
+    "entityID": "comp.timesig_note512thDown",
+    "name": "512th note stem down"
+   },
+   {
+    "entityID": "comp.timesig_note512thUp",
+    "name": "512th note stem up"
+   },
+   {
+    "entityID": "comp.timesig_note64thDown",
+    "name": "64th note stem down"
+   },
+   {
+    "entityID": "comp.timesig_note64thUp",
+    "name": "64th note stem up"
+   },
+   {
+    "entityID": "comp.timesig_note8thDown",
+    "name": "Eighth note stem down"
+   },
+   {
+    "entityID": "comp.timesig_note8thUp",
+    "name": "Eighth note stem up"
+   },
+   {
+    "entityID": "comp.timesig_noteDoubleWhole",
+    "name": "Double whole note (round)"
+   },
+   {
+    "entityID": "comp.timesig_noteDoubleWholeSquare",
+    "name": "Double whole note (square)"
+   },
+   {
+    "entityID": "comp.timesig_noteHalfDown",
+    "name": "Half note stem down"
+   },
+   {
+    "entityID": "comp.timesig_noteHalfUp",
+    "name": "Half note stem up"
+   },
+   {
+    "entityID": "comp.timesig_noteQuarterDown",
+    "name": "Quarter note stem down"
+   },
+   {
+    "entityID": "comp.timesig_noteQuarterUp",
+    "name": "Quarter note stem up"
+   },
+   {
+    "entityID": "comp.timesig_noteWhole",
+    "name": "Whole note"
+   },
+   {
+    "entityID": "comp.tremolo1",
+    "name": "Combining tremolo 1"
+   },
+   {
+    "entityID": "comp.tremolo2",
+    "name": "Combining tremolo 2"
+   },
+   {
+    "entityID": "comp.tremolo3",
+    "name": "Combining tremolo 3"
+   },
+   {
+    "entityID": "comp.tremolo4",
+    "name": "Combining tremolo 4"
+   },
+   {
+    "entityID": "comp.tremolo5",
+    "name": "Combining tremolo 5"
+   },
+   {
+    "entityID": "comp.trill.half-step.H",
+    "name": "Trill Hollywood half-step H"
+   },
+   {
+    "entityID": "comp.trill.half-step.H.T.",
+    "name": "Trill Hollywood half-step H.T."
+   },
+   {
+    "entityID": "comp.trill.half-step.HT",
+    "name": "Trill Hollywood half-step HT"
+   },
+   {
+    "entityID": "comp.trill.half-step.half",
+    "name": "Trill Hollywood half-step half"
+   },
+   {
+    "entityID": "comp.trill.half-step.halfT",
+    "name": "Trill Hollywood half-step half-T"
+   },
+   {
+    "entityID": "comp.trill.whole-step.W",
+    "name": "Trill Hollywood whole-step W"
+   },
+   {
+    "entityID": "comp.trill.whole-step.W.T.",
+    "name": "Trill Hollywood whole-step W.T."
+   },
+   {
+    "entityID": "comp.trill.whole-step.WT",
+    "name": "Trill Hollywood whole-step WT"
+   },
+   {
+    "entityID": "comp.trill.whole-step.one",
+    "name": "Trill Hollywood whole-step 1"
+   },
+   {
+    "entityID": "comp.tuplet0",
+    "name": "Tuplet 0"
+   },
+   {
+    "entityID": "comp.tuplet0Light",
+    "name": "Tuplet 0 light"
+   },
+   {
+    "entityID": "comp.tuplet0Plain",
+    "name": "Tuplet 0 plain"
+   },
+   {
+    "entityID": "comp.tuplet1",
+    "name": "Tuplet 1"
+   },
+   {
+    "entityID": "comp.tuplet1Light",
+    "name": "Tuplet 1 light"
+   },
+   {
+    "entityID": "comp.tuplet1Plain",
+    "name": "Tuplet 1 plain"
+   },
+   {
+    "entityID": "comp.tuplet2",
+    "name": "Tuplet 2"
+   },
+   {
+    "entityID": "comp.tuplet2Light",
+    "name": "Tuplet 2 light"
+   },
+   {
+    "entityID": "comp.tuplet2Plain",
+    "name": "Tuplet 2 plain"
+   },
+   {
+    "entityID": "comp.tuplet3",
+    "name": "Tuplet 3"
+   },
+   {
+    "entityID": "comp.tuplet3Light",
+    "name": "Tuplet 3 light"
+   },
+   {
+    "entityID": "comp.tuplet3Plain",
+    "name": "Tuplet 3 plain"
+   },
+   {
+    "entityID": "comp.tuplet4",
+    "name": "Tuplet 4"
+   },
+   {
+    "entityID": "comp.tuplet4Light",
+    "name": "Tuplet 4 light"
+   },
+   {
+    "entityID": "comp.tuplet4Plain",
+    "name": "Tuplet 4 plain"
+   },
+   {
+    "entityID": "comp.tuplet5",
+    "name": "Tuplet 5"
+   },
+   {
+    "entityID": "comp.tuplet5Light",
+    "name": "Tuplet 5 light"
+   },
+   {
+    "entityID": "comp.tuplet5Plain",
+    "name": "Tuplet 5 plain"
+   },
+   {
+    "entityID": "comp.tuplet6",
+    "name": "Tuplet 6"
+   },
+   {
+    "entityID": "comp.tuplet6Light",
+    "name": "Tuplet 6 light"
+   },
+   {
+    "entityID": "comp.tuplet6Plain",
+    "name": "Tuplet 6 plain"
+   },
+   {
+    "entityID": "comp.tuplet7",
+    "name": "Tuplet 7"
+   },
+   {
+    "entityID": "comp.tuplet7Light",
+    "name": "Tuplet 7 light"
+   },
+   {
+    "entityID": "comp.tuplet7Plain",
+    "name": "Tuplet 7 plain"
+   },
+   {
+    "entityID": "comp.tuplet8",
+    "name": "Tuplet 8"
+   },
+   {
+    "entityID": "comp.tuplet8Light",
+    "name": "Tuplet 8 light"
+   },
+   {
+    "entityID": "comp.tuplet8Plain",
+    "name": "Tuplet 8 plain"
+   },
+   {
+    "entityID": "comp.tuplet9",
+    "name": "Tuplet 9"
+   },
+   {
+    "entityID": "comp.tuplet9Light",
+    "name": "Tuplet 9 light"
+   },
+   {
+    "entityID": "comp.tuplet9Plain",
+    "name": "Tuplet 9 plain"
+   },
+   {
+    "entityID": "comp.tupletBracketLeftItalic",
+    "name": "Tuplet left bracket italic"
+   },
+   {
+    "entityID": "comp.tupletBracketLeftItalicLight",
+    "name": "Tuplet left bracket italic light"
+   },
+   {
+    "entityID": "comp.tupletBracketLeftItalicPlain",
+    "name": "Tuplet left bracket italic plain"
+   },
+   {
+    "entityID": "comp.tupletBracketLeftRoman",
+    "name": "Tuplet left bracket roman"
+   },
+   {
+    "entityID": "comp.tupletBracketLeftRomanLight",
+    "name": "Tuplet left bracket roman light"
+   },
+   {
+    "entityID": "comp.tupletBracketLeftRomanPlain",
+    "name": "Tuplet left bracket roman plain"
+   },
+   {
+    "entityID": "comp.tupletBracketRightItalic",
+    "name": "Tuplet right bracket italic"
+   },
+   {
+    "entityID": "comp.tupletBracketRightItalicLight",
+    "name": "Tuplet right bracket italic light"
+   },
+   {
+    "entityID": "comp.tupletBracketRightItalicPlain",
+    "name": "Tuplet right bracket italic plain"
+   },
+   {
+    "entityID": "comp.tupletBracketRightRoman",
+    "name": "Tuplet right bracket roman"
+   },
+   {
+    "entityID": "comp.tupletBracketRightRomanLight",
+    "name": "Tuplet right bracket roman light"
+   },
+   {
+    "entityID": "comp.tupletBracketRightRomanPlain",
+    "name": "Tuplet right bracket roman plain"
+   },
+   {
+    "entityID": "comp.tupletColon",
+    "name": "Tuplet colon"
+   },
+   {
+    "entityID": "comp.tupletColonLight",
+    "name": "Tuplet colon light"
+   },
+   {
+    "entityID": "comp.tupletColonPlain",
+    "name": "Tuplet colon plain"
+   },
+   {
+    "entityID": "comp.tupletParenthesisLeftItalic",
+    "name": "Tuplet left parenthesis italic"
+   },
+   {
+    "entityID": "comp.tupletParenthesisLeftItalicLight",
+    "name": "Tuplet left parenthesis italic light"
+   },
+   {
+    "entityID": "comp.tupletParenthesisLeftItalicPlain",
+    "name": "Tuplet left parenthesis italic plain"
+   },
+   {
+    "entityID": "comp.tupletParenthesisLeftRoman",
+    "name": "Tuplet left parenthesis roman"
+   },
+   {
+    "entityID": "comp.tupletParenthesisLeftRomanLight",
+    "name": "Tuplet left parenthesis roman light"
+   },
+   {
+    "entityID": "comp.tupletParenthesisLeftRomanPlain",
+    "name": "Tuplet left parenthesis roman plain"
+   },
+   {
+    "entityID": "comp.tupletParenthesisRightItalic",
+    "name": "Tuplet right parenthesis italic"
+   },
+   {
+    "entityID": "comp.tupletParenthesisRightItalicLight",
+    "name": "Tuplet right parenthesis italic light"
+   },
+   {
+    "entityID": "comp.tupletParenthesisRightItalicPlain",
+    "name": "Tuplet right parenthesis italic plain"
+   },
+   {
+    "entityID": "comp.tupletParenthesisRightRoman",
+    "name": "Tuplet right parenthesis roman"
+   },
+   {
+    "entityID": "comp.tupletParenthesisRightRomanLight",
+    "name": "Tuplet right parenthesis roman light"
+   },
+   {
+    "entityID": "comp.tupletParenthesisRightRomanPlain",
+    "name": "Tuplet right parenthesis roman plain"
+   },
+   {
+    "entityID": "comp.tuplet_augmentationDot",
+    "name": "Augmentation dot"
+   },
+   {
+    "entityID": "comp.tuplet_note1024thUp",
+    "name": "1024th note stem up"
+   },
+   {
+    "entityID": "comp.tuplet_note128thUp",
+    "name": "128th note  stem up"
+   },
+   {
+    "entityID": "comp.tuplet_note16thUp",
+    "name": "16th note stem up"
+   },
+   {
+    "entityID": "comp.tuplet_note256thUp",
+    "name": "256th note stem up"
+   },
+   {
+    "entityID": "comp.tuplet_note32ndUp",
+    "name": "32nd note stem up"
+   },
+   {
+    "entityID": "comp.tuplet_note512thUp",
+    "name": "512th note stem up"
+   },
+   {
+    "entityID": "comp.tuplet_note64thUp",
+    "name": "64th note stem up"
+   },
+   {
+    "entityID": "comp.tuplet_note8thUp",
+    "name": "Eighth note stem up"
+   },
+   {
+    "entityID": "comp.tuplet_noteDoubleWhole",
+    "name": "Double whole note (round)"
+   },
+   {
+    "entityID": "comp.tuplet_noteDoubleWholeSquare",
+    "name": "Double whole note (square)"
+   },
+   {
+    "entityID": "comp.tuplet_noteHalfUp",
+    "name": "Half note stem up"
+   },
+   {
+    "entityID": "comp.tuplet_noteQuarterUp",
+    "name": "Quarter note stem up"
+   },
+   {
+    "entityID": "comp.tuplet_noteWhole",
+    "name": "Whole note"
+   },
+   {
+    "entityID": "comp.unpitchedCenter1",
+    "name": "Unpitched center 1"
+   },
+   {
+    "entityID": "comp.unpitchedCenter2",
+    "name": "Unpitched center 2"
+   },
+   {
+    "entityID": "comp.unpitchedChokeCymbal",
+    "name": "Unpitched choke cymbal"
+   },
+   {
+    "entityID": "comp.unpitchedClosedRimShot",
+    "name": "Unpitched closed rim shot"
+   },
+   {
+    "entityID": "comp.unpitchedCnter3",
+    "name": "Unpitched center 3"
+   },
+   {
+    "entityID": "comp.unpitchedDamp1",
+    "name": "Unpitched damp 1"
+   },
+   {
+    "entityID": "comp.unpitchedDamp2",
+    "name": "Unpitched damp 2"
+   },
+   {
+    "entityID": "comp.unpitchedDamp3",
+    "name": "Unpitched damp 3"
+   },
+   {
+    "entityID": "comp.unpitchedDamp4",
+    "name": "Unpitched damp 4"
+   },
+   {
+    "entityID": "comp.unpitchedHalfOpen",
+    "name": "Unpitched half-open"
+   },
+   {
+    "entityID": "comp.unpitchedHalfOpenWeinberg",
+    "name": "Unpitched half-open (Weinberg)"
+   },
+   {
+    "entityID": "comp.unpitchedLeftHand",
+    "name": "Unpitched left hand"
+   },
+   {
+    "entityID": "comp.unpitchedNormalPosition",
+    "name": "Unpitched normal position"
+   },
+   {
+    "entityID": "comp.unpitchedOnRim",
+    "name": "Unpitched on rim"
+   },
+   {
+    "entityID": "comp.unpitchedOpen",
+    "name": "Unpitched open"
+   },
+   {
+    "entityID": "comp.unpitchedPercussionClef1",
+    "name": "Unpitched percussion clef 1"
+   },
+   {
+    "entityID": "comp.unpitchedPercussionClef2",
+    "name": "Unpitched percussion clef 2"
+   },
+   {
+    "entityID": "comp.unpitchedRightHand",
+    "name": "Unpitched right hand"
+   },
+   {
+    "entityID": "comp.unpitchedRim1",
+    "name": "Unpitched rim 1"
+   },
+   {
+    "entityID": "comp.unpitchedRim2",
+    "name": "Unpitched rim 2"
+   },
+   {
+    "entityID": "comp.unpitchedRim3",
+    "name": "Unpitched rim 3"
+   },
+   {
+    "entityID": "comp.unpitchedScrapeAroundRimClockwise",
+    "name": "Unpitched scrape around rim clockwise"
+   },
+   {
+    "entityID": "comp.unpitchedScrapeAroundRimCounterclockwise",
+    "name": "Unpitched scrape around rim counter-clockwise"
+   },
+   {
+    "entityID": "comp.unpitchedScrapeCenterToEdge",
+    "name": "Unpitched scrape center to egde"
+   },
+   {
+    "entityID": "comp.unpitchedScrapeEdgeToCenter",
+    "name": "Unpitched scrape edge to center"
+   },
+   {
+    "entityID": "comp.unpitchedStickShot",
+    "name": "Unpitched stick shot"
+   },
+   {
+    "entityID": "comp.valveTrill",
+    "name": "Valve trill"
+   },
+   {
+    "entityID": "comp.ventiduesima",
+    "name": "Ventiduesima"
+   },
+   {
+    "entityID": "comp.ventiduesimaAlta",
+    "name": "Ventiduesima alta"
+   },
+   {
+    "entityID": "comp.ventiduesimaBassa",
+    "name": "Ventiduesima bassa"
+   },
+   {
+    "entityID": "comp.ventiduesimaBassaMb",
+    "name": "Ventiduesima bassa (mb)"
+   },
+   {
+    "entityID": "comp.vocalFingerClick",
+    "name": "Finger click"
+   },
+   {
+    "entityID": "comp.vocalMouthClosed",
+    "name": "Mouth closed"
+   },
+   {
+    "entityID": "comp.vocalMouthOpen",
+    "name": "Mouth open"
+   },
+   {
+    "entityID": "comp.vocalMouthPursed",
+    "name": "Mouth pursed"
+   },
+   {
+    "entityID": "comp.vocalMouthSlightlyOpen",
+    "name": "Mouth slightly open"
+   },
+   {
+    "entityID": "comp.vocalMouthWideOpen",
+    "name": "Mouth wide open"
+   },
+   {
+    "entityID": "comp.vocalNasalVoice",
+    "name": "Nasal voice"
+   },
+   {
+    "entityID": "comp.vocalTongueClick",
+    "name": "Tongue click"
+   },
+   {
+    "entityID": "comp.vocalTongueFingerClick",
+    "name": "Tongue and finger click"
+   },
+   {
+    "entityID": "comp.wiggleArpeggiatoDown",
+    "name": "Arpeggiato down"
+   },
+   {
+    "entityID": "comp.wiggleArpeggiatoDownArrow",
+    "name": "Arpeggiato down arrow"
+   },
+   {
+    "entityID": "comp.wiggleArpeggiatoDownSwash",
+    "name": "Arpeggiato down swash"
+   },
+   {
+    "entityID": "comp.wiggleArpeggiatoUp",
+    "name": "Arpeggiato up"
+   },
+   {
+    "entityID": "comp.wiggleArpeggiatoUpArrow",
+    "name": "Arpeggiato up arrow"
+   },
+   {
+    "entityID": "comp.wiggleArpeggiatoUpSwash",
+    "name": "Arpeggiato up swash"
+   },
+   {
+    "entityID": "comp.wiggleCircular",
+    "name": "Circular motion segment"
+   },
+   {
+    "entityID": "comp.wiggleCircularConstant",
+    "name": "Constant circular motion segment"
+   },
+   {
+    "entityID": "comp.wiggleCircularConstantFlipped",
+    "name": "Constant circular motion segment (flipped)"
+   },
+   {
+    "entityID": "comp.wiggleCircularConstantFlippedLarge",
+    "name": "Constant circular motion segment (flipped, large)"
+   },
+   {
+    "entityID": "comp.wiggleCircularConstantLarge",
+    "name": "Constant circular motion segment (large)"
+   },
+   {
+    "entityID": "comp.wiggleCircularEnd",
+    "name": "Circular motion segment end"
+   },
+   {
+    "entityID": "comp.wiggleCircularLarge",
+    "name": "Circular motion segment, large"
+   },
+   {
+    "entityID": "comp.wiggleCircularLarger",
+    "name": "Circular motion segment, larger"
+   },
+   {
+    "entityID": "comp.wiggleCircularLargerStill",
+    "name": "Circular motion segment, larger still"
+   },
+   {
+    "entityID": "comp.wiggleCircularLargest",
+    "name": "Circular motion segment, largest"
+   },
+   {
+    "entityID": "comp.wiggleCircularSmall",
+    "name": "Circular motion segment, small"
+   },
+   {
+    "entityID": "comp.wiggleCircularStart",
+    "name": "Circular motion start"
+   },
+   {
+    "entityID": "comp.wiggleGlissando",
+    "name": "Glissando wiggle segment"
+   },
+   {
+    "entityID": "comp.wiggleGlissandoGroup1",
+    "name": "Group glissando 1"
+   },
+   {
+    "entityID": "comp.wiggleGlissandoGroup2",
+    "name": "Group glissando 2"
+   },
+   {
+    "entityID": "comp.wiggleGlissandoGroup3",
+    "name": "Group glissando 3"
+   },
+   {
+    "entityID": "comp.wiggleRandom1",
+    "name": "Quasi-random squiggle 1"
+   },
+   {
+    "entityID": "comp.wiggleRandom2",
+    "name": "Quasi-random squiggle 2"
+   },
+   {
+    "entityID": "comp.wiggleRandom3",
+    "name": "Quasi-random squiggle 3"
+   },
+   {
+    "entityID": "comp.wiggleRandom4",
+    "name": "Quasi-random squiggle 4"
+   },
+   {
+    "entityID": "comp.wiggleSawtooth",
+    "name": "Sawtooth line segment"
+   },
+   {
+    "entityID": "comp.wiggleSawtoothNarrow",
+    "name": "Narrow sawtooth line segment"
+   },
+   {
+    "entityID": "comp.wiggleSawtoothWide",
+    "name": "Wide sawtooth line segment"
+   },
+   {
+    "entityID": "comp.wiggleSquareWave",
+    "name": "Square wave line segment"
+   },
+   {
+    "entityID": "comp.wiggleSquareWaveNarrow",
+    "name": "Narrow square wave line segment"
+   },
+   {
+    "entityID": "comp.wiggleSquareWaveWide",
+    "name": "Wide square wave line segment"
+   },
+   {
+    "entityID": "comp.wiggleTrill",
+    "name": "Wiggle trill"
+   },
+   {
+    "entityID": "comp.wiggleTrillFast",
+    "name": "Wiggle trill fast"
+   },
+   {
+    "entityID": "comp.wiggleTrillFaster",
+    "name": "Wiggle trill faster"
+   },
+   {
+    "entityID": "comp.wiggleTrillFasterStill",
+    "name": "Wiggle trill faster still"
+   },
+   {
+    "entityID": "comp.wiggleTrillFastest",
+    "name": "Wiggle trill fastest"
+   },
+   {
+    "entityID": "comp.wiggleTrillSlow",
+    "name": "Wiggle trill slow"
+   },
+   {
+    "entityID": "comp.wiggleTrillSlower",
+    "name": "Wiggle trill slower"
+   },
+   {
+    "entityID": "comp.wiggleTrillSlowerStill",
+    "name": "Wiggle trill slower still"
+   },
+   {
+    "entityID": "comp.wiggleTrillSlowest",
+    "name": "Wiggle trill slowest"
+   },
+   {
+    "entityID": "comp.wiggleVIbratoLargestSlower",
+    "name": "Vibrato largest, slower"
+   },
+   {
+    "entityID": "comp.wiggleVIbratoMediumSlower",
+    "name": "Vibrato medium, slower"
+   },
+   {
+    "entityID": "comp.wiggleVibrato",
+    "name": "Vibrato / shake wiggle segment"
+   },
+   {
+    "entityID": "comp.wiggleVibratoLargeFast",
+    "name": "Vibrato large, fast"
+   },
+   {
+    "entityID": "comp.wiggleVibratoLargeFaster",
+    "name": "Vibrato large, faster"
+   },
+   {
+    "entityID": "comp.wiggleVibratoLargeFasterStill",
+    "name": "Vibrato large, faster still"
+   },
+   {
+    "entityID": "comp.wiggleVibratoLargeFastest",
+    "name": "Vibrato large, fastest"
+   },
+   {
+    "entityID": "comp.wiggleVibratoLargeSlow",
+    "name": "Vibrato large, slow"
+   },
+   {
+    "entityID": "comp.wiggleVibratoLargeSlower",
+    "name": "Vibrato large, slower"
+   },
+   {
+    "entityID": "comp.wiggleVibratoLargeSlowest",
+    "name": "Vibrato large, slowest"
+   },
+   {
+    "entityID": "comp.wiggleVibratoLargestFast",
+    "name": "Vibrato largest, fast"
+   },
+   {
+    "entityID": "comp.wiggleVibratoLargestFaster",
+    "name": "Vibrato largest, faster"
+   },
+   {
+    "entityID": "comp.wiggleVibratoLargestFasterStill",
+    "name": "Vibrato largest, faster still"
+   },
+   {
+    "entityID": "comp.wiggleVibratoLargestFastest",
+    "name": "Vibrato largest, fastest"
+   },
+   {
+    "entityID": "comp.wiggleVibratoLargestSlow",
+    "name": "Vibrato largest, slow"
+   },
+   {
+    "entityID": "comp.wiggleVibratoLargestSlowest",
+    "name": "Vibrato largest, slowest"
+   },
+   {
+    "entityID": "comp.wiggleVibratoMediumFast",
+    "name": "Vibrato medium, fast"
+   },
+   {
+    "entityID": "comp.wiggleVibratoMediumFaster",
+    "name": "Vibrato medium, faster"
+   },
+   {
+    "entityID": "comp.wiggleVibratoMediumFasterStill",
+    "name": "Vibrato medium, faster still"
+   },
+   {
+    "entityID": "comp.wiggleVibratoMediumFastest",
+    "name": "Vibrato medium, fastest"
+   },
+   {
+    "entityID": "comp.wiggleVibratoMediumSlow",
+    "name": "Vibrato medium, slow"
+   },
+   {
+    "entityID": "comp.wiggleVibratoMediumSlowest",
+    "name": "Vibrato medium, slowest"
+   },
+   {
+    "entityID": "comp.wiggleVibratoSmallFast",
+    "name": "Vibrato small, fast"
+   },
+   {
+    "entityID": "comp.wiggleVibratoSmallFaster",
+    "name": "Vibrato small, faster"
+   },
+   {
+    "entityID": "comp.wiggleVibratoSmallFasterStill",
+    "name": "Vibrato small, faster still"
+   },
+   {
+    "entityID": "comp.wiggleVibratoSmallFastest",
+    "name": "Vibrato small, fastest"
+   },
+   {
+    "entityID": "comp.wiggleVibratoSmallSlow",
+    "name": "Vibrato small, slow"
+   },
+   {
+    "entityID": "comp.wiggleVibratoSmallSlower",
+    "name": "Vibrato small, slower"
+   },
+   {
+    "entityID": "comp.wiggleVibratoSmallSlowest",
+    "name": "Vibrato small, slowest"
+   },
+   {
+    "entityID": "comp.wiggleVibratoSmallestFast",
+    "name": "Vibrato smallest, fast"
+   },
+   {
+    "entityID": "comp.wiggleVibratoSmallestFaster",
+    "name": "Vibrato smallest, faster"
+   },
+   {
+    "entityID": "comp.wiggleVibratoSmallestFasterStill",
+    "name": "Vibrato smallest, faster still"
+   },
+   {
+    "entityID": "comp.wiggleVibratoSmallestFastest",
+    "name": "Vibrato smallest, fastest"
+   },
+   {
+    "entityID": "comp.wiggleVibratoSmallestSlow",
+    "name": "Vibrato smallest, slow"
+   },
+   {
+    "entityID": "comp.wiggleVibratoSmallestSlower",
+    "name": "Vibrato smallest, slower"
+   },
+   {
+    "entityID": "comp.wiggleVibratoSmallestSlowest",
+    "name": "Vibrato smallest, slowest"
+   },
+   {
+    "entityID": "comp.wiggleVibratoStart",
+    "name": "Vibrato start"
+   },
+   {
+    "entityID": "comp.wiggleVibratoWide",
+    "name": "Wide vibrato / shake wiggle segment"
+   },
+   {
+    "entityID": "comp.wiggleWavy",
+    "name": "Wiggle wavy"
+   },
+   {
+    "entityID": "comp.wiggleWavyNarrow",
+    "name": "Wiggle wavy narrow"
+   },
+   {
+    "entityID": "comp.wiggleWavyWide",
+    "name": "Wiggle wavy wide"
+   },
+   {
+    "entityID": "comp.windClosedHole",
+    "name": "Closed hole"
+   },
+   {
+    "entityID": "comp.windDoubleTongue",
+    "name": "Double-tongue above"
+   },
+   {
+    "entityID": "comp.windDoubleTongueBelow",
+    "name": "Double-tongue below"
+   },
+   {
+    "entityID": "comp.windFlatEmbouchure",
+    "name": "Flatter embouchure"
+   },
+   {
+    "entityID": "comp.windKeySlap",
+    "name": "Key slap"
+   },
+   {
+    "entityID": "comp.windLessRelaxedEmbouchure",
+    "name": "Somewhat relaxed embouchure"
+   },
+   {
+    "entityID": "comp.windMouthpiecePop",
+    "name": "Mouthpiece or hand pop"
+   },
+   {
+    "entityID": "comp.windOpenHole",
+    "name": "Open hole"
+   },
+   {
+    "entityID": "comp.windReedPositionIn",
+    "name": "Much more reed (push inwards)"
+   },
+   {
+    "entityID": "comp.windReedPositionNormal",
+    "name": "Normal reed position"
+   },
+   {
+    "entityID": "comp.windReedPositionOut",
+    "name": "Very little reed (pull outwards)"
+   },
+   {
+    "entityID": "comp.windRelaxedEmbouchure",
+    "name": "Relaxed embouchure"
+   },
+   {
+    "entityID": "comp.windRimOnly",
+    "name": "Rim only"
+   },
+   {
+    "entityID": "comp.windSharpEmbouchure",
+    "name": "Sharper embouchure"
+   },
+   {
+    "entityID": "comp.windSomewhatTightEmbouchure",
+    "name": "Somewhat tight embouchure"
+   },
+   {
+    "entityID": "comp.windStrongAirPressure",
+    "name": "Very tight embouchure / strong air pressure"
+   },
+   {
+    "entityID": "comp.windThreeQuartersClosedHole",
+    "name": "Three-quarters closed hole"
+   },
+   {
+    "entityID": "comp.windTightEmbouchure",
+    "name": "Tight embouchure"
+   },
+   {
+    "entityID": "comp.windTrillKey",
+    "name": "Trill key"
+   },
+   {
+    "entityID": "comp.windTripleTongue",
+    "name": "Triple-tongue above"
+   },
+   {
+    "entityID": "comp.windTripleTongueBelow",
+    "name": "Triple-tongue below"
+   },
+   {
+    "entityID": "comp.windVeryTightEmbouchure",
+    "name": "Very tight embouchure"
+   },
+   {
+    "entityID": "comp.windWeakAirPressure",
+    "name": "Very relaxed embouchure / weak air-pressure"
+   }
+  ]
+ }
+]

@@ -1,0 +1,16 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "dashed.thin",
+    "name": "Dashed Thin"
+   },
+   {
+    "entityID": "pen.solid.thin",
+    "name": "Solid Thin"
+   }
+  ]
+ }
+]

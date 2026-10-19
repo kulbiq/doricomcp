@@ -1,0 +1,144 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "linebodystyle.brace.left",
+    "name": "Brace (left)"
+   },
+   {
+    "entityID": "linebodystyle.brace.right",
+    "name": "Brace (right)"
+   },
+   {
+    "entityID": "linebodystyle.curve.down",
+    "name": "Curve (down)"
+   },
+   {
+    "entityID": "linebodystyle.curve.up",
+    "name": "Curve (up)"
+   },
+   {
+    "entityID": "linebodystyle.dashedLong",
+    "name": "Dashed line body (long)"
+   },
+   {
+    "entityID": "linebodystyle.dashedShort",
+    "name": "Dashed line body (short)"
+   },
+   {
+    "entityID": "linebodystyle.dashedShortLong",
+    "name": "Dashed line body (short-long)"
+   },
+   {
+    "entityID": "linebodystyle.dottedLarge",
+    "name": "Dotted line body (large)"
+   },
+   {
+    "entityID": "linebodystyle.dottedMedium",
+    "name": "Dotted line body (medium)"
+   },
+   {
+    "entityID": "linebodystyle.dottedSmall",
+    "name": "Dotted line body (small)"
+   },
+   {
+    "entityID": "linebodystyle.doubleThick",
+    "name": "Double line body (thick)"
+   },
+   {
+    "entityID": "linebodystyle.doubleThin",
+    "name": "Double line body (thin)"
+   },
+   {
+    "entityID": "linebodystyle.repeatableGlyphWavy",
+    "name": "Wavy body"
+   },
+   {
+    "entityID": "linebodystyle.repeatableGlyphWavyNarrowWide",
+    "name": "Wavy body (narrow-wide)"
+   },
+   {
+    "entityID": "linebodystyle.repeatableGlyphWavyVariable",
+    "name": "Wavy body (variable)"
+   },
+   {
+    "entityID": "linebodystyle.repeatableGlyphWavyWideNarrow",
+    "name": "Wavy body (wide-narrow)"
+   },
+   {
+    "entityID": "linebodystyle.repeatableGlyphWiggly",
+    "name": "Wiggly body"
+   },
+   {
+    "entityID": "linebodystyle.repeatableGlyphWigglyFastSlow",
+    "name": "Wiggly body (fast-slow)"
+   },
+   {
+    "entityID": "linebodystyle.repeatableGlyphWigglySlowFast",
+    "name": "Wiggly body (slow-fast)"
+   },
+   {
+    "entityID": "linebodystyle.repeatableGlyphWigglyVariable",
+    "name": "Wiggly body (variable)"
+   },
+   {
+    "entityID": "linebodystyle.repeatableGlyphWigglyWide",
+    "name": "Wiggly body (wide)"
+   },
+   {
+    "entityID": "linebodystyle.solidThick",
+    "name": "Solid line body (thick)"
+   },
+   {
+    "entityID": "linebodystyle.solidThicker",
+    "name": "Solid line body (thicker)"
+   },
+   {
+    "entityID": "linebodystyle.solidThin",
+    "name": "Solid line body (thin)"
+   },
+   {
+    "entityID": "linebodystyle.wedgeFlatBottomThickThin",
+    "name": "Flat-bottom wedge body (thick-thin)"
+   },
+   {
+    "entityID": "linebodystyle.wedgeFlatBottomThinThick",
+    "name": "Flat-bottom wedge body (thin-thick)"
+   },
+   {
+    "entityID": "linebodystyle.wedgeFlatInsideThickThin",
+    "name": "Flat-inside wedge body (thick-thin)"
+   },
+   {
+    "entityID": "linebodystyle.wedgeFlatInsideThinThick",
+    "name": "Flat-inside wedge body (thin-thick)"
+   },
+   {
+    "entityID": "linebodystyle.wedgeFlatOutsideThickThin",
+    "name": "Flat-outside wedge body (thick-thin)"
+   },
+   {
+    "entityID": "linebodystyle.wedgeFlatOutsideThinThick",
+    "name": "Flat-outside wedge body (thin-thick)"
+   },
+   {
+    "entityID": "linebodystyle.wedgeFlatTopThickThin",
+    "name": "Flat-top wedge body (thick-thin)"
+   },
+   {
+    "entityID": "linebodystyle.wedgeFlatTopThinThick",
+    "name": "Flat-top wedge body (thin-thick)"
+   },
+   {
+    "entityID": "linebodystyle.wedgeSymmetricalThickThin",
+    "name": "Symmetrical wedge body (thick-thin)"
+   },
+   {
+    "entityID": "linebodystyle.wedgeSymmetricalThinThick",
+    "name": "Symmetrical wedge body (thin-thick)"
+   }
+  ]
+ }
+]

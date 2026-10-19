@@ -1,0 +1,156 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "noteheadset.Xnoteheads",
+    "name": "X Noteheads"
+   },
+   {
+    "entityID": "noteheadset.aikin7Shape",
+    "name": "Aikin 7-shape Noteheads"
+   },
+   {
+    "entityID": "noteheadset.circleXNoteheads",
+    "name": "Circle X Noteheads"
+   },
+   {
+    "entityID": "noteheadset.circledNoteheads",
+    "name": "Circled Noteheads"
+   },
+   {
+    "entityID": "noteheadset.default",
+    "name": "Default Noteheads"
+   },
+   {
+    "entityID": "noteheadset.diamondNoteheads",
+    "name": "Diamond Noteheads"
+   },
+   {
+    "entityID": "noteheadset.figurenotes",
+    "name": "Figurenotes Noteheads"
+   },
+   {
+    "entityID": "noteheadset.funk7Shape",
+    "name": "Funk 7-shape Noteheads"
+   },
+   {
+    "entityID": "noteheadset.large",
+    "name": "Larger Noteheads"
+   },
+   {
+    "entityID": "noteheadset.largeArrowDownNoteheads",
+    "name": "Large Arrow Down Noteheads"
+   },
+   {
+    "entityID": "noteheadset.largeArrowUpNoteheads",
+    "name": "Large Arrow Up Noteheads"
+   },
+   {
+    "entityID": "noteheadset.largeCircledNoteheads",
+    "name": "Large Circled Noteheads"
+   },
+   {
+    "entityID": "noteheadset.largeXAndDiamond",
+    "name": "Large X and Diamond Noteheads"
+   },
+   {
+    "entityID": "noteheadset.moon",
+    "name": "Moon Noteheads"
+   },
+   {
+    "entityID": "noteheadset.mutedSlashNoteheads",
+    "name": "Muted Slash Noteheads"
+   },
+   {
+    "entityID": "noteheadset.noteNames",
+    "name": "Pitch Name Noteheads"
+   },
+   {
+    "entityID": "noteheadset.oldDiamondNoteheads",
+    "name": "Old-Style Diamond Noteheads"
+   },
+   {
+    "entityID": "noteheadset.ornatex",
+    "name": "Ornate X Noteheads"
+   },
+   {
+    "entityID": "noteheadset.plusNoteheads",
+    "name": "Plus Noteheads"
+   },
+   {
+    "entityID": "noteheadset.rectangular",
+    "name": "Rectangular Noteheads"
+   },
+   {
+    "entityID": "noteheadset.roundWhiteWithDot",
+    "name": "Round White with Dot Noteheads"
+   },
+   {
+    "entityID": "noteheadset.slashNoteheads",
+    "name": "Slash Noteheads"
+   },
+   {
+    "entityID": "noteheadset.slashNoteheadsOversized",
+    "name": "Oversized Slash Noteheads"
+   },
+   {
+    "entityID": "noteheadset.slashNoteheadsSmall",
+    "name": "Small Slash Noteheads"
+   },
+   {
+    "entityID": "noteheadset.slashedNoteheadsBLTR",
+    "name": "Slashed Noteheads (Bottom Left to Top Right)"
+   },
+   {
+    "entityID": "noteheadset.slashedNoteheadsTLBR",
+    "name": "Slashed Noteheads (Top Left to Bottom Right)"
+   },
+   {
+    "entityID": "noteheadset.triangleDownNoteheads",
+    "name": "Triangle Down Noteheads"
+   },
+   {
+    "entityID": "noteheadset.triangleUpNoteheads",
+    "name": "Triangle Up Noteheads"
+   },
+   {
+    "entityID": "noteheadset.triangleleft",
+    "name": "Triangle Left Noteheads"
+   },
+   {
+    "entityID": "noteheadset.triangleright",
+    "name": "Triangle Right Noteheads"
+   },
+   {
+    "entityID": "noteheadset.walker4Shape",
+    "name": "Walker 4-shape Noteheads"
+   },
+   {
+    "entityID": "noteheadset.walker7Shape",
+    "name": "Walker 7-shape Noteheads"
+   },
+   {
+    "entityID": "noteheadset.whiteDiamondNoteheads",
+    "name": "White Diamond Noteheads"
+   },
+   {
+    "entityID": "noteheadset.wideDiamondNoteheads",
+    "name": "Wide Diamond Noteheads"
+   },
+   {
+    "entityID": "noteheadset.withXNoteheads",
+    "name": "With X Noteheads"
+   },
+   {
+    "entityID": "noteheadset.xAndCircleX",
+    "name": "X and Circle X Noteheads"
+   },
+   {
+    "entityID": "noteheadset.xAndDiamond",
+    "name": "X and Diamond Noteheads"
+   }
+  ]
+ }
+]

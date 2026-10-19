@@ -1,0 +1,52 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "rhythmicfeel.straight",
+    "name": "Straight (no swing)"
+   },
+   {
+    "entityID": "rhythmicfeel.swing.2_1_fixed",
+    "name": "2:1 swing 8ths (fixed)"
+   },
+   {
+    "entityID": "rhythmicfeel.swing.2_1_fixed.16ths",
+    "name": "2:1 swing 16ths (fixed)"
+   },
+   {
+    "entityID": "rhythmicfeel.swing.3_1_fixed",
+    "name": "3:1 swing 8ths (fixed)"
+   },
+   {
+    "entityID": "rhythmicfeel.swing.3_1_fixed.16ths",
+    "name": "3:1 swing 16ths (fixed)"
+   },
+   {
+    "entityID": "rhythmicfeel.swing.heavy",
+    "name": "Heavy swing 8ths"
+   },
+   {
+    "entityID": "rhythmicfeel.swing.heavy.16ths",
+    "name": "Heavy swing 16ths"
+   },
+   {
+    "entityID": "rhythmicfeel.swing.light",
+    "name": "Light swing 8ths"
+   },
+   {
+    "entityID": "rhythmicfeel.swing.light.16ths",
+    "name": "Light swing 16ths"
+   },
+   {
+    "entityID": "rhythmicfeel.swing.medium",
+    "name": "Medium swing 8ths"
+   },
+   {
+    "entityID": "rhythmicfeel.swing.medium.16ths",
+    "name": "Medium swing 16ths"
+   }
+  ]
+ }
+]

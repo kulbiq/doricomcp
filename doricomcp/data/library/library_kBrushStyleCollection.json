@@ -1,0 +1,16 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "brush.solid.black",
+    "name": "Solid Black"
+   },
+   {
+    "entityID": "brush.solid.breaksignpostflagbackground",
+    "name": "Breaks Sign Post Flag Background"
+   }
+  ]
+ }
+]

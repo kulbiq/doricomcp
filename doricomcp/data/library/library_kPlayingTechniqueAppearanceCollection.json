@@ -1,0 +1,1238 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "pta.aeolianText",
+    "name": "Aeolian",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.airText",
+    "name": "Air",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.allaChitarraText",
+    "name": "Alla Chitarra",
+    "playbackTechniqueID": "pt.pizzicatoAllaChitarra"
+   },
+   {
+    "entityID": "pta.altoSulTastoAbbreviatedText",
+    "name": "Alto sul tasto",
+    "playbackTechniqueID": "pt.sulTasto"
+   },
+   {
+    "entityID": "pta.apertoText",
+    "name": "Aperto (text)",
+    "playbackTechniqueID": "pt.open1"
+   },
+   {
+    "entityID": "pta.arcoText",
+    "name": "Arco",
+    "playbackTechniqueID": "pt.bowed"
+   },
+   {
+    "entityID": "pta.artificialHarmonicTab",
+    "name": "Artificial Harmonic (Tab)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.auTalonText",
+    "name": "Au talon",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.bisbigliandoText",
+    "name": "Bisbigliando (whisper)",
+    "playbackTechniqueID": "pt.whisper"
+   },
+   {
+    "entityID": "pta.brassHalfMute",
+    "name": "Half-mute",
+    "playbackTechniqueID": "pt.halfMuted"
+   },
+   {
+    "entityID": "pta.brassHarmonMuteStemIn",
+    "name": "Harmon mute, stem in",
+    "playbackTechniqueID": "pt.harmonMuteStemIn"
+   },
+   {
+    "entityID": "pta.brassHarmonMuteStemLeft",
+    "name": "Harmon mute, stem left",
+    "playbackTechniqueID": "pt.harmonMuteStemExtended"
+   },
+   {
+    "entityID": "pta.brassHarmonMuteStemOut",
+    "name": "Harmon mute, stem out",
+    "playbackTechniqueID": "pt.harmonMuteStemOut"
+   },
+   {
+    "entityID": "pta.brassHarmonMuteStemRight",
+    "name": "Harmon mute, stem right",
+    "playbackTechniqueID": "pt.harmonMuteStemExtended"
+   },
+   {
+    "entityID": "pta.brassMute",
+    "name": "Mute (+)",
+    "playbackTechniqueID": "pt.muted"
+   },
+   {
+    "entityID": "pta.brassOpen",
+    "name": "Open",
+    "playbackTechniqueID": "pt.open1"
+   },
+   {
+    "entityID": "pta.brassStoppedPlus",
+    "name": "Stopped (+)",
+    "playbackTechniqueID": "pt.stopped"
+   },
+   {
+    "entityID": "pta.bucketHarmonMuteStemInText",
+    "name": "Harmon mute, stem in (text)",
+    "playbackTechniqueID": "pt.harmonMuteStemIn"
+   },
+   {
+    "entityID": "pta.bucketHarmonMuteStemOutText",
+    "name": "Harmon mute, stem out (text)",
+    "playbackTechniqueID": "pt.harmonMuteStemOut"
+   },
+   {
+    "entityID": "pta.bucketHarmonMuteText",
+    "name": "Harmon mute (text)",
+    "playbackTechniqueID": "pt.harmonMuteStemIn"
+   },
+   {
+    "entityID": "pta.bucketMuteText",
+    "name": "Bucket mute",
+    "playbackTechniqueID": "pt.bucketMute"
+   },
+   {
+    "entityID": "pta.colLegnoBattutoText",
+    "name": "Col Legno Battuto",
+    "playbackTechniqueID": "pt.colLegnoBattuto"
+   },
+   {
+    "entityID": "pta.colLegnoText",
+    "name": "Col Legno",
+    "playbackTechniqueID": "pt.colLegnoBattuto"
+   },
+   {
+    "entityID": "pta.colLegnoTrattoText",
+    "name": "Col Legno Tratto",
+    "playbackTechniqueID": "pt.colLegnoTratto"
+   },
+   {
+    "entityID": "pta.conSordinoText",
+    "name": "Con sordino",
+    "playbackTechniqueID": "pt.muted"
+   },
+   {
+    "entityID": "pta.cuivreText",
+    "name": "Cuivr\u00e9",
+    "playbackTechniqueID": "pt.cuivre"
+   },
+   {
+    "entityID": "pta.cupMuteText",
+    "name": "Cup mute",
+    "playbackTechniqueID": "pt.cupMute"
+   },
+   {
+    "entityID": "pta.detacheText",
+    "name": "D\u00e9tach\u00e9",
+    "playbackTechniqueID": "pt.detache"
+   },
+   {
+    "entityID": "pta.flautandoText",
+    "name": "Flautando",
+    "playbackTechniqueID": "pt.flautando"
+   },
+   {
+    "entityID": "pta.flutterTongueFltText",
+    "name": "Flutter-tongue (flt.)",
+    "playbackTechniqueID": "pt.flutterTongue"
+   },
+   {
+    "entityID": "pta.flutterTongueFlzText",
+    "name": "Flatterzunge (flz.)",
+    "playbackTechniqueID": "pt.flutterTongue"
+   },
+   {
+    "entityID": "pta.flutterTongueFtText",
+    "name": "Flutter-tongue (f.t.)",
+    "playbackTechniqueID": "pt.flutterTongue"
+   },
+   {
+    "entityID": "pta.frullatoText",
+    "name": "Frullato",
+    "playbackTechniqueID": "pt.flutterTongue"
+   },
+   {
+    "entityID": "pta.guitarBarreFull",
+    "name": "Full Barr\u00e9",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.guitarBarreHalf",
+    "name": "Half Barr\u00e9",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.guitarClosedWahPedal",
+    "name": "Closed Wah Pedal",
+    "playbackTechniqueID": "pt.wahWahStopped"
+   },
+   {
+    "entityID": "pta.guitarFadeIn",
+    "name": "Fade In",
+    "playbackTechniqueID": "pt.fadeIn"
+   },
+   {
+    "entityID": "pta.guitarFadeOut",
+    "name": "Fade Out",
+    "playbackTechniqueID": "pt.fadeOut"
+   },
+   {
+    "entityID": "pta.guitarGolpe",
+    "name": "Tap the Pick Guard (Golpe)",
+    "playbackTechniqueID": "pt.leftHandTap"
+   },
+   {
+    "entityID": "pta.guitarHalfOpenWahPedal",
+    "name": "Half-open Wah Pedal",
+    "playbackTechniqueID": "pt.wahWahGuitar"
+   },
+   {
+    "entityID": "pta.guitarHammerOn",
+    "name": "Hammer on",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.guitarLeftHandTapping",
+    "name": "Left-hand Tapping",
+    "playbackTechniqueID": "pt.leftHandTap"
+   },
+   {
+    "entityID": "pta.guitarOpenWahPedal",
+    "name": "Open Wah Pedal",
+    "playbackTechniqueID": "pt.wahWahOpen"
+   },
+   {
+    "entityID": "pta.guitarPalmMute",
+    "name": "Palm Mute",
+    "playbackTechniqueID": "pt.palmMuting"
+   },
+   {
+    "entityID": "pta.guitarPullOff",
+    "name": "Pull off",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.guitarRightHandTapping",
+    "name": "Right-hand Tapping",
+    "playbackTechniqueID": "pt.rightHandTap"
+   },
+   {
+    "entityID": "pta.guitarShake",
+    "name": "Guitar Shake",
+    "playbackTechniqueID": "pt.shake"
+   },
+   {
+    "entityID": "pta.guitarString0",
+    "name": "String 0",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.guitarString1",
+    "name": "String 1",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.guitarString2",
+    "name": "String 2",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.guitarString3",
+    "name": "String 3",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.guitarString4",
+    "name": "String 4",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.guitarString5",
+    "name": "String 5",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.guitarString6",
+    "name": "String 6",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.guitarString7",
+    "name": "String 7",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.guitarString8",
+    "name": "String 8",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.guitarString9",
+    "name": "String 9",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.guitarStrumDown",
+    "name": "Strum Down",
+    "playbackTechniqueID": "pt.strumDown"
+   },
+   {
+    "entityID": "pta.guitarStrumUp",
+    "name": "Strum Up",
+    "playbackTechniqueID": "pt.strumUp"
+   },
+   {
+    "entityID": "pta.guitarTapDot",
+    "name": "Tapping (dot)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.guitarTapPlusSign",
+    "name": "Tapping (plus)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.guitarTapT",
+    "name": "Tapping (T)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.guitarVibratoBarDip",
+    "name": "Vibrato Bar Dip",
+    "playbackTechniqueID": "pt.vibratoBarDip"
+   },
+   {
+    "entityID": "pta.guitarVibratoBarLine",
+    "name": "Vibrato bar line",
+    "playbackTechniqueID": "pt.vibratoBarLine"
+   },
+   {
+    "entityID": "pta.guitarVibratoBarScoop",
+    "name": "Vibrato Bar Scoop",
+    "playbackTechniqueID": "pt.vibratoBarScoop"
+   },
+   {
+    "entityID": "pta.guitarVolumeSwell",
+    "name": "Volume Swell",
+    "playbackTechniqueID": "pt.volumeSwell"
+   },
+   {
+    "entityID": "pta.harpMetalRod",
+    "name": "Metal Rod",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.harpTuningKey",
+    "name": "Harp Tuning Key",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.harpTuningKeyGlissando",
+    "name": "Harp Tuning Key Glissando",
+    "playbackTechniqueID": "pt.glissandoUp"
+   },
+   {
+    "entityID": "pta.harpTuningKeyHandle",
+    "name": "Harp Tuning Key Handle",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.harpTuningKeyShank",
+    "name": "Harp Tuning Key Shank",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.jeteText",
+    "name": "Jet\u00e9 (text)",
+    "playbackTechniqueID": "pt.jete"
+   },
+   {
+    "entityID": "pta.keyClicksText",
+    "name": "Key clicks",
+    "playbackTechniqueID": "pt.keyClick"
+   },
+   {
+    "entityID": "pta.keyboardAboveSopraText",
+    "name": "Above (sopra)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardBebung2",
+    "name": "Clavichord Bebung (2 Fingers)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardBebung3",
+    "name": "Clavichord Bebung (3 Fingers)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardBebung4",
+    "name": "Clavichord Bebung (4 Fingers)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardBelowSottoText",
+    "name": "Below (sotto)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardHeel1",
+    "name": "Pedal Heel 1",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardHeel2",
+    "name": "Pedal Heel 2",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardHeel3",
+    "name": "Pedal Heel 3",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardHeelToToe",
+    "name": "Pedal Heel to Toe",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardHeelToe",
+    "name": "Pedal Heel Toe",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardLeftHandText",
+    "name": "Left Hand (L.H.)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardMDText",
+    "name": "m.d. (right hand)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardMSText",
+    "name": "m.s. (left hand)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardManoDestraText",
+    "name": "Mano destra (right hand)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardManoSinistraText",
+    "name": "Mano sinistra (left hand)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardPluckInside",
+    "name": "Pluck Inside",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardRightHandText",
+    "name": "Right Hand (R.H.)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardToe1",
+    "name": "Pedal Toe 1",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardToe2",
+    "name": "Pedal Toe 2",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.keyboardToeToHeel",
+    "name": "Pedal Toe to Heel",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.laissezVibrerText",
+    "name": "Laissez Vibrer (l.v.)",
+    "playbackTechniqueID": "pt.laissezVibrer"
+   },
+   {
+    "entityID": "pta.leftStickText",
+    "name": "Left (L)",
+    "playbackTechniqueID": "pt.left"
+   },
+   {
+    "entityID": "pta.legatoText",
+    "name": "Legato",
+    "playbackTechniqueID": "pt.legato"
+   },
+   {
+    "entityID": "pta.marcatoText",
+    "name": "Marcato (text)",
+    "playbackTechniqueID": "pt.marcato"
+   },
+   {
+    "entityID": "pta.marteleText",
+    "name": "Martel\u00e9",
+    "playbackTechniqueID": "pt.martele"
+   },
+   {
+    "entityID": "pta.martellatoText",
+    "name": "Martellato",
+    "playbackTechniqueID": "pt.martellato"
+   },
+   {
+    "entityID": "pta.modoOrdinarioText",
+    "name": "Modo Ordinario",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.moltoVibratoText",
+    "name": "Molto Vibrato",
+    "playbackTechniqueID": "pt.moltoVibrato"
+   },
+   {
+    "entityID": "pta.multiphonicText",
+    "name": "Multiphonic",
+    "playbackTechniqueID": "pt.multiphonic"
+   },
+   {
+    "entityID": "pta.muteOffText",
+    "name": "Mute Off (text)",
+    "playbackTechniqueID": "pt.open1"
+   },
+   {
+    "entityID": "pta.muteText",
+    "name": "Mute (text)",
+    "playbackTechniqueID": "pt.muted"
+   },
+   {
+    "entityID": "pta.naturalHarmonicTab",
+    "name": "Natural Harmonic (Tab)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.naturaleText",
+    "name": "Naturale (nat.)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.nonLaissezVibrerText",
+    "name": "Non Laissez Vibrer (non l.v.)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.nonVibratoText",
+    "name": "Non Vibrato",
+    "playbackTechniqueID": "pt.nonVibrato"
+   },
+   {
+    "entityID": "pta.openRemoveMuteText",
+    "name": "Open (remove mute)",
+    "playbackTechniqueID": "pt.open1"
+   },
+   {
+    "entityID": "pta.openText",
+    "name": "Open (text)",
+    "playbackTechniqueID": "pt.open1"
+   },
+   {
+    "entityID": "pta.ordinarioText",
+    "name": "Ordinario (ord.)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.pdltText",
+    "name": "Pr\u00e8s de la Table (p.d.l.t.)",
+    "playbackTechniqueID": "pt.pdlt"
+   },
+   {
+    "entityID": "pta.pinchHarmonicTab",
+    "name": "Pinch Harmonic (Tab)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.pizzText",
+    "name": "Pizzicato",
+    "playbackTechniqueID": "pt.pizzicato"
+   },
+   {
+    "entityID": "pta.plungerMuteText",
+    "name": "Plunger mute",
+    "playbackTechniqueID": "pt.plungerMute"
+   },
+   {
+    "entityID": "pta.pocoSulTastoAbbreviatedText",
+    "name": "Poco sul tasto",
+    "playbackTechniqueID": "pt.sulTasto"
+   },
+   {
+    "entityID": "pta.pocoVibratoText",
+    "name": "Poco Vibrato",
+    "playbackTechniqueID": "pt.vibrato"
+   },
+   {
+    "entityID": "pta.puntaDArcoText",
+    "name": "Punta d'arco",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.rightStickText",
+    "name": "Right (R)",
+    "playbackTechniqueID": "pt.right"
+   },
+   {
+    "entityID": "pta.saltandoText",
+    "name": "Saltando",
+    "playbackTechniqueID": "pt.saltando"
+   },
+   {
+    "entityID": "pta.salzedoAeolianAscending",
+    "name": "Ascending Aeolian Chords (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoAeolianDescending",
+    "name": "Descending Aeolian Chords (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoDampAbove",
+    "name": "Damp Above (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoDampBelow",
+    "name": "Damp Below (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoDampBothHands",
+    "name": "Damp With Both Hands (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoDampLowStrings",
+    "name": "Damp Only Low Strings (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoFluidicSoundsLeft",
+    "name": "Fluidic Sounds, Left Hand (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoFluidicSoundsRight",
+    "name": "Fluidic Sounds, Right Hand (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoIsolatedSounds",
+    "name": "Isolated Sounds (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoMetallicSounds",
+    "name": "Metallic Sounds (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoMetallicSoundsOneString",
+    "name": "Metallic Sounds, One String (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoMuffleTotally",
+    "name": "Muffle Totally (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoOboicFlux",
+    "name": "Oboic Flux (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoPlayUpperEnd",
+    "name": "Play at Upper End of Strings (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoSlide",
+    "name": "Slide With Suppleness (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoSnareDrum",
+    "name": "Snare Drum Effect (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoTamTamSounds",
+    "name": "Tam-tam Sounds (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoThunderEffect",
+    "name": "Thunder Effect (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoTimpanicSounds",
+    "name": "Timpanic Sounds (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.salzedoWhistlingSounds",
+    "name": "Whistling Sounds (Salzedo)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.senzaSordinoText",
+    "name": "Senza sordino",
+    "playbackTechniqueID": "pt.open1"
+   },
+   {
+    "entityID": "pta.senzaVibratoText",
+    "name": "Senza Vibrato",
+    "playbackTechniqueID": "pt.nonVibrato"
+   },
+   {
+    "entityID": "pta.slapTongueText",
+    "name": "Slap-tongue",
+    "playbackTechniqueID": "pt.slapTongue"
+   },
+   {
+    "entityID": "pta.spiccText",
+    "name": "Spiccato",
+    "playbackTechniqueID": "pt.spiccato"
+   },
+   {
+    "entityID": "pta.stoppedText",
+    "name": "Stopped (text)",
+    "playbackTechniqueID": "pt.stopped"
+   },
+   {
+    "entityID": "pta.straightMuteText",
+    "name": "Straight mute",
+    "playbackTechniqueID": "pt.straightMute"
+   },
+   {
+    "entityID": "pta.stringsBowBehindBridge",
+    "name": "Sul Ponticello (Bow on Bridge)",
+    "playbackTechniqueID": "pt.sulPonticello"
+   },
+   {
+    "entityID": "pta.stringsBowBehindBridgeFourStrings",
+    "name": "Bow on Bridge on Four Strings",
+    "playbackTechniqueID": "pt.sulPonticello"
+   },
+   {
+    "entityID": "pta.stringsBowBehindBridgeOneString",
+    "name": "Bow on Bridge on One String",
+    "playbackTechniqueID": "pt.sulPonticello"
+   },
+   {
+    "entityID": "pta.stringsBowBehindBridgeThreeStrings",
+    "name": "Bow on Bridge on Three Strings",
+    "playbackTechniqueID": "pt.sulPonticello"
+   },
+   {
+    "entityID": "pta.stringsBowBehindBridgeTwoStrings",
+    "name": "Bow on Bridge on Two Strings",
+    "playbackTechniqueID": "pt.sulPonticello"
+   },
+   {
+    "entityID": "pta.stringsBowOnBridge",
+    "name": "Bow on Bridge",
+    "playbackTechniqueID": "pt.bowOnBridge"
+   },
+   {
+    "entityID": "pta.stringsBowOnTailpiece",
+    "name": "Bow On Tailpiece",
+    "playbackTechniqueID": "pt.bowOnTailpiece"
+   },
+   {
+    "entityID": "pta.stringsBuzzPizzicato",
+    "name": "Buzz Pizzicato",
+    "playbackTechniqueID": "pt.buzzPizzicato"
+   },
+   {
+    "entityID": "pta.stringsChangeBowDirection",
+    "name": "Change Bow Direction",
+    "playbackTechniqueID": "pt.downbow"
+   },
+   {
+    "entityID": "pta.stringsDownBow",
+    "name": "Down Bow",
+    "playbackTechniqueID": "pt.downbow"
+   },
+   {
+    "entityID": "pta.stringsFingernailFlick",
+    "name": "Fingernail Flick",
+    "playbackTechniqueID": "pt.plucked"
+   },
+   {
+    "entityID": "pta.stringsFouette",
+    "name": "Fouett\u00e9",
+    "playbackTechniqueID": "pt.fouette"
+   },
+   {
+    "entityID": "pta.stringsHalfHarmonic",
+    "name": "Half Harmonic",
+    "playbackTechniqueID": "pt.halfHarmonic"
+   },
+   {
+    "entityID": "pta.stringsHarmonic",
+    "name": "Harmonic (o)",
+    "playbackTechniqueID": "pt.naturalHarmonic1"
+   },
+   {
+    "entityID": "pta.stringsJete",
+    "name": "Jet\u00e9",
+    "playbackTechniqueID": "pt.jete"
+   },
+   {
+    "entityID": "pta.stringsLeftHandPizzicato",
+    "name": "Left-hand Pizzicato",
+    "playbackTechniqueID": "pt.lhPizzicato"
+   },
+   {
+    "entityID": "pta.stringsMuteOff",
+    "name": "Mute Off",
+    "playbackTechniqueID": "pt.open1"
+   },
+   {
+    "entityID": "pta.stringsMuteOn",
+    "name": "Mute On",
+    "playbackTechniqueID": "pt.muted"
+   },
+   {
+    "entityID": "pta.stringsOverpressureDownBow",
+    "name": "Overpressure (Down Bow)",
+    "playbackTechniqueID": "pt.overpressure"
+   },
+   {
+    "entityID": "pta.stringsOverpressureNoDirection",
+    "name": "Overpressure (No Bow Direction)",
+    "playbackTechniqueID": "pt.overpressure"
+   },
+   {
+    "entityID": "pta.stringsOverpressurePossibileDownBow",
+    "name": "Overpressure Possibile (Down Bow)",
+    "playbackTechniqueID": "pt.overpressure"
+   },
+   {
+    "entityID": "pta.stringsOverpressurePossibileUpBow",
+    "name": "Overpressure Possibile (Up Bow)",
+    "playbackTechniqueID": "pt.overpressure"
+   },
+   {
+    "entityID": "pta.stringsOverpressureUpBow",
+    "name": "Overpressure (Up Bow)",
+    "playbackTechniqueID": "pt.overpressure"
+   },
+   {
+    "entityID": "pta.stringsPluckedWithFingernails",
+    "name": "Pluck With Fingernails",
+    "playbackTechniqueID": "pt.plucked"
+   },
+   {
+    "entityID": "pta.stringsSnapPizzicato",
+    "name": "Snap Pizzicato",
+    "playbackTechniqueID": "pt.bartoksnapPizzicato"
+   },
+   {
+    "entityID": "pta.stringsThumbPosition",
+    "name": "Thumb Position",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.stringsUpBow",
+    "name": "Up Bow",
+    "playbackTechniqueID": "pt.upbow"
+   },
+   {
+    "entityID": "pta.sulPontText",
+    "name": "Sul ponticello (sul pont.)",
+    "playbackTechniqueID": "pt.sulPonticello"
+   },
+   {
+    "entityID": "pta.sulTastoText",
+    "name": "Sul Tasto",
+    "playbackTechniqueID": "pt.sulTasto"
+   },
+   {
+    "entityID": "pta.unpitchedCenter1",
+    "name": "Center (Weinberg)",
+    "playbackTechniqueID": "pt.centre"
+   },
+   {
+    "entityID": "pta.unpitchedCenter2",
+    "name": "Center (Ghent)",
+    "playbackTechniqueID": "pt.centre"
+   },
+   {
+    "entityID": "pta.unpitchedCenterText",
+    "name": "Center (Text)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.unpitchedChokeCymbal",
+    "name": "Choke (Weinberg)",
+    "playbackTechniqueID": "pt.choke"
+   },
+   {
+    "entityID": "pta.unpitchedClosedRimShot",
+    "name": "Closed / Rim Shot",
+    "playbackTechniqueID": "pt.closed"
+   },
+   {
+    "entityID": "pta.unpitchedCnter3",
+    "name": "Center (Caltabiano)",
+    "playbackTechniqueID": "pt.centre"
+   },
+   {
+    "entityID": "pta.unpitchedCrush",
+    "name": "Crush",
+    "playbackTechniqueID": "pt.crush"
+   },
+   {
+    "entityID": "pta.unpitchedDamp1",
+    "name": "Damp",
+    "playbackTechniqueID": "pt.damp"
+   },
+   {
+    "entityID": "pta.unpitchedDamp2",
+    "name": "Damp (Large)",
+    "playbackTechniqueID": "pt.damp"
+   },
+   {
+    "entityID": "pta.unpitchedDamp3",
+    "name": "Damp (Right)",
+    "playbackTechniqueID": "pt.damp"
+   },
+   {
+    "entityID": "pta.unpitchedDamp4",
+    "name": "Damp (Left)",
+    "playbackTechniqueID": "pt.damp"
+   },
+   {
+    "entityID": "pta.unpitchedEdgeText",
+    "name": "Edge (Text)",
+    "playbackTechniqueID": "pt.rim"
+   },
+   {
+    "entityID": "pta.unpitchedHalfOpen",
+    "name": "Half-open",
+    "playbackTechniqueID": "pt.halfOpen"
+   },
+   {
+    "entityID": "pta.unpitchedHalfOpenWeinberg",
+    "name": "Half-open (Weinberg)",
+    "playbackTechniqueID": "pt.halfOpen"
+   },
+   {
+    "entityID": "pta.unpitchedLeftHand",
+    "name": "Left Hand (Agostini)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.unpitchedMuffledText",
+    "name": "Muffled",
+    "playbackTechniqueID": "pt.muffledDamped"
+   },
+   {
+    "entityID": "pta.unpitchedNormalPosition",
+    "name": "Normal Position (Caltabiano)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.unpitchedOnRim",
+    "name": "On Rim",
+    "playbackTechniqueID": "pt.rim"
+   },
+   {
+    "entityID": "pta.unpitchedOpen",
+    "name": "Open",
+    "playbackTechniqueID": "pt.open2"
+   },
+   {
+    "entityID": "pta.unpitchedRightHand",
+    "name": "Right Hand (Agostini)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.unpitchedRim1",
+    "name": "Rim or Edge (Weinberg)",
+    "playbackTechniqueID": "pt.rim"
+   },
+   {
+    "entityID": "pta.unpitchedRim2",
+    "name": "Rim (Ghent)",
+    "playbackTechniqueID": "pt.rim"
+   },
+   {
+    "entityID": "pta.unpitchedRim3",
+    "name": "Rim (Caltabiano)",
+    "playbackTechniqueID": "pt.rim"
+   },
+   {
+    "entityID": "pta.unpitchedScrapeAroundRimClockwise",
+    "name": "Scrape Around Rim (Clockwise)",
+    "playbackTechniqueID": "pt.scrape"
+   },
+   {
+    "entityID": "pta.unpitchedScrapeAroundRimCounterclockwise",
+    "name": "Scrape Around Rim (Counter-clockwise)",
+    "playbackTechniqueID": "pt.scrape"
+   },
+   {
+    "entityID": "pta.unpitchedScrapeCenterToEdge",
+    "name": "Scrape from Center to Edge",
+    "playbackTechniqueID": "pt.scrape"
+   },
+   {
+    "entityID": "pta.unpitchedScrapeEdgeToCenter",
+    "name": "Scrape from Edge to Center",
+    "playbackTechniqueID": "pt.scrape"
+   },
+   {
+    "entityID": "pta.unpitchedSnaresOffText",
+    "name": "Snares Off",
+    "playbackTechniqueID": "pt.snareOff"
+   },
+   {
+    "entityID": "pta.unpitchedSnaresOnText",
+    "name": "Snares On",
+    "playbackTechniqueID": "pt.snareOn"
+   },
+   {
+    "entityID": "pta.unpitchedStickShot",
+    "name": "Stick Shot",
+    "playbackTechniqueID": "pt.stickShot"
+   },
+   {
+    "entityID": "pta.valveTrill",
+    "name": "Valve trill",
+    "playbackTechniqueID": "pt.trill"
+   },
+   {
+    "entityID": "pta.vibraphoneHalfPedText",
+    "name": "Vibraphone Half Pedal (\u00bd ped.)",
+    "playbackTechniqueID": "pt.sustainPedal"
+   },
+   {
+    "entityID": "pta.vibraphoneLvText",
+    "name": "Vibraphone Pedal (l.v.)",
+    "playbackTechniqueID": "pt.sustainPedal"
+   },
+   {
+    "entityID": "pta.vibraphoneMotorOff",
+    "name": "Vibraphone Motor Off",
+    "playbackTechniqueID": "pt.motorOff"
+   },
+   {
+    "entityID": "pta.vibraphoneMotorOn",
+    "name": "Vibraphone Motor On",
+    "playbackTechniqueID": "pt.motorOn"
+   },
+   {
+    "entityID": "pta.vibraphonePedText",
+    "name": "Vibraphone Pedal (ped.)",
+    "playbackTechniqueID": "pt.sustainPedal"
+   },
+   {
+    "entityID": "pta.vibratoText",
+    "name": "Vibrato",
+    "playbackTechniqueID": "pt.vibrato"
+   },
+   {
+    "entityID": "pta.vocalConBoccaChiusa",
+    "name": "Con bocca chiusa",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.vocalFingerClick",
+    "name": "Finger Click (Stockhausen)",
+    "playbackTechniqueID": "pt.fingerClick"
+   },
+   {
+    "entityID": "pta.vocalMouthClosed",
+    "name": "Mouth Closed",
+    "playbackTechniqueID": "pt.mouthClosed"
+   },
+   {
+    "entityID": "pta.vocalMouthOpen",
+    "name": "Mouth Open",
+    "playbackTechniqueID": "pt.mouthOpen"
+   },
+   {
+    "entityID": "pta.vocalMouthPursed",
+    "name": "Mouth Pursed",
+    "playbackTechniqueID": "pt.mouthPursed"
+   },
+   {
+    "entityID": "pta.vocalMouthSlightlyOpen",
+    "name": "Mouth Slightly Open",
+    "playbackTechniqueID": "pt.mouthSlightlyOpen"
+   },
+   {
+    "entityID": "pta.vocalMouthWideOpen",
+    "name": "Mouth Wide Open",
+    "playbackTechniqueID": "pt.mouthWideOpen"
+   },
+   {
+    "entityID": "pta.vocalNasalVoice",
+    "name": "Nasal Voice",
+    "playbackTechniqueID": "pt.nasalVoice"
+   },
+   {
+    "entityID": "pta.vocalTongueClick",
+    "name": "Tongue Click (Stockhausen)",
+    "playbackTechniqueID": "pt.tongueClick"
+   },
+   {
+    "entityID": "pta.vocalTongueFingerClick",
+    "name": "Tongue and Finger Click (Stockhausen)",
+    "playbackTechniqueID": "pt.tongueFingerClick"
+   },
+   {
+    "entityID": "pta.whistleToneText",
+    "name": "Whistle Tone",
+    "playbackTechniqueID": "pt.whistleTone"
+   },
+   {
+    "entityID": "pta.windClosedHole",
+    "name": "Closed Hole",
+    "playbackTechniqueID": "pt.closedHole"
+   },
+   {
+    "entityID": "pta.windDoubleTongue",
+    "name": "Double-tongue",
+    "playbackTechniqueID": "pt.doubleTongue"
+   },
+   {
+    "entityID": "pta.windFlatEmbouchure",
+    "name": "Flatter Embouchure",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.windKeySlap",
+    "name": "Key Slap",
+    "playbackTechniqueID": "pt.keyClick"
+   },
+   {
+    "entityID": "pta.windLessRelaxedEmbouchure",
+    "name": "Somewhat Relaxed Embouchure",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.windMouthpiecePop",
+    "name": "Mouthpiece/Hand Pop",
+    "playbackTechniqueID": "pt.mouthpiecePop"
+   },
+   {
+    "entityID": "pta.windOpenHole",
+    "name": "Open hole",
+    "playbackTechniqueID": "pt.openHole"
+   },
+   {
+    "entityID": "pta.windReedPositionIn",
+    "name": "Much More Reed (Push Inwards)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.windReedPositionNormal",
+    "name": "Normal Reed Position",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.windReedPositionOut",
+    "name": "Very Little Reed (Pull Outwards)",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.windRelaxedEmbouchure",
+    "name": "Relaxed Embouchure",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.windRimOnly",
+    "name": "Rim Only",
+    "playbackTechniqueID": "pt.rimOnly"
+   },
+   {
+    "entityID": "pta.windSharpEmbouchure",
+    "name": "Sharper Embouchure",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.windSomewhatTightEmbouchure",
+    "name": "Somewhat Tight Embouchure",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.windStrongAirPressure",
+    "name": "Strong Air Pressure",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.windThreeQuartersClosedHole",
+    "name": "Half-closed Hole",
+    "playbackTechniqueID": "pt.closedHole"
+   },
+   {
+    "entityID": "pta.windTightEmbouchure",
+    "name": "Tight Embouchure",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.windTrillKey",
+    "name": "Trill Key",
+    "playbackTechniqueID": "pt.trill"
+   },
+   {
+    "entityID": "pta.windTripleTongue",
+    "name": "Triple-tongue",
+    "playbackTechniqueID": "pt.tripleTongue"
+   },
+   {
+    "entityID": "pta.windVeryTightEmbouchure",
+    "name": "Very Tight Embouchure",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.windWeakAirPressure",
+    "name": "Weak Air Pressure",
+    "playbackTechniqueID": "pt.natural"
+   },
+   {
+    "entityID": "pta.withMuteText",
+    "name": "With Mute (text)",
+    "playbackTechniqueID": "pt.muted"
+   },
+   {
+    "entityID": "pta.xyloText",
+    "name": "Xylo",
+    "playbackTechniqueID": "pt.sonsXylophoniques"
+   }
+  ]
+ }
+]

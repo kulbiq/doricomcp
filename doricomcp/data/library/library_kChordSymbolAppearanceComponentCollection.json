@@ -1,0 +1,1568 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "csac.6.smufl.glyph.slash.diagonal.9",
+    "name": "6.smufl.glyph.slash.diagonal.9"
+   },
+   {
+    "entityID": "csac.6.smufl.glyph.slash.stacked.9",
+    "name": "6.smufl.glyph.slash.stacked.9"
+   },
+   {
+    "entityID": "csac.6.stacked.9",
+    "name": "6.stacked.9"
+   },
+   {
+    "entityID": "csac.9.smufl.glyph.slash.stacked.6",
+    "name": "9.smufl.glyph.slash.stacked.6"
+   },
+   {
+    "entityID": "csac.9.stacked.6",
+    "name": "9.stacked.6"
+   },
+   {
+    "entityID": "csac.accidental.kDoubleFlat.eses",
+    "name": "eses"
+   },
+   {
+    "entityID": "csac.accidental.kDoubleFlat.ses",
+    "name": "ses"
+   },
+   {
+    "entityID": "csac.accidental.kDoubleSharp.isis",
+    "name": "isis"
+   },
+   {
+    "entityID": "csac.accidental.kFlat.es",
+    "name": "es"
+   },
+   {
+    "entityID": "csac.accidental.kFlat.s",
+    "name": "s"
+   },
+   {
+    "entityID": "csac.accidental.kSharp.is",
+    "name": "is"
+   },
+   {
+    "entityID": "csac.accidental.kTripleFlat.eseses",
+    "name": "eseses"
+   },
+   {
+    "entityID": "csac.accidental.kTripleFlat.seses",
+    "name": "seses"
+   },
+   {
+    "entityID": "csac.accidental.kTripleSharp.isisis",
+    "name": "isisis"
+   },
+   {
+    "entityID": "csac.alteration.10",
+    "name": "10"
+   },
+   {
+    "entityID": "csac.alteration.11",
+    "name": "11"
+   },
+   {
+    "entityID": "csac.alteration.13",
+    "name": "13"
+   },
+   {
+    "entityID": "csac.alteration.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.alteration.3",
+    "name": "3"
+   },
+   {
+    "entityID": "csac.alteration.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.alteration.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.alteration.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.alteration.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.alteration.9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.alteration.ADD.kUpperCase",
+    "name": "ADD"
+   },
+   {
+    "entityID": "csac.alteration.NO.kUpperCase.kNo",
+    "name": "NO"
+   },
+   {
+    "entityID": "csac.alteration.OMIT.kUpperCase.kOmit",
+    "name": "OMIT"
+   },
+   {
+    "entityID": "csac.alteration.SUS.kUpperCase",
+    "name": "SUS"
+   },
+   {
+    "entityID": "csac.alteration.add.kLowerCase",
+    "name": "add"
+   },
+   {
+    "entityID": "csac.alteration.comma",
+    "name": ","
+   },
+   {
+    "entityID": "csac.alteration.no.kLowerCase.kNo",
+    "name": "no"
+   },
+   {
+    "entityID": "csac.alteration.omit.kLowerCase.kOmit",
+    "name": "omit"
+   },
+   {
+    "entityID": "csac.alteration.sus.kLowerCase",
+    "name": "sus"
+   },
+   {
+    "entityID": "csac.alteredchord.kALT",
+    "name": "ALT"
+   },
+   {
+    "entityID": "csac.alteredchord.kALT.parenthesised",
+    "name": "(ALT)"
+   },
+   {
+    "entityID": "csac.alteredchord.kALTDot",
+    "name": "ALT."
+   },
+   {
+    "entityID": "csac.alteredchord.kALTDot.parenthesised",
+    "name": "(ALT.)"
+   },
+   {
+    "entityID": "csac.alteredchord.kAlt",
+    "name": "Alt"
+   },
+   {
+    "entityID": "csac.alteredchord.kAlt.parenthesised",
+    "name": "(Alt)"
+   },
+   {
+    "entityID": "csac.alteredchord.kAltDot",
+    "name": "Alt."
+   },
+   {
+    "entityID": "csac.alteredchord.kAltDot.parenthesised",
+    "name": "(Alt.)"
+   },
+   {
+    "entityID": "csac.alteredchord.kAltLowerCase",
+    "name": "alt"
+   },
+   {
+    "entityID": "csac.alteredchord.kAltLowerCase.parenthesised",
+    "name": "(alt)"
+   },
+   {
+    "entityID": "csac.alteredchord.kAltLowerCaseDot",
+    "name": "alt."
+   },
+   {
+    "entityID": "csac.alteredchord.kAltLowerCaseDot.parenthesised",
+    "name": "(alt.)"
+   },
+   {
+    "entityID": "csac.bass.on",
+    "name": "on"
+   },
+   {
+    "entityID": "csac.interval.k11",
+    "name": "11"
+   },
+   {
+    "entityID": "csac.interval.k13",
+    "name": "13"
+   },
+   {
+    "entityID": "csac.interval.k6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.interval.k7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.interval.k9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.interval.kMaj7.kLowerCaseMaj7",
+    "name": "maj"
+   },
+   {
+    "entityID": "csac.interval.kMaj7.kSentenceCaseMaj7",
+    "name": "Maj"
+   },
+   {
+    "entityID": "csac.interval.kMaj7.kUpperCaseM7",
+    "name": "M"
+   },
+   {
+    "entityID": "csac.interval.kMaj7.kUpperCaseMA7",
+    "name": "MA"
+   },
+   {
+    "entityID": "csac.kAccidental.smufl.kCsymAccidentalDoubleFlat",
+    "name": "smufl.kCsymAccidentalDoubleFlat"
+   },
+   {
+    "entityID": "csac.kAccidental.smufl.kCsymAccidentalDoubleFlatSmall",
+    "name": "smufl.kCsymAccidentalDoubleFlatSmall"
+   },
+   {
+    "entityID": "csac.kAccidental.smufl.kCsymAccidentalDoubleSharp",
+    "name": "smufl.kCsymAccidentalDoubleSharp"
+   },
+   {
+    "entityID": "csac.kAccidental.smufl.kCsymAccidentalDoubleSharpSmall",
+    "name": "smufl.kCsymAccidentalDoubleSharpSmall"
+   },
+   {
+    "entityID": "csac.kAccidental.smufl.kCsymAccidentalFlat",
+    "name": "smufl.kCsymAccidentalFlat"
+   },
+   {
+    "entityID": "csac.kAccidental.smufl.kCsymAccidentalFlatSmall",
+    "name": "smufl.kCsymAccidentalFlatSmall"
+   },
+   {
+    "entityID": "csac.kAccidental.smufl.kCsymAccidentalNatural",
+    "name": "smufl.kCsymAccidentalNatural"
+   },
+   {
+    "entityID": "csac.kAccidental.smufl.kCsymAccidentalNaturalSmall",
+    "name": "smufl.kCsymAccidentalNaturalSmall"
+   },
+   {
+    "entityID": "csac.kAccidental.smufl.kCsymAccidentalSharp",
+    "name": "smufl.kCsymAccidentalSharp"
+   },
+   {
+    "entityID": "csac.kAccidental.smufl.kCsymAccidentalSharpSmall",
+    "name": "smufl.kCsymAccidentalSharpSmall"
+   },
+   {
+    "entityID": "csac.kAccidental.smufl.kCsymAccidentalTripleFlat",
+    "name": "smufl.kCsymAccidentalTripleFlat"
+   },
+   {
+    "entityID": "csac.kAccidental.smufl.kCsymAccidentalTripleFlatSmall",
+    "name": "smufl.kCsymAccidentalTripleFlatSmall"
+   },
+   {
+    "entityID": "csac.kAccidental.smufl.kCsymAccidentalTripleSharp",
+    "name": "smufl.kCsymAccidentalTripleSharp"
+   },
+   {
+    "entityID": "csac.kAccidental.smufl.kCsymAccidentalTripleSharpSmall",
+    "name": "smufl.kCsymAccidentalTripleSharpSmall"
+   },
+   {
+    "entityID": "csac.kAlterations.parenthesis.closed",
+    "name": ")"
+   },
+   {
+    "entityID": "csac.kAlterations.parenthesis.open",
+    "name": "("
+   },
+   {
+    "entityID": "csac.kAlterations.smufl.kCsymParensLeftTall.100.percent",
+    "name": "smufl.kCsymParensLeftTall.100.percent"
+   },
+   {
+    "entityID": "csac.kAlterations.smufl.kCsymParensLeftVeryTall.150.percent",
+    "name": "smufl.kCsymParensLeftVeryTall.150.percent"
+   },
+   {
+    "entityID": "csac.kAlterations.smufl.kCsymParensRightTall.100.percent",
+    "name": "smufl.kCsymParensRightTall.100.percent"
+   },
+   {
+    "entityID": "csac.kAlterations.smufl.kCsymParensRightVeryTall.150.percent",
+    "name": "smufl.kCsymParensRightVeryTall.150.percent"
+   },
+   {
+    "entityID": "csac.kBassSlash.bass.slash",
+    "name": "bass.slash"
+   },
+   {
+    "entityID": "csac.kBassSlash.bass.slashdiagonal",
+    "name": "bass.slashdiagonal"
+   },
+   {
+    "entityID": "csac.kInterval.parenthesis.closed",
+    "name": ")"
+   },
+   {
+    "entityID": "csac.kInterval.parenthesis.open",
+    "name": "("
+   },
+   {
+    "entityID": "csac.kInterval.smufl.kCsymMajorSeventh.maj7",
+    "name": "smufl.kCsymMajorSeventh.maj7"
+   },
+   {
+    "entityID": "csac.kInterval.smufl.kCsymMajorSeventhSmall.maj7",
+    "name": "smufl.kCsymMajorSeventhSmall.maj7"
+   },
+   {
+    "entityID": "csac.kParentheses.parenthesis.closed",
+    "name": ")"
+   },
+   {
+    "entityID": "csac.kParentheses.parenthesis.open",
+    "name": "("
+   },
+   {
+    "entityID": "csac.kParentheses.smufl.kCsymParensLeftTall.100.percent",
+    "name": "smufl.kCsymParensLeftTall.100.percent"
+   },
+   {
+    "entityID": "csac.kParentheses.smufl.kCsymParensLeftVeryTall.150.percent",
+    "name": "smufl.kCsymParensLeftVeryTall.150.percent"
+   },
+   {
+    "entityID": "csac.kParentheses.smufl.kCsymParensRightTall.100.percent",
+    "name": "smufl.kCsymParensRightTall.100.percent"
+   },
+   {
+    "entityID": "csac.kParentheses.smufl.kCsymParensRightVeryTall.150.percent",
+    "name": "smufl.kCsymParensRightVeryTall.150.percent"
+   },
+   {
+    "entityID": "csac.kQuality.smufl.kCsymAugmented.augmented",
+    "name": "smufl.kCsymAugmented.augmented"
+   },
+   {
+    "entityID": "csac.kQuality.smufl.kCsymAugmentedSmall.augmentedsmall",
+    "name": "smufl.kCsymAugmentedSmall.augmentedsmall"
+   },
+   {
+    "entityID": "csac.kQuality.smufl.kCsymDiminished.dim7",
+    "name": "smufl.kCsymDiminished.dim7"
+   },
+   {
+    "entityID": "csac.kQuality.smufl.kCsymDiminished.dimtriad",
+    "name": "smufl.kCsymDiminished.dimtriad"
+   },
+   {
+    "entityID": "csac.kQuality.smufl.kCsymDiminishedSmall.dim7",
+    "name": "smufl.kCsymDiminishedSmall.dim7"
+   },
+   {
+    "entityID": "csac.kQuality.smufl.kCsymDiminishedSmall.dimtriad",
+    "name": "smufl.kCsymDiminishedSmall.dimtriad"
+   },
+   {
+    "entityID": "csac.kQuality.smufl.kCsymHalfDiminished",
+    "name": "smufl.kCsymHalfDiminished"
+   },
+   {
+    "entityID": "csac.kQuality.smufl.kCsymHalfDiminishedSmall",
+    "name": "smufl.kCsymHalfDiminishedSmall"
+   },
+   {
+    "entityID": "csac.kQuality.smufl.kCsymMajorSeventh.major",
+    "name": "smufl.kCsymMajorSeventh.major"
+   },
+   {
+    "entityID": "csac.kQuality.smufl.kCsymMajorSeventhSmall.majorsmall",
+    "name": "smufl.kCsymMajorSeventhSmall.majorsmall"
+   },
+   {
+    "entityID": "csac.kQuality.smufl.kCsymMinor.minor",
+    "name": "smufl.kCsymMinor.minor"
+   },
+   {
+    "entityID": "csac.kQuality.smufl.kCsymMinorSmall.minorsmall",
+    "name": "smufl.kCsymMinorSmall.minorsmall"
+   },
+   {
+    "entityID": "csac.linear6.smufl.glyph.slash.linear.linear9",
+    "name": "linear6.smufl.glyph.slash.linear.linear9"
+   },
+   {
+    "entityID": "csac.nochord.nc",
+    "name": "N.C."
+   },
+   {
+    "entityID": "csac.openParenthesis.smufl.glyph.quality.augmented.kSharpSymbolWith5.5closedParenthesis",
+    "name": "openParenthesis.smufl.glyph.quality.augmented.kSharpSymbolWith5.5closedParenthesis"
+   },
+   {
+    "entityID": "csac.openParenthesis.smufl.glyph.quality.augmented.kSharpSymbolWith5.small.5closedParenthesis",
+    "name": "openParenthesis.smufl.glyph.quality.augmented.kSharpSymbolWith5.small.5closedParenthesis"
+   },
+   {
+    "entityID": "csac.quality.5.k5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.quality.augmented.kAug.kLowerCase",
+    "name": "aug"
+   },
+   {
+    "entityID": "csac.quality.augmented.kAug.kUpperCase",
+    "name": "AUG"
+   },
+   {
+    "entityID": "csac.quality.dim.kLowerCaseDim",
+    "name": "dim"
+   },
+   {
+    "entityID": "csac.quality.dim.kLowerCaseDimWithDot",
+    "name": "dim."
+   },
+   {
+    "entityID": "csac.quality.dim7.kLowerCaseDimWithDotWithout7",
+    "name": "dim."
+   },
+   {
+    "entityID": "csac.quality.dim7.kLowerCaseDimWithout7",
+    "name": "dim"
+   },
+   {
+    "entityID": "csac.quality.major.kLowerCaseMa",
+    "name": "ma"
+   },
+   {
+    "entityID": "csac.quality.major.kLowerCaseMaj",
+    "name": "maj"
+   },
+   {
+    "entityID": "csac.quality.major.kUpperCaseM",
+    "name": "M"
+   },
+   {
+    "entityID": "csac.quality.minor.kLowerCaseM",
+    "name": "m"
+   },
+   {
+    "entityID": "csac.quality.minor.kLowerCaseMi",
+    "name": "mi"
+   },
+   {
+    "entityID": "csac.quality.minor.kLowerCaseMin",
+    "name": "min"
+   },
+   {
+    "entityID": "csac.quality.minor.kUpperCaseMi",
+    "name": "MI"
+   },
+   {
+    "entityID": "csac.quality.modal.kAeolian.kLowerCase",
+    "name": "aeol"
+   },
+   {
+    "entityID": "csac.quality.modal.kAeolian.kLowerCase.dot",
+    "name": "aeol."
+   },
+   {
+    "entityID": "csac.quality.modal.kAeolian.kTitleCase",
+    "name": "Aeol"
+   },
+   {
+    "entityID": "csac.quality.modal.kAeolian.kTitleCase.dot",
+    "name": "Aeol."
+   },
+   {
+    "entityID": "csac.quality.modal.kDiminishedHalfWhole.kLowerCase",
+    "name": "dim H/W"
+   },
+   {
+    "entityID": "csac.quality.modal.kDiminishedHalfWhole.kLowerCase.dot",
+    "name": "dim. H/W"
+   },
+   {
+    "entityID": "csac.quality.modal.kDiminishedHalfWhole.kTitleCase",
+    "name": "Dim H/W"
+   },
+   {
+    "entityID": "csac.quality.modal.kDiminishedHalfWhole.kTitleCase.dot",
+    "name": "Dim. H/W"
+   },
+   {
+    "entityID": "csac.quality.modal.kDiminishedWholeHalf.kLowerCase",
+    "name": "dim W/H"
+   },
+   {
+    "entityID": "csac.quality.modal.kDiminishedWholeHalf.kLowerCase.dot",
+    "name": "dim. W/H"
+   },
+   {
+    "entityID": "csac.quality.modal.kDiminishedWholeHalf.kTitleCase",
+    "name": "Dim W/H"
+   },
+   {
+    "entityID": "csac.quality.modal.kDiminishedWholeHalf.kTitleCase.dot",
+    "name": "Dim. W/H"
+   },
+   {
+    "entityID": "csac.quality.modal.kDorian.kLowerCase",
+    "name": "dor"
+   },
+   {
+    "entityID": "csac.quality.modal.kDorian.kLowerCase.dot",
+    "name": "dor."
+   },
+   {
+    "entityID": "csac.quality.modal.kDorian.kTitleCase",
+    "name": "Dor"
+   },
+   {
+    "entityID": "csac.quality.modal.kDorian.kTitleCase.dot",
+    "name": "Dor."
+   },
+   {
+    "entityID": "csac.quality.modal.kHarmonicMinor.kLowerCase",
+    "name": "harm min"
+   },
+   {
+    "entityID": "csac.quality.modal.kHarmonicMinor.kLowerCase.dot",
+    "name": "harm. min."
+   },
+   {
+    "entityID": "csac.quality.modal.kHarmonicMinor.kTitleCase",
+    "name": "Harm Min"
+   },
+   {
+    "entityID": "csac.quality.modal.kHarmonicMinor.kTitleCase.dot",
+    "name": "Harm. Min."
+   },
+   {
+    "entityID": "csac.quality.modal.kIonian.kLowerCase",
+    "name": "ion"
+   },
+   {
+    "entityID": "csac.quality.modal.kIonian.kLowerCase.dot",
+    "name": "ion."
+   },
+   {
+    "entityID": "csac.quality.modal.kIonian.kTitleCase",
+    "name": "Ion"
+   },
+   {
+    "entityID": "csac.quality.modal.kIonian.kTitleCase.dot",
+    "name": "Ion."
+   },
+   {
+    "entityID": "csac.quality.modal.kLocrian.kLowerCase",
+    "name": "loc"
+   },
+   {
+    "entityID": "csac.quality.modal.kLocrian.kLowerCase.dot",
+    "name": "loc."
+   },
+   {
+    "entityID": "csac.quality.modal.kLocrian.kTitleCase",
+    "name": "Loc"
+   },
+   {
+    "entityID": "csac.quality.modal.kLocrian.kTitleCase.dot",
+    "name": "Loc."
+   },
+   {
+    "entityID": "csac.quality.modal.kLydian.kLowerCase",
+    "name": "lyd"
+   },
+   {
+    "entityID": "csac.quality.modal.kLydian.kLowerCase.dot",
+    "name": "lyd."
+   },
+   {
+    "entityID": "csac.quality.modal.kLydian.kTitleCase",
+    "name": "Lyd"
+   },
+   {
+    "entityID": "csac.quality.modal.kLydian.kTitleCase.dot",
+    "name": "Lyd."
+   },
+   {
+    "entityID": "csac.quality.modal.kMelodicMinor.kLowerCase",
+    "name": "mel min"
+   },
+   {
+    "entityID": "csac.quality.modal.kMelodicMinor.kLowerCase.dot",
+    "name": "mel. min."
+   },
+   {
+    "entityID": "csac.quality.modal.kMelodicMinor.kTitleCase",
+    "name": "Mel Min"
+   },
+   {
+    "entityID": "csac.quality.modal.kMelodicMinor.kTitleCase.dot",
+    "name": "Mel. Min."
+   },
+   {
+    "entityID": "csac.quality.modal.kMixolydian.kLowerCase",
+    "name": "mixo"
+   },
+   {
+    "entityID": "csac.quality.modal.kMixolydian.kLowerCase.dot",
+    "name": "mixo."
+   },
+   {
+    "entityID": "csac.quality.modal.kMixolydian.kTitleCase",
+    "name": "Mixo"
+   },
+   {
+    "entityID": "csac.quality.modal.kMixolydian.kTitleCase.dot",
+    "name": "Mixo."
+   },
+   {
+    "entityID": "csac.quality.modal.kPhrygian.kLowerCase",
+    "name": "phryg"
+   },
+   {
+    "entityID": "csac.quality.modal.kPhrygian.kLowerCase.dot",
+    "name": "phryg."
+   },
+   {
+    "entityID": "csac.quality.modal.kPhrygian.kTitleCase",
+    "name": "Phryg"
+   },
+   {
+    "entityID": "csac.quality.modal.kPhrygian.kTitleCase.dot",
+    "name": "Phryg."
+   },
+   {
+    "entityID": "csac.quality.modal.kWholeTone.kLowerCase",
+    "name": "wt"
+   },
+   {
+    "entityID": "csac.quality.modal.kWholeTone.kLowerCase.dot",
+    "name": "w.t."
+   },
+   {
+    "entityID": "csac.quality.modal.kWholeTone.kTitleCase",
+    "name": "WT"
+   },
+   {
+    "entityID": "csac.quality.modal.kWholeTone.kTitleCase.dot",
+    "name": "W.T."
+   },
+   {
+    "entityID": "csac.quality.pedalonly.kPed",
+    "name": " ped"
+   },
+   {
+    "entityID": "csac.quality.pedalonly.kPedDot",
+    "name": " ped."
+   },
+   {
+    "entityID": "csac.quality.pedalonly.kPedal",
+    "name": " pedal"
+   },
+   {
+    "entityID": "csac.quality.rootonly.kBass",
+    "name": " bass"
+   },
+   {
+    "entityID": "csac.quality.rootonly.kOnly",
+    "name": " only"
+   },
+   {
+    "entityID": "csac.root.kNashville.1",
+    "name": "1"
+   },
+   {
+    "entityID": "csac.root.kNashville.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.root.kNashville.3",
+    "name": "3"
+   },
+   {
+    "entityID": "csac.root.kNashville.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.root.kNashville.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.root.kNashville.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.root.kNashville.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.root.kSolfeggio.A.La",
+    "name": "La"
+   },
+   {
+    "entityID": "csac.root.kSolfeggio.B.Si",
+    "name": "Si"
+   },
+   {
+    "entityID": "csac.root.kSolfeggio.B.Ti",
+    "name": "Ti"
+   },
+   {
+    "entityID": "csac.root.kSolfeggio.C.Do",
+    "name": "Do"
+   },
+   {
+    "entityID": "csac.root.kSolfeggio.C.Ut",
+    "name": "Ut"
+   },
+   {
+    "entityID": "csac.root.kSolfeggio.D.ReWithAcuteAccent",
+    "name": "R\u00e9"
+   },
+   {
+    "entityID": "csac.root.kSolfeggio.D.ReWithoutAcuteAccent",
+    "name": "Re"
+   },
+   {
+    "entityID": "csac.root.kSolfeggio.E.Mi",
+    "name": "Mi"
+   },
+   {
+    "entityID": "csac.root.kSolfeggio.F.Fa",
+    "name": "Fa"
+   },
+   {
+    "entityID": "csac.root.kSolfeggio.G.So",
+    "name": "So"
+   },
+   {
+    "entityID": "csac.root.kSolfeggio.G.Sol",
+    "name": "Sol"
+   },
+   {
+    "entityID": "csac.root.kStandard.A",
+    "name": "A"
+   },
+   {
+    "entityID": "csac.root.kStandard.B",
+    "name": "B"
+   },
+   {
+    "entityID": "csac.root.kStandard.C",
+    "name": "C"
+   },
+   {
+    "entityID": "csac.root.kStandard.D",
+    "name": "D"
+   },
+   {
+    "entityID": "csac.root.kStandard.E",
+    "name": "E"
+   },
+   {
+    "entityID": "csac.root.kStandard.F",
+    "name": "F"
+   },
+   {
+    "entityID": "csac.root.kStandard.G",
+    "name": "G"
+   },
+   {
+    "entityID": "csac.root.kStandard.H",
+    "name": "H"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.10",
+    "name": "10"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.13",
+    "name": "13"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.accAfterInterval.10",
+    "name": "10"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.accAfterInterval.13",
+    "name": "13"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.accAfterInterval.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.accAfterInterval.9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.modal.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.modal.3",
+    "name": "3"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.modal.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.modal.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.modal.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.modal.accAfterInterval.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.modal.accAfterInterval.3",
+    "name": "3"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.modal.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.modal.accAfterInterval.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flat.modal.accAfterInterval.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.10",
+    "name": "10"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.13",
+    "name": "13"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.accAfterInterval.10",
+    "name": "10"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.accAfterInterval.13",
+    "name": "13"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.accAfterInterval.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.accAfterInterval.9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.modal.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.modal.3",
+    "name": "3"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.modal.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.modal.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.modal.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.modal.accAfterInterval.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.modal.accAfterInterval.3",
+    "name": "3"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.modal.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.modal.accAfterInterval.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminus.modal.accAfterInterval.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.10",
+    "name": "10"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.13",
+    "name": "13"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.accAfterInterval.10",
+    "name": "10"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.accAfterInterval.13",
+    "name": "13"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.accAfterInterval.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.accAfterInterval.9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.modal.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.modal.3",
+    "name": "3"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.modal.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.modal.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.modal.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.modal.accAfterInterval.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.modal.accAfterInterval.3",
+    "name": "3"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.modal.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.modal.accAfterInterval.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatminussmall.modal.accAfterInterval.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.10",
+    "name": "10"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.13",
+    "name": "13"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.accAfterInterval.10",
+    "name": "10"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.accAfterInterval.13",
+    "name": "13"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.accAfterInterval.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.accAfterInterval.9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.modal.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.modal.3",
+    "name": "3"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.modal.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.modal.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.modal.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.modal.accAfterInterval.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.modal.accAfterInterval.3",
+    "name": "3"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.modal.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.modal.accAfterInterval.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.flatsmall.modal.accAfterInterval.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.natural.modal.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.natural.modal.3",
+    "name": "3"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.natural.modal.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.natural.modal.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.natural.modal.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.natural.modal.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.natural.modal.accAfterInterval.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.natural.modal.accAfterInterval.3",
+    "name": "3"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.natural.modal.accAfterInterval.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.natural.modal.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.natural.modal.accAfterInterval.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.natural.modal.accAfterInterval.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.naturalsmall.modal.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.naturalsmall.modal.3",
+    "name": "3"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.naturalsmall.modal.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.naturalsmall.modal.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.naturalsmall.modal.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.naturalsmall.modal.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval.3",
+    "name": "3"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.11",
+    "name": "11"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.accAfterInterval.11",
+    "name": "11"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.accAfterInterval.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.accAfterInterval.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.accAfterInterval.9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.modal.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.modal.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.modal.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.modal.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.modal.accAfterInterval.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.modal.accAfterInterval.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.modal.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharp.modal.accAfterInterval.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.11",
+    "name": "11"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.accAfterInterval.11",
+    "name": "11"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.accAfterInterval.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.accAfterInterval.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.accAfterInterval.9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.modal.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.modal.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.modal.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.modal.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.modal.accAfterInterval.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.modal.accAfterInterval.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.modal.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplus.modal.accAfterInterval.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.11",
+    "name": "11"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.accAfterInterval.11",
+    "name": "11"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.accAfterInterval.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.accAfterInterval.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.accAfterInterval.9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.modal.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.modal.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.modal.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.modal.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.modal.accAfterInterval.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.modal.accAfterInterval.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.modal.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpplussmall.modal.accAfterInterval.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.11",
+    "name": "11"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.accAfterInterval.11",
+    "name": "11"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.accAfterInterval.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.accAfterInterval.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.accAfterInterval.9",
+    "name": "9"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.modal.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.modal.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.modal.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.modal.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.modal.accAfterInterval.2",
+    "name": "2"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.modal.accAfterInterval.4",
+    "name": "4"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.modal.accAfterInterval.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.alteration.prefix.sharpsmall.modal.accAfterInterval.6",
+    "name": "6"
+   },
+   {
+    "entityID": "csac.smufl.glyph.interval.kMaj7.kSharp7.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.interval.kMaj7.kSharp7.small.7",
+    "name": "7"
+   },
+   {
+    "entityID": "csac.smufl.glyph.quality.augmented.kPlusSymbolWith5.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.quality.augmented.kPlusSymbolWith5.small.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.quality.augmented.kSharpSymbolWith5.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.glyph.quality.augmented.kSharpSymbolWith5.small.5",
+    "name": "5"
+   },
+   {
+    "entityID": "csac.smufl.kCsymAugmented.1",
+    "name": "smufl.kCsymAugmented.1"
+   },
+   {
+    "entityID": "csac.smufl.kCsymAugmented.2",
+    "name": "smufl.kCsymAugmented.2"
+   },
+   {
+    "entityID": "csac.smufl.kCsymAugmented.3",
+    "name": "smufl.kCsymAugmented.3"
+   },
+   {
+    "entityID": "csac.smufl.kCsymAugmentedSmall.1",
+    "name": "smufl.kCsymAugmentedSmall.1"
+   },
+   {
+    "entityID": "csac.smufl.kCsymAugmentedSmall.2",
+    "name": "smufl.kCsymAugmentedSmall.2"
+   },
+   {
+    "entityID": "csac.smufl.kCsymAugmentedSmall.3",
+    "name": "smufl.kCsymAugmentedSmall.3"
+   },
+   {
+    "entityID": "csac.smufl.kCsymMinor.1",
+    "name": "smufl.kCsymMinor.1"
+   },
+   {
+    "entityID": "csac.smufl.kCsymMinor.2",
+    "name": "smufl.kCsymMinor.2"
+   },
+   {
+    "entityID": "csac.smufl.kCsymMinor.3",
+    "name": "smufl.kCsymMinor.3"
+   },
+   {
+    "entityID": "csac.smufl.kCsymMinorSmall.1",
+    "name": "smufl.kCsymMinorSmall.1"
+   },
+   {
+    "entityID": "csac.smufl.kCsymMinorSmall.2",
+    "name": "smufl.kCsymMinorSmall.2"
+   },
+   {
+    "entityID": "csac.smufl.kCsymMinorSmall.3",
+    "name": "smufl.kCsymMinorSmall.3"
+   }
+  ]
+ }
+]

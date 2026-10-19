@@ -1,0 +1,28 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "temperament definition.12-edo",
+    "name": "Standard Western tuning (12EDO)"
+   },
+   {
+    "entityID": "temperament definition.17et.persian-dastgah",
+    "name": "Persian Dastgah (17ET)"
+   },
+   {
+    "entityID": "temperament definition.24-edo",
+    "name": "Standard Western tuning (24EDO)"
+   },
+   {
+    "entityID": "temperament definition.53et.makam.nihavend",
+    "name": "Makam Nihavend (53ET)"
+   },
+   {
+    "entityID": "temperament definition.53et.makam.rast",
+    "name": "Makam Rast (53ET)"
+   }
+  ]
+ }
+]

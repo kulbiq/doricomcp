@@ -1,0 +1,5892 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "glyph.4stringTabClef",
+    "name": "4stringTabClef"
+   },
+   {
+    "entityID": "glyph.57952",
+    "name": "57952"
+   },
+   {
+    "entityID": "glyph.57954",
+    "name": "57954"
+   },
+   {
+    "entityID": "glyph.57955",
+    "name": "57955"
+   },
+   {
+    "entityID": "glyph.57956",
+    "name": "57956"
+   },
+   {
+    "entityID": "glyph.59507",
+    "name": "59507"
+   },
+   {
+    "entityID": "glyph.6stringTabClef",
+    "name": "6stringTabClef"
+   },
+   {
+    "entityID": "glyph.accidental1CommaFlat",
+    "name": "accidental1CommaFlat"
+   },
+   {
+    "entityID": "glyph.accidental1CommaSharp",
+    "name": "accidental1CommaSharp"
+   },
+   {
+    "entityID": "glyph.accidental2CommaFlat",
+    "name": "accidental2CommaFlat"
+   },
+   {
+    "entityID": "glyph.accidental2CommaSharp",
+    "name": "accidental2CommaSharp"
+   },
+   {
+    "entityID": "glyph.accidental3CommaFlat",
+    "name": "accidental3CommaFlat"
+   },
+   {
+    "entityID": "glyph.accidental3CommaSharp",
+    "name": "accidental3CommaSharp"
+   },
+   {
+    "entityID": "glyph.accidental4CommaFlat",
+    "name": "accidental4CommaFlat"
+   },
+   {
+    "entityID": "glyph.accidental5CommaSharp",
+    "name": "accidental5CommaSharp"
+   },
+   {
+    "entityID": "glyph.accidentalArrowDown",
+    "name": "accidentalArrowDown"
+   },
+   {
+    "entityID": "glyph.accidentalArrowUp",
+    "name": "accidentalArrowUp"
+   },
+   {
+    "entityID": "glyph.accidentalBakiyeFlat",
+    "name": "accidentalBakiyeFlat"
+   },
+   {
+    "entityID": "glyph.accidentalBakiyeSharp",
+    "name": "accidentalBakiyeSharp"
+   },
+   {
+    "entityID": "glyph.accidentalBracketLeft",
+    "name": "accidentalBracketLeft"
+   },
+   {
+    "entityID": "glyph.accidentalBracketRight",
+    "name": "accidentalBracketRight"
+   },
+   {
+    "entityID": "glyph.accidentalBuyukMucennebFlat",
+    "name": "accidentalBuyukMucennebFlat"
+   },
+   {
+    "entityID": "glyph.accidentalBuyukMucennebSharp",
+    "name": "accidentalBuyukMucennebSharp"
+   },
+   {
+    "entityID": "glyph.accidentalDoubleFlat",
+    "name": "accidentalDoubleFlat"
+   },
+   {
+    "entityID": "glyph.accidentalDoubleSharp",
+    "name": "accidentalDoubleSharp"
+   },
+   {
+    "entityID": "glyph.accidentalFiveQuarterTonesFlatArrowDown",
+    "name": "accidentalFiveQuarterTonesFlatArrowDown"
+   },
+   {
+    "entityID": "glyph.accidentalFiveQuarterTonesSharpArrowUp",
+    "name": "accidentalFiveQuarterTonesSharpArrowUp"
+   },
+   {
+    "entityID": "glyph.accidentalFlat",
+    "name": "accidentalFlat"
+   },
+   {
+    "entityID": "glyph.accidentalFlatForText",
+    "name": "accidentalFlatForText"
+   },
+   {
+    "entityID": "glyph.accidentalKomaFlat",
+    "name": "accidentalKomaFlat"
+   },
+   {
+    "entityID": "glyph.accidentalKomaSharp",
+    "name": "accidentalKomaSharp"
+   },
+   {
+    "entityID": "glyph.accidentalKoron",
+    "name": "accidentalKoron"
+   },
+   {
+    "entityID": "glyph.accidentalKucukMucennebFlat",
+    "name": "accidentalKucukMucennebFlat"
+   },
+   {
+    "entityID": "glyph.accidentalKucukMucennebSharp",
+    "name": "accidentalKucukMucennebSharp"
+   },
+   {
+    "entityID": "glyph.accidentalNatural",
+    "name": "accidentalNatural"
+   },
+   {
+    "entityID": "glyph.accidentalParensLeft",
+    "name": "accidentalParensLeft"
+   },
+   {
+    "entityID": "glyph.accidentalParensRight",
+    "name": "accidentalParensRight"
+   },
+   {
+    "entityID": "glyph.accidentalQuarterToneFlatArrowUp",
+    "name": "accidentalQuarterToneFlatArrowUp"
+   },
+   {
+    "entityID": "glyph.accidentalQuarterToneFlatNaturalArrowDown",
+    "name": "accidentalQuarterToneFlatNaturalArrowDown"
+   },
+   {
+    "entityID": "glyph.accidentalQuarterToneFlatStein",
+    "name": "accidentalQuarterToneFlatStein"
+   },
+   {
+    "entityID": "glyph.accidentalQuarterToneSharpArrowDown",
+    "name": "accidentalQuarterToneSharpArrowDown"
+   },
+   {
+    "entityID": "glyph.accidentalQuarterToneSharpNaturalArrowUp",
+    "name": "accidentalQuarterToneSharpNaturalArrowUp"
+   },
+   {
+    "entityID": "glyph.accidentalQuarterToneSharpStein",
+    "name": "accidentalQuarterToneSharpStein"
+   },
+   {
+    "entityID": "glyph.accidentalSharp",
+    "name": "accidentalSharp"
+   },
+   {
+    "entityID": "glyph.accidentalSharpForText",
+    "name": "accidentalSharpForText"
+   },
+   {
+    "entityID": "glyph.accidentalSori",
+    "name": "accidentalSori"
+   },
+   {
+    "entityID": "glyph.accidentalThreeQuarterTonesFlatArrowDown",
+    "name": "accidentalThreeQuarterTonesFlatArrowDown"
+   },
+   {
+    "entityID": "glyph.accidentalThreeQuarterTonesFlatArrowUp",
+    "name": "accidentalThreeQuarterTonesFlatArrowUp"
+   },
+   {
+    "entityID": "glyph.accidentalThreeQuarterTonesFlatZimmermann",
+    "name": "accidentalThreeQuarterTonesFlatZimmermann"
+   },
+   {
+    "entityID": "glyph.accidentalThreeQuarterTonesSharpArrowDown",
+    "name": "accidentalThreeQuarterTonesSharpArrowDown"
+   },
+   {
+    "entityID": "glyph.accidentalThreeQuarterTonesSharpArrowUp",
+    "name": "accidentalThreeQuarterTonesSharpArrowUp"
+   },
+   {
+    "entityID": "glyph.accidentalThreeQuarterTonesSharpStein",
+    "name": "accidentalThreeQuarterTonesSharpStein"
+   },
+   {
+    "entityID": "glyph.accidentalTripleFlat",
+    "name": "accidentalTripleFlat"
+   },
+   {
+    "entityID": "glyph.accidentalTripleSharp",
+    "name": "accidentalTripleSharp"
+   },
+   {
+    "entityID": "glyph.arrowBlackLeft",
+    "name": "arrowBlackLeft"
+   },
+   {
+    "entityID": "glyph.arrowBlackRight",
+    "name": "arrowBlackRight"
+   },
+   {
+    "entityID": "glyph.articAccentAbove",
+    "name": "articAccentAbove"
+   },
+   {
+    "entityID": "glyph.articAccentBelow",
+    "name": "articAccentBelow"
+   },
+   {
+    "entityID": "glyph.articMarcatoAbove",
+    "name": "articMarcatoAbove"
+   },
+   {
+    "entityID": "glyph.articMarcatoBelow",
+    "name": "articMarcatoBelow"
+   },
+   {
+    "entityID": "glyph.articStaccatissimoAbove",
+    "name": "articStaccatissimoAbove"
+   },
+   {
+    "entityID": "glyph.articStaccatissimoBelow",
+    "name": "articStaccatissimoBelow"
+   },
+   {
+    "entityID": "glyph.articStaccatissimoStrokeAbove",
+    "name": "articStaccatissimoStrokeAbove"
+   },
+   {
+    "entityID": "glyph.articStaccatissimoStrokeBelow",
+    "name": "articStaccatissimoStrokeBelow"
+   },
+   {
+    "entityID": "glyph.articStaccatissimoWedgeAbove",
+    "name": "articStaccatissimoWedgeAbove"
+   },
+   {
+    "entityID": "glyph.articStaccatissimoWedgeBelow",
+    "name": "articStaccatissimoWedgeBelow"
+   },
+   {
+    "entityID": "glyph.articStaccatoAbove",
+    "name": "articStaccatoAbove"
+   },
+   {
+    "entityID": "glyph.articStaccatoBelow",
+    "name": "articStaccatoBelow"
+   },
+   {
+    "entityID": "glyph.articStressAbove",
+    "name": "articStressAbove"
+   },
+   {
+    "entityID": "glyph.articStressBelow",
+    "name": "articStressBelow"
+   },
+   {
+    "entityID": "glyph.articTenutoAbove",
+    "name": "articTenutoAbove"
+   },
+   {
+    "entityID": "glyph.articTenutoBelow",
+    "name": "articTenutoBelow"
+   },
+   {
+    "entityID": "glyph.articUnstressAbove",
+    "name": "articUnstressAbove"
+   },
+   {
+    "entityID": "glyph.articUnstressBelow",
+    "name": "articUnstressBelow"
+   },
+   {
+    "entityID": "glyph.augmentationDot",
+    "name": "augmentationDot"
+   },
+   {
+    "entityID": "glyph.barRepeat0",
+    "name": "barRepeat0"
+   },
+   {
+    "entityID": "glyph.barRepeat1",
+    "name": "barRepeat1"
+   },
+   {
+    "entityID": "glyph.barRepeat2",
+    "name": "barRepeat2"
+   },
+   {
+    "entityID": "glyph.barRepeat3",
+    "name": "barRepeat3"
+   },
+   {
+    "entityID": "glyph.barRepeat4",
+    "name": "barRepeat4"
+   },
+   {
+    "entityID": "glyph.barRepeat5",
+    "name": "barRepeat5"
+   },
+   {
+    "entityID": "glyph.barRepeat6",
+    "name": "barRepeat6"
+   },
+   {
+    "entityID": "glyph.barRepeat7",
+    "name": "barRepeat7"
+   },
+   {
+    "entityID": "glyph.barRepeat8",
+    "name": "barRepeat8"
+   },
+   {
+    "entityID": "glyph.barRepeat9",
+    "name": "barRepeat9"
+   },
+   {
+    "entityID": "glyph.barRepeatDot",
+    "name": "barRepeatDot"
+   },
+   {
+    "entityID": "glyph.barRepeatStroke",
+    "name": "barRepeatStroke"
+   },
+   {
+    "entityID": "glyph.bass.slash",
+    "name": "bass.slash"
+   },
+   {
+    "entityID": "glyph.bass.slashdiagonal",
+    "name": "bass.slashdiagonal"
+   },
+   {
+    "entityID": "glyph.bass.slashfraction",
+    "name": "bass.slashfraction"
+   },
+   {
+    "entityID": "glyph.beamAccelRit1",
+    "name": "Accel./rit. beam 1 (widest)"
+   },
+   {
+    "entityID": "glyph.beamAccelRit10",
+    "name": "Accel./rit. beam 10"
+   },
+   {
+    "entityID": "glyph.beamAccelRit11",
+    "name": "Accel./rit. beam 11"
+   },
+   {
+    "entityID": "glyph.beamAccelRit12",
+    "name": "Accel./rit. beam 12"
+   },
+   {
+    "entityID": "glyph.beamAccelRit13",
+    "name": "Accel./rit. beam 13"
+   },
+   {
+    "entityID": "glyph.beamAccelRit14",
+    "name": "Accel./rit. beam 14"
+   },
+   {
+    "entityID": "glyph.beamAccelRit15",
+    "name": "Accel./rit. beam 15"
+   },
+   {
+    "entityID": "glyph.beamAccelRit2",
+    "name": "Accel./rit. beam 2"
+   },
+   {
+    "entityID": "glyph.beamAccelRit3",
+    "name": "Accel./rit. beam 3"
+   },
+   {
+    "entityID": "glyph.beamAccelRit4",
+    "name": "Accel./rit. beam 4"
+   },
+   {
+    "entityID": "glyph.beamAccelRit5",
+    "name": "Accel./rit. beam 5"
+   },
+   {
+    "entityID": "glyph.beamAccelRit6",
+    "name": "Accel./rit. beam 6"
+   },
+   {
+    "entityID": "glyph.beamAccelRit7",
+    "name": "Accel./rit. beam 7"
+   },
+   {
+    "entityID": "glyph.beamAccelRit8",
+    "name": "Accel./rit. beam 8"
+   },
+   {
+    "entityID": "glyph.beamAccelRit9",
+    "name": "Accel./rit. beam 9"
+   },
+   {
+    "entityID": "glyph.beamAccelRitFinal",
+    "name": "Accel./rit. beam terminating line"
+   },
+   {
+    "entityID": "glyph.brace",
+    "name": "brace"
+   },
+   {
+    "entityID": "glyph.braceflat",
+    "name": "Flat brace"
+   },
+   {
+    "entityID": "glyph.bracelarge",
+    "name": "Large brace"
+   },
+   {
+    "entityID": "glyph.bracelarger",
+    "name": "Larger brace"
+   },
+   {
+    "entityID": "glyph.bracesmall",
+    "name": "Small brace"
+   },
+   {
+    "entityID": "glyph.bracketBottom",
+    "name": "bracketBottom"
+   },
+   {
+    "entityID": "glyph.bracketTop",
+    "name": "bracketTop"
+   },
+   {
+    "entityID": "glyph.brassBend",
+    "name": "brassBend"
+   },
+   {
+    "entityID": "glyph.brassDoitLong",
+    "name": "Doit (long)"
+   },
+   {
+    "entityID": "glyph.brassDoitMedium",
+    "name": "Doit (medium)"
+   },
+   {
+    "entityID": "glyph.brassDoitShort",
+    "name": "Doit (short)"
+   },
+   {
+    "entityID": "glyph.brassFallLipLong",
+    "name": "Lip fall (long)"
+   },
+   {
+    "entityID": "glyph.brassFallLipMedium",
+    "name": "Lip fall (medium)"
+   },
+   {
+    "entityID": "glyph.brassFallLipShort",
+    "name": "Lip fall (short)"
+   },
+   {
+    "entityID": "glyph.brassFlip",
+    "name": "brassFlip"
+   },
+   {
+    "entityID": "glyph.brassHalfMute",
+    "name": "brassHalfMute"
+   },
+   {
+    "entityID": "glyph.brassHarmonMuteStemIn",
+    "name": "brassHarmonMuteStemIn"
+   },
+   {
+    "entityID": "glyph.brassHarmonMuteStemLeft",
+    "name": "brassHarmonMuteStemLeft"
+   },
+   {
+    "entityID": "glyph.brassHarmonMuteStemOut",
+    "name": "brassHarmonMuteStemOut"
+   },
+   {
+    "entityID": "glyph.brassHarmonMuteStemRight",
+    "name": "brassHarmonMuteStemRight"
+   },
+   {
+    "entityID": "glyph.brassJazzTurn",
+    "name": "brassJazzTurn"
+   },
+   {
+    "entityID": "glyph.brassMute",
+    "name": "brassMute"
+   },
+   {
+    "entityID": "glyph.brassOpen",
+    "name": "brassOpen"
+   },
+   {
+    "entityID": "glyph.brassPlop",
+    "name": "Plop"
+   },
+   {
+    "entityID": "glyph.brassScoop",
+    "name": "Scoop"
+   },
+   {
+    "entityID": "glyph.brassSmear",
+    "name": "brassSmear"
+   },
+   {
+    "entityID": "glyph.brassStoppedPlus",
+    "name": "brassStoppedPlus"
+   },
+   {
+    "entityID": "glyph.breathMarkComma",
+    "name": "breathMarkComma"
+   },
+   {
+    "entityID": "glyph.breathMarkSalzedo",
+    "name": "breathMarkSalzedo"
+   },
+   {
+    "entityID": "glyph.breathMarkTick",
+    "name": "breathMarkTick"
+   },
+   {
+    "entityID": "glyph.breathMarkUpbow",
+    "name": "breathMarkUpbow"
+   },
+   {
+    "entityID": "glyph.buzzRoll",
+    "name": "buzzRoll"
+   },
+   {
+    "entityID": "glyph.cClef",
+    "name": "cClef"
+   },
+   {
+    "entityID": "glyph.cClef8ba",
+    "name": "cClef8ba"
+   },
+   {
+    "entityID": "glyph.cClefSmall",
+    "name": "cClefSmall"
+   },
+   {
+    "entityID": "glyph.caesura",
+    "name": "caesura"
+   },
+   {
+    "entityID": "glyph.caesuraCurved",
+    "name": "caesuraCurved"
+   },
+   {
+    "entityID": "glyph.caesuraShort",
+    "name": "caesuraShort"
+   },
+   {
+    "entityID": "glyph.caesuraSingleStroke",
+    "name": "caesuraSingleStroke"
+   },
+   {
+    "entityID": "glyph.caesuraThick",
+    "name": "caesuraThick"
+   },
+   {
+    "entityID": "glyph.codePoint",
+    "name": "codePoint"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.flat",
+    "name": "smufl.glyph.alteration.prefix.flat"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.flat.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.flat.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.flat.modal",
+    "name": "smufl.glyph.alteration.prefix.flat.modal"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.flat.modal.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.flat.modal.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.flatminus",
+    "name": "smufl.glyph.alteration.prefix.flatminus"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.flatminus.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.flatminus.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.flatminus.modal",
+    "name": "smufl.glyph.alteration.prefix.flatminus.modal"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.flatminus.modal.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.flatminus.modal.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.flatminussmall",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.flatminussmall.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.flatminussmall.modal",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.modal"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.flatminussmall.modal.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.flatminussmall.modal.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.flatsmall",
+    "name": "smufl.glyph.alteration.prefix.flatsmall"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.flatsmall.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.flatsmall.modal",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.modal"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.flatsmall.modal.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.flatsmall.modal.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.natural.modal",
+    "name": "smufl.glyph.alteration.prefix.natural.modal"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.natural.modal.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.natural.modal.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.naturalsmall.modal",
+    "name": "smufl.glyph.alteration.prefix.naturalsmall.modal"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.naturalsmall.modal.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.sharp",
+    "name": "smufl.glyph.alteration.prefix.sharp"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.sharp.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.sharp.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.sharp.modal",
+    "name": "smufl.glyph.alteration.prefix.sharp.modal"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.sharp.modal.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.sharp.modal.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.sharpplus",
+    "name": "smufl.glyph.alteration.prefix.sharpplus"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.sharpplus.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.sharpplus.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.sharpplus.modal",
+    "name": "smufl.glyph.alteration.prefix.sharpplus.modal"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.sharpplus.modal.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.sharpplus.modal.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.sharpplussmall",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.sharpplussmall.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.sharpplussmall.modal",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall.modal"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.sharpplussmall.modal.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.sharpplussmall.modal.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.sharpsmall",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.sharpsmall.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.sharpsmall.modal",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall.modal"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.alteration.prefix.sharpsmall.modal.accAfterInterval",
+    "name": "smufl.glyph.alteration.prefix.sharpsmall.modal.accAfterInterval"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.interval.kMaj7.kSharp7",
+    "name": "smufl.glyph.interval.kMaj7.kSharp7"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.interval.kMaj7.kSharp7.small",
+    "name": "smufl.glyph.interval.kMaj7.kSharp7.small"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.quality.augmented.kPlusSymbolWith5",
+    "name": "smufl.glyph.quality.augmented.kPlusSymbolWith5"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.quality.augmented.kPlusSymbolWith5.small",
+    "name": "smufl.glyph.quality.augmented.kPlusSymbolWith5.small"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.quality.augmented.kSharpSymbolWith5",
+    "name": "smufl.glyph.quality.augmented.kSharpSymbolWith5"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.quality.augmented.kSharpSymbolWith5.small",
+    "name": "smufl.glyph.quality.augmented.kSharpSymbolWith5.small"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.slash.diagonal",
+    "name": "smufl.glyph.slash.diagonal"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.slash.linear",
+    "name": "smufl.glyph.slash.linear"
+   },
+   {
+    "entityID": "glyph.csac.smufl.glyph.slash.stacked",
+    "name": "smufl.glyph.slash.stacked"
+   },
+   {
+    "entityID": "glyph.csac.smufl.kCsymAugmented",
+    "name": "smufl.kCsymAugmented"
+   },
+   {
+    "entityID": "glyph.csac.smufl.kCsymAugmentedSmall",
+    "name": "smufl.kCsymAugmentedSmall"
+   },
+   {
+    "entityID": "glyph.csac.smufl.kCsymMinor",
+    "name": "smufl.kCsymMinor"
+   },
+   {
+    "entityID": "glyph.csac.smufl.kCsymMinorSmall",
+    "name": "smufl.kCsymMinorSmall"
+   },
+   {
+    "entityID": "glyph.csymAccidentalDoubleFlat",
+    "name": "csymAccidentalDoubleFlat"
+   },
+   {
+    "entityID": "glyph.csymAccidentalDoubleFlatSmall",
+    "name": "csymAccidentalDoubleFlatSmall"
+   },
+   {
+    "entityID": "glyph.csymAccidentalDoubleSharp",
+    "name": "csymAccidentalDoubleSharp"
+   },
+   {
+    "entityID": "glyph.csymAccidentalDoubleSharpSmall",
+    "name": "csymAccidentalDoubleSharpSmall"
+   },
+   {
+    "entityID": "glyph.csymAccidentalFlat",
+    "name": "csymAccidentalFlat"
+   },
+   {
+    "entityID": "glyph.csymAccidentalFlatSmall",
+    "name": "csymAccidentalFlatSmall"
+   },
+   {
+    "entityID": "glyph.csymAccidentalNatural",
+    "name": "csymAccidentalNatural"
+   },
+   {
+    "entityID": "glyph.csymAccidentalNaturalSmall",
+    "name": "csymAccidentalNaturalSmall"
+   },
+   {
+    "entityID": "glyph.csymAccidentalSharp",
+    "name": "csymAccidentalSharp"
+   },
+   {
+    "entityID": "glyph.csymAccidentalSharpSmall",
+    "name": "csymAccidentalSharpSmall"
+   },
+   {
+    "entityID": "glyph.csymAccidentalTripleFlat",
+    "name": "csymAccidentalTripleFlat"
+   },
+   {
+    "entityID": "glyph.csymAccidentalTripleFlatSmall",
+    "name": "csymAccidentalTripleFlatSmall"
+   },
+   {
+    "entityID": "glyph.csymAccidentalTripleSharp",
+    "name": "csymAccidentalTripleSharp"
+   },
+   {
+    "entityID": "glyph.csymAccidentalTripleSharpSmall",
+    "name": "csymAccidentalTripleSharpSmall"
+   },
+   {
+    "entityID": "glyph.csymAugmented.augmented",
+    "name": "csymAugmented.augmented"
+   },
+   {
+    "entityID": "glyph.csymAugmentedSmall.augmentedsmall",
+    "name": "csymAugmentedSmall.augmentedsmall"
+   },
+   {
+    "entityID": "glyph.csymDiminished",
+    "name": "csymDiminished"
+   },
+   {
+    "entityID": "glyph.csymDiminished.dim7",
+    "name": "csymDiminished.dim7"
+   },
+   {
+    "entityID": "glyph.csymDiminished.dimtriad",
+    "name": "csymDiminished.dimtriad"
+   },
+   {
+    "entityID": "glyph.csymDiminishedSmall.dim7",
+    "name": "csymDiminishedSmall.dim7"
+   },
+   {
+    "entityID": "glyph.csymDiminishedSmall.dimtriad",
+    "name": "csymDiminishedSmall.dimtriad"
+   },
+   {
+    "entityID": "glyph.csymHalfDiminished",
+    "name": "csymHalfDiminished"
+   },
+   {
+    "entityID": "glyph.csymHalfDiminishedSmall",
+    "name": "csymHalfDiminishedSmall"
+   },
+   {
+    "entityID": "glyph.csymMajorSeventh",
+    "name": "csymMajorSeventh"
+   },
+   {
+    "entityID": "glyph.csymMajorSeventh.maj7",
+    "name": "csymMajorSeventh.maj7"
+   },
+   {
+    "entityID": "glyph.csymMajorSeventh.major",
+    "name": "csymMajorSeventh.major"
+   },
+   {
+    "entityID": "glyph.csymMajorSeventhSmall.maj7",
+    "name": "csymMajorSeventhSmall.maj7"
+   },
+   {
+    "entityID": "glyph.csymMajorSeventhSmall.majorsmall",
+    "name": "csymMajorSeventhSmall.majorsmall"
+   },
+   {
+    "entityID": "glyph.csymMinor.minor",
+    "name": "csymMinor.minor"
+   },
+   {
+    "entityID": "glyph.csymMinorSmall.minorsmall",
+    "name": "csymMinorSmall.minorsmall"
+   },
+   {
+    "entityID": "glyph.csymParensLeftTall.100.percent",
+    "name": "csymParensLeftTall.100.percent"
+   },
+   {
+    "entityID": "glyph.csymParensLeftTall.150.percent",
+    "name": "csymParensLeftTall.150.percent"
+   },
+   {
+    "entityID": "glyph.csymParensLeftTall.200.percent",
+    "name": "csymParensLeftTall.200.percent"
+   },
+   {
+    "entityID": "glyph.csymParensLeftTall.50.percent",
+    "name": "csymParensLeftTall.50.percent"
+   },
+   {
+    "entityID": "glyph.csymParensLeftTall.75.percent",
+    "name": "csymParensLeftTall.75.percent"
+   },
+   {
+    "entityID": "glyph.csymParensLeftVeryTall.150.percent",
+    "name": "csymParensLeftVeryTall.150.percent"
+   },
+   {
+    "entityID": "glyph.csymParensRightTall.100.percent",
+    "name": "csymParensRightTall.100.percent"
+   },
+   {
+    "entityID": "glyph.csymParensRightTall.150.percent",
+    "name": "csymParensRightTall.150.percent"
+   },
+   {
+    "entityID": "glyph.csymParensRightTall.200.percent",
+    "name": "csymParensRightTall.200.percent"
+   },
+   {
+    "entityID": "glyph.csymParensRightTall.50.percent",
+    "name": "csymParensRightTall.50.percent"
+   },
+   {
+    "entityID": "glyph.csymParensRightTall.75.percent",
+    "name": "csymParensRightTall.75.percent"
+   },
+   {
+    "entityID": "glyph.csymParensRightVeryTall.150.percent",
+    "name": "csymParensRightVeryTall.150.percent"
+   },
+   {
+    "entityID": "glyph.curlew",
+    "name": "curlew"
+   },
+   {
+    "entityID": "glyph.dynamicClosedBracketForHairpin",
+    "name": "dynamicClosedBracketForHairpin"
+   },
+   {
+    "entityID": "glyph.dynamicClosedParenthesisForHairpin",
+    "name": "dynamicClosedParenthesisForHairpin"
+   },
+   {
+    "entityID": "glyph.dynamicCombinedSeparatorColon",
+    "name": "dynamicCombinedSeparatorColon"
+   },
+   {
+    "entityID": "glyph.dynamicCombinedSeparatorHyphen",
+    "name": "dynamicCombinedSeparatorHyphen"
+   },
+   {
+    "entityID": "glyph.dynamicCombinedSeparatorSlash",
+    "name": "dynamicCombinedSeparatorSlash"
+   },
+   {
+    "entityID": "glyph.dynamicCombinedSeparatorSpace",
+    "name": "dynamicCombinedSeparatorSpace"
+   },
+   {
+    "entityID": "glyph.dynamicCrescendoHairpin",
+    "name": "dynamicCrescendoHairpin"
+   },
+   {
+    "entityID": "glyph.dynamicDiminuendoHairpin",
+    "name": "dynamicDiminuendoHairpin"
+   },
+   {
+    "entityID": "glyph.dynamicFF",
+    "name": "dynamicFF"
+   },
+   {
+    "entityID": "glyph.dynamicFFF",
+    "name": "dynamicFFF"
+   },
+   {
+    "entityID": "glyph.dynamicFFFF",
+    "name": "dynamicFFFF"
+   },
+   {
+    "entityID": "glyph.dynamicFFFFF",
+    "name": "dynamicFFFFF"
+   },
+   {
+    "entityID": "glyph.dynamicFFFFFF",
+    "name": "dynamicFFFFFF"
+   },
+   {
+    "entityID": "glyph.dynamicForte",
+    "name": "dynamicForte"
+   },
+   {
+    "entityID": "glyph.dynamicFortePiano",
+    "name": "dynamicFortePiano"
+   },
+   {
+    "entityID": "glyph.dynamicForzando",
+    "name": "dynamicForzando"
+   },
+   {
+    "entityID": "glyph.dynamicMF",
+    "name": "dynamicMF"
+   },
+   {
+    "entityID": "glyph.dynamicMP",
+    "name": "dynamicMP"
+   },
+   {
+    "entityID": "glyph.dynamicMessaDiVoce",
+    "name": "dynamicMessaDiVoce"
+   },
+   {
+    "entityID": "glyph.dynamicMezzo",
+    "name": "dynamicMezzo"
+   },
+   {
+    "entityID": "glyph.dynamicNiente",
+    "name": "dynamicNiente"
+   },
+   {
+    "entityID": "glyph.dynamicNienteForHairpin",
+    "name": "dynamicNienteForHairpin"
+   },
+   {
+    "entityID": "glyph.dynamicNientePlain",
+    "name": "dynamicNientePlain"
+   },
+   {
+    "entityID": "glyph.dynamicOpenBracketForHairpin",
+    "name": "dynamicOpenBracketForHairpin"
+   },
+   {
+    "entityID": "glyph.dynamicOpenParenthesisForHairpin",
+    "name": "dynamicOpenParenthesisForHairpin"
+   },
+   {
+    "entityID": "glyph.dynamicPF",
+    "name": "dynamicPF"
+   },
+   {
+    "entityID": "glyph.dynamicPP",
+    "name": "dynamicPP"
+   },
+   {
+    "entityID": "glyph.dynamicPPP",
+    "name": "dynamicPPP"
+   },
+   {
+    "entityID": "glyph.dynamicPPPP",
+    "name": "dynamicPPPP"
+   },
+   {
+    "entityID": "glyph.dynamicPPPPP",
+    "name": "dynamicPPPPP"
+   },
+   {
+    "entityID": "glyph.dynamicPPPPPP",
+    "name": "dynamicPPPPPP"
+   },
+   {
+    "entityID": "glyph.dynamicPiano",
+    "name": "dynamicPiano"
+   },
+   {
+    "entityID": "glyph.dynamicRinforzando",
+    "name": "dynamicRinforzando"
+   },
+   {
+    "entityID": "glyph.dynamicRinforzando1",
+    "name": "dynamicRinforzando1"
+   },
+   {
+    "entityID": "glyph.dynamicRinforzando2",
+    "name": "dynamicRinforzando2"
+   },
+   {
+    "entityID": "glyph.dynamicSforzando",
+    "name": "dynamicSforzando"
+   },
+   {
+    "entityID": "glyph.dynamicSforzando1",
+    "name": "dynamicSforzando1"
+   },
+   {
+    "entityID": "glyph.dynamicSforzandoPianissimo",
+    "name": "dynamicSforzandoPianissimo"
+   },
+   {
+    "entityID": "glyph.dynamicSforzandoPiano",
+    "name": "dynamicSforzandoPiano"
+   },
+   {
+    "entityID": "glyph.dynamicSforzato",
+    "name": "dynamicSforzato"
+   },
+   {
+    "entityID": "glyph.dynamicSforzatoFF",
+    "name": "dynamicSforzatoFF"
+   },
+   {
+    "entityID": "glyph.dynamicSforzatoPiano",
+    "name": "dynamicSforzatoPiano"
+   },
+   {
+    "entityID": "glyph.dynamicZ",
+    "name": "dynamicZ"
+   },
+   {
+    "entityID": "glyph.fClef",
+    "name": "fClef"
+   },
+   {
+    "entityID": "glyph.fClef15ba",
+    "name": "fClef15ba"
+   },
+   {
+    "entityID": "glyph.fClef15ma",
+    "name": "fClef15ma"
+   },
+   {
+    "entityID": "glyph.fClef8ba",
+    "name": "fClef8ba"
+   },
+   {
+    "entityID": "glyph.fClef8va",
+    "name": "fClef8va"
+   },
+   {
+    "entityID": "glyph.fClefSmall",
+    "name": "fClefSmall"
+   },
+   {
+    "entityID": "glyph.fermataAbove",
+    "name": "fermataAbove"
+   },
+   {
+    "entityID": "glyph.fermataBelow",
+    "name": "fermataBelow"
+   },
+   {
+    "entityID": "glyph.fermataLongAbove",
+    "name": "fermataLongAbove"
+   },
+   {
+    "entityID": "glyph.fermataLongAboveHenze",
+    "name": "fermataLongAbove"
+   },
+   {
+    "entityID": "glyph.fermataLongBelow",
+    "name": "fermataLongBelow"
+   },
+   {
+    "entityID": "glyph.fermataLongBelowHenze",
+    "name": "fermataLongBelowHenze"
+   },
+   {
+    "entityID": "glyph.fermataShortAbove",
+    "name": "fermataShortAbove"
+   },
+   {
+    "entityID": "glyph.fermataShortAboveHenze",
+    "name": "fermataShortAboveHenze"
+   },
+   {
+    "entityID": "glyph.fermataShortBelow",
+    "name": "fermataShortBelow"
+   },
+   {
+    "entityID": "glyph.fermataShortBelowHenze",
+    "name": "fermataShortBelowHenze"
+   },
+   {
+    "entityID": "glyph.fermataVeryLongAbove",
+    "name": "fermataVeryLongAbove"
+   },
+   {
+    "entityID": "glyph.fermataVeryLongBelow",
+    "name": "fermataVeryLongBelow"
+   },
+   {
+    "entityID": "glyph.fermataVeryShortAbove",
+    "name": "fermataVeryShortAbove"
+   },
+   {
+    "entityID": "glyph.fermataVeryShortBelow",
+    "name": "fermataVeryShortBelow"
+   },
+   {
+    "entityID": "glyph.figbass0",
+    "name": "figbass0"
+   },
+   {
+    "entityID": "glyph.figbass0Plain",
+    "name": "figbass0"
+   },
+   {
+    "entityID": "glyph.figbass1",
+    "name": "figbass1"
+   },
+   {
+    "entityID": "glyph.figbass1Plain",
+    "name": "figbass1"
+   },
+   {
+    "entityID": "glyph.figbass2",
+    "name": "figbass2"
+   },
+   {
+    "entityID": "glyph.figbass2Plain",
+    "name": "figbass2"
+   },
+   {
+    "entityID": "glyph.figbass2Raised",
+    "name": "figbass2Raised"
+   },
+   {
+    "entityID": "glyph.figbass3",
+    "name": "figbass3"
+   },
+   {
+    "entityID": "glyph.figbass3Plain",
+    "name": "figbass3"
+   },
+   {
+    "entityID": "glyph.figbass4",
+    "name": "figbass4"
+   },
+   {
+    "entityID": "glyph.figbass4Plain",
+    "name": "figbass4"
+   },
+   {
+    "entityID": "glyph.figbass4Raised",
+    "name": "figbass4Raised"
+   },
+   {
+    "entityID": "glyph.figbass5",
+    "name": "figbass5"
+   },
+   {
+    "entityID": "glyph.figbass5Diminished",
+    "name": "figbass5Diminished"
+   },
+   {
+    "entityID": "glyph.figbass5Plain",
+    "name": "figbass5"
+   },
+   {
+    "entityID": "glyph.figbass5Raised1",
+    "name": "figbass5Raised1"
+   },
+   {
+    "entityID": "glyph.figbass5Raised2",
+    "name": "figbass5Raised2"
+   },
+   {
+    "entityID": "glyph.figbass6",
+    "name": "figbass6"
+   },
+   {
+    "entityID": "glyph.figbass6Plain",
+    "name": "figbass6"
+   },
+   {
+    "entityID": "glyph.figbass6Raised",
+    "name": "figbass6Raised"
+   },
+   {
+    "entityID": "glyph.figbass6Raised2",
+    "name": "figbass6Raised2"
+   },
+   {
+    "entityID": "glyph.figbass7",
+    "name": "figbass7"
+   },
+   {
+    "entityID": "glyph.figbass7Diminished",
+    "name": "figbass7Diminished"
+   },
+   {
+    "entityID": "glyph.figbass7Lowered",
+    "name": "figbass7Lowered"
+   },
+   {
+    "entityID": "glyph.figbass7Plain",
+    "name": "figbass7"
+   },
+   {
+    "entityID": "glyph.figbass7Raised",
+    "name": "figbass7Raised"
+   },
+   {
+    "entityID": "glyph.figbass8",
+    "name": "figbass8"
+   },
+   {
+    "entityID": "glyph.figbass8Plain",
+    "name": "figbass8"
+   },
+   {
+    "entityID": "glyph.figbass9",
+    "name": "figbass9"
+   },
+   {
+    "entityID": "glyph.figbass9Plain",
+    "name": "figbass9"
+   },
+   {
+    "entityID": "glyph.figbass9Raised",
+    "name": "figbass9Raised"
+   },
+   {
+    "entityID": "glyph.figbassBracketLeft",
+    "name": "figbassBracketLeft"
+   },
+   {
+    "entityID": "glyph.figbassBracketLeftPlain",
+    "name": "figbassBracketLeft"
+   },
+   {
+    "entityID": "glyph.figbassBracketRight",
+    "name": "figbassBracketRight"
+   },
+   {
+    "entityID": "glyph.figbassBracketRightPlain",
+    "name": "figbassBracketRight"
+   },
+   {
+    "entityID": "glyph.figbassDoubleFlat",
+    "name": "figbassDoubleFlat"
+   },
+   {
+    "entityID": "glyph.figbassDoubleFlatLongerStem",
+    "name": "figbassDoubleFlatLongerStem"
+   },
+   {
+    "entityID": "glyph.figbassDoubleSharp",
+    "name": "figbassDoubleSharp"
+   },
+   {
+    "entityID": "glyph.figbassDoubleSharpLongerStem",
+    "name": "figbassDoubleSharpLongerStem"
+   },
+   {
+    "entityID": "glyph.figbassFlat",
+    "name": "figbassFlat"
+   },
+   {
+    "entityID": "glyph.figbassFlatLongerStem",
+    "name": "figbassFlatLongerStem"
+   },
+   {
+    "entityID": "glyph.figbassNatural",
+    "name": "figbassNatural"
+   },
+   {
+    "entityID": "glyph.figbassNaturalLongerStem",
+    "name": "figbassNaturalLongerStem"
+   },
+   {
+    "entityID": "glyph.figbassParensLeft",
+    "name": "figbassParensLeft"
+   },
+   {
+    "entityID": "glyph.figbassParensLeftPlain",
+    "name": "figbassParensLeft"
+   },
+   {
+    "entityID": "glyph.figbassParensRight",
+    "name": "figbassParensRight"
+   },
+   {
+    "entityID": "glyph.figbassParensRightPlain",
+    "name": "figbassParensRight"
+   },
+   {
+    "entityID": "glyph.figbassPlus",
+    "name": "figbassPlus"
+   },
+   {
+    "entityID": "glyph.figbassPlusPlain",
+    "name": "figbassPlus"
+   },
+   {
+    "entityID": "glyph.figbassSharp",
+    "name": "figbassSharp"
+   },
+   {
+    "entityID": "glyph.figbassSharpLongerStem",
+    "name": "figbassSharpLongerStem"
+   },
+   {
+    "entityID": "glyph.figbassTripleFlat",
+    "name": "figbassTripleFlat"
+   },
+   {
+    "entityID": "glyph.figbassTripleFlatLongerStem",
+    "name": "figbassTripleFlatLongerStem"
+   },
+   {
+    "entityID": "glyph.figbassTripleSharp",
+    "name": "figbassTripleSharp"
+   },
+   {
+    "entityID": "glyph.figbassTripleSharpLongerStem",
+    "name": "figbassTripleSharpLongerStem"
+   },
+   {
+    "entityID": "glyph.figurenotesABlack",
+    "name": "figurenotesABlack"
+   },
+   {
+    "entityID": "glyph.figurenotesAHalf",
+    "name": "figurenotesAHalf"
+   },
+   {
+    "entityID": "glyph.figurenotesAWhole",
+    "name": "figurenotesAWhole"
+   },
+   {
+    "entityID": "glyph.figurenotesBBlack",
+    "name": "figurenotesBBlack"
+   },
+   {
+    "entityID": "glyph.figurenotesBHalf",
+    "name": "figurenotesBHalf"
+   },
+   {
+    "entityID": "glyph.figurenotesBWhole",
+    "name": "figurenotesBWhole"
+   },
+   {
+    "entityID": "glyph.figurenotesBackgroundBlack",
+    "name": "figurenotesBackgroundBlack"
+   },
+   {
+    "entityID": "glyph.figurenotesBackgroundHalf",
+    "name": "figurenotesBackgroundHalf"
+   },
+   {
+    "entityID": "glyph.figurenotesBackgroundWhole",
+    "name": "figurenotesBackgroundWhole"
+   },
+   {
+    "entityID": "glyph.figurenotesCBlack",
+    "name": "figurenotesCBlack"
+   },
+   {
+    "entityID": "glyph.figurenotesCHalf",
+    "name": "figurenotesCHalf"
+   },
+   {
+    "entityID": "glyph.figurenotesCWhole",
+    "name": "figurenotesCWhole"
+   },
+   {
+    "entityID": "glyph.figurenotesDBlack",
+    "name": "figurenotesDBlack"
+   },
+   {
+    "entityID": "glyph.figurenotesDHalf",
+    "name": "figurenotesDHalf"
+   },
+   {
+    "entityID": "glyph.figurenotesDWhole",
+    "name": "figurenotesDWhole"
+   },
+   {
+    "entityID": "glyph.figurenotesEBlack",
+    "name": "figurenotesEBlack"
+   },
+   {
+    "entityID": "glyph.figurenotesEHalf",
+    "name": "figurenotesEHalf"
+   },
+   {
+    "entityID": "glyph.figurenotesEWhole",
+    "name": "figurenotesEWhole"
+   },
+   {
+    "entityID": "glyph.figurenotesFBlack",
+    "name": "figurenotesFBlack"
+   },
+   {
+    "entityID": "glyph.figurenotesFHalf",
+    "name": "figurenotesFHalf"
+   },
+   {
+    "entityID": "glyph.figurenotesFWhole",
+    "name": "figurenotesFWhole"
+   },
+   {
+    "entityID": "glyph.figurenotesGBlack",
+    "name": "figurenotesGBlack"
+   },
+   {
+    "entityID": "glyph.figurenotesGHalf",
+    "name": "figurenotesGHalf"
+   },
+   {
+    "entityID": "glyph.figurenotesGWhole",
+    "name": "figurenotesGWhole"
+   },
+   {
+    "entityID": "glyph.fingering0",
+    "name": "fingering0"
+   },
+   {
+    "entityID": "glyph.fingering0Italic",
+    "name": "fingering0Italic"
+   },
+   {
+    "entityID": "glyph.fingering0Plain",
+    "name": "fingering0Plain"
+   },
+   {
+    "entityID": "glyph.fingering0PlainItalic",
+    "name": "fingering0PlainItalic"
+   },
+   {
+    "entityID": "glyph.fingering1",
+    "name": "fingering1"
+   },
+   {
+    "entityID": "glyph.fingering1Italic",
+    "name": "fingering1Italic"
+   },
+   {
+    "entityID": "glyph.fingering1Plain",
+    "name": "fingering1Plain"
+   },
+   {
+    "entityID": "glyph.fingering1PlainItalic",
+    "name": "fingering1PlainItalic"
+   },
+   {
+    "entityID": "glyph.fingering2",
+    "name": "fingering2"
+   },
+   {
+    "entityID": "glyph.fingering2Italic",
+    "name": "fingering2Italic"
+   },
+   {
+    "entityID": "glyph.fingering2Plain",
+    "name": "fingering2Plain"
+   },
+   {
+    "entityID": "glyph.fingering2PlainItalic",
+    "name": "fingering2PlainItalic"
+   },
+   {
+    "entityID": "glyph.fingering3",
+    "name": "fingering3"
+   },
+   {
+    "entityID": "glyph.fingering3Italic",
+    "name": "fingering3Italic"
+   },
+   {
+    "entityID": "glyph.fingering3Plain",
+    "name": "fingering3Plain"
+   },
+   {
+    "entityID": "glyph.fingering3PlainItalic",
+    "name": "fingering3PlainItalic"
+   },
+   {
+    "entityID": "glyph.fingering4",
+    "name": "fingering4"
+   },
+   {
+    "entityID": "glyph.fingering4Italic",
+    "name": "fingering4Italic"
+   },
+   {
+    "entityID": "glyph.fingering4Plain",
+    "name": "fingering4Plain"
+   },
+   {
+    "entityID": "glyph.fingering4PlainItalic",
+    "name": "fingering4PlainItalic"
+   },
+   {
+    "entityID": "glyph.fingering5",
+    "name": "fingering5"
+   },
+   {
+    "entityID": "glyph.fingering5Italic",
+    "name": "fingering5Italic"
+   },
+   {
+    "entityID": "glyph.fingering5Plain",
+    "name": "fingering5Plain"
+   },
+   {
+    "entityID": "glyph.fingering5PlainItalic",
+    "name": "fingering5PlainItalic"
+   },
+   {
+    "entityID": "glyph.fingering6",
+    "name": "fingering6"
+   },
+   {
+    "entityID": "glyph.fingering6Italic",
+    "name": "fingering6Italic"
+   },
+   {
+    "entityID": "glyph.fingering6Plain",
+    "name": "fingering6Plain"
+   },
+   {
+    "entityID": "glyph.fingering6PlainItalic",
+    "name": "fingering6PlainItalic"
+   },
+   {
+    "entityID": "glyph.fingering7",
+    "name": "fingering7"
+   },
+   {
+    "entityID": "glyph.fingering7Italic",
+    "name": "fingering7Italic"
+   },
+   {
+    "entityID": "glyph.fingering7Plain",
+    "name": "fingering7Plain"
+   },
+   {
+    "entityID": "glyph.fingering7PlainItalic",
+    "name": "fingering7PlainItalic"
+   },
+   {
+    "entityID": "glyph.fingering8",
+    "name": "fingering8"
+   },
+   {
+    "entityID": "glyph.fingering8Italic",
+    "name": "fingering8Italic"
+   },
+   {
+    "entityID": "glyph.fingering8Plain",
+    "name": "fingering8Plain"
+   },
+   {
+    "entityID": "glyph.fingering8PlainItalic",
+    "name": "fingering8PlainItalic"
+   },
+   {
+    "entityID": "glyph.fingering9",
+    "name": "fingering9"
+   },
+   {
+    "entityID": "glyph.fingering9Italic",
+    "name": "fingering9Italic"
+   },
+   {
+    "entityID": "glyph.fingering9Plain",
+    "name": "fingering9Plain"
+   },
+   {
+    "entityID": "glyph.fingering9PlainItalic",
+    "name": "fingering9PlainItalic"
+   },
+   {
+    "entityID": "glyph.fingeringALower",
+    "name": "fingeringALower"
+   },
+   {
+    "entityID": "glyph.fingeringALowerPlain",
+    "name": "fingeringALowerPlain"
+   },
+   {
+    "entityID": "glyph.fingeringALowerPlainItalic",
+    "name": "fingeringALowerPlainItalic"
+   },
+   {
+    "entityID": "glyph.fingeringCLower",
+    "name": "fingeringCLower"
+   },
+   {
+    "entityID": "glyph.fingeringCLowerPlain",
+    "name": "fingeringCLowerPlain"
+   },
+   {
+    "entityID": "glyph.fingeringCLowerPlainItalic",
+    "name": "fingeringCLowerPlainItalic"
+   },
+   {
+    "entityID": "glyph.fingeringELower",
+    "name": "fingeringELower"
+   },
+   {
+    "entityID": "glyph.fingeringELowerPlain",
+    "name": "fingeringELowerPlain"
+   },
+   {
+    "entityID": "glyph.fingeringELowerPlainItalic",
+    "name": "fingeringELowerPlainItalic"
+   },
+   {
+    "entityID": "glyph.fingeringILower",
+    "name": "fingeringILower"
+   },
+   {
+    "entityID": "glyph.fingeringILowerPlain",
+    "name": "fingeringILowerPlain"
+   },
+   {
+    "entityID": "glyph.fingeringILowerPlainItalic",
+    "name": "fingeringILowerPlainItalic"
+   },
+   {
+    "entityID": "glyph.fingeringLeftBracket",
+    "name": "fingeringLeftBracket"
+   },
+   {
+    "entityID": "glyph.fingeringLeftBracketItalic",
+    "name": "fingeringLeftBracketItalic"
+   },
+   {
+    "entityID": "glyph.fingeringLeftBracketPlain",
+    "name": "fingeringLeftBracketPlain"
+   },
+   {
+    "entityID": "glyph.fingeringLeftBracketPlainItalic",
+    "name": "fingeringLeftBracketPlainItalic"
+   },
+   {
+    "entityID": "glyph.fingeringLeftParenthesis",
+    "name": "fingeringLeftParenthesis"
+   },
+   {
+    "entityID": "glyph.fingeringLeftParenthesisItalic",
+    "name": "fingeringLeftParenthesisItalic"
+   },
+   {
+    "entityID": "glyph.fingeringLeftParenthesisPlain",
+    "name": "fingeringLeftParenthesisPlain"
+   },
+   {
+    "entityID": "glyph.fingeringLeftParenthesisPlainItalic",
+    "name": "fingeringLeftParenthesisPlainItalic"
+   },
+   {
+    "entityID": "glyph.fingeringMLower",
+    "name": "fingeringMLower"
+   },
+   {
+    "entityID": "glyph.fingeringMLowerPlain",
+    "name": "fingeringMLowerPlain"
+   },
+   {
+    "entityID": "glyph.fingeringMLowerPlainItalic",
+    "name": "fingeringMLowerPlainItalic"
+   },
+   {
+    "entityID": "glyph.fingeringMultipleNotes",
+    "name": "fingeringMultipleNotes"
+   },
+   {
+    "entityID": "glyph.fingeringOLower",
+    "name": "fingeringOLower"
+   },
+   {
+    "entityID": "glyph.fingeringOLowerPlain",
+    "name": "fingeringOLowerPlain"
+   },
+   {
+    "entityID": "glyph.fingeringOLowerPlainItalic",
+    "name": "fingeringOLowerPlainItalic"
+   },
+   {
+    "entityID": "glyph.fingeringPLower",
+    "name": "fingeringPLower"
+   },
+   {
+    "entityID": "glyph.fingeringPLowerPlain",
+    "name": "fingeringPLowerPlain"
+   },
+   {
+    "entityID": "glyph.fingeringPLowerPlainItalic",
+    "name": "fingeringPLowerPlainItalic"
+   },
+   {
+    "entityID": "glyph.fingeringQLower",
+    "name": "fingeringQLower"
+   },
+   {
+    "entityID": "glyph.fingeringQLowerPlain",
+    "name": "fingeringQLowerPlain"
+   },
+   {
+    "entityID": "glyph.fingeringQLowerPlainItalic",
+    "name": "fingeringQLowerPlainItalic"
+   },
+   {
+    "entityID": "glyph.fingeringRightBracket",
+    "name": "fingeringRightBracket"
+   },
+   {
+    "entityID": "glyph.fingeringRightBracketItalic",
+    "name": "fingeringRightBracketItalic"
+   },
+   {
+    "entityID": "glyph.fingeringRightBracketPlain",
+    "name": "fingeringRightBracketPlain"
+   },
+   {
+    "entityID": "glyph.fingeringRightBracketPlainItalic",
+    "name": "fingeringRightBracketPlainItalic"
+   },
+   {
+    "entityID": "glyph.fingeringRightParenthesis",
+    "name": "fingeringRightParenthesis"
+   },
+   {
+    "entityID": "glyph.fingeringRightParenthesisItalic",
+    "name": "fingeringRightParenthesisItalic"
+   },
+   {
+    "entityID": "glyph.fingeringRightParenthesisPlain",
+    "name": "fingeringRightParenthesisPlain"
+   },
+   {
+    "entityID": "glyph.fingeringRightParenthesisPlainItalic",
+    "name": "fingeringRightParenthesisPlainItalic"
+   },
+   {
+    "entityID": "glyph.fingeringSLower",
+    "name": "fingeringSLower"
+   },
+   {
+    "entityID": "glyph.fingeringSLowerPlain",
+    "name": "fingeringSLowerPlain"
+   },
+   {
+    "entityID": "glyph.fingeringSLowerPlainItalic",
+    "name": "fingeringSLowerPlainItalic"
+   },
+   {
+    "entityID": "glyph.fingeringSeparatorMiddleDot",
+    "name": "fingeringSeparatorMiddleDot"
+   },
+   {
+    "entityID": "glyph.fingeringSeparatorSlash",
+    "name": "fingeringSeparatorSlash"
+   },
+   {
+    "entityID": "glyph.fingeringSubstitutionAbove",
+    "name": "fingeringSubstitutionAbove"
+   },
+   {
+    "entityID": "glyph.fingeringSubstitutionBelow",
+    "name": "fingeringSubstitutionBelow"
+   },
+   {
+    "entityID": "glyph.fingeringTLower",
+    "name": "fingeringTLower"
+   },
+   {
+    "entityID": "glyph.fingeringTLowerPlain",
+    "name": "fingeringTLowerPlain"
+   },
+   {
+    "entityID": "glyph.fingeringTLowerPlainItalic",
+    "name": "fingeringTLowerPlainItalic"
+   },
+   {
+    "entityID": "glyph.fingeringTUpper",
+    "name": "fingeringTUpper"
+   },
+   {
+    "entityID": "glyph.fingeringXLower",
+    "name": "fingeringXLower"
+   },
+   {
+    "entityID": "glyph.fingeringXLowerPlain",
+    "name": "fingeringXLowerPlain"
+   },
+   {
+    "entityID": "glyph.fingeringXLowerPlainItalic",
+    "name": "fingeringXLowerPlainItalic"
+   },
+   {
+    "entityID": "glyph.flag1024thDown",
+    "name": "flag1024thDown"
+   },
+   {
+    "entityID": "glyph.flag1024thDownSmall",
+    "name": "flag1024thDownSmall"
+   },
+   {
+    "entityID": "glyph.flag1024thDownStraight",
+    "name": "flag1024thDownStraight"
+   },
+   {
+    "entityID": "glyph.flag1024thUp",
+    "name": "flag1024thUp"
+   },
+   {
+    "entityID": "glyph.flag1024thUpShort",
+    "name": "flag1024thUpShort"
+   },
+   {
+    "entityID": "glyph.flag1024thUpSmall",
+    "name": "flag1024thUpSmall"
+   },
+   {
+    "entityID": "glyph.flag1024thUpStraight",
+    "name": "flag1024thUpStraight"
+   },
+   {
+    "entityID": "glyph.flag128thDown",
+    "name": "flag128thDown"
+   },
+   {
+    "entityID": "glyph.flag128thDownSmall",
+    "name": "flag128thDownSmall"
+   },
+   {
+    "entityID": "glyph.flag128thDownStraight",
+    "name": "flag128thDownStraight"
+   },
+   {
+    "entityID": "glyph.flag128thUp",
+    "name": "flag128thUp"
+   },
+   {
+    "entityID": "glyph.flag128thUpShort",
+    "name": "flag128thUpShort"
+   },
+   {
+    "entityID": "glyph.flag128thUpSmall",
+    "name": "flag128thUpSmall"
+   },
+   {
+    "entityID": "glyph.flag128thUpStraight",
+    "name": "flag128thUpStraight"
+   },
+   {
+    "entityID": "glyph.flag16thDown",
+    "name": "flag16thDown"
+   },
+   {
+    "entityID": "glyph.flag16thDownSmall",
+    "name": "flag16thDownSmall"
+   },
+   {
+    "entityID": "glyph.flag16thDownStraight",
+    "name": "flag16thDownStraight"
+   },
+   {
+    "entityID": "glyph.flag16thUp",
+    "name": "flag16thUp"
+   },
+   {
+    "entityID": "glyph.flag16thUpShort",
+    "name": "flag16thUpShort"
+   },
+   {
+    "entityID": "glyph.flag16thUpSmall",
+    "name": "flag16thUpSmall"
+   },
+   {
+    "entityID": "glyph.flag16thUpStraight",
+    "name": "flag16thUpStraight"
+   },
+   {
+    "entityID": "glyph.flag256thDown",
+    "name": "flag256thDown"
+   },
+   {
+    "entityID": "glyph.flag256thDownSmall",
+    "name": "flag256thDownSmall"
+   },
+   {
+    "entityID": "glyph.flag256thDownStraight",
+    "name": "flag256thDownStraight"
+   },
+   {
+    "entityID": "glyph.flag256thUp",
+    "name": "flag256thUp"
+   },
+   {
+    "entityID": "glyph.flag256thUpShort",
+    "name": "flag256thUpShort"
+   },
+   {
+    "entityID": "glyph.flag256thUpSmall",
+    "name": "flag256thUpSmall"
+   },
+   {
+    "entityID": "glyph.flag256thUpStraight",
+    "name": "flag256thUpStraight"
+   },
+   {
+    "entityID": "glyph.flag32ndDown",
+    "name": "flag32ndDown"
+   },
+   {
+    "entityID": "glyph.flag32ndDownSmall",
+    "name": "flag32ndDownSmall"
+   },
+   {
+    "entityID": "glyph.flag32ndDownStraight",
+    "name": "flag32ndDownStraight"
+   },
+   {
+    "entityID": "glyph.flag32ndUp",
+    "name": "flag32ndUp"
+   },
+   {
+    "entityID": "glyph.flag32ndUpShort",
+    "name": "flag32ndUpShort"
+   },
+   {
+    "entityID": "glyph.flag32ndUpSmall",
+    "name": "flag32ndUpSmall"
+   },
+   {
+    "entityID": "glyph.flag32ndUpStraight",
+    "name": "flag32ndUpStraight"
+   },
+   {
+    "entityID": "glyph.flag512thDown",
+    "name": "flag512thDown"
+   },
+   {
+    "entityID": "glyph.flag512thDownSmall",
+    "name": "flag512thDownSmall"
+   },
+   {
+    "entityID": "glyph.flag512thDownStraight",
+    "name": "flag512thDownStraight"
+   },
+   {
+    "entityID": "glyph.flag512thUp",
+    "name": "flag512thUp"
+   },
+   {
+    "entityID": "glyph.flag512thUpShort",
+    "name": "flag512thUpShort"
+   },
+   {
+    "entityID": "glyph.flag512thUpSmall",
+    "name": "flag512thUpSmall"
+   },
+   {
+    "entityID": "glyph.flag512thUpStraight",
+    "name": "flag512thUpStraight"
+   },
+   {
+    "entityID": "glyph.flag64thDown",
+    "name": "flag64thDown"
+   },
+   {
+    "entityID": "glyph.flag64thDownSmall",
+    "name": "flag64thDownSmall"
+   },
+   {
+    "entityID": "glyph.flag64thDownStraight",
+    "name": "flag64thDownStraight"
+   },
+   {
+    "entityID": "glyph.flag64thUp",
+    "name": "flag64thUp"
+   },
+   {
+    "entityID": "glyph.flag64thUpShort",
+    "name": "flag64thUpShort"
+   },
+   {
+    "entityID": "glyph.flag64thUpSmall",
+    "name": "flag64thUpSmall"
+   },
+   {
+    "entityID": "glyph.flag64thUpStraight",
+    "name": "flag64thUpStraight"
+   },
+   {
+    "entityID": "glyph.flag8thDown",
+    "name": "flag8thDown"
+   },
+   {
+    "entityID": "glyph.flag8thDownSmall",
+    "name": "flag8thDownSmall"
+   },
+   {
+    "entityID": "glyph.flag8thDownStraight",
+    "name": "flag8thDownStraight"
+   },
+   {
+    "entityID": "glyph.flag8thUp",
+    "name": "flag8thUp"
+   },
+   {
+    "entityID": "glyph.flag8thUpShort",
+    "name": "flag8thUpShort"
+   },
+   {
+    "entityID": "glyph.flag8thUpSmall",
+    "name": "flag8thUpSmall"
+   },
+   {
+    "entityID": "glyph.flag8thUpStraight",
+    "name": "flag8thUpStraight"
+   },
+   {
+    "entityID": "glyph.gClef",
+    "name": "gClef"
+   },
+   {
+    "entityID": "glyph.gClef15ba",
+    "name": "gClef15ba"
+   },
+   {
+    "entityID": "glyph.gClef15ma",
+    "name": "gClef15ma"
+   },
+   {
+    "entityID": "glyph.gClef8ba",
+    "name": "gClef8ba"
+   },
+   {
+    "entityID": "glyph.gClef8va",
+    "name": "gClef8va"
+   },
+   {
+    "entityID": "glyph.gClefSmall",
+    "name": "gClefSmall"
+   },
+   {
+    "entityID": "glyph.guitarBarreFull",
+    "name": "guitarBarreFull"
+   },
+   {
+    "entityID": "glyph.guitarBarreHalf",
+    "name": "guitarBarreHalf"
+   },
+   {
+    "entityID": "glyph.guitarClosedWahPedal",
+    "name": "guitarClosedWahPedal"
+   },
+   {
+    "entityID": "glyph.guitarFadeIn",
+    "name": "guitarFadeIn"
+   },
+   {
+    "entityID": "glyph.guitarFadeOut",
+    "name": "guitarFadeOut"
+   },
+   {
+    "entityID": "glyph.guitarGolpe",
+    "name": "guitarGolpe"
+   },
+   {
+    "entityID": "glyph.guitarHalfOpenWahPedal",
+    "name": "guitarHalfOpenWahPedal"
+   },
+   {
+    "entityID": "glyph.guitarHammerOn",
+    "name": "guitarHammerOn"
+   },
+   {
+    "entityID": "glyph.guitarLeftHandTapping",
+    "name": "guitarLeftHandTapping"
+   },
+   {
+    "entityID": "glyph.guitarOpenWahPedal",
+    "name": "guitarOpenWahPedal"
+   },
+   {
+    "entityID": "glyph.guitarPullOff",
+    "name": "guitarPullOff"
+   },
+   {
+    "entityID": "glyph.guitarRightHandTapping",
+    "name": "guitarRightHandTapping"
+   },
+   {
+    "entityID": "glyph.guitarShake",
+    "name": "guitarShake"
+   },
+   {
+    "entityID": "glyph.guitarString0",
+    "name": "guitarString0"
+   },
+   {
+    "entityID": "glyph.guitarString1",
+    "name": "guitarString1"
+   },
+   {
+    "entityID": "glyph.guitarString2",
+    "name": "guitarString2"
+   },
+   {
+    "entityID": "glyph.guitarString3",
+    "name": "guitarString3"
+   },
+   {
+    "entityID": "glyph.guitarString4",
+    "name": "guitarString4"
+   },
+   {
+    "entityID": "glyph.guitarString5",
+    "name": "guitarString5"
+   },
+   {
+    "entityID": "glyph.guitarString6",
+    "name": "guitarString6"
+   },
+   {
+    "entityID": "glyph.guitarString7",
+    "name": "guitarString7"
+   },
+   {
+    "entityID": "glyph.guitarString8",
+    "name": "guitarString8"
+   },
+   {
+    "entityID": "glyph.guitarString9",
+    "name": "guitarString9"
+   },
+   {
+    "entityID": "glyph.guitarStrumDown",
+    "name": "guitarStrumDown"
+   },
+   {
+    "entityID": "glyph.guitarStrumUp",
+    "name": "guitarStrumUp"
+   },
+   {
+    "entityID": "glyph.guitarTapDot",
+    "name": "guitarTapDot"
+   },
+   {
+    "entityID": "glyph.guitarTapPlusSign",
+    "name": "guitarTapPlusSign"
+   },
+   {
+    "entityID": "glyph.guitarTapT",
+    "name": "guitarTapT"
+   },
+   {
+    "entityID": "glyph.guitarVibratoBarDip",
+    "name": "guitarVibratoBarDip"
+   },
+   {
+    "entityID": "glyph.guitarVibratoBarScoop",
+    "name": "guitarVibratoBarScoop"
+   },
+   {
+    "entityID": "glyph.guitarVibratoBarScoopCurved",
+    "name": "guitarVibratoBarScoopCurved"
+   },
+   {
+    "entityID": "glyph.guitarVibratoStroke",
+    "name": "Guitar vibrato wiggle segment"
+   },
+   {
+    "entityID": "glyph.guitarVolumeSwell",
+    "name": "guitarVolumeSwell"
+   },
+   {
+    "entityID": "glyph.guitarWideVibratoStroke",
+    "name": "Guitar wide vibrato stroke"
+   },
+   {
+    "entityID": "glyph.harpMetalRod",
+    "name": "harpMetalRod"
+   },
+   {
+    "entityID": "glyph.harpTuningKey",
+    "name": "harpTuningKey"
+   },
+   {
+    "entityID": "glyph.harpTuningKeyGlissando",
+    "name": "harpTuningKeyGlissando"
+   },
+   {
+    "entityID": "glyph.harpTuningKeyHandle",
+    "name": "harpTuningKeyHandle"
+   },
+   {
+    "entityID": "glyph.harpTuningKeyShank",
+    "name": "harpTuningKeyShank"
+   },
+   {
+    "entityID": "glyph.indianDrumClef",
+    "name": "indianDrumClef"
+   },
+   {
+    "entityID": "glyph.keyboardBebung2",
+    "name": "keyboardBebung2"
+   },
+   {
+    "entityID": "glyph.keyboardBebung2Below",
+    "name": "keyboardBebung2Below"
+   },
+   {
+    "entityID": "glyph.keyboardBebung3",
+    "name": "keyboardBebung3"
+   },
+   {
+    "entityID": "glyph.keyboardBebung3Below",
+    "name": "keyboardBebung3Below"
+   },
+   {
+    "entityID": "glyph.keyboardBebung4",
+    "name": "keyboardBebung4"
+   },
+   {
+    "entityID": "glyph.keyboardBebung4Below",
+    "name": "keyboardBebung4Below"
+   },
+   {
+    "entityID": "glyph.keyboardHeel1",
+    "name": "keyboardHeel1"
+   },
+   {
+    "entityID": "glyph.keyboardHeel2",
+    "name": "keyboardHeel2"
+   },
+   {
+    "entityID": "glyph.keyboardHeel3",
+    "name": "keyboardHeel3"
+   },
+   {
+    "entityID": "glyph.keyboardHeelToToe",
+    "name": "keyboardHeelToToe"
+   },
+   {
+    "entityID": "glyph.keyboardHeelToe",
+    "name": "keyboardHeelToe"
+   },
+   {
+    "entityID": "glyph.keyboardLeftPedalPictogram",
+    "name": "keyboardLeftPedalPictogram"
+   },
+   {
+    "entityID": "glyph.keyboardMiddlePedalPictogram",
+    "name": "keyboardMiddlePedalPictogram"
+   },
+   {
+    "entityID": "glyph.keyboardPedalLevelOneEighth",
+    "name": "keyboardPedalLevelOneEighth"
+   },
+   {
+    "entityID": "glyph.keyboardPedalLevelOneHalf",
+    "name": "keyboardPedalLevelOneHalf"
+   },
+   {
+    "entityID": "glyph.keyboardPedalLevelOneQuarter",
+    "name": "keyboardPedalLevelOneQuarter"
+   },
+   {
+    "entityID": "glyph.keyboardPedalLevelThreeQuarters",
+    "name": "keyboardPedalLevelThreeQuarters"
+   },
+   {
+    "entityID": "glyph.keyboardPedalP",
+    "name": "keyboardPedalP"
+   },
+   {
+    "entityID": "glyph.keyboardPedalParensLeft",
+    "name": "keyboardPedalParensLeft"
+   },
+   {
+    "entityID": "glyph.keyboardPedalParensRight",
+    "name": "keyboardPedalParensRight"
+   },
+   {
+    "entityID": "glyph.keyboardPedalPed",
+    "name": "keyboardPedalPed"
+   },
+   {
+    "entityID": "glyph.keyboardPedalPedWithoutDot",
+    "name": "keyboardPedalPedWithoutDot"
+   },
+   {
+    "entityID": "glyph.keyboardPedalS",
+    "name": "keyboardPedalS"
+   },
+   {
+    "entityID": "glyph.keyboardPedalSost",
+    "name": "keyboardPedalSost"
+   },
+   {
+    "entityID": "glyph.keyboardPedalUp",
+    "name": "keyboardPedalUp"
+   },
+   {
+    "entityID": "glyph.keyboardPluckInside",
+    "name": "keyboardPluckInside"
+   },
+   {
+    "entityID": "glyph.keyboardRightPedalPictogram",
+    "name": "keyboardRightPedalPictogram"
+   },
+   {
+    "entityID": "glyph.keyboardToe1",
+    "name": "keyboardToe1"
+   },
+   {
+    "entityID": "glyph.keyboardToe2",
+    "name": "keyboardToe2"
+   },
+   {
+    "entityID": "glyph.keyboardToeToHeel",
+    "name": "keyboardToeToHeel"
+   },
+   {
+    "entityID": "glyph.mensuralNoteheadLongaWhite",
+    "name": "mensuralNoteheadLongaWhite"
+   },
+   {
+    "entityID": "glyph.mensuralNoteheadMaximaWhite",
+    "name": "mensuralNoteheadMaximaWhite"
+   },
+   {
+    "entityID": "glyph.metAugmentationDot",
+    "name": "metAugmentationDot"
+   },
+   {
+    "entityID": "glyph.metNote1024thUp",
+    "name": "metNote1024thUp"
+   },
+   {
+    "entityID": "glyph.metNote128thUp",
+    "name": "metNote128thUp"
+   },
+   {
+    "entityID": "glyph.metNote16thUp",
+    "name": "metNote16thUp"
+   },
+   {
+    "entityID": "glyph.metNote256thUp",
+    "name": "metNote256thUp"
+   },
+   {
+    "entityID": "glyph.metNote32ndUp",
+    "name": "metNote32ndUp"
+   },
+   {
+    "entityID": "glyph.metNote512thUp",
+    "name": "metNote512thUp"
+   },
+   {
+    "entityID": "glyph.metNote64thUp",
+    "name": "metNote64thUp"
+   },
+   {
+    "entityID": "glyph.metNote8thUp",
+    "name": "metNote8thUp"
+   },
+   {
+    "entityID": "glyph.metNoteDoubleWhole",
+    "name": "metNoteDoubleWhole"
+   },
+   {
+    "entityID": "glyph.metNoteDoubleWholeSquare",
+    "name": "metNoteDoubleWholeSquare"
+   },
+   {
+    "entityID": "glyph.metNoteHalfUp",
+    "name": "metNoteHalfUp"
+   },
+   {
+    "entityID": "glyph.metNoteQuarterUp",
+    "name": "metNoteQuarterUp"
+   },
+   {
+    "entityID": "glyph.metNoteWhole",
+    "name": "metNoteWhole"
+   },
+   {
+    "entityID": "glyph.multirest0",
+    "name": "multirest0"
+   },
+   {
+    "entityID": "glyph.multirest0plain",
+    "name": "multirest0plain"
+   },
+   {
+    "entityID": "glyph.multirest1",
+    "name": "multirest1"
+   },
+   {
+    "entityID": "glyph.multirest1plain",
+    "name": "multirest1plain"
+   },
+   {
+    "entityID": "glyph.multirest2",
+    "name": "multirest2"
+   },
+   {
+    "entityID": "glyph.multirest2plain",
+    "name": "multirest2plain"
+   },
+   {
+    "entityID": "glyph.multirest3",
+    "name": "multirest3"
+   },
+   {
+    "entityID": "glyph.multirest3plain",
+    "name": "multirest3plain"
+   },
+   {
+    "entityID": "glyph.multirest4",
+    "name": "multirest4"
+   },
+   {
+    "entityID": "glyph.multirest4plain",
+    "name": "multirest4plain"
+   },
+   {
+    "entityID": "glyph.multirest5",
+    "name": "multirest5"
+   },
+   {
+    "entityID": "glyph.multirest5plain",
+    "name": "multirest5plain"
+   },
+   {
+    "entityID": "glyph.multirest6",
+    "name": "multirest6"
+   },
+   {
+    "entityID": "glyph.multirest6plain",
+    "name": "multirest6plain"
+   },
+   {
+    "entityID": "glyph.multirest7",
+    "name": "multirest7"
+   },
+   {
+    "entityID": "glyph.multirest7plain",
+    "name": "multirest7plain"
+   },
+   {
+    "entityID": "glyph.multirest8",
+    "name": "multirest8"
+   },
+   {
+    "entityID": "glyph.multirest8plain",
+    "name": "multirest8plain"
+   },
+   {
+    "entityID": "glyph.multirest9",
+    "name": "multirest9"
+   },
+   {
+    "entityID": "glyph.multirest9plain",
+    "name": "multirest9plain"
+   },
+   {
+    "entityID": "glyph.noteABlack",
+    "name": "noteABlack"
+   },
+   {
+    "entityID": "glyph.noteAFlatBlack",
+    "name": "noteAFlatBlack"
+   },
+   {
+    "entityID": "glyph.noteAFlatHalf",
+    "name": "noteAFlatHalf"
+   },
+   {
+    "entityID": "glyph.noteAFlatWhole",
+    "name": "noteAFlatWhole"
+   },
+   {
+    "entityID": "glyph.noteAHalf",
+    "name": "noteAHalf"
+   },
+   {
+    "entityID": "glyph.noteASharpBlack",
+    "name": "noteASharpBlack"
+   },
+   {
+    "entityID": "glyph.noteASharpHalf",
+    "name": "noteASharpHalf"
+   },
+   {
+    "entityID": "glyph.noteASharpWhole",
+    "name": "noteASharpWhole"
+   },
+   {
+    "entityID": "glyph.noteAWhole",
+    "name": "noteAWhole"
+   },
+   {
+    "entityID": "glyph.noteBBlack",
+    "name": "noteBBlack"
+   },
+   {
+    "entityID": "glyph.noteBFlatBlack",
+    "name": "noteBFlatBlack"
+   },
+   {
+    "entityID": "glyph.noteBFlatHalf",
+    "name": "noteBFlatHalf"
+   },
+   {
+    "entityID": "glyph.noteBFlatWhole",
+    "name": "noteBFlatWhole"
+   },
+   {
+    "entityID": "glyph.noteBHalf",
+    "name": "noteBHalf"
+   },
+   {
+    "entityID": "glyph.noteBSharpBlack",
+    "name": "noteBSharpBlack"
+   },
+   {
+    "entityID": "glyph.noteBSharpHalf",
+    "name": "noteBSharpHalf"
+   },
+   {
+    "entityID": "glyph.noteBSharpWhole",
+    "name": "noteBSharpWhole"
+   },
+   {
+    "entityID": "glyph.noteBWhole",
+    "name": "noteBWhole"
+   },
+   {
+    "entityID": "glyph.noteCBlack",
+    "name": "noteCBlack"
+   },
+   {
+    "entityID": "glyph.noteCFlatBlack",
+    "name": "noteCFlatBlack"
+   },
+   {
+    "entityID": "glyph.noteCFlatHalf",
+    "name": "noteCFlatHalf"
+   },
+   {
+    "entityID": "glyph.noteCFlatWhole",
+    "name": "noteCFlatWhole"
+   },
+   {
+    "entityID": "glyph.noteCHalf",
+    "name": "noteCHalf"
+   },
+   {
+    "entityID": "glyph.noteCSharpBlack",
+    "name": "noteCSharpBlack"
+   },
+   {
+    "entityID": "glyph.noteCSharpHalf",
+    "name": "noteCSharpHalf"
+   },
+   {
+    "entityID": "glyph.noteCSharpWhole",
+    "name": "noteCSharpWhole"
+   },
+   {
+    "entityID": "glyph.noteCWhole",
+    "name": "noteCWhole"
+   },
+   {
+    "entityID": "glyph.noteDBlack",
+    "name": "noteDBlack"
+   },
+   {
+    "entityID": "glyph.noteDFlatBlack",
+    "name": "noteDFlatBlack"
+   },
+   {
+    "entityID": "glyph.noteDFlatHalf",
+    "name": "noteDFlatHalf"
+   },
+   {
+    "entityID": "glyph.noteDFlatWhole",
+    "name": "noteDFlatWhole"
+   },
+   {
+    "entityID": "glyph.noteDHalf",
+    "name": "noteDHalf"
+   },
+   {
+    "entityID": "glyph.noteDSharpBlack",
+    "name": "noteDSharpBlack"
+   },
+   {
+    "entityID": "glyph.noteDSharpHalf",
+    "name": "noteDSharpHalf"
+   },
+   {
+    "entityID": "glyph.noteDSharpWhole",
+    "name": "noteDSharpWhole"
+   },
+   {
+    "entityID": "glyph.noteDWhole",
+    "name": "noteDWhole"
+   },
+   {
+    "entityID": "glyph.noteDoBlack",
+    "name": "noteDoBlack"
+   },
+   {
+    "entityID": "glyph.noteDoHalf",
+    "name": "noteDoHalf"
+   },
+   {
+    "entityID": "glyph.noteDoWhole",
+    "name": "noteDoWhole"
+   },
+   {
+    "entityID": "glyph.noteEBlack",
+    "name": "noteEBlack"
+   },
+   {
+    "entityID": "glyph.noteEFlatBlack",
+    "name": "noteEFlatBlack"
+   },
+   {
+    "entityID": "glyph.noteEFlatHalf",
+    "name": "noteEFlatHalf"
+   },
+   {
+    "entityID": "glyph.noteEFlatWhole",
+    "name": "noteEFlatWhole"
+   },
+   {
+    "entityID": "glyph.noteEHalf",
+    "name": "noteEHalf"
+   },
+   {
+    "entityID": "glyph.noteESharpBlack",
+    "name": "noteESharpBlack"
+   },
+   {
+    "entityID": "glyph.noteESharpHalf",
+    "name": "noteESharpHalf"
+   },
+   {
+    "entityID": "glyph.noteESharpWhole",
+    "name": "noteESharpWhole"
+   },
+   {
+    "entityID": "glyph.noteEWhole",
+    "name": "noteEWhole"
+   },
+   {
+    "entityID": "glyph.noteEmptyBlack",
+    "name": "noteEmptyBlack"
+   },
+   {
+    "entityID": "glyph.noteEmptyHalf",
+    "name": "noteEmptyHalf"
+   },
+   {
+    "entityID": "glyph.noteEmptyWhole",
+    "name": "noteEmptyWhole"
+   },
+   {
+    "entityID": "glyph.noteFBlack",
+    "name": "noteFBlack"
+   },
+   {
+    "entityID": "glyph.noteFFlatBlack",
+    "name": "noteFFlatBlack"
+   },
+   {
+    "entityID": "glyph.noteFFlatHalf",
+    "name": "noteFFlatHalf"
+   },
+   {
+    "entityID": "glyph.noteFFlatWhole",
+    "name": "noteFFlatWhole"
+   },
+   {
+    "entityID": "glyph.noteFHalf",
+    "name": "noteFHalf"
+   },
+   {
+    "entityID": "glyph.noteFSharpBlack",
+    "name": "noteFSharpBlack"
+   },
+   {
+    "entityID": "glyph.noteFSharpHalf",
+    "name": "noteFSharpHalf"
+   },
+   {
+    "entityID": "glyph.noteFSharpWhole",
+    "name": "noteFSharpWhole"
+   },
+   {
+    "entityID": "glyph.noteFWhole",
+    "name": "noteFWhole"
+   },
+   {
+    "entityID": "glyph.noteFaBlack",
+    "name": "noteFaBlack"
+   },
+   {
+    "entityID": "glyph.noteFaHalf",
+    "name": "noteFaHalf"
+   },
+   {
+    "entityID": "glyph.noteFaWhole",
+    "name": "noteFaWhole"
+   },
+   {
+    "entityID": "glyph.noteGBlack",
+    "name": "noteGBlack"
+   },
+   {
+    "entityID": "glyph.noteGFlatBlack",
+    "name": "noteGFlatBlack"
+   },
+   {
+    "entityID": "glyph.noteGFlatHalf",
+    "name": "noteGFlatHalf"
+   },
+   {
+    "entityID": "glyph.noteGFlatWhole",
+    "name": "noteGFlatWhole"
+   },
+   {
+    "entityID": "glyph.noteGHalf",
+    "name": "noteGHalf"
+   },
+   {
+    "entityID": "glyph.noteGSharpBlack",
+    "name": "noteGSharpBlack"
+   },
+   {
+    "entityID": "glyph.noteGSharpHalf",
+    "name": "noteGSharpHalf"
+   },
+   {
+    "entityID": "glyph.noteGSharpWhole",
+    "name": "noteGSharpWhole"
+   },
+   {
+    "entityID": "glyph.noteGWhole",
+    "name": "noteGWhole"
+   },
+   {
+    "entityID": "glyph.noteHBlack",
+    "name": "noteHBlack"
+   },
+   {
+    "entityID": "glyph.noteHHalf",
+    "name": "noteHHalf"
+   },
+   {
+    "entityID": "glyph.noteHSharpBlack",
+    "name": "noteHSharpBlack"
+   },
+   {
+    "entityID": "glyph.noteHSharpHalf",
+    "name": "noteHSharpHalf"
+   },
+   {
+    "entityID": "glyph.noteHSharpWhole",
+    "name": "noteHSharpWhole"
+   },
+   {
+    "entityID": "glyph.noteHWhole",
+    "name": "noteHWhole"
+   },
+   {
+    "entityID": "glyph.noteLaBlack",
+    "name": "noteLaBlack"
+   },
+   {
+    "entityID": "glyph.noteLaHalf",
+    "name": "noteLaHalf"
+   },
+   {
+    "entityID": "glyph.noteLaWhole",
+    "name": "noteLaWhole"
+   },
+   {
+    "entityID": "glyph.noteMiBlack",
+    "name": "noteMiBlack"
+   },
+   {
+    "entityID": "glyph.noteMiHalf",
+    "name": "noteMiHalf"
+   },
+   {
+    "entityID": "glyph.noteMiWhole",
+    "name": "noteMiWhole"
+   },
+   {
+    "entityID": "glyph.noteReBlack",
+    "name": "noteReBlack"
+   },
+   {
+    "entityID": "glyph.noteReHalf",
+    "name": "noteReHalf"
+   },
+   {
+    "entityID": "glyph.noteReWhole",
+    "name": "noteReWhole"
+   },
+   {
+    "entityID": "glyph.noteShapeArrowheadLeftBlack",
+    "name": "noteShapeArrowheadLeftBlack"
+   },
+   {
+    "entityID": "glyph.noteShapeArrowheadLeftWhite",
+    "name": "noteShapeArrowheadLeftWhite"
+   },
+   {
+    "entityID": "glyph.noteShapeDiamondBlack",
+    "name": "noteShapeDiamondBlack"
+   },
+   {
+    "entityID": "glyph.noteShapeDiamondBlackWalker4",
+    "name": "noteShapeDiamondBlackWalker4"
+   },
+   {
+    "entityID": "glyph.noteShapeDiamondWhite",
+    "name": "noteShapeDiamondWhite"
+   },
+   {
+    "entityID": "glyph.noteShapeDiamondWhiteWalker4",
+    "name": "noteShapeDiamondWhiteWalker4"
+   },
+   {
+    "entityID": "glyph.noteShapeIsoscelesTriangleBlack",
+    "name": "noteShapeIsoscelesTriangleBlack"
+   },
+   {
+    "entityID": "glyph.noteShapeIsoscelesTriangleWhite",
+    "name": "noteShapeIsoscelesTriangleWhite"
+   },
+   {
+    "entityID": "glyph.noteShapeKeystoneBlack",
+    "name": "noteShapeKeystoneBlack"
+   },
+   {
+    "entityID": "glyph.noteShapeKeystoneWhite",
+    "name": "noteShapeKeystoneWhite"
+   },
+   {
+    "entityID": "glyph.noteShapeMoonBlack",
+    "name": "noteShapeMoonBlack"
+   },
+   {
+    "entityID": "glyph.noteShapeMoonLeftBlack",
+    "name": "noteShapeMoonLeftBlack"
+   },
+   {
+    "entityID": "glyph.noteShapeMoonLeftWhite",
+    "name": "noteShapeMoonLeftWhite"
+   },
+   {
+    "entityID": "glyph.noteShapeMoonWhite",
+    "name": "noteShapeMoonWhite"
+   },
+   {
+    "entityID": "glyph.noteShapeQuarterMoonBlack",
+    "name": "noteShapeQuarterMoonBlack"
+   },
+   {
+    "entityID": "glyph.noteShapeQuarterMoonWhite",
+    "name": "noteShapeQuarterMoonWhite"
+   },
+   {
+    "entityID": "glyph.noteShapeRoundBlack",
+    "name": "noteShapeRoundBlack"
+   },
+   {
+    "entityID": "glyph.noteShapeRoundWhite",
+    "name": "noteShapeRoundWhite"
+   },
+   {
+    "entityID": "glyph.noteShapeSquareBlack",
+    "name": "noteShapeSquareBlack"
+   },
+   {
+    "entityID": "glyph.noteShapeSquareWhite",
+    "name": "noteShapeSquareWhite"
+   },
+   {
+    "entityID": "glyph.noteShapeTriangleLeftBlack",
+    "name": "noteShapeTriangleLeftBlack"
+   },
+   {
+    "entityID": "glyph.noteShapeTriangleLeftWhite",
+    "name": "noteShapeTriangleLeftWhite"
+   },
+   {
+    "entityID": "glyph.noteShapeTriangleRightBlack",
+    "name": "noteShapeTriangleRightBlack"
+   },
+   {
+    "entityID": "glyph.noteShapeTriangleRightWhite",
+    "name": "noteShapeTriangleRightWhite"
+   },
+   {
+    "entityID": "glyph.noteShapeTriangleRoundBlack",
+    "name": "noteShapeTriangleRoundBlack"
+   },
+   {
+    "entityID": "glyph.noteShapeTriangleRoundLeftBlack",
+    "name": "noteShapeTriangleRoundLeftBlack"
+   },
+   {
+    "entityID": "glyph.noteShapeTriangleRoundLeftWhite",
+    "name": "noteShapeTriangleRoundLeftWhite"
+   },
+   {
+    "entityID": "glyph.noteShapeTriangleRoundWhite",
+    "name": "noteShapeTriangleRoundWhite"
+   },
+   {
+    "entityID": "glyph.noteShapeTriangleUpBlack",
+    "name": "noteShapeTriangleUpBlack"
+   },
+   {
+    "entityID": "glyph.noteShapeTriangleUpWhite",
+    "name": "noteShapeTriangleUpWhite"
+   },
+   {
+    "entityID": "glyph.noteSiBlack",
+    "name": "noteSiBlack"
+   },
+   {
+    "entityID": "glyph.noteSiHalf",
+    "name": "noteSiHalf"
+   },
+   {
+    "entityID": "glyph.noteSiWhole",
+    "name": "noteSiWhole"
+   },
+   {
+    "entityID": "glyph.noteSoBlack",
+    "name": "noteSoBlack"
+   },
+   {
+    "entityID": "glyph.noteSoHalf",
+    "name": "noteSoHalf"
+   },
+   {
+    "entityID": "glyph.noteSoWhole",
+    "name": "noteSoWhole"
+   },
+   {
+    "entityID": "glyph.noteTiBlack",
+    "name": "noteTiBlack"
+   },
+   {
+    "entityID": "glyph.noteTiHalf",
+    "name": "noteTiHalf"
+   },
+   {
+    "entityID": "glyph.noteTiWhole",
+    "name": "noteTiWhole"
+   },
+   {
+    "entityID": "glyph.noteheadBlack",
+    "name": "noteheadBlack"
+   },
+   {
+    "entityID": "glyph.noteheadBlackOversized",
+    "name": "noteheadBlackOversized"
+   },
+   {
+    "entityID": "glyph.noteheadCircleX",
+    "name": "noteheadCircleX"
+   },
+   {
+    "entityID": "glyph.noteheadCircleXDoubleWhole",
+    "name": "noteheadCircleXDoubleWhole"
+   },
+   {
+    "entityID": "glyph.noteheadCircleXHalf",
+    "name": "noteheadCircleXHalf"
+   },
+   {
+    "entityID": "glyph.noteheadCircleXWhole",
+    "name": "noteheadCircleXWhole"
+   },
+   {
+    "entityID": "glyph.noteheadCircledBlack",
+    "name": "noteheadCircledBlack"
+   },
+   {
+    "entityID": "glyph.noteheadCircledBlackLarge",
+    "name": "noteheadCircledBlackLarge"
+   },
+   {
+    "entityID": "glyph.noteheadCircledDoubleWhole",
+    "name": "noteheadCircledDoubleWhole"
+   },
+   {
+    "entityID": "glyph.noteheadCircledDoubleWholeLarge",
+    "name": "noteheadCircledDoubleWholeLarge"
+   },
+   {
+    "entityID": "glyph.noteheadCircledHalf",
+    "name": "noteheadCircledHalf"
+   },
+   {
+    "entityID": "glyph.noteheadCircledHalfLarge",
+    "name": "noteheadCircledHalfLarge"
+   },
+   {
+    "entityID": "glyph.noteheadCircledWhole",
+    "name": "noteheadCircledWhole"
+   },
+   {
+    "entityID": "glyph.noteheadCircledWholeLarge",
+    "name": "noteheadCircledWholeLarge"
+   },
+   {
+    "entityID": "glyph.noteheadCircledXLarge",
+    "name": "noteheadCircledXLarge"
+   },
+   {
+    "entityID": "glyph.noteheadClusterDoubleWhole2nd",
+    "name": "noteheadClusterDoubleWhole2nd"
+   },
+   {
+    "entityID": "glyph.noteheadClusterDoubleWhole3rd",
+    "name": "noteheadClusterDoubleWhole3rd"
+   },
+   {
+    "entityID": "glyph.noteheadClusterDoubleWholeBottom",
+    "name": "noteheadClusterDoubleWholeBottom"
+   },
+   {
+    "entityID": "glyph.noteheadClusterDoubleWholeMiddle",
+    "name": "noteheadClusterDoubleWholeMiddle"
+   },
+   {
+    "entityID": "glyph.noteheadClusterDoubleWholeTop",
+    "name": "noteheadClusterDoubleWholeTop"
+   },
+   {
+    "entityID": "glyph.noteheadClusterHalf2nd",
+    "name": "noteheadClusterHalf2nd"
+   },
+   {
+    "entityID": "glyph.noteheadClusterHalf3rd",
+    "name": "noteheadClusterHalf3rd"
+   },
+   {
+    "entityID": "glyph.noteheadClusterHalfBottom",
+    "name": "noteheadClusterHalfBottom"
+   },
+   {
+    "entityID": "glyph.noteheadClusterHalfMiddle",
+    "name": "noteheadClusterHalfMiddle"
+   },
+   {
+    "entityID": "glyph.noteheadClusterHalfTop",
+    "name": "noteheadClusterHalfTop"
+   },
+   {
+    "entityID": "glyph.noteheadClusterQuarter2nd",
+    "name": "noteheadClusterQuarter2nd"
+   },
+   {
+    "entityID": "glyph.noteheadClusterQuarter3rd",
+    "name": "noteheadClusterQuarter3rd"
+   },
+   {
+    "entityID": "glyph.noteheadClusterQuarterBottom",
+    "name": "noteheadClusterQuarterBottom"
+   },
+   {
+    "entityID": "glyph.noteheadClusterQuarterMiddle",
+    "name": "noteheadClusterQuarterMiddle"
+   },
+   {
+    "entityID": "glyph.noteheadClusterQuarterTop",
+    "name": "noteheadClusterQuarterTop"
+   },
+   {
+    "entityID": "glyph.noteheadClusterWhole2nd",
+    "name": "noteheadClusterWhole2nd"
+   },
+   {
+    "entityID": "glyph.noteheadClusterWhole3rd",
+    "name": "noteheadClusterWhole3rd"
+   },
+   {
+    "entityID": "glyph.noteheadClusterWholeBottom",
+    "name": "noteheadClusterWholeBottom"
+   },
+   {
+    "entityID": "glyph.noteheadClusterWholeMiddle",
+    "name": "noteheadClusterWholeMiddle"
+   },
+   {
+    "entityID": "glyph.noteheadClusterWholeTop",
+    "name": "noteheadClusterWholeTop"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondBlack",
+    "name": "noteheadDiamondBlack"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondBlackOld",
+    "name": "noteheadDiamondBlackOld"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondBlackWide",
+    "name": "noteheadDiamondBlackWide"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondClusterBlack2nd",
+    "name": "noteheadDiamondClusterBlack2nd"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondClusterBlack3rd",
+    "name": "noteheadDiamondClusterBlack3rd"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondClusterBlackBottom",
+    "name": "noteheadDiamondClusterBlackBottom"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondClusterBlackMiddle",
+    "name": "noteheadDiamondClusterBlackMiddle"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondClusterBlackTop",
+    "name": "noteheadDiamondClusterBlackTop"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondClusterWhite2nd",
+    "name": "noteheadDiamondClusterWhite2nd"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondClusterWhite3rd",
+    "name": "noteheadDiamondClusterWhite3rd"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondClusterWhiteBottom",
+    "name": "noteheadDiamondClusterWhiteBottom"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondClusterWhiteMiddle",
+    "name": "noteheadDiamondClusterWhiteMiddle"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondClusterWhiteTop",
+    "name": "noteheadDiamondClusterWhiteTop"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondDoubleWhole",
+    "name": "noteheadDiamondDoubleWhole"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondDoubleWholeOld",
+    "name": "noteheadDiamondDoubleWholeOld"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondHalf",
+    "name": "noteheadDiamondHalf"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondHalfFilled",
+    "name": "noteheadDiamondHalfFilled"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondHalfOld",
+    "name": "noteheadDiamondHalfOld"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondHalfWide",
+    "name": "noteheadDiamondHalfWide"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondMinimaWhite",
+    "name": "noteheadDiamondMinimaWhite"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondWhiteWide",
+    "name": "noteheadDiamondWhiteWide"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondWhole",
+    "name": "noteheadDiamondWhole"
+   },
+   {
+    "entityID": "glyph.noteheadDiamondWholeOld",
+    "name": "noteheadDiamondWholeOld"
+   },
+   {
+    "entityID": "glyph.noteheadDoubleWhole",
+    "name": "noteheadDoubleWhole"
+   },
+   {
+    "entityID": "glyph.noteheadDoubleWholeOversized",
+    "name": "noteheadDoubleWholeOversized"
+   },
+   {
+    "entityID": "glyph.noteheadDoubleWholeSquare",
+    "name": "noteheadDoubleWholeSquare"
+   },
+   {
+    "entityID": "glyph.noteheadDoubleWholeSquareOversized",
+    "name": "noteheadDoubleWholeSquareOversized"
+   },
+   {
+    "entityID": "glyph.noteheadDoubleWholeWithX",
+    "name": "noteheadDoubleWholeWithX"
+   },
+   {
+    "entityID": "glyph.noteheadHalf",
+    "name": "noteheadHalf"
+   },
+   {
+    "entityID": "glyph.noteheadHalfOversized",
+    "name": "noteheadHalfOversized"
+   },
+   {
+    "entityID": "glyph.noteheadHalfWithX",
+    "name": "noteheadHalfWithX"
+   },
+   {
+    "entityID": "glyph.noteheadHeavyX",
+    "name": "noteheadHeavyX"
+   },
+   {
+    "entityID": "glyph.noteheadHeavyXHat",
+    "name": "noteheadHeavyXHat"
+   },
+   {
+    "entityID": "glyph.noteheadLargeArrowDownBlack",
+    "name": "noteheadLargeArrowDownBlack"
+   },
+   {
+    "entityID": "glyph.noteheadLargeArrowDownDoubleWhole",
+    "name": "noteheadLargeArrowDownDoubleWhole"
+   },
+   {
+    "entityID": "glyph.noteheadLargeArrowDownHalf",
+    "name": "noteheadLargeArrowDownHalf"
+   },
+   {
+    "entityID": "glyph.noteheadLargeArrowDownWhole",
+    "name": "noteheadLargeArrowDownWhole"
+   },
+   {
+    "entityID": "glyph.noteheadLargeArrowUpBlack",
+    "name": "noteheadLargeArrowUpBlack"
+   },
+   {
+    "entityID": "glyph.noteheadLargeArrowUpDoubleWhole",
+    "name": "noteheadLargeArrowUpDoubleWhole"
+   },
+   {
+    "entityID": "glyph.noteheadLargeArrowUpHalf",
+    "name": "noteheadLargeArrowUpHalf"
+   },
+   {
+    "entityID": "glyph.noteheadLargeArrowUpWhole",
+    "name": "noteheadLargeArrowUpWhole"
+   },
+   {
+    "entityID": "glyph.noteheadMoonBlack",
+    "name": "noteheadMoonBlack"
+   },
+   {
+    "entityID": "glyph.noteheadMoonWhite",
+    "name": "noteheadMoonWhite"
+   },
+   {
+    "entityID": "glyph.noteheadParenthesisLeft",
+    "name": "noteheadParenthesisLeft"
+   },
+   {
+    "entityID": "glyph.noteheadParenthesisRight",
+    "name": "noteheadParenthesisRight"
+   },
+   {
+    "entityID": "glyph.noteheadPlusBlack",
+    "name": "noteheadPlusBlack"
+   },
+   {
+    "entityID": "glyph.noteheadPlusDoubleWhole",
+    "name": "noteheadPlusDoubleWhole"
+   },
+   {
+    "entityID": "glyph.noteheadPlusHalf",
+    "name": "noteheadPlusHalf"
+   },
+   {
+    "entityID": "glyph.noteheadPlusWhole",
+    "name": "noteheadPlusWhole"
+   },
+   {
+    "entityID": "glyph.noteheadRectangularClusterBlackBottom",
+    "name": "noteheadRectangularClusterBlackBottom"
+   },
+   {
+    "entityID": "glyph.noteheadRectangularClusterBlackMiddle",
+    "name": "noteheadRectangularClusterBlackMiddle"
+   },
+   {
+    "entityID": "glyph.noteheadRectangularClusterBlackTop",
+    "name": "noteheadRectangularClusterBlackTop"
+   },
+   {
+    "entityID": "glyph.noteheadRectangularClusterWhiteBottom",
+    "name": "noteheadRectangularClusterWhiteBottom"
+   },
+   {
+    "entityID": "glyph.noteheadRectangularClusterWhiteMiddle",
+    "name": "noteheadRectangularClusterWhiteMiddle"
+   },
+   {
+    "entityID": "glyph.noteheadRectangularClusterWhiteTop",
+    "name": "noteheadRectangularClusterWhiteTop"
+   },
+   {
+    "entityID": "glyph.noteheadRoundBlack",
+    "name": "noteheadRoundBlack"
+   },
+   {
+    "entityID": "glyph.noteheadRoundBlackLarge",
+    "name": "noteheadRoundBlackLarge"
+   },
+   {
+    "entityID": "glyph.noteheadRoundBlackSlashed",
+    "name": "noteheadRoundBlackSlashed"
+   },
+   {
+    "entityID": "glyph.noteheadRoundBlackSlashedLarge",
+    "name": "noteheadRoundBlackSlashedLarge"
+   },
+   {
+    "entityID": "glyph.noteheadRoundWhite",
+    "name": "noteheadRoundWhite"
+   },
+   {
+    "entityID": "glyph.noteheadRoundWhiteLarge",
+    "name": "noteheadRoundWhiteLarge"
+   },
+   {
+    "entityID": "glyph.noteheadRoundWhiteSlashed",
+    "name": "noteheadRoundWhiteSlashed"
+   },
+   {
+    "entityID": "glyph.noteheadRoundWhiteSlashedLarge",
+    "name": "noteheadRoundWhiteSlashedLarge"
+   },
+   {
+    "entityID": "glyph.noteheadRoundWhiteWithDot",
+    "name": "noteheadRoundWhiteWithDot"
+   },
+   {
+    "entityID": "glyph.noteheadRoundWhiteWithDotLarge",
+    "name": "noteheadRoundWhiteWithDotLarge"
+   },
+   {
+    "entityID": "glyph.noteheadSlashDiamondWhite",
+    "name": "noteheadSlashDiamondWhite"
+   },
+   {
+    "entityID": "glyph.noteheadSlashDiamondWhiteOversized",
+    "name": "noteheadSlashDiamondWhiteOversized"
+   },
+   {
+    "entityID": "glyph.noteheadSlashHorizontalEnds",
+    "name": "noteheadSlashHorizontalEnds"
+   },
+   {
+    "entityID": "glyph.noteheadSlashHorizontalEndsMuted",
+    "name": "noteheadSlashHorizontalEndsMuted"
+   },
+   {
+    "entityID": "glyph.noteheadSlashVerticalEnds",
+    "name": "noteheadSlashVerticalEnds"
+   },
+   {
+    "entityID": "glyph.noteheadSlashVerticalEndsMuted",
+    "name": "noteheadSlashVerticalEndsMuted"
+   },
+   {
+    "entityID": "glyph.noteheadSlashVerticalEndsOversized",
+    "name": "noteheadSlashVerticalEndsOversized"
+   },
+   {
+    "entityID": "glyph.noteheadSlashVerticalEndsSmall",
+    "name": "noteheadSlashVerticalEndsSmall"
+   },
+   {
+    "entityID": "glyph.noteheadSlashVerticalEndsSmallOversized",
+    "name": "noteheadSlashVerticalEndsSmallOversized"
+   },
+   {
+    "entityID": "glyph.noteheadSlashWhiteDoubleWhole",
+    "name": "noteheadSlashWhiteDoubleWhole"
+   },
+   {
+    "entityID": "glyph.noteheadSlashWhiteHalf",
+    "name": "noteheadSlashWhiteHalf"
+   },
+   {
+    "entityID": "glyph.noteheadSlashWhiteMuted",
+    "name": "noteheadSlashWhiteMuted"
+   },
+   {
+    "entityID": "glyph.noteheadSlashWhiteWhole",
+    "name": "noteheadSlashWhiteWhole"
+   },
+   {
+    "entityID": "glyph.noteheadSlashX",
+    "name": "noteheadSlashX"
+   },
+   {
+    "entityID": "glyph.noteheadSlashedBlack1",
+    "name": "noteheadSlashedBlack1"
+   },
+   {
+    "entityID": "glyph.noteheadSlashedBlack2",
+    "name": "noteheadSlashedBlack2"
+   },
+   {
+    "entityID": "glyph.noteheadSlashedDoubleWhole1",
+    "name": "noteheadSlashedDoubleWhole1"
+   },
+   {
+    "entityID": "glyph.noteheadSlashedDoubleWhole2",
+    "name": "noteheadSlashedDoubleWhole2"
+   },
+   {
+    "entityID": "glyph.noteheadSlashedHalf1",
+    "name": "noteheadSlashedHalf1"
+   },
+   {
+    "entityID": "glyph.noteheadSlashedHalf2",
+    "name": "noteheadSlashedHalf2"
+   },
+   {
+    "entityID": "glyph.noteheadSlashedWhole1",
+    "name": "noteheadSlashedWhole1"
+   },
+   {
+    "entityID": "glyph.noteheadSlashedWhole2",
+    "name": "noteheadSlashedWhole2"
+   },
+   {
+    "entityID": "glyph.noteheadSquareBlack",
+    "name": "noteheadSquareBlack"
+   },
+   {
+    "entityID": "glyph.noteheadSquareBlackLarge",
+    "name": "noteheadSquareBlackLarge"
+   },
+   {
+    "entityID": "glyph.noteheadSquareBlackWhite",
+    "name": "noteheadSquareBlackWhite"
+   },
+   {
+    "entityID": "glyph.noteheadSquareWhite",
+    "name": "noteheadSquareWhite"
+   },
+   {
+    "entityID": "glyph.noteheadTriangleDownBlack",
+    "name": "noteheadTriangleDownBlack"
+   },
+   {
+    "entityID": "glyph.noteheadTriangleDownDoubleWhole",
+    "name": "noteheadTriangleDownDoubleWhole"
+   },
+   {
+    "entityID": "glyph.noteheadTriangleDownHalf",
+    "name": "noteheadTriangleDownHalf"
+   },
+   {
+    "entityID": "glyph.noteheadTriangleDownWhite",
+    "name": "noteheadTriangleDownWhite"
+   },
+   {
+    "entityID": "glyph.noteheadTriangleDownWhole",
+    "name": "noteheadTriangleDownWhole"
+   },
+   {
+    "entityID": "glyph.noteheadTriangleLeftBlack",
+    "name": "noteheadTriangleLeftBlack"
+   },
+   {
+    "entityID": "glyph.noteheadTriangleLeftWhite",
+    "name": "noteheadTriangleLeftWhite"
+   },
+   {
+    "entityID": "glyph.noteheadTriangleRightBlack",
+    "name": "noteheadTriangleRightBlack"
+   },
+   {
+    "entityID": "glyph.noteheadTriangleRightWhite",
+    "name": "noteheadTriangleRightWhite"
+   },
+   {
+    "entityID": "glyph.noteheadTriangleUpBlack",
+    "name": "noteheadTriangleUpBlack"
+   },
+   {
+    "entityID": "glyph.noteheadTriangleUpDoubleWhole",
+    "name": "noteheadTriangleUpDoubleWhole"
+   },
+   {
+    "entityID": "glyph.noteheadTriangleUpHalf",
+    "name": "noteheadTriangleUpHalf"
+   },
+   {
+    "entityID": "glyph.noteheadTriangleUpWhite",
+    "name": "noteheadTriangleUpWhite"
+   },
+   {
+    "entityID": "glyph.noteheadTriangleUpWhole",
+    "name": "noteheadTriangleUpWhole"
+   },
+   {
+    "entityID": "glyph.noteheadVoidWithX",
+    "name": "noteheadVoidWithX"
+   },
+   {
+    "entityID": "glyph.noteheadWhole",
+    "name": "noteheadWhole"
+   },
+   {
+    "entityID": "glyph.noteheadWholeOversized",
+    "name": "noteheadWholeOversized"
+   },
+   {
+    "entityID": "glyph.noteheadWholeWithX",
+    "name": "noteheadWholeWithX"
+   },
+   {
+    "entityID": "glyph.noteheadXBlack",
+    "name": "noteheadXBlack"
+   },
+   {
+    "entityID": "glyph.noteheadXBlackQuarter",
+    "name": "noteheadXBlackQuarter"
+   },
+   {
+    "entityID": "glyph.noteheadXDoubleWhole",
+    "name": "noteheadXDoubleWhole"
+   },
+   {
+    "entityID": "glyph.noteheadXHalf",
+    "name": "noteheadXHalf"
+   },
+   {
+    "entityID": "glyph.noteheadXOrnate",
+    "name": "noteheadXOrnate"
+   },
+   {
+    "entityID": "glyph.noteheadXOrnateEllipse",
+    "name": "noteheadXOrnateEllipse"
+   },
+   {
+    "entityID": "glyph.noteheadXWhole",
+    "name": "noteheadXWhole"
+   },
+   {
+    "entityID": "glyph.octaveBassa",
+    "name": "octaveBassa"
+   },
+   {
+    "entityID": "glyph.octaveLoco",
+    "name": "octaveLoco"
+   },
+   {
+    "entityID": "glyph.octaveParensLeft",
+    "name": "octaveParensLeft"
+   },
+   {
+    "entityID": "glyph.octaveParensRight",
+    "name": "octaveParensRight"
+   },
+   {
+    "entityID": "glyph.ornamentHaydn",
+    "name": "ornamentHaydn"
+   },
+   {
+    "entityID": "glyph.ornamentMordent",
+    "name": "ornamentMordent"
+   },
+   {
+    "entityID": "glyph.ornamentPinceCouperin",
+    "name": "ornamentPinceCouperin"
+   },
+   {
+    "entityID": "glyph.ornamentPortDeVoixV",
+    "name": "ornamentPortDeVoixV"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompAppoggTrill",
+    "name": "ornamentPrecompAppoggTrill"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompAppoggTrillSuffix",
+    "name": "ornamentPrecompAppoggTrillSuffix"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompCadence",
+    "name": "ornamentPrecompCadence"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompCadenceUpperPrefix",
+    "name": "ornamentPrecompCadenceUpperPrefix"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompCadenceUpperPrefixTurn",
+    "name": "ornamentPrecompCadenceUpperPrefixTurn"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompCadenceWithTurn",
+    "name": "ornamentPrecompCadenceWithTurn"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompDescendingSlide",
+    "name": "ornamentPrecompDescendingSlide"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompDoubleCadenceLowerPrefix",
+    "name": "ornamentPrecompDoubleCadenceLowerPrefix"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompDoubleCadenceUpperPrefix",
+    "name": "ornamentPrecompDoubleCadenceUpperPrefix"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompDoubleCadenceUpperPrefixTurn",
+    "name": "ornamentPrecompDoubleCadenceUpperPrefixTurn"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompInvertedMordentUpperPrefix",
+    "name": "ornamentPrecompInvertedMordentUpperPrefix"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompMordentRelease",
+    "name": "ornamentPrecompMordentRelease"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompMordentUpperPrefix",
+    "name": "ornamentPrecompMordentUpperPrefix"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompPortDeVoixMordent",
+    "name": "ornamentPrecompPortDeVoixMordent"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompSlide",
+    "name": "ornamentPrecompSlide"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompSlideTrillBach",
+    "name": "ornamentPrecompSlideTrillBach"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompSlideTrillDAnglebert",
+    "name": "ornamentPrecompSlideTrillDAnglebert"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompSlideTrillMarpurg",
+    "name": "ornamentPrecompSlideTrillMarpurg"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompSlideTrillMuffat",
+    "name": "ornamentPrecompSlideTrillMuffat"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompSlideTrillSuffixMuffat",
+    "name": "ornamentPrecompSlideTrillSuffixMuffat"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompTrillLowerSuffix",
+    "name": "ornamentPrecompTrillLowerSuffix"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompTrillSuffixDandrieu",
+    "name": "ornamentPrecompTrillSuffixDandrieu"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompTrillWithMordent",
+    "name": "ornamentPrecompTrillWithMordent"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompTurnTrillBach",
+    "name": "ornamentPrecompTurnTrillBach"
+   },
+   {
+    "entityID": "glyph.ornamentPrecompTurnTrillDAnglebert",
+    "name": "ornamentPrecompTurnTrillDAnglebert"
+   },
+   {
+    "entityID": "glyph.ornamentSchleifer",
+    "name": "ornamentSchleifer"
+   },
+   {
+    "entityID": "glyph.ornamentShake3",
+    "name": "ornamentShake3"
+   },
+   {
+    "entityID": "glyph.ornamentShortTrill",
+    "name": "ornamentShortTrill"
+   },
+   {
+    "entityID": "glyph.ornamentTremblement",
+    "name": "ornamentTremblement"
+   },
+   {
+    "entityID": "glyph.ornamentTremblementCouperin",
+    "name": "ornamentTremblementCouperin"
+   },
+   {
+    "entityID": "glyph.ornamentTrill",
+    "name": "ornamentTrill"
+   },
+   {
+    "entityID": "glyph.ornamentTurn",
+    "name": "ornamentTurn"
+   },
+   {
+    "entityID": "glyph.ornamentTurnInverted",
+    "name": "ornamentTurnInverted"
+   },
+   {
+    "entityID": "glyph.ornamentTurnSlash",
+    "name": "ornamentTurnSlash"
+   },
+   {
+    "entityID": "glyph.ornamentTurnUp",
+    "name": "ornamentTurnUp"
+   },
+   {
+    "entityID": "glyph.ornamentTurnUpS",
+    "name": "ornamentTurnUpS"
+   },
+   {
+    "entityID": "glyph.ottava",
+    "name": "ottava"
+   },
+   {
+    "entityID": "glyph.ottavaAlta",
+    "name": "ottavaAlta"
+   },
+   {
+    "entityID": "glyph.ottavaBassa",
+    "name": "ottavaBassa"
+   },
+   {
+    "entityID": "glyph.ottavaBassaBa",
+    "name": "ottavaBassaBa"
+   },
+   {
+    "entityID": "glyph.ottavaBassaVb",
+    "name": "ottavaBassaVb"
+   },
+   {
+    "entityID": "glyph.pedalHalf",
+    "name": "pedalHalf"
+   },
+   {
+    "entityID": "glyph.pedalSostenuto",
+    "name": "pedalSostenuto"
+   },
+   {
+    "entityID": "glyph.pedalSustain",
+    "name": "pedalSustain"
+   },
+   {
+    "entityID": "glyph.pedalUnaCorda",
+    "name": "pedalUnaCorda"
+   },
+   {
+    "entityID": "glyph.pedalUp",
+    "name": "pedalUp"
+   },
+   {
+    "entityID": "glyph.quindicesima",
+    "name": "quindicesima"
+   },
+   {
+    "entityID": "glyph.quindicesimaAlta",
+    "name": "quindicesimaAlta"
+   },
+   {
+    "entityID": "glyph.quindicesimaBassa",
+    "name": "quindicesimaBassa"
+   },
+   {
+    "entityID": "glyph.quindicesimaBassaMb",
+    "name": "quindicesimaBassaMb"
+   },
+   {
+    "entityID": "glyph.repeat1Bar",
+    "name": "repeat1Bar"
+   },
+   {
+    "entityID": "glyph.repeat2Bars",
+    "name": "repeat2Bars"
+   },
+   {
+    "entityID": "glyph.repeat4Bars",
+    "name": "repeat4Bars"
+   },
+   {
+    "entityID": "glyph.repeatBarlineDot",
+    "name": "repeatBarlineDot"
+   },
+   {
+    "entityID": "glyph.rest1024th",
+    "name": "rest1024th"
+   },
+   {
+    "entityID": "glyph.rest128th",
+    "name": "rest128th"
+   },
+   {
+    "entityID": "glyph.rest16th",
+    "name": "rest16th"
+   },
+   {
+    "entityID": "glyph.rest256th",
+    "name": "rest256th"
+   },
+   {
+    "entityID": "glyph.rest32nd",
+    "name": "rest32nd"
+   },
+   {
+    "entityID": "glyph.rest512th",
+    "name": "rest512th"
+   },
+   {
+    "entityID": "glyph.rest64th",
+    "name": "rest64th"
+   },
+   {
+    "entityID": "glyph.rest8th",
+    "name": "rest8th"
+   },
+   {
+    "entityID": "glyph.restDoubleWhole",
+    "name": "restDoubleWhole"
+   },
+   {
+    "entityID": "glyph.restHalf",
+    "name": "restHalf"
+   },
+   {
+    "entityID": "glyph.restLonga",
+    "name": "restLonga"
+   },
+   {
+    "entityID": "glyph.restMaxima",
+    "name": "restMaxima"
+   },
+   {
+    "entityID": "glyph.restQuarter",
+    "name": "restQuarter"
+   },
+   {
+    "entityID": "glyph.restQuarterOldStyle",
+    "name": "restQuarterOldStyle"
+   },
+   {
+    "entityID": "glyph.restQuarterZStyle",
+    "name": "restQuarterZStyle"
+   },
+   {
+    "entityID": "glyph.restWhole",
+    "name": "restWhole"
+   },
+   {
+    "entityID": "glyph.reversedBracketBottom",
+    "name": "reversedBracketBottom"
+   },
+   {
+    "entityID": "glyph.reversedBracketTop",
+    "name": "reversedBracketTop"
+   },
+   {
+    "entityID": "glyph.salzedoAeolianAscending",
+    "name": "salzedoAeolianAscending"
+   },
+   {
+    "entityID": "glyph.salzedoAeolianDescending",
+    "name": "salzedoAeolianDescending"
+   },
+   {
+    "entityID": "glyph.salzedoDampAbove",
+    "name": "salzedoDampAbove"
+   },
+   {
+    "entityID": "glyph.salzedoDampBelow",
+    "name": "salzedoDampBelow"
+   },
+   {
+    "entityID": "glyph.salzedoDampBothHands",
+    "name": "salzedoDampBothHands"
+   },
+   {
+    "entityID": "glyph.salzedoDampLowStrings",
+    "name": "salzedoDampLowStrings"
+   },
+   {
+    "entityID": "glyph.salzedoFluidicSoundsLeft",
+    "name": "salzedoFluidicSoundsLeft"
+   },
+   {
+    "entityID": "glyph.salzedoFluidicSoundsRight",
+    "name": "salzedoFluidicSoundsRight"
+   },
+   {
+    "entityID": "glyph.salzedoIsolatedSounds",
+    "name": "salzedoIsolatedSounds"
+   },
+   {
+    "entityID": "glyph.salzedoMetallicSounds",
+    "name": "salzedoMetallicSounds"
+   },
+   {
+    "entityID": "glyph.salzedoMetallicSoundsOneString",
+    "name": "salzedoMetallicSoundsOneString"
+   },
+   {
+    "entityID": "glyph.salzedoMuffleTotally",
+    "name": "salzedoMuffleTotally"
+   },
+   {
+    "entityID": "glyph.salzedoOboicFlux",
+    "name": "salzedoOboicFlux"
+   },
+   {
+    "entityID": "glyph.salzedoPlayUpperEnd",
+    "name": "salzedoPlayUpperEnd"
+   },
+   {
+    "entityID": "glyph.salzedoSlide",
+    "name": "salzedoSlide"
+   },
+   {
+    "entityID": "glyph.salzedoSnareDrum",
+    "name": "salzedoSnareDrum"
+   },
+   {
+    "entityID": "glyph.salzedoTamTamSounds",
+    "name": "salzedoTamTamSounds"
+   },
+   {
+    "entityID": "glyph.salzedoThunderEffect",
+    "name": "salzedoThunderEffect"
+   },
+   {
+    "entityID": "glyph.salzedoTimpanicSounds",
+    "name": "salzedoTimpanicSounds"
+   },
+   {
+    "entityID": "glyph.salzedoWhistlingSounds",
+    "name": "salzedoWhistlingSounds"
+   },
+   {
+    "entityID": "glyph.space",
+    "name": "space"
+   },
+   {
+    "entityID": "glyph.staffDivideArrowDown",
+    "name": "staffDivideArrowDown"
+   },
+   {
+    "entityID": "glyph.staffDivideArrowUp",
+    "name": "staffDivideArrowUp"
+   },
+   {
+    "entityID": "glyph.staffDivideArrowUpDown",
+    "name": "staffDivideArrowUpDown"
+   },
+   {
+    "entityID": "glyph.stringsBowBehindBridge",
+    "name": "stringsBowBehindBridge"
+   },
+   {
+    "entityID": "glyph.stringsBowBehindBridgeFourStrings",
+    "name": "stringsBowBehindBridgeFourStrings"
+   },
+   {
+    "entityID": "glyph.stringsBowBehindBridgeOneString",
+    "name": "stringsBowBehindBridgeOneString"
+   },
+   {
+    "entityID": "glyph.stringsBowBehindBridgeThreeStrings",
+    "name": "stringsBowBehindBridgeThreeStrings"
+   },
+   {
+    "entityID": "glyph.stringsBowBehindBridgeTwoStrings",
+    "name": "stringsBowBehindBridgeTwoStrings"
+   },
+   {
+    "entityID": "glyph.stringsBowOnBridge",
+    "name": "stringsBowOnBridge"
+   },
+   {
+    "entityID": "glyph.stringsBowOnTailpiece",
+    "name": "stringsBowOnTailpiece"
+   },
+   {
+    "entityID": "glyph.stringsBuzzPizzicato",
+    "name": "stringsBuzzPizzicato"
+   },
+   {
+    "entityID": "glyph.stringsChangeBowDirection",
+    "name": "stringsChangeBowDirection"
+   },
+   {
+    "entityID": "glyph.stringsDownBow",
+    "name": "stringsDownBow"
+   },
+   {
+    "entityID": "glyph.stringsDownBowBelow",
+    "name": "stringsDownBowBelow"
+   },
+   {
+    "entityID": "glyph.stringsFingernailFlick",
+    "name": "stringsFingernailFlick"
+   },
+   {
+    "entityID": "glyph.stringsFouette",
+    "name": "stringsFouette"
+   },
+   {
+    "entityID": "glyph.stringsHalfHarmonic",
+    "name": "stringsHalfHarmonic"
+   },
+   {
+    "entityID": "glyph.stringsHarmonic",
+    "name": "stringsHarmonic"
+   },
+   {
+    "entityID": "glyph.stringsJete",
+    "name": "stringsJete"
+   },
+   {
+    "entityID": "glyph.stringsJeteBelow",
+    "name": "stringsJeteBelow"
+   },
+   {
+    "entityID": "glyph.stringsLeftHandPizzicato",
+    "name": "stringsLeftHandPizzicato"
+   },
+   {
+    "entityID": "glyph.stringsMuteOff",
+    "name": "stringsMuteOff"
+   },
+   {
+    "entityID": "glyph.stringsMuteOn",
+    "name": "stringsMuteOn"
+   },
+   {
+    "entityID": "glyph.stringsOverpressureDownBow",
+    "name": "stringsOverpressureDownBow"
+   },
+   {
+    "entityID": "glyph.stringsOverpressureNoDirection",
+    "name": "stringsOverpressureNoDirection"
+   },
+   {
+    "entityID": "glyph.stringsOverpressurePossibileDownBow",
+    "name": "stringsOverpressurePossibileDownBow"
+   },
+   {
+    "entityID": "glyph.stringsOverpressurePossibileUpBow",
+    "name": "stringsOverpressurePossibileUpBow"
+   },
+   {
+    "entityID": "glyph.stringsOverpressureUpBow",
+    "name": "stringsOverpressureUpBow"
+   },
+   {
+    "entityID": "glyph.stringsPluckedWithFingernails",
+    "name": "stringsPluckedWithFingernails"
+   },
+   {
+    "entityID": "glyph.stringsSnapPizzicato",
+    "name": "stringsSnapPizzicato"
+   },
+   {
+    "entityID": "glyph.stringsSnapPizzicatoBelow",
+    "name": "stringsSnapPizzicatoBelow"
+   },
+   {
+    "entityID": "glyph.stringsThumbPosition",
+    "name": "stringsThumbPosition"
+   },
+   {
+    "entityID": "glyph.stringsUpBow",
+    "name": "stringsUpBow"
+   },
+   {
+    "entityID": "glyph.stringsUpBowBelow",
+    "name": "stringsUpBowBelow"
+   },
+   {
+    "entityID": "glyph.systemDivider",
+    "name": "systemDivider"
+   },
+   {
+    "entityID": "glyph.systemDividerExtraLong",
+    "name": "systemDividerExtraLong"
+   },
+   {
+    "entityID": "glyph.systemDividerLong",
+    "name": "systemDividerLong"
+   },
+   {
+    "entityID": "glyph.tabnumber0",
+    "name": "tabnumber0"
+   },
+   {
+    "entityID": "glyph.tabnumber1",
+    "name": "tabnumber1"
+   },
+   {
+    "entityID": "glyph.tabnumber2",
+    "name": "tabnumber2"
+   },
+   {
+    "entityID": "glyph.tabnumber3",
+    "name": "tabnumber3"
+   },
+   {
+    "entityID": "glyph.tabnumber4",
+    "name": "tabnumber4"
+   },
+   {
+    "entityID": "glyph.tabnumber5",
+    "name": "tabnumber5"
+   },
+   {
+    "entityID": "glyph.tabnumber6",
+    "name": "tabnumber6"
+   },
+   {
+    "entityID": "glyph.tabnumber7",
+    "name": "tabnumber7"
+   },
+   {
+    "entityID": "glyph.tabnumber8",
+    "name": "tabnumber8"
+   },
+   {
+    "entityID": "glyph.tabnumber9",
+    "name": "tabnumber9"
+   },
+   {
+    "entityID": "glyph.tabnumberFullStop",
+    "name": "tabnumberFullStop"
+   },
+   {
+    "entityID": "glyph.tabnumberLeftParenthesis",
+    "name": "tabnumberLeftParenthesis"
+   },
+   {
+    "entityID": "glyph.tabnumberQuestionMark",
+    "name": "tabnumberQuestionMark"
+   },
+   {
+    "entityID": "glyph.tabnumberRightParenthesis",
+    "name": "tabnumberRightParenthesis"
+   },
+   {
+    "entityID": "glyph.tabnumberX",
+    "name": "tabnumberX"
+   },
+   {
+    "entityID": "glyph.timeSig0",
+    "name": "timeSig0"
+   },
+   {
+    "entityID": "glyph.timeSig0Large",
+    "name": "timeSig0Large"
+   },
+   {
+    "entityID": "glyph.timeSig0Narrow",
+    "name": "timeSig0Narrow"
+   },
+   {
+    "entityID": "glyph.timeSig0Plain",
+    "name": "timeSig0Plain"
+   },
+   {
+    "entityID": "glyph.timeSig1",
+    "name": "timeSig1"
+   },
+   {
+    "entityID": "glyph.timeSig1Large",
+    "name": "timeSig1Large"
+   },
+   {
+    "entityID": "glyph.timeSig1Narrow",
+    "name": "timeSig1Narrow"
+   },
+   {
+    "entityID": "glyph.timeSig1Plain",
+    "name": "timeSig1Plain"
+   },
+   {
+    "entityID": "glyph.timeSig2",
+    "name": "timeSig2"
+   },
+   {
+    "entityID": "glyph.timeSig2Large",
+    "name": "timeSig2Large"
+   },
+   {
+    "entityID": "glyph.timeSig2Narrow",
+    "name": "timeSig2Narrow"
+   },
+   {
+    "entityID": "glyph.timeSig2Plain",
+    "name": "timeSig2Plain"
+   },
+   {
+    "entityID": "glyph.timeSig3",
+    "name": "timeSig3"
+   },
+   {
+    "entityID": "glyph.timeSig3Large",
+    "name": "timeSig3Large"
+   },
+   {
+    "entityID": "glyph.timeSig3Narrow",
+    "name": "timeSig3Narrow"
+   },
+   {
+    "entityID": "glyph.timeSig3Plain",
+    "name": "timeSig3Plain"
+   },
+   {
+    "entityID": "glyph.timeSig4",
+    "name": "timeSig4"
+   },
+   {
+    "entityID": "glyph.timeSig4Large",
+    "name": "timeSig4Large"
+   },
+   {
+    "entityID": "glyph.timeSig4Narrow",
+    "name": "timeSig4Narrow"
+   },
+   {
+    "entityID": "glyph.timeSig4Plain",
+    "name": "timeSig4Plain"
+   },
+   {
+    "entityID": "glyph.timeSig5",
+    "name": "timeSig5"
+   },
+   {
+    "entityID": "glyph.timeSig5Large",
+    "name": "timeSig5Large"
+   },
+   {
+    "entityID": "glyph.timeSig5Narrow",
+    "name": "timeSig5Narrow"
+   },
+   {
+    "entityID": "glyph.timeSig5Plain",
+    "name": "timeSig5Plain"
+   },
+   {
+    "entityID": "glyph.timeSig6",
+    "name": "timeSig6"
+   },
+   {
+    "entityID": "glyph.timeSig6Large",
+    "name": "timeSig6Large"
+   },
+   {
+    "entityID": "glyph.timeSig6Narrow",
+    "name": "timeSig6Narrow"
+   },
+   {
+    "entityID": "glyph.timeSig6Plain",
+    "name": "timeSig6Plain"
+   },
+   {
+    "entityID": "glyph.timeSig7",
+    "name": "timeSig7"
+   },
+   {
+    "entityID": "glyph.timeSig7Large",
+    "name": "timeSig7Large"
+   },
+   {
+    "entityID": "glyph.timeSig7Narrow",
+    "name": "timeSig7Narrow"
+   },
+   {
+    "entityID": "glyph.timeSig7Plain",
+    "name": "timeSig7Plain"
+   },
+   {
+    "entityID": "glyph.timeSig8",
+    "name": "timeSig8"
+   },
+   {
+    "entityID": "glyph.timeSig8Large",
+    "name": "timeSig8Large"
+   },
+   {
+    "entityID": "glyph.timeSig8Narrow",
+    "name": "timeSig8Narrow"
+   },
+   {
+    "entityID": "glyph.timeSig8Plain",
+    "name": "timeSig8Plain"
+   },
+   {
+    "entityID": "glyph.timeSig9",
+    "name": "timeSig9"
+   },
+   {
+    "entityID": "glyph.timeSig9Large",
+    "name": "timeSig9Large"
+   },
+   {
+    "entityID": "glyph.timeSig9Narrow",
+    "name": "timeSig9Narrow"
+   },
+   {
+    "entityID": "glyph.timeSig9Plain",
+    "name": "timeSig9Plain"
+   },
+   {
+    "entityID": "glyph.timeSigBracketLeft",
+    "name": "timeSigBracketLeft"
+   },
+   {
+    "entityID": "glyph.timeSigBracketLeftLarge",
+    "name": "timeSigBracketLeftLarge"
+   },
+   {
+    "entityID": "glyph.timeSigBracketLeftNarrow",
+    "name": "timeSigBracketLeftNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigBracketLeftPlain",
+    "name": "timeSigBracketLeftPlain"
+   },
+   {
+    "entityID": "glyph.timeSigBracketLeftSmall",
+    "name": "timeSigBracketLeftSmall"
+   },
+   {
+    "entityID": "glyph.timeSigBracketLeftSmallLarge",
+    "name": "timeSigBracketLeftSmallLarge"
+   },
+   {
+    "entityID": "glyph.timeSigBracketLeftSmallNarrow",
+    "name": "timeSigBracketLeftSmallNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigBracketLeftSmallPlain",
+    "name": "timeSigBracketLeftSmallPlain"
+   },
+   {
+    "entityID": "glyph.timeSigBracketRight",
+    "name": "timeSigBracketRight"
+   },
+   {
+    "entityID": "glyph.timeSigBracketRightLarge",
+    "name": "timeSigBracketRightLarge"
+   },
+   {
+    "entityID": "glyph.timeSigBracketRightNarrow",
+    "name": "timeSigBracketRightNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigBracketRightPlain",
+    "name": "timeSigBracketRightPlain"
+   },
+   {
+    "entityID": "glyph.timeSigBracketRightSmall",
+    "name": "timeSigBracketRightSmall"
+   },
+   {
+    "entityID": "glyph.timeSigBracketRightSmallLarge",
+    "name": "timeSigBracketRightSmallLarge"
+   },
+   {
+    "entityID": "glyph.timeSigBracketRightSmallNarrow",
+    "name": "timeSigBracketRightSmallNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigBracketRightSmallPlain",
+    "name": "timeSigBracketRightSmallPlain"
+   },
+   {
+    "entityID": "glyph.timeSigCombDenominator",
+    "name": "timeSigCombDenominator"
+   },
+   {
+    "entityID": "glyph.timeSigCombDenominatorLarge",
+    "name": "timeSigCombDenominatorLarge"
+   },
+   {
+    "entityID": "glyph.timeSigCombDenominatorNarrow",
+    "name": "timeSigCombDenominatorNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigCombDenominatorPlain",
+    "name": "timeSigCombDenominatorPlain"
+   },
+   {
+    "entityID": "glyph.timeSigCombNumerator",
+    "name": "timeSigCombNumerator"
+   },
+   {
+    "entityID": "glyph.timeSigCombNumeratorLarge",
+    "name": "timeSigCombNumeratorLarge"
+   },
+   {
+    "entityID": "glyph.timeSigCombNumeratorNarrow",
+    "name": "timeSigCombNumeratorNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigCombNumeratorPlain",
+    "name": "timeSigCombNumeratorPlain"
+   },
+   {
+    "entityID": "glyph.timeSigComma",
+    "name": "timeSigComma"
+   },
+   {
+    "entityID": "glyph.timeSigCommaLarge",
+    "name": "timeSigCommaLarge"
+   },
+   {
+    "entityID": "glyph.timeSigCommaNarrow",
+    "name": "timeSigCommaNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigCommaPlain",
+    "name": "timeSigCommaPlain"
+   },
+   {
+    "entityID": "glyph.timeSigCommon",
+    "name": "timeSigCommon"
+   },
+   {
+    "entityID": "glyph.timeSigCommonLarge",
+    "name": "timeSigCommonLarge"
+   },
+   {
+    "entityID": "glyph.timeSigCommonNarrow",
+    "name": "timeSigCommonNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigCommonPlain",
+    "name": "timeSigCommonPlain"
+   },
+   {
+    "entityID": "glyph.timeSigCut2",
+    "name": "timeSigCut2"
+   },
+   {
+    "entityID": "glyph.timeSigCut2Large",
+    "name": "timeSigCut2Large"
+   },
+   {
+    "entityID": "glyph.timeSigCut2Narrow",
+    "name": "timeSigCut2Narrow"
+   },
+   {
+    "entityID": "glyph.timeSigCut2Plain",
+    "name": "timeSigCut2Plain"
+   },
+   {
+    "entityID": "glyph.timeSigCutCommon",
+    "name": "timeSigCutCommon"
+   },
+   {
+    "entityID": "glyph.timeSigCutCommonLarge",
+    "name": "timeSigCutCommonLarge"
+   },
+   {
+    "entityID": "glyph.timeSigCutCommonNarrow",
+    "name": "timeSigCutCommonNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigCutCommonPlain",
+    "name": "timeSigCutCommonPlain"
+   },
+   {
+    "entityID": "glyph.timeSigEquals",
+    "name": "timeSigEquals"
+   },
+   {
+    "entityID": "glyph.timeSigEqualsLarge",
+    "name": "timeSigEqualsLarge"
+   },
+   {
+    "entityID": "glyph.timeSigEqualsNarrow",
+    "name": "timeSigEqualsNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigEqualsPlain",
+    "name": "timeSigEqualsPlain"
+   },
+   {
+    "entityID": "glyph.timeSigFractionHalf",
+    "name": "timeSigFractionHalf"
+   },
+   {
+    "entityID": "glyph.timeSigFractionHalfLarge",
+    "name": "timeSigFractionHalfLarge"
+   },
+   {
+    "entityID": "glyph.timeSigFractionHalfNarrow",
+    "name": "timeSigFractionHalfNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigFractionHalfPlain",
+    "name": "timeSigFractionHalfPlain"
+   },
+   {
+    "entityID": "glyph.timeSigFractionOneThird",
+    "name": "timeSigFractionOneThird"
+   },
+   {
+    "entityID": "glyph.timeSigFractionOneThirdLarge",
+    "name": "timeSigFractionOneThirdLarge"
+   },
+   {
+    "entityID": "glyph.timeSigFractionOneThirdNarrow",
+    "name": "timeSigFractionOneThirdNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigFractionOneThirdPlain",
+    "name": "timeSigFractionOneThirdPlain"
+   },
+   {
+    "entityID": "glyph.timeSigFractionQuarter",
+    "name": "timeSigFractionQuarter"
+   },
+   {
+    "entityID": "glyph.timeSigFractionQuarterLarge",
+    "name": "timeSigFractionQuarterLarge"
+   },
+   {
+    "entityID": "glyph.timeSigFractionQuarterNarrow",
+    "name": "timeSigFractionQuarterNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigFractionQuarterPlain",
+    "name": "timeSigFractionQuarterPlain"
+   },
+   {
+    "entityID": "glyph.timeSigFractionThreeQuarters",
+    "name": "timeSigFractionThreeQuarters"
+   },
+   {
+    "entityID": "glyph.timeSigFractionThreeQuartersLarge",
+    "name": "timeSigFractionThreeQuartersLarge"
+   },
+   {
+    "entityID": "glyph.timeSigFractionThreeQuartersNarrow",
+    "name": "timeSigFractionThreeQuartersNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigFractionThreeQuartersPlain",
+    "name": "timeSigFractionThreeQuartersPlain"
+   },
+   {
+    "entityID": "glyph.timeSigFractionTwoThirds",
+    "name": "timeSigFractionTwoThirds"
+   },
+   {
+    "entityID": "glyph.timeSigFractionTwoThirdsLarge",
+    "name": "timeSigFractionTwoThirdsLarge"
+   },
+   {
+    "entityID": "glyph.timeSigFractionTwoThirdsNarrow",
+    "name": "timeSigFractionTwoThirdsNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigFractionTwoThirdsPlain",
+    "name": "timeSigFractionTwoThirdsPlain"
+   },
+   {
+    "entityID": "glyph.timeSigFractionalSlash",
+    "name": "timeSigFractionalSlash"
+   },
+   {
+    "entityID": "glyph.timeSigFractionalSlashLarge",
+    "name": "timeSigFractionalSlashLarge"
+   },
+   {
+    "entityID": "glyph.timeSigFractionalSlashNarrow",
+    "name": "timeSigFractionalSlashNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigFractionalSlashPlain",
+    "name": "timeSigFractionalSlashPlain"
+   },
+   {
+    "entityID": "glyph.timeSigMinus",
+    "name": "timeSigMinus"
+   },
+   {
+    "entityID": "glyph.timeSigMinusLarge",
+    "name": "timeSigMinusLarge"
+   },
+   {
+    "entityID": "glyph.timeSigMinusNarrow",
+    "name": "timeSigMinusNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigMinusPlain",
+    "name": "timeSigMinusPlain"
+   },
+   {
+    "entityID": "glyph.timeSigMultiply",
+    "name": "timeSigMultiply"
+   },
+   {
+    "entityID": "glyph.timeSigMultiplyLarge",
+    "name": "timeSigMultiplyLarge"
+   },
+   {
+    "entityID": "glyph.timeSigMultiplyNarrow",
+    "name": "timeSigMultiplyNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigMultiplyPlain",
+    "name": "timeSigMultiplyPlain"
+   },
+   {
+    "entityID": "glyph.timeSigOpenPenderecki",
+    "name": "timeSigOpenPenderecki"
+   },
+   {
+    "entityID": "glyph.timeSigOpenPendereckiLarge",
+    "name": "timeSigOpenPendereckiLarge"
+   },
+   {
+    "entityID": "glyph.timeSigOpenPendereckiNarrow",
+    "name": "timeSigOpenPendereckiNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigOpenPendereckiPlain",
+    "name": "timeSigOpenPendereckiPlain"
+   },
+   {
+    "entityID": "glyph.timeSigParensLeft",
+    "name": "timeSigParensLeft"
+   },
+   {
+    "entityID": "glyph.timeSigParensLeftLarge",
+    "name": "timeSigParensLeftLarge"
+   },
+   {
+    "entityID": "glyph.timeSigParensLeftNarrow",
+    "name": "timeSigParensLeftNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigParensLeftPlain",
+    "name": "timeSigParensLeftPlain"
+   },
+   {
+    "entityID": "glyph.timeSigParensLeftSmall",
+    "name": "timeSigParensLeftSmall"
+   },
+   {
+    "entityID": "glyph.timeSigParensLeftSmallLarge",
+    "name": "timeSigParensLeftSmallLarge"
+   },
+   {
+    "entityID": "glyph.timeSigParensLeftSmallNarrow",
+    "name": "timeSigParensLeftSmallNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigParensLeftSmallPlain",
+    "name": "timeSigParensLeftSmallPlain"
+   },
+   {
+    "entityID": "glyph.timeSigParensRight",
+    "name": "timeSigParensRight"
+   },
+   {
+    "entityID": "glyph.timeSigParensRightLarge",
+    "name": "timeSigParensRightLarge"
+   },
+   {
+    "entityID": "glyph.timeSigParensRightNarrow",
+    "name": "timeSigParensRightNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigParensRightPlain",
+    "name": "timeSigParensRightPlain"
+   },
+   {
+    "entityID": "glyph.timeSigParensRightSmall",
+    "name": "timeSigParensRightSmall"
+   },
+   {
+    "entityID": "glyph.timeSigParensRightSmallLarge",
+    "name": "timeSigParensRightSmallLarge"
+   },
+   {
+    "entityID": "glyph.timeSigParensRightSmallNarrow",
+    "name": "timeSigParensRightSmallNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigParensRightSmallPlain",
+    "name": "timeSigParensRightSmallPlain"
+   },
+   {
+    "entityID": "glyph.timeSigPlus",
+    "name": "timeSigPlus"
+   },
+   {
+    "entityID": "glyph.timeSigPlusLarge",
+    "name": "timeSigPlusLarge"
+   },
+   {
+    "entityID": "glyph.timeSigPlusNarrow",
+    "name": "timeSigPlusNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigPlusPlain",
+    "name": "timeSigPlusPlain"
+   },
+   {
+    "entityID": "glyph.timeSigPlusSmall",
+    "name": "timeSigPlusSmall"
+   },
+   {
+    "entityID": "glyph.timeSigPlusSmallLarge",
+    "name": "timeSigPlusSmallLarge"
+   },
+   {
+    "entityID": "glyph.timeSigPlusSmallNarrow",
+    "name": "timeSigPlusSmallNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigPlusSmallPlain",
+    "name": "timeSigPlusSmallPlain"
+   },
+   {
+    "entityID": "glyph.timeSigSlash",
+    "name": "timeSigSlash"
+   },
+   {
+    "entityID": "glyph.timeSigSlashLarge",
+    "name": "timeSigSlashLarge"
+   },
+   {
+    "entityID": "glyph.timeSigSlashNarrow",
+    "name": "timeSigSlashNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigSlashPlain",
+    "name": "timeSigSlashPlain"
+   },
+   {
+    "entityID": "glyph.timeSigX",
+    "name": "timeSigX"
+   },
+   {
+    "entityID": "glyph.timeSigXLarge",
+    "name": "timeSigXLarge"
+   },
+   {
+    "entityID": "glyph.timeSigXNarrow",
+    "name": "timeSigXNarrow"
+   },
+   {
+    "entityID": "glyph.timeSigXPlain",
+    "name": "timeSigXPlain"
+   },
+   {
+    "entityID": "glyph.timesig_augmentationDot",
+    "name": "timesig_augmentationDot"
+   },
+   {
+    "entityID": "glyph.timesig_note1024thDown",
+    "name": "timesig_note1024thDown"
+   },
+   {
+    "entityID": "glyph.timesig_note1024thUp",
+    "name": "timesig_note1024thUp"
+   },
+   {
+    "entityID": "glyph.timesig_note128thDown",
+    "name": "timesig_note128thDown"
+   },
+   {
+    "entityID": "glyph.timesig_note128thUp",
+    "name": "timesig_note128thUp"
+   },
+   {
+    "entityID": "glyph.timesig_note16thDown",
+    "name": "timesig_note16thDown"
+   },
+   {
+    "entityID": "glyph.timesig_note16thUp",
+    "name": "timesig_note16thUp"
+   },
+   {
+    "entityID": "glyph.timesig_note256thDown",
+    "name": "timesig_note256thDown"
+   },
+   {
+    "entityID": "glyph.timesig_note256thUp",
+    "name": "timesig_note256thUp"
+   },
+   {
+    "entityID": "glyph.timesig_note32ndDown",
+    "name": "timesig_note32ndDown"
+   },
+   {
+    "entityID": "glyph.timesig_note32ndUp",
+    "name": "timesig_note32ndUp"
+   },
+   {
+    "entityID": "glyph.timesig_note512thDown",
+    "name": "timesig_note512thDown"
+   },
+   {
+    "entityID": "glyph.timesig_note512thUp",
+    "name": "timesig_note512thUp"
+   },
+   {
+    "entityID": "glyph.timesig_note64thDown",
+    "name": "timesig_note64thDown"
+   },
+   {
+    "entityID": "glyph.timesig_note64thUp",
+    "name": "timesig_note64thUp"
+   },
+   {
+    "entityID": "glyph.timesig_note8thDown",
+    "name": "timesig_note8thDown"
+   },
+   {
+    "entityID": "glyph.timesig_note8thUp",
+    "name": "timesig_note8thUp"
+   },
+   {
+    "entityID": "glyph.timesig_noteDoubleWhole",
+    "name": "timesig_noteDoubleWhole"
+   },
+   {
+    "entityID": "glyph.timesig_noteDoubleWholeSquare",
+    "name": "timesig_noteDoubleWholeSquare"
+   },
+   {
+    "entityID": "glyph.timesig_noteHalfDown",
+    "name": "timesig_noteHalfDown"
+   },
+   {
+    "entityID": "glyph.timesig_noteHalfUp",
+    "name": "timesig_noteHalfUp"
+   },
+   {
+    "entityID": "glyph.timesig_noteQuarterDown",
+    "name": "timesig_noteQuarterDown"
+   },
+   {
+    "entityID": "glyph.timesig_noteQuarterUp",
+    "name": "timesig_noteQuarterUp"
+   },
+   {
+    "entityID": "glyph.timesig_noteWhole",
+    "name": "timesig_noteWhole"
+   },
+   {
+    "entityID": "glyph.tremolo1",
+    "name": "tremolo1"
+   },
+   {
+    "entityID": "glyph.tremolo2",
+    "name": "tremolo2"
+   },
+   {
+    "entityID": "glyph.tremolo3",
+    "name": "tremolo3"
+   },
+   {
+    "entityID": "glyph.tremolo4",
+    "name": "tremolo4"
+   },
+   {
+    "entityID": "glyph.tremolo5",
+    "name": "tremolo5"
+   },
+   {
+    "entityID": "glyph.tuplet0",
+    "name": "tuplet0"
+   },
+   {
+    "entityID": "glyph.tuplet0Light",
+    "name": "tuplet0Light"
+   },
+   {
+    "entityID": "glyph.tuplet0Plain",
+    "name": "tuplet0Plain"
+   },
+   {
+    "entityID": "glyph.tuplet1",
+    "name": "tuplet1"
+   },
+   {
+    "entityID": "glyph.tuplet1Light",
+    "name": "tuplet1Light"
+   },
+   {
+    "entityID": "glyph.tuplet1Plain",
+    "name": "tuplet1Plain"
+   },
+   {
+    "entityID": "glyph.tuplet2",
+    "name": "tuplet2"
+   },
+   {
+    "entityID": "glyph.tuplet2Light",
+    "name": "tuplet2Light"
+   },
+   {
+    "entityID": "glyph.tuplet2Plain",
+    "name": "tuplet2Plain"
+   },
+   {
+    "entityID": "glyph.tuplet3",
+    "name": "tuplet3"
+   },
+   {
+    "entityID": "glyph.tuplet3Light",
+    "name": "tuplet3Light"
+   },
+   {
+    "entityID": "glyph.tuplet3Plain",
+    "name": "tuplet3Plain"
+   },
+   {
+    "entityID": "glyph.tuplet4",
+    "name": "tuplet4"
+   },
+   {
+    "entityID": "glyph.tuplet4Light",
+    "name": "tuplet4Light"
+   },
+   {
+    "entityID": "glyph.tuplet4Plain",
+    "name": "tuplet4Plain"
+   },
+   {
+    "entityID": "glyph.tuplet5",
+    "name": "tuplet5"
+   },
+   {
+    "entityID": "glyph.tuplet5Light",
+    "name": "tuplet5Light"
+   },
+   {
+    "entityID": "glyph.tuplet5Plain",
+    "name": "tuplet5Plain"
+   },
+   {
+    "entityID": "glyph.tuplet6",
+    "name": "tuplet6"
+   },
+   {
+    "entityID": "glyph.tuplet6Light",
+    "name": "tuplet6Light"
+   },
+   {
+    "entityID": "glyph.tuplet6Plain",
+    "name": "tuplet6Plain"
+   },
+   {
+    "entityID": "glyph.tuplet7",
+    "name": "tuplet7"
+   },
+   {
+    "entityID": "glyph.tuplet7Light",
+    "name": "tuplet7Light"
+   },
+   {
+    "entityID": "glyph.tuplet7Plain",
+    "name": "tuplet7Plain"
+   },
+   {
+    "entityID": "glyph.tuplet8",
+    "name": "tuplet8"
+   },
+   {
+    "entityID": "glyph.tuplet8Light",
+    "name": "tuplet8Light"
+   },
+   {
+    "entityID": "glyph.tuplet8Plain",
+    "name": "tuplet8Plain"
+   },
+   {
+    "entityID": "glyph.tuplet9",
+    "name": "tuplet9"
+   },
+   {
+    "entityID": "glyph.tuplet9Light",
+    "name": "tuplet9Light"
+   },
+   {
+    "entityID": "glyph.tuplet9Plain",
+    "name": "tuplet9Plain"
+   },
+   {
+    "entityID": "glyph.tupletBracketLeftItalic",
+    "name": "tupletBracketLeftItalic"
+   },
+   {
+    "entityID": "glyph.tupletBracketLeftItalicLight",
+    "name": "tupletBracketLeftItalicLight"
+   },
+   {
+    "entityID": "glyph.tupletBracketLeftItalicPlain",
+    "name": "tupletBracketLeftItalicPlain"
+   },
+   {
+    "entityID": "glyph.tupletBracketLeftRoman",
+    "name": "tupletBracketLeftRoman"
+   },
+   {
+    "entityID": "glyph.tupletBracketLeftRomanLight",
+    "name": "tupletBracketLeftRomanLight"
+   },
+   {
+    "entityID": "glyph.tupletBracketLeftRomanPlain",
+    "name": "tupletBracketLeftRomanPlain"
+   },
+   {
+    "entityID": "glyph.tupletBracketRightItalic",
+    "name": "tupletBracketRightItalic"
+   },
+   {
+    "entityID": "glyph.tupletBracketRightItalicLight",
+    "name": "tupletBracketRightItalicLight"
+   },
+   {
+    "entityID": "glyph.tupletBracketRightItalicPlain",
+    "name": "tupletBracketRightItalicPlain"
+   },
+   {
+    "entityID": "glyph.tupletBracketRightRoman",
+    "name": "tupletBracketRightRoman"
+   },
+   {
+    "entityID": "glyph.tupletBracketRightRomanLight",
+    "name": "tupletBracketRightRomanLight"
+   },
+   {
+    "entityID": "glyph.tupletBracketRightRomanPlain",
+    "name": "tupletBracketRightRomanPlain"
+   },
+   {
+    "entityID": "glyph.tupletColon",
+    "name": "tupletColon"
+   },
+   {
+    "entityID": "glyph.tupletColonLight",
+    "name": "tupletColonLight"
+   },
+   {
+    "entityID": "glyph.tupletColonPlain",
+    "name": "tupletColonPlain"
+   },
+   {
+    "entityID": "glyph.tupletParenthesisLeftItalic",
+    "name": "tupletParenthesisLeftItalic"
+   },
+   {
+    "entityID": "glyph.tupletParenthesisLeftItalicLight",
+    "name": "tupletParenthesisLeftItalicLight"
+   },
+   {
+    "entityID": "glyph.tupletParenthesisLeftItalicPlain",
+    "name": "tupletParenthesisLeftItalicPlain"
+   },
+   {
+    "entityID": "glyph.tupletParenthesisLeftRoman",
+    "name": "tupletParenthesisLeftRoman"
+   },
+   {
+    "entityID": "glyph.tupletParenthesisLeftRomanLight",
+    "name": "tupletParenthesisLeftRomanLight"
+   },
+   {
+    "entityID": "glyph.tupletParenthesisLeftRomanPlain",
+    "name": "tupletParenthesisLeftRomanPlain"
+   },
+   {
+    "entityID": "glyph.tupletParenthesisRightItalic",
+    "name": "tupletParenthesisRightItalic"
+   },
+   {
+    "entityID": "glyph.tupletParenthesisRightItalicLight",
+    "name": "tupletParenthesisRightItalicLight"
+   },
+   {
+    "entityID": "glyph.tupletParenthesisRightItalicPlain",
+    "name": "tupletParenthesisRightItalicPlain"
+   },
+   {
+    "entityID": "glyph.tupletParenthesisRightRoman",
+    "name": "tupletParenthesisRightRoman"
+   },
+   {
+    "entityID": "glyph.tupletParenthesisRightRomanLight",
+    "name": "tupletParenthesisRightRomanLight"
+   },
+   {
+    "entityID": "glyph.tupletParenthesisRightRomanPlain",
+    "name": "tupletParenthesisRightRomanPlain"
+   },
+   {
+    "entityID": "glyph.tuplet_augmentationDot",
+    "name": "tuplet_augmentationDot"
+   },
+   {
+    "entityID": "glyph.tuplet_note1024thUp",
+    "name": "tuplet_note1024thUp"
+   },
+   {
+    "entityID": "glyph.tuplet_note128thUp",
+    "name": "tuplet_note128thUp"
+   },
+   {
+    "entityID": "glyph.tuplet_note16thUp",
+    "name": "tuplet_note16thUp"
+   },
+   {
+    "entityID": "glyph.tuplet_note256thUp",
+    "name": "tuplet_note256thUp"
+   },
+   {
+    "entityID": "glyph.tuplet_note32ndUp",
+    "name": "tuplet_note32ndUp"
+   },
+   {
+    "entityID": "glyph.tuplet_note512thUp",
+    "name": "tuplet_note512thUp"
+   },
+   {
+    "entityID": "glyph.tuplet_note64thUp",
+    "name": "tuplet_note64thUp"
+   },
+   {
+    "entityID": "glyph.tuplet_note8thUp",
+    "name": "tuplet_note8thUp"
+   },
+   {
+    "entityID": "glyph.tuplet_noteDoubleWhole",
+    "name": "tuplet_noteDoubleWhole"
+   },
+   {
+    "entityID": "glyph.tuplet_noteDoubleWholeSquare",
+    "name": "tuplet_noteDoubleWholeSquare"
+   },
+   {
+    "entityID": "glyph.tuplet_noteHalfUp",
+    "name": "tuplet_noteHalfUp"
+   },
+   {
+    "entityID": "glyph.tuplet_noteQuarterUp",
+    "name": "tuplet_noteQuarterUp"
+   },
+   {
+    "entityID": "glyph.tuplet_noteWhole",
+    "name": "tuplet_noteWhole"
+   },
+   {
+    "entityID": "glyph.unpitchedCenter1",
+    "name": "unpitchedCenter1"
+   },
+   {
+    "entityID": "glyph.unpitchedCenter2",
+    "name": "unpitchedCenter2"
+   },
+   {
+    "entityID": "glyph.unpitchedChokeCymbal",
+    "name": "unpitchedChokeCymbal"
+   },
+   {
+    "entityID": "glyph.unpitchedClosedRimShot",
+    "name": "unpitchedClosedRimShot"
+   },
+   {
+    "entityID": "glyph.unpitchedCnter3",
+    "name": "unpitchedCnter3"
+   },
+   {
+    "entityID": "glyph.unpitchedDamp1",
+    "name": "unpitchedDamp1"
+   },
+   {
+    "entityID": "glyph.unpitchedDamp2",
+    "name": "unpitchedDamp2"
+   },
+   {
+    "entityID": "glyph.unpitchedDamp3",
+    "name": "unpitchedDamp3"
+   },
+   {
+    "entityID": "glyph.unpitchedDamp4",
+    "name": "unpitchedDamp4"
+   },
+   {
+    "entityID": "glyph.unpitchedHalfOpen",
+    "name": "unpitchedHalfOpen"
+   },
+   {
+    "entityID": "glyph.unpitchedHalfOpenWeinberg",
+    "name": "unpitchedHalfOpenWeinberg"
+   },
+   {
+    "entityID": "glyph.unpitchedLeftHand",
+    "name": "unpitchedLeftHand"
+   },
+   {
+    "entityID": "glyph.unpitchedNormalPosition",
+    "name": "unpitchedNormalPosition"
+   },
+   {
+    "entityID": "glyph.unpitchedOnRim",
+    "name": "unpitchedOnRim"
+   },
+   {
+    "entityID": "glyph.unpitchedOpen",
+    "name": "unpitchedOpen"
+   },
+   {
+    "entityID": "glyph.unpitchedPercussionClef1",
+    "name": "unpitchedPercussionClef1"
+   },
+   {
+    "entityID": "glyph.unpitchedPercussionClef2",
+    "name": "unpitchedPercussionClef2"
+   },
+   {
+    "entityID": "glyph.unpitchedRightHand",
+    "name": "unpitchedRightHand"
+   },
+   {
+    "entityID": "glyph.unpitchedRim1",
+    "name": "unpitchedRim1"
+   },
+   {
+    "entityID": "glyph.unpitchedRim2",
+    "name": "unpitchedRim2"
+   },
+   {
+    "entityID": "glyph.unpitchedRim3",
+    "name": "unpitchedRim3"
+   },
+   {
+    "entityID": "glyph.unpitchedScrapeAroundRimClockwise",
+    "name": "unpitchedScrapeAroundRimClockwise"
+   },
+   {
+    "entityID": "glyph.unpitchedScrapeAroundRimCounterclockwise",
+    "name": "unpitchedScrapeAroundRimCounterclockwise"
+   },
+   {
+    "entityID": "glyph.unpitchedScrapeCenterToEdge",
+    "name": "unpitchedScrapeCenterToEdge"
+   },
+   {
+    "entityID": "glyph.unpitchedScrapeEdgeToCenter",
+    "name": "unpitchedScrapeEdgeToCenter"
+   },
+   {
+    "entityID": "glyph.unpitchedStickShot",
+    "name": "unpitchedStickShot"
+   },
+   {
+    "entityID": "glyph.valveTrill",
+    "name": "valveTrill"
+   },
+   {
+    "entityID": "glyph.ventiduesima",
+    "name": "ventiduesima"
+   },
+   {
+    "entityID": "glyph.ventiduesimaAlta",
+    "name": "ventiduesimaAlta"
+   },
+   {
+    "entityID": "glyph.ventiduesimaBassa",
+    "name": "ventiduesimaBassa"
+   },
+   {
+    "entityID": "glyph.ventiduesimaBassaMb",
+    "name": "ventiduesimaBassaMb"
+   },
+   {
+    "entityID": "glyph.vocalFingerClick",
+    "name": "vocalFingerClick"
+   },
+   {
+    "entityID": "glyph.vocalMouthClosed",
+    "name": "vocalMouthClosed"
+   },
+   {
+    "entityID": "glyph.vocalMouthOpen",
+    "name": "vocalMouthOpen"
+   },
+   {
+    "entityID": "glyph.vocalMouthPursed",
+    "name": "vocalMouthPursed"
+   },
+   {
+    "entityID": "glyph.vocalMouthSlightlyOpen",
+    "name": "vocalMouthSlightlyOpen"
+   },
+   {
+    "entityID": "glyph.vocalMouthWideOpen",
+    "name": "vocalMouthWideOpen"
+   },
+   {
+    "entityID": "glyph.vocalNasalVoice",
+    "name": "vocalNasalVoice"
+   },
+   {
+    "entityID": "glyph.vocalTongueClick",
+    "name": "vocalTongueClick"
+   },
+   {
+    "entityID": "glyph.vocalTongueFingerClick",
+    "name": "vocalTongueFingerClick"
+   },
+   {
+    "entityID": "glyph.wiggleArpeggiatoDown",
+    "name": "Arpeggiato down"
+   },
+   {
+    "entityID": "glyph.wiggleArpeggiatoDownArrow",
+    "name": "Arpeggiato down arrow"
+   },
+   {
+    "entityID": "glyph.wiggleArpeggiatoDownSwash",
+    "name": "Arpeggiato down swash"
+   },
+   {
+    "entityID": "glyph.wiggleArpeggiatoUp",
+    "name": "Arpeggiato up"
+   },
+   {
+    "entityID": "glyph.wiggleArpeggiatoUpArrow",
+    "name": "Arpeggiato up arrow"
+   },
+   {
+    "entityID": "glyph.wiggleArpeggiatoUpSwash",
+    "name": "Arpeggiato up swash"
+   },
+   {
+    "entityID": "glyph.wiggleCircular",
+    "name": "Circular motion segment"
+   },
+   {
+    "entityID": "glyph.wiggleCircularConstant",
+    "name": "Constant circular motion segment"
+   },
+   {
+    "entityID": "glyph.wiggleCircularConstantFlipped",
+    "name": "Constant circular motion segment (flipped)"
+   },
+   {
+    "entityID": "glyph.wiggleCircularConstantFlippedLarge",
+    "name": "Constant circular motion segment (flipped, large)"
+   },
+   {
+    "entityID": "glyph.wiggleCircularConstantLarge",
+    "name": "Constant circular motion segment (large)"
+   },
+   {
+    "entityID": "glyph.wiggleCircularEnd",
+    "name": "Circular motion segment end"
+   },
+   {
+    "entityID": "glyph.wiggleCircularLarge",
+    "name": "Circular motion segment, large"
+   },
+   {
+    "entityID": "glyph.wiggleCircularLarger",
+    "name": "Circular motion segment, larger"
+   },
+   {
+    "entityID": "glyph.wiggleCircularLargerStill",
+    "name": "Circular motion segment, larger still"
+   },
+   {
+    "entityID": "glyph.wiggleCircularLargest",
+    "name": "Circular motion segment, largest"
+   },
+   {
+    "entityID": "glyph.wiggleCircularSmall",
+    "name": "Circular motion segment, small"
+   },
+   {
+    "entityID": "glyph.wiggleCircularStart",
+    "name": "Circular motion start"
+   },
+   {
+    "entityID": "glyph.wiggleGlissando",
+    "name": "Glissando wiggle segment"
+   },
+   {
+    "entityID": "glyph.wiggleGlissandoGroup1",
+    "name": "Group glissando 1"
+   },
+   {
+    "entityID": "glyph.wiggleGlissandoGroup2",
+    "name": "Group glissando 2"
+   },
+   {
+    "entityID": "glyph.wiggleGlissandoGroup3",
+    "name": "Group glissando 3"
+   },
+   {
+    "entityID": "glyph.wiggleRandom1",
+    "name": "Quasi-random squiggle 1"
+   },
+   {
+    "entityID": "glyph.wiggleRandom2",
+    "name": "Quasi-random squiggle 2"
+   },
+   {
+    "entityID": "glyph.wiggleRandom3",
+    "name": "Quasi-random squiggle 3"
+   },
+   {
+    "entityID": "glyph.wiggleRandom4",
+    "name": "Quasi-random squiggle 4"
+   },
+   {
+    "entityID": "glyph.wiggleSawtooth",
+    "name": "Sawtooth line segment"
+   },
+   {
+    "entityID": "glyph.wiggleSawtoothNarrow",
+    "name": "Narrow sawtooth line segment"
+   },
+   {
+    "entityID": "glyph.wiggleSawtoothWide",
+    "name": "Wide sawtooth line segment"
+   },
+   {
+    "entityID": "glyph.wiggleSquareWave",
+    "name": "Square wave line segment"
+   },
+   {
+    "entityID": "glyph.wiggleSquareWaveNarrow",
+    "name": "Narrow square wave line segment"
+   },
+   {
+    "entityID": "glyph.wiggleSquareWaveWide",
+    "name": "Wide square wave line segment"
+   },
+   {
+    "entityID": "glyph.wiggleTrill",
+    "name": "Wiggle trill"
+   },
+   {
+    "entityID": "glyph.wiggleTrillFast",
+    "name": "Wiggle trill fast"
+   },
+   {
+    "entityID": "glyph.wiggleTrillFaster",
+    "name": "Wiggle trill faster"
+   },
+   {
+    "entityID": "glyph.wiggleTrillFasterStill",
+    "name": "Wiggle trill faster still"
+   },
+   {
+    "entityID": "glyph.wiggleTrillFastest",
+    "name": "Wiggle trill fastest"
+   },
+   {
+    "entityID": "glyph.wiggleTrillSlow",
+    "name": "Wiggle trill slow"
+   },
+   {
+    "entityID": "glyph.wiggleTrillSlower",
+    "name": "Wiggle trill slower"
+   },
+   {
+    "entityID": "glyph.wiggleTrillSlowerStill",
+    "name": "Wiggle trill slower still"
+   },
+   {
+    "entityID": "glyph.wiggleTrillSlowest",
+    "name": "Wiggle trill slowest"
+   },
+   {
+    "entityID": "glyph.wiggleVIbratoLargestSlower",
+    "name": "Vibrato largest, slower"
+   },
+   {
+    "entityID": "glyph.wiggleVIbratoMediumSlower",
+    "name": "Vibrato medium, slower"
+   },
+   {
+    "entityID": "glyph.wiggleVibrato",
+    "name": "Vibrato / shake wiggle segment"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoLargeFast",
+    "name": "Vibrato large, fast"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoLargeFaster",
+    "name": "Vibrato large, faster"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoLargeFasterStill",
+    "name": "Vibrato large, faster still"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoLargeFastest",
+    "name": "Vibrato large, fastest"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoLargeSlow",
+    "name": "Vibrato large, slow"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoLargeSlower",
+    "name": "Vibrato large, slower"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoLargeSlowest",
+    "name": "Vibrato large, slowest"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoLargestFast",
+    "name": "Vibrato largest, fast"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoLargestFaster",
+    "name": "Vibrato largest, faster"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoLargestFasterStill",
+    "name": "Vibrato largest, faster still"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoLargestFastest",
+    "name": "Vibrato largest, fastest"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoLargestSlow",
+    "name": "Vibrato largest, slow"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoLargestSlowest",
+    "name": "Vibrato largest, slowest"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoMediumFast",
+    "name": "Vibrato medium, fast"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoMediumFaster",
+    "name": "Vibrato medium, faster"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoMediumFasterStill",
+    "name": "Vibrato medium, faster still"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoMediumFastest",
+    "name": "Vibrato medium, fastest"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoMediumSlow",
+    "name": "Vibrato medium, slow"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoMediumSlowest",
+    "name": "Vibrato medium, slowest"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoSmallFast",
+    "name": "Vibrato small, fast"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoSmallFaster",
+    "name": "Vibrato small, faster"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoSmallFasterStill",
+    "name": "Vibrato small, faster still"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoSmallFastest",
+    "name": "Vibrato small, fastest"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoSmallSlow",
+    "name": "Vibrato small, slow"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoSmallSlower",
+    "name": "Vibrato small, slower"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoSmallSlowest",
+    "name": "Vibrato small, slowest"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoSmallestFast",
+    "name": "Vibrato smallest, fast"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoSmallestFaster",
+    "name": "Vibrato smallest, faster"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoSmallestFasterStill",
+    "name": "Vibrato smallest, faster still"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoSmallestFastest",
+    "name": "Vibrato smallest, fastest"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoSmallestSlow",
+    "name": "Vibrato smallest, slow"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoSmallestSlower",
+    "name": "Vibrato smallest, slower"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoSmallestSlowest",
+    "name": "Vibrato smallest, slowest"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoStart",
+    "name": "Vibrato start"
+   },
+   {
+    "entityID": "glyph.wiggleVibratoWide",
+    "name": "Wide vibrato / shake wiggle segment"
+   },
+   {
+    "entityID": "glyph.wiggleWavy",
+    "name": "Wiggle wavy"
+   },
+   {
+    "entityID": "glyph.wiggleWavyNarrow",
+    "name": "Wiggle wavy narrow"
+   },
+   {
+    "entityID": "glyph.wiggleWavyWide",
+    "name": "Wiggle wavy wide"
+   },
+   {
+    "entityID": "glyph.windClosedHole",
+    "name": "windClosedHole"
+   },
+   {
+    "entityID": "glyph.windDoubleTongue",
+    "name": "windDoubleTongue"
+   },
+   {
+    "entityID": "glyph.windDoubleTongueBelow",
+    "name": "windDoubleTongueBelow"
+   },
+   {
+    "entityID": "glyph.windFlatEmbouchure",
+    "name": "windFlatEmbouchure"
+   },
+   {
+    "entityID": "glyph.windKeySlap",
+    "name": "windKeySlap"
+   },
+   {
+    "entityID": "glyph.windLessRelaxedEmbouchure",
+    "name": "windLessRelaxedEmbouchure"
+   },
+   {
+    "entityID": "glyph.windMouthpiecePop",
+    "name": "windMouthpiecePop"
+   },
+   {
+    "entityID": "glyph.windOpenHole",
+    "name": "windOpenHole"
+   },
+   {
+    "entityID": "glyph.windReedPositionIn",
+    "name": "windReedPositionIn"
+   },
+   {
+    "entityID": "glyph.windReedPositionNormal",
+    "name": "windReedPositionNormal"
+   },
+   {
+    "entityID": "glyph.windReedPositionOut",
+    "name": "windReedPositionOut"
+   },
+   {
+    "entityID": "glyph.windRelaxedEmbouchure",
+    "name": "windRelaxedEmbouchure"
+   },
+   {
+    "entityID": "glyph.windRimOnly",
+    "name": "windRimOnly"
+   },
+   {
+    "entityID": "glyph.windSharpEmbouchure",
+    "name": "windSharpEmbouchure"
+   },
+   {
+    "entityID": "glyph.windSomewhatTightEmbouchure",
+    "name": "windSomewhatTightEmbouchure"
+   },
+   {
+    "entityID": "glyph.windStrongAirPressure",
+    "name": "windStrongAirPressure"
+   },
+   {
+    "entityID": "glyph.windThreeQuartersClosedHole",
+    "name": "windThreeQuartersClosedHole"
+   },
+   {
+    "entityID": "glyph.windTightEmbouchure",
+    "name": "windTightEmbouchure"
+   },
+   {
+    "entityID": "glyph.windTrillKey",
+    "name": "windTrillKey"
+   },
+   {
+    "entityID": "glyph.windTripleTongue",
+    "name": "windTripleTongue"
+   },
+   {
+    "entityID": "glyph.windTripleTongueBelow",
+    "name": "windTripleTongueBelow"
+   },
+   {
+    "entityID": "glyph.windVeryTightEmbouchure",
+    "name": "windVeryTightEmbouchure"
+   },
+   {
+    "entityID": "glyph.windWeakAirPressure",
+    "name": "windWeakAirPressure"
+   }
+  ]
+ }
+]

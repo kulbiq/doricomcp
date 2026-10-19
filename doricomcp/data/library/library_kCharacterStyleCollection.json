@@ -1,0 +1,20 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "character.allcaps",
+    "name": "All Caps"
+   },
+   {
+    "entityID": "character.metronomemusictext",
+    "name": "Metronome Mark Music Text"
+   },
+   {
+    "entityID": "character.musictext",
+    "name": "Music Text"
+   }
+  ]
+ }
+]

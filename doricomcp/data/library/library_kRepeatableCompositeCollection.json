@@ -1,0 +1,408 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "repeatableComposite.beamAccelRit1",
+    "name": "Accel./rit. beam 1 (widest)"
+   },
+   {
+    "entityID": "repeatableComposite.beamAccelRit10",
+    "name": "Accel./rit. beam 10"
+   },
+   {
+    "entityID": "repeatableComposite.beamAccelRit11",
+    "name": "Accel./rit. beam 11"
+   },
+   {
+    "entityID": "repeatableComposite.beamAccelRit12",
+    "name": "Accel./rit. beam 12"
+   },
+   {
+    "entityID": "repeatableComposite.beamAccelRit13",
+    "name": "Accel./rit. beam 13"
+   },
+   {
+    "entityID": "repeatableComposite.beamAccelRit14",
+    "name": "Accel./rit. beam 14"
+   },
+   {
+    "entityID": "repeatableComposite.beamAccelRit15",
+    "name": "Accel./rit. beam 15"
+   },
+   {
+    "entityID": "repeatableComposite.beamAccelRit2",
+    "name": "Accel./rit. beam 2"
+   },
+   {
+    "entityID": "repeatableComposite.beamAccelRit3",
+    "name": "Accel./rit. beam 3"
+   },
+   {
+    "entityID": "repeatableComposite.beamAccelRit4",
+    "name": "Accel./rit. beam 4"
+   },
+   {
+    "entityID": "repeatableComposite.beamAccelRit5",
+    "name": "Accel./rit. beam 5"
+   },
+   {
+    "entityID": "repeatableComposite.beamAccelRit6",
+    "name": "Accel./rit. beam 6"
+   },
+   {
+    "entityID": "repeatableComposite.beamAccelRit7",
+    "name": "Accel./rit. beam 7"
+   },
+   {
+    "entityID": "repeatableComposite.beamAccelRit8",
+    "name": "Accel./rit. beam 8"
+   },
+   {
+    "entityID": "repeatableComposite.beamAccelRit9",
+    "name": "Accel./rit. beam 9"
+   },
+   {
+    "entityID": "repeatableComposite.beamAccelRitFinal",
+    "name": "Accel./rit. beam terminating line"
+   },
+   {
+    "entityID": "repeatableComposite.guitarVibratoStroke",
+    "name": "Guitar vibrato wiggle segment"
+   },
+   {
+    "entityID": "repeatableComposite.guitarWideVibratoStroke",
+    "name": "Guitar wide vibrato stroke"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleArpeggiatoDown",
+    "name": "Arpeggiato down"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleArpeggiatoDownArrow",
+    "name": "Arpeggiato down arrow"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleArpeggiatoDownSwash",
+    "name": "Arpeggiato down swash"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleArpeggiatoUp",
+    "name": "Arpeggiato up"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleArpeggiatoUpArrow",
+    "name": "Arpeggiato up arrow"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleArpeggiatoUpSwash",
+    "name": "Arpeggiato up swash"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleCircular",
+    "name": "Circular motion segment"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleCircularConstant",
+    "name": "Constant circular motion segment"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleCircularConstantFlipped",
+    "name": "Constant circular motion segment (flipped)"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleCircularConstantFlippedLarge",
+    "name": "Constant circular motion segment (flipped, large)"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleCircularConstantLarge",
+    "name": "Constant circular motion segment (large)"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleCircularEnd",
+    "name": "Circular motion segment end"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleCircularLarge",
+    "name": "Circular motion segment, large"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleCircularLarger",
+    "name": "Circular motion segment, larger"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleCircularLargerStill",
+    "name": "Circular motion segment, larger still"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleCircularLargest",
+    "name": "Circular motion segment, largest"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleCircularSmall",
+    "name": "Circular motion segment, small"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleCircularStart",
+    "name": "Circular motion start"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleGlissando",
+    "name": "Glissando wiggle segment"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleGlissandoGroup1",
+    "name": "Group glissando 1"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleGlissandoGroup2",
+    "name": "Group glissando 2"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleGlissandoGroup3",
+    "name": "Group glissando 3"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleRandom1",
+    "name": "Quasi-random squiggle 1"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleRandom2",
+    "name": "Quasi-random squiggle 2"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleRandom3",
+    "name": "Quasi-random squiggle 3"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleRandom4",
+    "name": "Quasi-random squiggle 4"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleSawtooth",
+    "name": "Sawtooth line segment"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleSawtoothNarrow",
+    "name": "Narrow sawtooth line segment"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleSawtoothWide",
+    "name": "Wide sawtooth line segment"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleSquareWave",
+    "name": "Square wave line segment"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleSquareWaveNarrow",
+    "name": "Narrow square wave line segment"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleSquareWaveWide",
+    "name": "Wide square wave line segment"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleTrill",
+    "name": "Wiggle trill"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleTrillFast",
+    "name": "Wiggle trill fast"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleTrillFaster",
+    "name": "Wiggle trill faster"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleTrillFasterStill",
+    "name": "Wiggle trill faster still"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleTrillFastest",
+    "name": "Wiggle trill fastest"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleTrillSlow",
+    "name": "Wiggle trill slow"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleTrillSlower",
+    "name": "Wiggle trill slower"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleTrillSlowerStill",
+    "name": "Wiggle trill slower still"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleTrillSlowest",
+    "name": "Wiggle trill slowest"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVIbratoLargestSlower",
+    "name": "Vibrato largest, slower"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVIbratoMediumSlower",
+    "name": "Vibrato medium, slower"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibrato",
+    "name": "Vibrato / shake wiggle segment"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoLargeFast",
+    "name": "Vibrato large, fast"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoLargeFaster",
+    "name": "Vibrato large, faster"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoLargeFasterStill",
+    "name": "Vibrato large, faster still"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoLargeFastest",
+    "name": "Vibrato large, fastest"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoLargeSlow",
+    "name": "Vibrato large, slow"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoLargeSlower",
+    "name": "Vibrato large, slower"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoLargeSlowest",
+    "name": "Vibrato large, slowest"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoLargestFast",
+    "name": "Vibrato largest, fast"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoLargestFaster",
+    "name": "Vibrato largest, faster"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoLargestFasterStill",
+    "name": "Vibrato largest, faster still"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoLargestFastest",
+    "name": "Vibrato largest, fastest"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoLargestSlow",
+    "name": "Vibrato largest, slow"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoLargestSlowest",
+    "name": "Vibrato largest, slowest"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoMediumFast",
+    "name": "Vibrato medium, fast"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoMediumFaster",
+    "name": "Vibrato medium, faster"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoMediumFasterStill",
+    "name": "Vibrato medium, faster still"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoMediumFastest",
+    "name": "Vibrato medium, fastest"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoMediumSlow",
+    "name": "Vibrato medium, slow"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoMediumSlowest",
+    "name": "Vibrato medium, slowest"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoSmallFast",
+    "name": "Vibrato small, fast"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoSmallFaster",
+    "name": "Vibrato small, faster"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoSmallFasterStill",
+    "name": "Vibrato small, faster still"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoSmallFastest",
+    "name": "Vibrato small, fastest"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoSmallSlow",
+    "name": "Vibrato small, slow"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoSmallSlower",
+    "name": "Vibrato small, slower"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoSmallSlowest",
+    "name": "Vibrato small, slowest"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoSmallestFast",
+    "name": "Vibrato smallest, fast"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoSmallestFaster",
+    "name": "Vibrato smallest, faster"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoSmallestFasterStill",
+    "name": "Vibrato smallest, faster still"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoSmallestFastest",
+    "name": "Vibrato smallest, fastest"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoSmallestSlow",
+    "name": "Vibrato smallest, slow"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoSmallestSlower",
+    "name": "Vibrato smallest, slower"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoSmallestSlowest",
+    "name": "Vibrato smallest, slowest"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoStart",
+    "name": "Vibrato start"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleVibratoWide",
+    "name": "Wide vibrato / shake wiggle segment"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleWavy",
+    "name": "Wiggle wavy"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleWavyNarrow",
+    "name": "Wiggle wavy narrow"
+   },
+   {
+    "entityID": "repeatableComposite.wiggleWavyWide",
+    "name": "Wiggle wavy wide"
+   }
+  ]
+ }
+]

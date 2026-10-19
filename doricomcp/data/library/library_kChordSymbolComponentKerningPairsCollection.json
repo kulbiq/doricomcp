@@ -1,0 +1,24 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "chordsymbolcomponentkerningpairs.academico.italic.bravuratext.italic",
+    "name": ""
+   },
+   {
+    "entityID": "chordsymbolcomponentkerningpairs.academico.regular.bravuratext.regular",
+    "name": ""
+   },
+   {
+    "entityID": "chordsymbolcomponentkerningpairs.petalumascript.italic.petalumatext.italic",
+    "name": ""
+   },
+   {
+    "entityID": "chordsymbolcomponentkerningpairs.petalumascript.regular.petalumatext.regular",
+    "name": ""
+   }
+  ]
+ }
+]

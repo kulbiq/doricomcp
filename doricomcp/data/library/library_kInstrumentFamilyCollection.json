@@ -1,0 +1,56 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "instrument family.brass",
+    "name": "Brass"
+   },
+   {
+    "entityID": "instrument family.electronics",
+    "name": "Electronics"
+   },
+   {
+    "entityID": "instrument family.fretted-instruments",
+    "name": "Fretted Instruments"
+   },
+   {
+    "entityID": "instrument family.gamelan-percussion",
+    "name": "Gamelan Percussion"
+   },
+   {
+    "entityID": "instrument family.keyboards",
+    "name": "Keyboards"
+   },
+   {
+    "entityID": "instrument family.orff-instruments",
+    "name": "Orff Instruments"
+   },
+   {
+    "entityID": "instrument family.pitched-percussion",
+    "name": "Pitched Percussion"
+   },
+   {
+    "entityID": "instrument family.singers",
+    "name": "Singers"
+   },
+   {
+    "entityID": "instrument family.sketch",
+    "name": "Sketch"
+   },
+   {
+    "entityID": "instrument family.strings",
+    "name": "Strings"
+   },
+   {
+    "entityID": "instrument family.unpitched-percussion",
+    "name": "Unpitched Percussion"
+   },
+   {
+    "entityID": "instrument family.woodwinds",
+    "name": "Woodwinds"
+   }
+  ]
+ }
+]

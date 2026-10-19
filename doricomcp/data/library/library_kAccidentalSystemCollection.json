@@ -1,0 +1,32 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "accidental system.12et.western",
+    "name": "Western accidentals for 12ET"
+   },
+   {
+    "entityID": "accidental system.17et.persian",
+    "name": "Accidentals for Persian music (17ET)"
+   },
+   {
+    "entityID": "accidental system.24et.western.gould",
+    "name": "Western accidentals for 24ET (Gould arrow quartertones)"
+   },
+   {
+    "entityID": "accidental system.24et.western.stein",
+    "name": "Western accidentals for 24ET (Stein-Zimmermann quartertones)"
+   },
+   {
+    "entityID": "accidental system.53et.aeu",
+    "name": "Arel-Ezgi-Uzdilek (AEU) accidentals (53ET)"
+   },
+   {
+    "entityID": "accidental system.53et.turkish-folk",
+    "name": "Turkish folk music accidentals (53ET)"
+   }
+  ]
+ }
+]

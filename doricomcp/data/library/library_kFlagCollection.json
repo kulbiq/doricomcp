@@ -1,0 +1,168 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "flag.flag1024thDown",
+    "name": "flag1024thDown"
+   },
+   {
+    "entityID": "flag.flag1024thDownStraight",
+    "name": "flag1024thDownStraight"
+   },
+   {
+    "entityID": "flag.flag1024thUp",
+    "name": "flag1024thUp"
+   },
+   {
+    "entityID": "flag.flag1024thUpShort",
+    "name": "flag1024thUpShort"
+   },
+   {
+    "entityID": "flag.flag1024thUpStraight",
+    "name": "flag1024thUpStraight"
+   },
+   {
+    "entityID": "flag.flag128thDown",
+    "name": "flag128thDown"
+   },
+   {
+    "entityID": "flag.flag128thDownStraight",
+    "name": "flag128thDownStraight"
+   },
+   {
+    "entityID": "flag.flag128thUp",
+    "name": "flag128thUp"
+   },
+   {
+    "entityID": "flag.flag128thUpShort",
+    "name": "flag128thUpShort"
+   },
+   {
+    "entityID": "flag.flag128thUpStraight",
+    "name": "flag128thUpStraight"
+   },
+   {
+    "entityID": "flag.flag16thDown",
+    "name": "flag16thDown"
+   },
+   {
+    "entityID": "flag.flag16thDownStraight",
+    "name": "flag16thDownStraight"
+   },
+   {
+    "entityID": "flag.flag16thUp",
+    "name": "flag16thUp"
+   },
+   {
+    "entityID": "flag.flag16thUpShort",
+    "name": "flag16thUpShort"
+   },
+   {
+    "entityID": "flag.flag16thUpStraight",
+    "name": "flag16thUpStraight"
+   },
+   {
+    "entityID": "flag.flag256thDown",
+    "name": "flag256thDown"
+   },
+   {
+    "entityID": "flag.flag256thDownStraight",
+    "name": "flag256thDownStraight"
+   },
+   {
+    "entityID": "flag.flag256thUp",
+    "name": "flag256thUp"
+   },
+   {
+    "entityID": "flag.flag256thUpShort",
+    "name": "flag256thUpShort"
+   },
+   {
+    "entityID": "flag.flag256thUpStraight",
+    "name": "flag256thUpStraight"
+   },
+   {
+    "entityID": "flag.flag32ndDown",
+    "name": "flag32ndDown"
+   },
+   {
+    "entityID": "flag.flag32ndDownStraight",
+    "name": "flag32ndDownStraight"
+   },
+   {
+    "entityID": "flag.flag32ndUp",
+    "name": "flag32ndUp"
+   },
+   {
+    "entityID": "flag.flag32ndUpShort",
+    "name": "flag32ndUpShort"
+   },
+   {
+    "entityID": "flag.flag32ndUpStraight",
+    "name": "flag32ndUpStraight"
+   },
+   {
+    "entityID": "flag.flag512thDown",
+    "name": "flag512thDown"
+   },
+   {
+    "entityID": "flag.flag512thDownStraight",
+    "name": "flag512thDownStraight"
+   },
+   {
+    "entityID": "flag.flag512thUp",
+    "name": "flag512thUp"
+   },
+   {
+    "entityID": "flag.flag512thUpShort",
+    "name": "flag512thUpShort"
+   },
+   {
+    "entityID": "flag.flag512thUpStraight",
+    "name": "flag512thUpStraight"
+   },
+   {
+    "entityID": "flag.flag64thDown",
+    "name": "flag64thDown"
+   },
+   {
+    "entityID": "flag.flag64thDownStraight",
+    "name": "flag64thDownStraight"
+   },
+   {
+    "entityID": "flag.flag64thUp",
+    "name": "flag64thUp"
+   },
+   {
+    "entityID": "flag.flag64thUpShort",
+    "name": "flag64thUpShort"
+   },
+   {
+    "entityID": "flag.flag64thUpStraight",
+    "name": "flag64thUpStraight"
+   },
+   {
+    "entityID": "flag.flag8thDown",
+    "name": "flag8thDown"
+   },
+   {
+    "entityID": "flag.flag8thDownStraight",
+    "name": "flag8thDownStraight"
+   },
+   {
+    "entityID": "flag.flag8thUp",
+    "name": "flag8thUp"
+   },
+   {
+    "entityID": "flag.flag8thUpShort",
+    "name": "flag8thUpShort"
+   },
+   {
+    "entityID": "flag.flag8thUpStraight",
+    "name": "flag8thUpStraight"
+   }
+  ]
+ }
+]

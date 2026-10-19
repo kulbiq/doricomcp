@@ -1,0 +1,320 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "tempopreset.accel",
+    "name": "accelerando"
+   },
+   {
+    "entityID": "tempopreset.adagietto",
+    "name": "Adagietto"
+   },
+   {
+    "entityID": "tempopreset.adagio",
+    "name": "Adagio"
+   },
+   {
+    "entityID": "tempopreset.affettuoso",
+    "name": "Affettuoso"
+   },
+   {
+    "entityID": "tempopreset.agitato",
+    "name": "Agitato"
+   },
+   {
+    "entityID": "tempopreset.allabreve",
+    "name": "Alla breve"
+   },
+   {
+    "entityID": "tempopreset.allamarcia",
+    "name": "Alla marcia"
+   },
+   {
+    "entityID": "tempopreset.allarg",
+    "name": "allargando"
+   },
+   {
+    "entityID": "tempopreset.allegretto",
+    "name": "Allegretto"
+   },
+   {
+    "entityID": "tempopreset.allegrissimo",
+    "name": "Allegrissimo"
+   },
+   {
+    "entityID": "tempopreset.allegro",
+    "name": "Allegro"
+   },
+   {
+    "entityID": "tempopreset.allegromoderato",
+    "name": "Allegro moderato"
+   },
+   {
+    "entityID": "tempopreset.allegrovivace",
+    "name": "Allegro vivace"
+   },
+   {
+    "entityID": "tempopreset.andante",
+    "name": "Andante"
+   },
+   {
+    "entityID": "tempopreset.andantemoderato",
+    "name": "Andante moderato"
+   },
+   {
+    "entityID": "tempopreset.andantino",
+    "name": "Andantino"
+   },
+   {
+    "entityID": "tempopreset.animato",
+    "name": "Animato"
+   },
+   {
+    "entityID": "tempopreset.appassionato",
+    "name": "Appassionato"
+   },
+   {
+    "entityID": "tempopreset.atempo",
+    "name": "a tempo"
+   },
+   {
+    "entityID": "tempopreset.brillante",
+    "name": "Brillante"
+   },
+   {
+    "entityID": "tempopreset.calando",
+    "name": "calando"
+   },
+   {
+    "entityID": "tempopreset.conbravura",
+    "name": "Con bravura"
+   },
+   {
+    "entityID": "tempopreset.conbrio",
+    "name": "Con brio"
+   },
+   {
+    "entityID": "tempopreset.condolcezza",
+    "name": "Con dolcezza"
+   },
+   {
+    "entityID": "tempopreset.confuoco",
+    "name": "Con fuoco"
+   },
+   {
+    "entityID": "tempopreset.conmoto",
+    "name": "Con moto"
+   },
+   {
+    "entityID": "tempopreset.deciso",
+    "name": "Deciso"
+   },
+   {
+    "entityID": "tempopreset.energico",
+    "name": "Energico"
+   },
+   {
+    "entityID": "tempopreset.eroico",
+    "name": "Eroico"
+   },
+   {
+    "entityID": "tempopreset.furioso",
+    "name": "Furioso"
+   },
+   {
+    "entityID": "tempopreset.giocoso",
+    "name": "Giocoso"
+   },
+   {
+    "entityID": "tempopreset.gioioso",
+    "name": "Gioioso"
+   },
+   {
+    "entityID": "tempopreset.grandioso",
+    "name": "Grandioso"
+   },
+   {
+    "entityID": "tempopreset.grave",
+    "name": "Grave"
+   },
+   {
+    "entityID": "tempopreset.grazioso",
+    "name": "Grazioso"
+   },
+   {
+    "entityID": "tempopreset.lacrimoso",
+    "name": "Lacrimoso"
+   },
+   {
+    "entityID": "tempopreset.lamentoso",
+    "name": "Lamentoso"
+   },
+   {
+    "entityID": "tempopreset.larghetto",
+    "name": "Larghetto"
+   },
+   {
+    "entityID": "tempopreset.larghissimo",
+    "name": "Larghissimo"
+   },
+   {
+    "entityID": "tempopreset.largo",
+    "name": "Largo"
+   },
+   {
+    "entityID": "tempopreset.lentando",
+    "name": "lentando"
+   },
+   {
+    "entityID": "tempopreset.lento",
+    "name": "Lento"
+   },
+   {
+    "entityID": "tempopreset.listessotempo",
+    "name": "L'istesso tempo"
+   },
+   {
+    "entityID": "tempopreset.maestoso",
+    "name": "Maestoso"
+   },
+   {
+    "entityID": "tempopreset.malinconico",
+    "name": "Malinconico"
+   },
+   {
+    "entityID": "tempopreset.marciamoderato",
+    "name": "Marcia moderato"
+   },
+   {
+    "entityID": "tempopreset.marziale",
+    "name": "Marziale"
+   },
+   {
+    "entityID": "tempopreset.mesto",
+    "name": "Mesto"
+   },
+   {
+    "entityID": "tempopreset.misterioso",
+    "name": "Misterioso"
+   },
+   {
+    "entityID": "tempopreset.moderato",
+    "name": "Moderato"
+   },
+   {
+    "entityID": "tempopreset.morendo",
+    "name": "morendo"
+   },
+   {
+    "entityID": "tempopreset.mosso",
+    "name": "Mosso"
+   },
+   {
+    "entityID": "tempopreset.movimento",
+    "name": "Movimento"
+   },
+   {
+    "entityID": "tempopreset.nobilmente",
+    "name": "Nobilmente"
+   },
+   {
+    "entityID": "tempopreset.patetico",
+    "name": "Patetico"
+   },
+   {
+    "entityID": "tempopreset.precipitando",
+    "name": "precipitando"
+   },
+   {
+    "entityID": "tempopreset.prestissimo",
+    "name": "Prestissimo"
+   },
+   {
+    "entityID": "tempopreset.presto",
+    "name": "Presto"
+   },
+   {
+    "entityID": "tempopreset.rall",
+    "name": "rallentando"
+   },
+   {
+    "entityID": "tempopreset.relative_lento",
+    "name": "Lento"
+   },
+   {
+    "entityID": "tempopreset.ritardando",
+    "name": "ritardando"
+   },
+   {
+    "entityID": "tempopreset.ritenuto",
+    "name": "Ritenuto"
+   },
+   {
+    "entityID": "tempopreset.scherzando",
+    "name": "Scherzando"
+   },
+   {
+    "entityID": "tempopreset.smorz",
+    "name": "smorzando"
+   },
+   {
+    "entityID": "tempopreset.sost",
+    "name": "sostenuto"
+   },
+   {
+    "entityID": "tempopreset.stretto",
+    "name": "Stretto"
+   },
+   {
+    "entityID": "tempopreset.stringendo",
+    "name": "stringendo"
+   },
+   {
+    "entityID": "tempopreset.tempoI",
+    "name": "Tempo I"
+   },
+   {
+    "entityID": "tempopreset.tempoII",
+    "name": "Tempo II"
+   },
+   {
+    "entityID": "tempopreset.tempocomodo",
+    "name": "Tempo comodo"
+   },
+   {
+    "entityID": "tempopreset.tempogiusto",
+    "name": "Tempo giusto"
+   },
+   {
+    "entityID": "tempopreset.tempoprimo",
+    "name": "Tempo primo"
+   },
+   {
+    "entityID": "tempopreset.temposecondo",
+    "name": "Tempo secondo"
+   },
+   {
+    "entityID": "tempopreset.temposemplice",
+    "name": "Tempo semplice"
+   },
+   {
+    "entityID": "tempopreset.tranquillamente",
+    "name": "Tranquillamente"
+   },
+   {
+    "entityID": "tempopreset.trionfante",
+    "name": "Trionfante"
+   },
+   {
+    "entityID": "tempopreset.vivace",
+    "name": "Vivace"
+   },
+   {
+    "entityID": "tempopreset.vivacissimo",
+    "name": "Vivacissimo"
+   }
+  ]
+ }
+]

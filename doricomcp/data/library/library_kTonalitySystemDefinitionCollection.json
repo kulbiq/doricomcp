@@ -1,0 +1,20 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "tonalitysystem.equaltemperament",
+    "name": "Equal temperament (12-EDO)"
+   },
+   {
+    "entityID": "tonalitysystem.equaltemperament24edo",
+    "name": "Equal temperament (24-EDO, Stein-Zimmermann)"
+   },
+   {
+    "entityID": "tonalitysystem.equaltemperament24edo.gould",
+    "name": "Equal temperament (24-EDO, Gould arrows)"
+   }
+  ]
+ }
+]

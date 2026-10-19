@@ -1,0 +1,84 @@
+[
+ {
+  "message": "libraryentitieslist",
+  "openScoreID": 0,
+  "libraryentities": [
+   {
+    "entityID": "lineannotation.arrowheadChevronLarge",
+    "name": "Chevron arrowhead (large)"
+   },
+   {
+    "entityID": "lineannotation.arrowheadChevronSmall",
+    "name": "Chevron arrowhead (small)"
+   },
+   {
+    "entityID": "lineannotation.arrowheadOutlineLarge",
+    "name": "Outline arrowhead (large)"
+   },
+   {
+    "entityID": "lineannotation.arrowheadOutlineSmall",
+    "name": "Outline arrowhead (small)"
+   },
+   {
+    "entityID": "lineannotation.arrowheadSolidLarge",
+    "name": "Solid arrowhead (large)"
+   },
+   {
+    "entityID": "lineannotation.arrowheadSolidSmall",
+    "name": "Solid arrowhead (small)"
+   },
+   {
+    "entityID": "lineannotation.downHookAxisAligned",
+    "name": "Down-pointing axis-aligned hook"
+   },
+   {
+    "entityID": "lineannotation.downHookRotatable",
+    "name": "Down-pointing rotatable hook"
+   },
+   {
+    "entityID": "lineannotation.inwardHookAxisAligned",
+    "name": "Inward-pointing axis-aligned hook"
+   },
+   {
+    "entityID": "lineannotation.inwardHookRotatable",
+    "name": "Inward-pointing rotatable hook"
+   },
+   {
+    "entityID": "lineannotation.leftHookAxisAligned",
+    "name": "Left-pointing axis-aligned hook"
+   },
+   {
+    "entityID": "lineannotation.leftHookRotatable",
+    "name": "Left-pointing rotatable hook"
+   },
+   {
+    "entityID": "lineannotation.restrikeBend",
+    "name": "Restrike Bend"
+   },
+   {
+    "entityID": "lineannotation.rightHookAxisAligned",
+    "name": "Right-pointing axis-aligned hook"
+   },
+   {
+    "entityID": "lineannotation.rightHookRotatable",
+    "name": "Right-pointing rotatable hook"
+   },
+   {
+    "entityID": "lineannotation.terminalLineAxisAligned",
+    "name": "Axis-aligned terminal line"
+   },
+   {
+    "entityID": "lineannotation.terminalLineRotatable",
+    "name": "Rotatable terminal line"
+   },
+   {
+    "entityID": "lineannotation.upHookAxisAligned",
+    "name": "Up-pointing axis-aligned hook"
+   },
+   {
+    "entityID": "lineannotation.upHookRotatable",
+    "name": "Up-pointing rotatable hook"
+   }
+  ]
+ }
+]
