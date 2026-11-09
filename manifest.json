@@ -1,0 +1,35 @@
+{
+  "manifest_version": "0.4",
+  "name": "doricomcp",
+  "display_name": "doricomcp",
+  "version": "0.1.0",
+  "description": "Read and edit a live Dorico 6 score by conversation.",
+  "long_description": "Ask what is in a passage, add notes, dynamics, hairpins, slurs, playing techniques, tempo and more, or check voice leading. Every edit is one ordinary undo step in Dorico, read back and verified. Uses only Dorico's Remote Control and its Lua scripting. Enable Remote Control in Dorico's preferences and approve the doricomcp client once when Dorico asks.",
+  "author": {
+    "name": "mka142",
+    "url": "https://github.com/mka142"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mka142/doricomcp"
+  },
+  "homepage": "https://github.com/mka142/doricomcp",
+  "documentation": "https://github.com/mka142/doricomcp#readme",
+  "support": "https://github.com/mka142/doricomcp/issues",
+  "server": {
+    "type": "uv",
+    "entry_point": "doricomcp/server.py",
+    "mcp_config": {
+      "command": "uv",
+      "args": ["run", "--directory", "${__dirname}", "doricomcp"]
+    }
+  },
+  "compatibility": {
+    "platforms": ["darwin"],
+    "runtimes": {
+      "python": ">=3.12"
+    }
+  },
+  "keywords": ["dorico", "music notation", "score", "composition"],
+  "license": "MIT"
+}

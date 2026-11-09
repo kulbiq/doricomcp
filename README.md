@@ -1,62 +1,72 @@
 # doricomcp
 
-An MCP server that lets Claude read and write a live Dorico 6 score by conversation.
-Ask "what is in bars 1-8?", "add a crescendo from bar 3 beat 2 to bar 4", "double the violin line an octave lower in the violas", or "check the voice leading in bars 20-28 against this chord plan", and the edits appear in Dorico as ordinary undoable steps.
+Talk to your Dorico score.
+doricomcp connects Claude to a live Dorico 6 project, so you can ask about the music and have it edited for you:
 
-It keeps a digital twin of the score (notes, rhythms, voices, bars, signatures, dynamics, tempo, markings) and edits it with small, verified operations.
-It uses only Dorico's own interfaces: the Remote Control WebSocket and the Lua scripting model run through `Script.RunScript`.
-It never reads or patches the Dorico process and never touches `.dorico` files.
+- "What is in bars 12-20 of the violas?"
+- "Add a crescendo from bar 40 beat 2 to the downbeat of 42 in all strings."
+- "Put pizz. on the cellos in bar 33 and arco in bar 37."
+- "Double the violin line an octave lower in the violas."
+- "Check the voice leading in bars 20-28 against this chord plan."
+
+Every edit appears in Dorico as one ordinary undo step, and it is read back and checked; if the check fails, the edit is undone at once.
+doricomcp uses only Dorico's own interfaces (Remote Control and its built-in Lua scripting): it does not modify Dorico or your files.
 
 > Not affiliated with or endorsed by Steinberg.
 > Dorico is a trademark of Steinberg Media Technologies GmbH.
-> Status: alpha, tested on Dorico 6.2.30 (macOS, Apple silicon).
-> Every write is one undo step, but save your work before a session anyway.
+> Status: alpha, tested on Dorico 6.2.30 on macOS.
+> Save your work before a session.
 
-## Requirements
+<!-- mcp-name: io.github.mka142/doricomcp -->
 
-- macOS (screenshots and dialog handling use macOS APIs; the rest is portable, see the roadmap).
-- Dorico 6.2 or later, with Remote Control enabled.
-- [uv](https://docs.astral.sh/uv/) (it installs Python 3.12 for you).
-- Claude Desktop or Claude Code.
-- Optional: Xcode Command Line Tools (`xcode-select --install`) for `screenshot` and the dialog tools, which compile a small Swift helper on first use.
+## Install
 
-## Setup
+You need a Mac with Dorico 6.2 or later and [Claude Desktop](https://claude.ai/download) or Claude Code.
 
-1. In Dorico, open Preferences > General and enable Remote Control (port 4560).
-2. Add the server to Claude Desktop: Settings > Developer > Edit Config, then add to `claude_desktop_config.json`:
+1. **Turn on Remote Control in Dorico.**
+   In Dorico's Preferences, enable Remote Control and keep the port at 4560.
+2. **Add doricomcp to Claude**, one of:
+   - **Claude Desktop:** download `doricomcp.mcpb` from the [latest release](https://github.com/mka142/doricomcp/releases/latest) and double-click it, then click Install.
+     Claude sets up Python by itself.
+   - **Claude Code:** install [uv](https://docs.astral.sh/uv/getting-started/installation/), then run `claude mcp add doricomcp -- uvx doricomcp`.
+   - **Any other MCP client:** install [uv](https://docs.astral.sh/uv/getting-started/installation/) and add this server to the client's configuration:
 
-   ```json
-   {
-     "mcpServers": {
-       "doricomcp": {
-         "command": "/opt/homebrew/bin/uvx",
-         "args": ["--from", "git+https://github.com/mka142/doricomcp", "doricomcp"]
+     ```json
+     {
+       "mcpServers": {
+         "doricomcp": { "command": "uvx", "args": ["doricomcp"] }
        }
      }
-   }
-   ```
+     ```
 
-   Use the full path to `uvx` (`which uvx`): Claude Desktop does not use your shell's PATH.
-   For Claude Code: `claude mcp add doricomcp -- uvx --from git+https://github.com/mka142/doricomcp doricomcp`.
-3. Restart Claude, open a score in Dorico and ask something.
-   The first connection shows an approval prompt in Dorico for the client `doricomcp`; approve it once (the token is kept in `~/.doricomcp/`).
-4. For `screenshot` and the dialog tools, allow Screen Recording and Accessibility for Claude (System Settings > Privacy & Security).
+     If the client cannot find `uvx`, use its full path (`which uvx` in Terminal; usually `/opt/homebrew/bin/uvx` or `~/.local/bin/uvx`).
+3. **Open a score in Dorico and ask Claude something about it.**
+   The first time, Dorico asks whether to allow the client `doricomcp`: click Allow.
+   You will not be asked again.
+4. Optional: to let Claude look at the score (`screenshot`) and answer Dorico's dialogs, allow Screen Recording and Accessibility for Claude in System Settings > Privacy & Security.
+   Both need the Xcode Command Line Tools (`xcode-select --install`).
 
-From a clone instead: `git clone https://github.com/mka142/doricomcp && cd doricomcp && uv sync`, then use `"command": "uv", "args": ["run", "--directory", "/path/to/doricomcp", "doricomcp"]`.
-Claude Code picks up the bundled `.mcp.json` when started in the clone.
+### Troubleshooting
 
-If Claude Desktop shows some tools switched off: it remembers switched-off tools per server name, so register the server under a name you have not used before.
+- **"Dorico is not reachable":** Dorico is not running, or Remote Control is off or on another port.
+- **Dorico never shows the approval prompt:** delete `~/.doricomcp/session_token` and ask again.
+- **Some tools are switched off in Claude Desktop:** Claude Desktop remembers switched-off tools per server name; switch them on in the server's settings.
+- Anything else: [open an issue](https://github.com/mka142/doricomcp/issues) with what you asked and what happened.
 
-## Conventions
+## How to talk about the music
 
-- Positions and durations are exact fractions of a crotchet (quarter note): `pos` from the flow start, or `bar` (1-based) plus `beat` (offset in crotchets inside the bar).
-- Voices are voice-stream ids from `get_score_overview` (piano: 2 = right hand, 4 = left hand), each with its instrument, staff and voice index.
-- Notes text: `"Eb4+G4+C5:h. G4:e Eb5:q. C5:s r:q"`; pitches use C4 = middle C; durations are crotchets (`3/2`) or note values `w h q e s t` with dots.
-- Event ids come from `read_music` and `read_markings`, and are what the editing tools take.
+Claude handles these details for you; they matter when you read the tool results.
 
-## Operations
+- Positions are a bar (1-based) and a beat, counted in crotchets from the start of the bar (`0`, `1`, `3/2`), or a position in crotchets from the start of the flow.
+- Voices are numbered per score (piano: 2 = right hand, 4 = left hand); `get_score_overview` lists them with their instrument, staff and voice.
+- Notes are written like `"Eb4+G4+C5:h. G4:e Eb5:q. C5:s r:q"`: C4 is middle C, durations are note values `w h q e s t` with dots, or crotchets (`3/2`).
+- Dynamics, tempo, time signatures, clefs, ornaments and holds take the same text as Dorico's popovers (`p<f`, `pp<ff>pp`, `rit.`, `[2+2+3]/8`).
+  The [popover guide](https://github.com/mka142/doricomcp/blob/main/docs/popovers.md) lists every entry and what Dorico 6.2 actually creates for the undocumented ones.
+- Playing techniques are given by name (`pizz.`, `con sord.`), including ones you added to the score yourself.
 
-"Confirmed live" means the harness ran the tool on a real Dorico and read the result back; the table is generated by `scripts/readme_table.py` from the tools and `doricomcp/data/confirmed.json`.
+## What it can do
+
+"Confirmed live" means the test harness ran the tool on a real Dorico and read the result back.
 
 <!-- tools:start -->
 **Session & introspection**
@@ -171,8 +181,8 @@ Each one is a good first contribution.
   Next: extend the sealed-value equality probe that reads p/f levels to Dorico-built fp and sffz candidates.
 - **Note details in voices with techniques, trills, ornaments, arpeggios or glissandi** (`read_music`).
   Lua cannot list events in such a voice, so pitches and rhythms come from the stream dump, but articulations and ties do not.
-  The selection read does not show articulations either.
-  Next: select one note and read the articulation flags in Remote Control's `status` message (`articulationStaccato`, ...), which follow the selection.
+  Measured route: in one script, delete the voice's technique, trill or ornament events, read the notes with all their properties, then undo at once; the voice dump came back identical.
+  For a single note, Remote Control's `status` message carries the selected note's articulation flags (`articulationStaccato`, ...).
 - **div. and unis.** (`add_text`).
   They are written as staff text; Dorico's real divisi is `Edit.AddDivisi` / `Edit.RestoreUnison`, which open the Change Divisi dialog.
   Next: drive that dialog with the existing dialog tools, as `delete_flow` does with its confirmation.
@@ -202,66 +212,11 @@ Each one is a good first contribution.
 - Commands that act on "the selection" always get a real selection first (an event at the position, or a temporary rest deleted in the same step), because a selection-less popover command can open a modal dialog that blocks Dorico.
 - Reading a tempo selects it, and Dorico records every selection as an undo step; the server counts the selection steps its reads leave on top and `undo` skips them.
 
-## Measured Dorico behaviour
+## Contributing
 
-The server depends on these; each was measured on Dorico 6.2.30 and should be re-measured after a Dorico update.
-
-- Time signatures and dynamic levels are sealed values; they are read with Dorico's own `Variant.__eq` against candidates built by Dorico, then the candidates are removed with one `Edit.Undo` and the element counts are checked.
-- Key signatures are read by entering the letters A-G into an empty span and reading Dorico's spelling back (then deleting them); the tonic and mode are not recoverable, only the signature.
-- Tempo events cannot be wrapped by Lua at all, but selecting one and sending Remote Control `getproperties` returns its text, microseconds per beat and percentages (not the beat unit).
-- The stream dump names a playing technique's library entry (`pta.pizzText`), so techniques are readable by name.
-- A dynamic sub-element's `kDynamicForceType` (0 fz, 1 rf(z), 2 sf(z), 3 mfz) and `kDynamicRinforzandoAndSforzandoHaveZ` are plain properties.
-- Dorico has no div./unis. playing technique (divisi is a staff change through a dialog), so those stay staff text; arco, pizz. and the other techniques are `add_note_marking playing_technique` (which makes the voice dump-only, see below).
-- A voice that contains a trill, ornament, arpeggio, playing technique, glissando or tempo event cannot be enumerated from Lua; its notes and rhythms still come from the stream dump, but per-note properties (articulations, ties) are not readable there.
-- Any script, even a read, clears Dorico's redo stack, so `redo` only works directly after `undo`.
-- Barlines are bar divisions that carry the current time signature; the bar map lists them separately from real signature changes.
-- Lua `pitchWithSpelling` assignment and `copyRange`/`moveRange` are silent no-ops.
-  `set_pitch` moves the note one semitone at a time with `NoteEdit.PitchUpChromatic`/`PitchDownChromatic` and then respells it, reading the spelling back after each command, so the note keeps its id.
-  `NoteEdit.PitchDownChromatic?count=2` moved C5 up to D5, so the `count` parameter is not used.
-  `copy_range` re-creates notes and rests (markings are not copied, and a range with tuplets is refused).
-- Note input is slow (each typed pitch is auditioned, up to 0.3 s) and its chord mode is a hidden toggle, so `add_voice` types only the first item and writes the rest like `add_notes` (two undo steps), and stacked or split chords are detected and retried once with the toggle flipped.
-- A hairpin that starts where a dynamic already is joins it in one dynamic group (e.g. `p<`): no new event, a new sub-element in the group's element.
-  So does a dynamic placed where a hairpin ends, and a dynamic placed where one already is replaces it.
-  Sub-element ids are indexes in the group (a dynamic put before a hairpin renumbers it), so new parts are found by position and kind, not by id.
-  Each sub-element's `kDynamicPosition` is its offset from the group's start, which is how `read_markings` gives every part its own bar and beat.
-  Dorico draws a hairpin's length (`kDynamicGradualChangeDuration`) from the gradual sub-element of its group, also for a hairpin on its own; the event's property of the same name is not drawn, so lengths are set on the sub-element through Lua and read back from the element table.
-- `EventEdit.Select` always selects exactly one event: `AddToSelection=1` and `BlockSelection=1` are accepted but ignored.
-  Extending the selection (`NavigateRightExtend`) steps through the onsets of every voice on the staff and selects all of them, and `SlurStart` then gives each voice its own slur.
-  So `add_span` counts the staff's onsets and deletes the slurs the other voices got, in the same script; slurs cannot be entered from note input.
-- In note input the caret starts at the selected note; `NoteInput.MoveRight` moves it by the rhythmic grid (`SetGridResolution`), `MoveAdvance` jumps to the next item.
-  `add_dynamic` and `add_hairpin` use that where every voice holds a note through the position (positions must lie on a demisemiquaver grid).
-- Deleting a note deletes the slur on it, and `deleteEventsInRange` takes text and other markings too; `add_notes(replace=True)` deletes notes and rests one by one, keeps the rest, and puts the span's slurs back on the new notes.
-- Typing a rest first after `NoteInput.CreateVoice` creates no voice, so `add_voice` types its first note and writes leading rests afterwards.
-- Selecting a marking and running `Edit.Delete` deletes nothing; `delete_events` uses `EventEdit.Delete` with the event's own block, and `run_command Edit.Delete` with `select_event_id` is routed to it.
-- `NoteInput.SetArticulation` toggles the articulation on the whole chord, so `add_articulation` applies it once per chord and skips chords that already have it.
-- Remote Control refuses `Project.Flow.Rename` and `Project.Flows.Delete` (`kCommandNotAllowed`, even in Setup mode: they need a flow selected in the Flows panel), but the same commands sent from a script's `doCommand` work; `delete_flow` answers Dorico's "all music ... will also be deleted" confirmation with OK through Accessibility, and both read the flows back.
-- A flow without a time signature is in open meter: it is bar 1 up to its first time signature (or barline), so reads work and `set_time_signature` can address bar 1.
-
-## Architecture
-
-```
-server.py          MCP tools (the only module the client sees)
-  reads.py         composer views: music per voice (full, compact, grid), markings, context at a point
-  ops/             write operations: common -> dynamics -> markings, common -> notes
-  analysis.py      voice-leading check (pure Python on read_music data)
-    session.py     one live session: twin assembly, caches, verified transactions, undo accounting
-      probe.py     sealed-value readers (time signatures, dynamic levels, keys), cached
-      bridge.py    Lua transaction bridge; lua/lib.lua is the Lua side (read fresh on every call)
-      windows.py   screenshots and dialog detection (macOS)
-        rc.py      Remote Control WebSocket client
-        logtail.py change detection from Dorico's application.log
-        catalog.py command, enum, property and library data (doricomcp/data/), command validation
-        model.py   typed events, dump parsing, bar map, key and staff logic
-fixture.py, confirm.py   throwaway-fixture lifecycle and the live harness (never on a real score)
-```
-
-Each module's docstring says what it depends on, and `tests/offline.py` fails if an import goes against this order.
-`doricomcp/data/` holds Dorico's command list and property schemas (from Remote Control), enum and property names, and the confirmation matrix.
-
-## Development
-
-See [CONTRIBUTING.md](CONTRIBUTING.md).
-In short: `uvx ruff check`, `uv run python tests/offline.py` (no Dorico needed), and `uv run python -m doricomcp.confirm` for the live harness, which runs every capability on `fixtures/throwaway.dorico` and must never run on a real score (it closes the open project without saving).
+Bug reports, measurements on other Dorico versions and pull requests are welcome.
+[CONTRIBUTING.md](https://github.com/mka142/doricomcp/blob/main/CONTRIBUTING.md) explains the layout, the checks and how to run the live test harness.
+What Dorico does and does not allow through its interfaces is recorded in [docs/dorico-behaviour.md](https://github.com/mka142/doricomcp/blob/main/docs/dorico-behaviour.md).
 
 ## Roadmap
 
@@ -271,4 +226,4 @@ In short: `uvx ruff check`, `uv run python tests/offline.py` (no Dorico needed),
 
 ## License
 
-MIT, see [LICENSE](LICENSE).
+MIT, see [LICENSE](https://github.com/mka142/doricomcp/blob/main/LICENSE).

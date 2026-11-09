@@ -1,16 +1,18 @@
 """Everything that can be checked without Dorico: each module's self-check, the import layering, and that the
 README tool table is current. Run: uv run python tests/offline.py"""
 import ast
+import json
 import pathlib
 import subprocess
 import sys
+import tomllib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 PKG = ROOT / "doricomcp"
 # a module may import only modules listed before it (CONTRIBUTING.md, "Layout and dependencies")
 ORDER = ["model", "catalog", "logtail", "rc", "analysis", "windows", "bridge", "probe", "session", "reads",
          "ops.common", "ops.dynamics", "ops.markings", "ops.notes", "ops", "server", "fixture", "confirm"]
-SELF_CHECKS = [["-m", "doricomcp.model"], ["-m", "doricomcp.analysis"], ["-m", "doricomcp.ops"],
+SELF_CHECKS = [["-m", "doricomcp.model"], ["-m", "doricomcp.rc"], ["-m", "doricomcp.analysis"], ["-m", "doricomcp.ops"],
                ["-m", "doricomcp.server", "selfcheck"], ["scripts/readme_table.py", "--check"]]
 
 
@@ -52,10 +54,22 @@ def check_layers() -> list[str]:
     return errors
 
 
+def check_versions() -> list[str]:
+    """The PyPI package, the Claude Desktop bundle and the MCP registry entry must publish the same version."""
+    want = tomllib.loads((ROOT / "pyproject.toml").read_text())["project"]["version"]
+    server = json.loads((ROOT / "server.json").read_text())
+    found = {"manifest.json": json.loads((ROOT / "manifest.json").read_text())["version"], "server.json": server["version"],
+             "server.json packages": server["packages"][0]["version"]}
+    errors = [f"{k} has version {v}, pyproject.toml has {want}" for k, v in found.items() if v != want]
+    if f"mcp-name: {server['name']}" not in (ROOT / "README.md").read_text():
+        errors.append(f"README.md lacks 'mcp-name: {server['name']}' (the MCP registry checks it on PyPI)")
+    return errors
+
+
 def main():
-    failed = check_layers()
+    failed = check_layers() + check_versions()
     for e in failed:
-        print("layer:", e)
+        print("check:", e)
     for args in SELF_CHECKS:
         r = subprocess.run([sys.executable, *args], cwd=ROOT, capture_output=True, text=True, check=False)
         print(("ok  " if r.returncode == 0 else "FAIL"), " ".join(args), (r.stdout + r.stderr).strip().splitlines()[-1:])
