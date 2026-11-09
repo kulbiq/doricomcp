@@ -177,7 +177,7 @@ async def add_note_marking(s: Session, flow: int, event_ids: list[int], kind: st
         cmds = [f"NoteInput.CreatePause?Definition={value}"]
     elif kind == "playing_technique":
         try:
-            value = technique(value)["entityID"]
+            value = technique(value, await s.library("kPlayingTechniqueAppearanceCollection"))["entityID"]
         except ValueError as e:
             raise OpError(str(e)) from None
         cmds = [f"NoteInput.CreatePlayingTechnique?PlayingTechniqueAppearanceEntityID={value}"]

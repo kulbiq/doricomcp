@@ -5,7 +5,6 @@ Depends on: catalog, model, session.
 import re
 from fractions import Fraction
 
-from .catalog import library_dump
 from .model import Event, bar_at, frac, fstr
 from .session import Session
 
@@ -198,9 +197,13 @@ async def read_markings(s: Session, flow: int, lo: Fraction, hi: Fraction) -> di
             ts, _ = await s.prober.sealed(flow, [e.element], [])
             row["timesig"] = ts[e.element]
         if e.type == "kPlayingTechniqueEvent" and (tech := TECHNIQUE.search(e.desc)):
-            row["technique"] = {"id": tech.group(1), "name": next((x["name"] for x in library_dump(
-                "kPlayingTechniqueAppearanceCollection") if x["entityID"] == tech.group(1)), None)}
+            row["technique"] = {"id": tech.group(1)}
         rows.append(row)
+    techs = {x["entityID"]: x["name"] for x in await s.library("kPlayingTechniqueAppearanceCollection")} \
+        if any(e.type == "kPlayingTechniqueEvent" for e in evs) else {}
+    for row in rows:
+        if "technique" in row:
+            row["technique"]["name"] = techs.get(row["technique"]["id"])
     tempos = [e for e in evs if e.type in TEMPO_TYPES]
     if tempos:
         panel = await s.selected_props(flow, tempos)

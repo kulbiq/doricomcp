@@ -4,433 +4,433 @@
   "mechanism": "NoteInput.SetArticulation",
   "status": "confirmed",
   "evidence": "staccato, accent, tenuto read back; staccato on all notes of two chords, idempotent",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_barline",
   "mechanism": "NoteInput.CreateBarLine at a bar start",
   "status": "confirmed",
   "evidence": "||, |:, :| at bar starts",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_break",
   "mechanism": "Edit.CreateSystemBreak",
   "status": "confirmed",
   "evidence": "system break before bar 48",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_chord_interval",
   "mechanism": "NoteInput.TransposeOrAddNotesToSelection",
   "status": "confirmed",
   "evidence": "third added above",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_clef",
   "mechanism": "Lua createClef on the staff stream",
   "status": "confirmed",
   "evidence": "alto clef on LH staff read back",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_dynamic",
   "mechanism": "NoteInput.CreateDynamic on a selected or temporary anchor",
   "status": "confirmed",
   "evidence": "mf and sfz on notes, pp in an empty bar; levels read back; anchor rest removed",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_flow",
   "mechanism": "Project.Flow.New",
   "status": "confirmed",
   "evidence": "second flow added",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_grace_note",
   "mechanism": "Lua createGraceNote",
   "status": "confirmed",
   "evidence": "grace note before bar 31",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_hairpin",
   "mechanism": "anchor or note-input caret (SetGridResolution + MoveAdvance) + HairpinStart/Stop + sub-element length",
   "status": "confirmed",
   "evidence": "cresc from beat 1/2 to 2 inside a held note (caret), f at its end, p inside the note; part positions and context read back; two dynamics in one call",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_instrument",
   "mechanism": "Project.Instrument.New",
   "status": "confirmed",
   "evidence": "celesta doubling for player 0",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_note_marking",
   "mechanism": "NoteInput.CreateOrnament/CreatePause/CreatePlayingTechnique",
   "status": "confirmed",
   "evidence": "mordent, fermata, pizz. (by name, read back as Pizzicato)",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_notes",
   "mechanism": "Lua createNote/createRest",
   "status": "confirmed",
   "evidence": "chord, quaver run, minim, rest, dotted minim at bar 31",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_player",
   "mechanism": "Project.SoloPlayer.New + Project.Instrument.New",
   "status": "confirmed",
   "evidence": "violin player 1",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_rehearsal_mark",
   "mechanism": "NoteInput.CreateRehearsalMark",
   "status": "confirmed",
   "evidence": "rehearsal mark at bar 47",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_repeat_marker",
   "mechanism": "NoteInput.AddRepeatsToSelection",
   "status": "confirmed",
   "evidence": "D.C. al Fine, segno",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_span",
   "mechanism": "select start + EventEdit.Select AddToSelection end + SlurStart/HairpinStart/OttavaLineStart",
   "status": "confirmed",
   "evidence": "slur, cresc, dim, 8va; cresc across rests to the end note; dim merged into p and resized; deleted by id; slurs in a two-voice staff stay in their voice (one and two pairs per call)",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_text",
   "mechanism": "Lua createText",
   "status": "confirmed",
   "evidence": "dolce written and read back",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_tuplet",
   "mechanism": "note input: StartTupletRun (one run = consecutive groups) + explicit accidentals/octaves",
   "status": "confirmed",
   "evidence": "3:2 quavers, 5:4 semiquavers, two 6:4 sextuplets in one call; mp at a rest-led triplet",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "add_voice",
   "mechanism": "note input: CreateVoice + first item, rest via Lua createNote; staff recorded in ~/.doricomcp/voices.json",
   "status": "confirmed",
   "evidence": "voice 7 created on the RH staff, recorded, and written to with add_notes",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "check_voice_leading",
   "mechanism": "read_music + pure-Python analysis; read_music grid",
   "status": "confirmed",
   "evidence": "parallel fifths D5/G3 -> E5/A3 found; grid read",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "copy_range",
   "mechanism": "Lua createNote/createRest (copyRange is a no-op)",
   "status": "confirmed",
   "evidence": "copy RH bar 31 -> bar 50; move to LH",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "delete_events",
   "mechanism": "EventEdit.Delete with each event's block",
   "status": "confirmed",
   "evidence": "text created and deleted by id",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "delete_flow",
   "mechanism": "Project.Flows.Delete in Setup mode",
   "status": "confirmed",
   "evidence": "flow 1 deleted",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "delete_range",
   "mechanism": "Event:delete per note/rest",
   "status": "confirmed",
   "evidence": "LH bar 50 emptied",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "describe_commands",
   "mechanism": "static catalogue / Remote Control read",
   "status": "read-only",
   "evidence": "no score access or read-only RC message",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "describe_enums",
   "mechanism": "static catalogue / Remote Control read",
   "status": "read-only",
   "evidence": "no score access or read-only RC message",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "describe_property",
   "mechanism": "static catalogue / Remote Control read",
   "status": "read-only",
   "evidence": "no score access or read-only RC message",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "dialogs",
   "mechanism": "macOS Accessibility on a Dorico confirmation dialog: list, press Cancel",
   "status": "confirmed",
   "evidence": "confirmation dialog listed ('', buttons ['OK', 'Cancel', None, None, None]) and answered 'Cancel'",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "dorico_status",
   "mechanism": "static catalogue / Remote Control read",
   "status": "read-only",
   "evidence": "no score access or read-only RC message",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "edit_notes",
   "mechanism": "EventEdit.Select + NoteEdit.* commands",
   "status": "confirmed",
   "evidence": "pitch_up, chromatic_down, octave_up/down, respell_above on one note",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "get_options",
   "mechanism": "static catalogue / Remote Control read",
   "status": "read-only",
   "evidence": "no score access or read-only RC message",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "get_selection",
   "mechanism": "static catalogue / Remote Control read",
   "status": "read-only",
   "evidence": "no score access or read-only RC message",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "go_to",
   "mechanism": "Edit.GoTo",
   "status": "confirmed",
   "evidence": "view at bar 31",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "golden_compose",
   "mechanism": "delete_range + add_notes (Lua createNote)",
   "status": "confirmed",
   "evidence": "bars 1-8 deleted and recomposed through add_notes; read-back equals the Mutopia data",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "layouts",
   "mechanism": "Project.Layout.New + Layout.Rename/Layouts.Include|ExcludeFlows in Setup mode",
   "status": "confirmed",
   "evidence": "custom layout 3 named, flow 1 excluded and included (no read-back available)",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "list_capabilities",
   "mechanism": "static catalogue / Remote Control read",
   "status": "read-only",
   "evidence": "no score access or read-only RC message",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "list_library",
   "mechanism": "static catalogue / Remote Control read",
   "status": "read-only",
   "evidence": "no score access or read-only RC message",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "open_meter",
   "mechanism": "bar map with an implicit open-meter region before the first time signature",
   "status": "confirmed",
   "evidence": "flow 1 read before any signature (none (open meter)); 2/4 set at bar 1 and read back",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "playback",
   "mechanism": "Play.MovePlayheadToFlowPosition + Play.StartOrStop + Play.Stop",
   "status": "confirmed",
   "evidence": "played 1.5 s from bar 1 and stopped",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "read_bar_map",
   "mechanism": "bar-division events + Variant equality probe (+ Edit.Undo) + key letter probe",
   "status": "confirmed",
   "evidence": "[(1, '3/4'), (89, '4/4'), (126, '10/8')], key 3b, no orphans left",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "read_context",
   "mechanism": "events up to a point",
   "status": "confirmed",
   "evidence": "bar 5 LH: 3/4, bass clef, f, 5 sounding notes",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "read_markings",
   "mechanism": "stream dumps + element tables + equality probe",
   "status": "confirmed",
   "evidence": "dynamics [('0', 'f'), ('8', 'p'), ('12', 'f'), ('20', 'p')], 6 slurs, clefs ['clef.treble', 'clef.bass', 'clef.treble']",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "read_music",
   "mechanism": "Lua .events + stream dump",
   "status": "confirmed",
   "evidence": "RH 26 + LH 8 onsets equal the Mutopia source; 4 staccatos",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "read_overview",
   "mechanism": "Lua Score/Flow/streams + RC flows/layouts",
   "status": "confirmed",
   "evidence": "players [{'instruments': [0], 'name': 'Piano'}], voices {'2': {'instrument': 0, 'staff_stream': 1, 'confidence': 'creation order', 'staff_index': 1, 'voice_index': 1}, '4': {'instrument': 0, 'staff_stream': 3, 'confidence': 'creation order', 'staff_index': 2, 'voice_index': 1}}",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "refresh",
   "mechanism": "static catalogue / Remote Control read",
   "status": "read-only",
   "evidence": "no score access or read-only RC message",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "rename_flow",
   "mechanism": "Project.Flow.Rename in Setup mode + getflows read-back",
   "status": "confirmed",
   "evidence": "flow 1 renamed and read back",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "rename_player",
   "mechanism": "Project.Player.Rename in Setup mode",
   "status": "confirmed",
   "evidence": "player 0 renamed",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "replace_keeps_markings",
   "mechanism": "Event:delete per note/rest instead of deleteEventsInRange",
   "status": "confirmed",
   "evidence": "replace=True keeps the span's text and puts its slur back on the new notes; delete_range keeps the text",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "run_command",
   "mechanism": "catalogue-validated command on a selected event",
   "status": "confirmed",
   "evidence": "validated command on a selected note",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "score_changes",
   "mechanism": "event snapshots + the server's write log",
   "status": "confirmed",
   "evidence": "a note added through add_notes is reported as a server change",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "screenshot",
   "mechanism": "CoreGraphics window capture",
   "status": "confirmed",
   "evidence": "PNG of the score window at bar 31, 200% (zoom restored to 109)",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "select_events",
   "mechanism": "EventEdit.Select",
   "status": "confirmed",
   "evidence": "selected; status reports a selection",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "set_duration",
   "mechanism": "Lua Event.duration",
   "status": "confirmed",
   "evidence": "last note -> minim",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "set_key_signature",
   "mechanism": "NoteInput.CreateKeySignature + key probe read-back",
   "status": "confirmed",
   "evidence": "2# at bar 38, read back by the key probe",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "set_option",
   "mechanism": "Project.Layout.SetOptions Dictionary + getoptions read-back",
   "status": "confirmed",
   "evidence": "layout 1 option -> false",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "set_pitch",
   "mechanism": "Lua delete + createNote",
   "status": "confirmed",
   "evidence": "note 213 -> D#5, Fbb5, B#4, D#5 in place (same id)",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "set_property",
   "mechanism": "EventEdit.ChangeProperty",
   "status": "confirmed",
   "evidence": "velocity set to 100 and reset",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "set_score_order",
   "mechanism": "Project.SetInstrumentScoreOrder",
   "status": "confirmed",
   "evidence": "orchestral order",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "set_tempo",
   "mechanism": "NoteInput.CreateTempo on an anchor",
   "status": "confirmed",
   "evidence": "Andante q=96 and rit. read back (text, bpm); undo after the reads removed rit.",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "set_time_signature",
   "mechanism": "NoteInput.CreateTimeSignature + equality read-back",
   "status": "confirmed",
   "evidence": "5/4 at bar 36, read back by the equality probe",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "swap_voices",
   "mechanism": "Event:delete + createNote/createRest in both voices; Edit.RemoveRests",
   "status": "confirmed",
   "evidence": "two voices swapped in bar 68 (compact read-back); the rest removed with remove_rests",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  },
  {
   "capability": "undo",
   "mechanism": "Edit.Undo/Redo after a state refresh",
   "status": "confirmed",
   "evidence": "add, undo, redo (verified), undo (verified)",
-  "date": "2026-10-19"
+  "date": "2026-11-10"
  }
 ]

@@ -63,10 +63,11 @@ def _norm(s: str) -> str:
     return re.sub(r"[^a-z0-9]", "", s.lower())
 
 
-def technique(value: str) -> dict:
+def technique(value: str, lib: list[dict] | None = None) -> dict:
     """A playing technique by library id ("pta.pizzText"), name or abbreviation ("pizz.", "arco", "con sord.",
-    "sul pont.", "ord."): {entityID, name}. Raises ValueError listing candidates when unknown or ambiguous."""
-    lib = library_dump("kPlayingTechniqueAppearanceCollection")
+    "sul pont.", "ord."): {entityID, name}. lib: the score's live library (with the user's own techniques); default
+    the catalogued one. Raises ValueError listing candidates when unknown or ambiguous."""
+    lib = lib or library_dump("kPlayingTechniqueAppearanceCollection")
     if any(e["entityID"] == value for e in lib):
         return next(e for e in lib if e["entityID"] == value)
     want = _norm(value)

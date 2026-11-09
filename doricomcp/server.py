@@ -11,6 +11,7 @@ import functools
 import json
 import subprocess
 from fractions import Fraction
+from importlib.metadata import version
 
 from mcp.server.mcpserver import MCPServer
 from mcp.server.mcpserver.exceptions import ToolError
@@ -31,7 +32,8 @@ Tempo values are read by selecting the tempo marking; undo skips those selection
 Undo works any time; redo only directly after undo (any read clears Dorico's redo stack).
 """
 
-mcp = MCPServer("dorico", instructions=INSTRUCTIONS)
+mcp = MCPServer("doricomcp", title="doricomcp", version=version("doricomcp"), website_url="https://github.com/mka142/doricomcp",
+                instructions=INSTRUCTIONS)
 _session: Session | None = None
 
 
@@ -163,11 +165,7 @@ async def describe_property(name: str) -> dict | None:
 async def list_library(collection: str, filter: str = "") -> list[dict]:
     """Library entities (ids + names), live from Dorico: kInstrumentCollection, kClefCollection,
     kPlayingTechniqueAppearanceCollection, kOrnamentCollection, kTempoPresetCollection, kParagraphStyleCollection..."""
-    try:
-        r = await S().rc.request({"message": "getlibraryentities", "collection": collection})
-        items = r.get("libraryentities", [])
-    except (RCError, OSError, TimeoutError):  # Dorico not reachable: the catalogued dump
-        items = catalog.library_dump(collection)
+    items = await S().library(collection)
     f = filter.lower()
     return [i for i in items if not f or f in i["entityID"].lower() or f in i.get("name", "").lower()][:200]
 
@@ -881,7 +879,8 @@ async def select_events(event_ids: list[int], flow: int = 0) -> dict:
     evs = await ops._events_by_id(S(), flow, event_ids[:1])
     e = evs[event_ids[0]]
     await S().bridge.run("tx", flow=flow, steps=[["select", e.stream, e.id]])
-    return {"selected": event_ids[0], "status": {k: (await S().rc.status()).get(k) for k in ("hasSelection", "selectedEventType")}}
+    st = await S().rc.status()
+    return {"selected": event_ids[0], "status": {k: st.get(k) for k in ("hasSelection", "selectedEventType")}}
 
 
 @mcp.tool()

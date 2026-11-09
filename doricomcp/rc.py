@@ -54,7 +54,11 @@ class RemoteControl:
             await self._handshake()
 
     async def _handshake(self):
-        ws = await websockets.connect(URL, max_size=None)
+        try:
+            ws = await websockets.connect(URL, max_size=None)
+        except OSError as e:
+            raise RCError(f"Dorico is not reachable at {URL}: start Dorico and turn on Remote Control in its "
+                          f"Preferences ({e.strerror or e})") from e
         hello = {"message": "connect", "clientName": CLIENT, "handshakeVersion": "1.0",
                  "clientoptions": {"sendPropertiesListOnSelectionChange": True}}
         if TOKEN_FILE.exists():
@@ -79,9 +83,13 @@ class RemoteControl:
             async for raw in self.ws:
                 msg = json.loads(raw)
                 name = msg.get("message")
+                # Dorico pushes only the changed status fields (no hasSelection, ...); getstatus answers with all of them
+                partial = name == "status" and "hasScore" not in msg
+                if name == "status":
+                    msg = {**self.latest.get("status", {}), **msg}
                 self.latest[name] = msg
                 for i, (want, fut) in enumerate(self._waiters):
-                    if want == name and not fut.done():
+                    if want == name and not partial and not fut.done():
                         fut.set_result(msg)
                         del self._waiters[i]
                         break
@@ -138,3 +146,40 @@ class RemoteControl:
             await self.ws.close()
         if self._reader:
             await asyncio.gather(self._reader, return_exceptions=True)
+
+
+def _self_check():
+    """A pushed partial status must not answer getstatus, and must be merged into the full one."""
+    class FakeWS:
+        def __init__(self, msgs):
+            self.msgs = [json.dumps(m) for m in msgs]
+
+        def __aiter__(self):
+            return self
+
+        async def __anext__(self):
+            if not self.msgs:
+                raise StopAsyncIteration
+            await asyncio.sleep(0)
+            return self.msgs.pop(0)
+
+    async def run():
+        rc = RemoteControl()
+        rc.latest["status"] = {"message": "status", "hasScore": True, "hasSelection": False, "selectedEventType": ""}
+        fut = asyncio.get_running_loop().create_future()
+        rc._waiters.append(("status", fut))
+        rc.ws = FakeWS([{"message": "status", "selectedEventType": "kNoteEvent"},
+                        {"message": "status", "hasScore": True, "hasSelection": True, "selectedEventType": "kNoteEvent"}])
+        await rc._read()
+        assert fut.result()["hasSelection"] is True, fut.result()
+        rc.latest["status"] = {"message": "status", "hasScore": True, "hasSelection": True, "zoomPercent": 100}
+        rc.ws = FakeWS([{"message": "status", "zoomPercent": 200}])
+        await rc._read()
+        assert rc.latest["status"] == {"message": "status", "hasScore": True, "hasSelection": True, "zoomPercent": 200}
+
+    asyncio.run(run())
+    print("rc self-check ok")
+
+
+if __name__ == "__main__":
+    _self_check()

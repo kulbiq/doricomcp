@@ -4,7 +4,7 @@ Reads assemble the digital twin; writes go through `transact`, which runs one Lu
 step), reads the affected range back, checks it with a caller-supplied verifier and, if that fails,
 undoes the transaction immediately (nothing in between) and confirms the range is restored.
 
-Depends on: bridge, logtail, model, probe, rc.
+Depends on: bridge, catalog, logtail, model, probe, rc.
 """
 import asyncio
 import contextlib
@@ -12,6 +12,7 @@ import json as _json
 from fractions import Fraction
 
 from .bridge import Bridge, LuaError, StillRunning
+from .catalog import library_dump
 from .logtail import LogTail
 from .model import (
     KEY_NAMES,
@@ -70,6 +71,7 @@ class Session:
         self._overview = None
         self.lock = TaskLock()
         self.written: set[tuple[int, int]] = set()  # (flow, event id) this server added/removed/changed
+        self._library: dict[str, list[dict]] = {}  # collection -> live entities, until the score changes by hand
         self._panel: dict[tuple[int, int], dict] = {}  # (flow, event id) -> selected_props() cache
         self.selections_on_top = 0  # undo steps our reads' selections added since the last write/undo
 
@@ -79,6 +81,7 @@ class Session:
             self.prober.invalidate()
             self._overview = None
             self._panel.clear()
+            self._library.clear()
             self.selections_on_top = 0
 
     def mark_written(self, panel: bool = True):
@@ -89,6 +92,16 @@ class Session:
             self._panel.clear()
         self.selections_on_top = 0
         self.log.skip()
+
+    async def library(self, collection: str) -> list[dict]:
+        """The open score's library entities (including ones the user added), live; the catalogued dump offline."""
+        if collection not in self._library:
+            try:
+                r = await self.rc.request({"message": "getlibraryentities", "collection": collection})
+                self._library[collection] = r.get("libraryentities") or library_dump(collection)
+            except (RCError, OSError, TimeoutError):
+                return library_dump(collection)
+        return self._library[collection]
 
     async def undo(self, count: int = 1) -> int:
         """Undo `count` edits, first skipping the selection steps our own reads left on top. Returns Dorico steps."""
