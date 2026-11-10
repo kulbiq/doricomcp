@@ -1,6 +1,6 @@
 [project]
 name = "doricomcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP server that lets Claude read and write a live Dorico 6 score"
 readme = "README.md"
 license = "MIT"

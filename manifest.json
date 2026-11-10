@@ -2,7 +2,7 @@
   "manifest_version": "0.4",
   "name": "doricomcp",
   "display_name": "doricomcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read and edit a live Dorico 6 score by conversation.",
   "long_description": "Ask what is in a passage, add notes, dynamics, hairpins, slurs, playing techniques, tempo and more, or check voice leading. Every edit is one ordinary undo step in Dorico, read back and verified. Uses only Dorico's Remote Control and its Lua scripting. Enable Remote Control in Dorico's preferences and approve the doricomcp client once when Dorico asks.",
   "author": {

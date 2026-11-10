@@ -7,10 +7,9 @@ import re
 from fractions import Fraction
 
 from ..catalog import validate
-from ..model import Event, bar_at, frac, fstr
+from ..model import PITCH, Event, bar_at, frac, fstr
 from ..session import Session, diff
 
-PITCH_RX = re.compile(r"^[A-G](bb|b|##|#|x)?-?\d$")
 VALUE_LETTERS = {"w": Fraction(4), "h": Fraction(2), "q": Fraction(1), "e": Fraction(1, 2), "s": Fraction(1, 4),
                  "t": Fraction(1, 8), "x": Fraction(1, 16), "b": Fraction(8)}
 TIMEBASE_MARKS = {"kBarDivisionEvent", "kTonalityDivisionEvent", "kImmediateTempoChangeEvent", "kPauseEvent",
@@ -38,8 +37,10 @@ def parse_duration(tok: str) -> Fraction:
 
 
 def check_pitch(p: str) -> str:
-    if not PITCH_RX.match(p):
-        raise OpError(f"bad pitch {p!r}: use letter + optional #/b/##/bb + octave, e.g. C4, F#5, Bb3 (middle C = C4)")
+    if not PITCH.match(p):
+        raise OpError(f"bad pitch {p!r}: use letter + optional #/b/##/bb + octave, e.g. C4, F#5, Bb3 (middle C = C4); in a "
+                      "24-EDO or other tonality system the alteration is a fraction of an octave, e.g. A1/244 (A4 a quarter-tone "
+                      "sharp), D-1/85 (D5 three quarter-tones flat)")
     return p
 
 

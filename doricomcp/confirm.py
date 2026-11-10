@@ -17,6 +17,8 @@ import subprocess
 import sys
 import traceback
 
+from mcp.server.mcpserver.exceptions import ToolError
+
 from . import fixture
 from .catalog import CONFIRMED
 from .server import S, mcp
@@ -473,6 +475,28 @@ async def t_add_instrument():
     return "celesta doubling for player 0"
 
 
+async def t_remove_instrument():
+    before = {i for pl in (await call("get_score_overview"))["players"] for i in pl["instruments"]}
+    await call("add_instrument", player_id=0, instrument="instrument.keyboard.celesta")
+    gone = next(i for pl in (await call("get_score_overview"))["players"] for i in pl["instruments"] if i not in before)
+    r = await call("remove_instrument", instrument_id=gone)
+    expect(all(gone not in pl["instruments"] for pl in r["players"]) and "note" not in r, str(r))
+    return "the celesta doubling removed after Dorico's confirmation; the player keeps its first instrument"
+
+
+async def t_quarter_tones():
+    # the fixture is 12-EDO and Dorico's interfaces cannot switch it, so a quarter-tone must be refused and undone
+    before = (await call("read_music", voices=[RH], from_bar=64, to_bar=64, detail="compact"))["voices"][0]["bars"]
+    try:
+        await call("add_notes", notes="A1/244:q", voice=RH, bar=64, replace=True)
+        expect(False, "a quarter-tone was written in a 12-EDO score")
+    except ToolError as e:
+        expect("24-EDO" in str(e) and "undone" in str(e), str(e))
+    after = (await call("read_music", voices=[RH], from_bar=64, to_bar=64, detail="compact"))["voices"][0]["bars"]
+    expect(before == after, f"{before} -> {after}")
+    return "a quarter-tone in a 12-EDO score is refused with the 24-EDO hint and undone (written and read in a 24-EDO score by hand)"
+
+
 async def t_rename_player():
     r = await call("rename_player", player_id=0, name="Keys")
     expect("Keys" in str(r["players"]), str(r))
@@ -607,6 +631,7 @@ TESTS = [
     ("set_tempo", "NoteInput.CreateTempo on an anchor", t_set_tempo),
     ("set_time_signature", "NoteInput.CreateTimeSignature + equality read-back", t_set_time_signature),
     ("set_key_signature", "NoteInput.CreateKeySignature + key probe read-back", t_set_key_signature),
+    ("quarter_tones", "Lua createNote + NoteInput.SetAccidental (24-EDO accidental); refused cleanly in 12-EDO", t_quarter_tones),
     ("add_barline", "NoteInput.CreateBarLine at a bar start", t_add_barline),
     ("add_repeat_marker", "NoteInput.AddRepeatsToSelection", t_add_repeat_marker),
     ("add_rehearsal_mark", "NoteInput.CreateRehearsalMark", t_add_rehearsal_mark),
@@ -622,6 +647,7 @@ TESTS = [
     ("set_option", "Project.Layout.SetOptions Dictionary + getoptions read-back", t_set_option),
     ("add_player", "Project.SoloPlayer.New + Project.Instrument.New", t_add_player),
     ("add_instrument", "Project.Instrument.New", t_add_instrument),
+    ("remove_instrument", "Project.Instrument.Delete + Dorico's confirmation answered OK", t_remove_instrument),
     ("rename_player", "Project.Player.Rename in Setup mode", t_rename_player),
     ("dialogs", "macOS Accessibility on a Dorico confirmation dialog: list, press Cancel", t_dialogs),
     ("add_flow", "Project.Flow.New", t_add_flow),

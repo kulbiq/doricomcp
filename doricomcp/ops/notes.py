@@ -7,7 +7,7 @@ import re
 from fractions import Fraction
 
 from ..catalog import validate
-from ..model import Event, bar_at, fstr, spelling_to_midi
+from ..model import PITCH, Event, bar_at, fstr, spelling_to_midi
 from ..session import Session, WriteError, diff
 from .common import (
     CLEARABLE,
@@ -29,6 +29,23 @@ from .common import (
 )
 
 # ------------------------------------------------------------------ notes
+
+# 24-EDO accidentals by alteration (a fraction of an octave, as Dorico spells it)
+QUARTER_TONES = {Fraction(1, 24): "quarter-sharp", Fraction(-1, 24): "quarter-flat",
+                 Fraction(1, 8): "three-quarters-sharp", Fraction(-1, 8): "three-quarters-flat"}
+
+
+def note_steps(voice: int, t: Fraction, d: Fraction, p: str) -> list[list]:
+    """Lua's pitch parser ignores microtonal alterations, so such a note is written as its letter and octave, then
+    selected and given its accidental (Stein-Zimmermann symbols; the score needs a 24-EDO key signature)."""
+    m = PITCH.match(p)
+    if not m or "/" not in (m.group(2) or ""):
+        return [["note", voice, fstr(t), fstr(d), p]]
+    acc = QUARTER_TONES.get(Fraction(m.group(2)))
+    if acc is None:
+        raise OpError(f"{p}: only quarter-tone alterations are supported (1/24, -1/24, 1/8, -1/8 of an octave)")
+    return [["note", voice, fstr(t), fstr(d), m.group(1) + m.group(3)], ["select_created", voice, -1],
+            ["cmd", f"NoteInput.SetAccidental?AccidentalDefinitionID=accidental.24et.western.{acc}.stein"], ["selectnone"]]
 
 async def add_notes(s: Session, flow: int, voice: int, notes: str, bar=None, beat=None, pos=None, replace: bool = False) -> dict:
     """Write notes/chords/rests sequentially from a position into a voice. replace=True clears the span's notes and
@@ -54,7 +71,7 @@ async def add_notes(s: Session, flow: int, voice: int, notes: str, bar=None, bea
         else:
             onset_step[t] = len(steps) + 1  # Lua step index (1-based) of the note to select
             for p in pitches:
-                steps.append(["note", voice, fstr(t), fstr(d), p])
+                steps += note_steps(voice, t, d, p)
                 expect.append(("kNoteEvent", t, d, p))
         t += d
     lost = []
@@ -82,7 +99,9 @@ async def add_notes(s: Session, flow: int, voice: int, notes: str, bar=None, bea
         for ty, p, d, sp in expect:
             if not any(e.type == ty and e.pos == p and e.dur == d and (sp is None or e.spelling == sp
                        or e.midi == spelling_to_midi(sp)) for e in added + after):
-                return f"expected {ty} {sp or ''} at {fstr(p)} dur {fstr(d)} not found after writing"
+                hint = (" (a quarter-tone needs the score in 24-EDO at that point: set it in Dorico's Key Signatures "
+                        "panel; Dorico's interfaces cannot change the tonality system)") if sp and "/" in sp else ""
+                return f"expected {ty} {sp or ''} at {fstr(p)} dur {fstr(d)} not found after writing{hint}"
         back = [e for e in added if e.type == "kSlurEvent" and e.stream == voice]
         if len(back) != len(slurs) - len(lost):
             return f"{len(back)} of {len(slurs) - len(lost)} slurs put back on the new notes"

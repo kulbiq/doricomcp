@@ -811,6 +811,46 @@ async def delete_flow(flow_id: int) -> dict:
     return {"flows": _flows(after)}
 
 
+
+async def _confirm_after(text: str, button: str = "OK", timeout: float = 5) -> list[str] | None:
+    """Press `button` in the modal dialog containing `text` that Dorico opens after answering a command (the
+    command's reply comes first). Returns the dialog's texts, or None if it did not appear within timeout."""
+    end = asyncio.get_running_loop().time() + timeout
+    while asyncio.get_running_loop().time() < end:
+        for d in await asyncio.to_thread(windows.ax_dialogs):
+            if d["modal"] and any(text in x for x in d["texts"]):
+                await asyncio.to_thread(windows.dialog_press, button, d["title"])
+                return d["texts"]
+        await asyncio.sleep(0.25)
+    return None
+
+
+@mcp.tool()
+@capability("remove_instrument")
+async def remove_instrument(instrument_id: int) -> dict:
+    """Remove an instrument and all its music (one undo step; undo restores it). Instrument ids are in
+    get_score_overview players. Dorico's "will also delete all its music" confirmation is answered OK."""
+    before = await S().overview()
+    owner = next((pl for pl in before.get("players", []) if instrument_id in pl.get("instruments", [])), None)
+    if owner is None:
+        raise ops.OpError(f"no instrument {instrument_id}; players: {[(pl.get('name'), pl.get('instruments')) for pl in before.get('players', [])]}")
+    await S().rc.command(f"Project.Instrument.Delete?InstrumentID={instrument_id}")
+    try:
+        if await _confirm_after("Deleting this instrument") is None:
+            raise ops.OpError("Dorico did not ask to confirm the deletion; check list_dialogs and get_score_overview")
+    finally:
+        S().mark_written()
+    after = await S().overview()
+    if any(instrument_id in pl.get("instruments", []) for pl in after.get("players", [])):
+        raise ops.OpError(f"instrument {instrument_id} is still in the score")
+    players = [{"name": pl.get("name"), "instruments": pl.get("instruments")} for pl in after.get("players", [])]
+    res = {"removed": instrument_id, "player": owner.get("name"), "players": players}
+    if len(owner.get("instruments", [])) == 1:
+        # Project.Players.DeleteEmpty lists every player without music, not just this one, so it is left to the user
+        res["note"] = ("the player now has no instrument; delete it in Dorico's Setup mode (select the player card, "
+                       "Delete), or keep it to add another instrument")
+    return res
+
 async def _layouts() -> list[dict]:
     return (await S().rc.request({"message": "getlayouts"})).get("layouts", [])
 

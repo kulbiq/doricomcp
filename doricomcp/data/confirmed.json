@@ -273,6 +273,13 @@
   "date": "2026-11-10"
  },
  {
+  "capability": "quarter_tones",
+  "mechanism": "Lua createNote + NoteInput.SetAccidental (24-EDO accidental); refused cleanly in 12-EDO",
+  "status": "confirmed",
+  "evidence": "a quarter-tone in a 12-EDO score is refused with the 24-EDO hint and undone (written and read in a 24-EDO score by hand)",
+  "date": "2026-11-10"
+ },
+ {
   "capability": "read_bar_map",
   "mechanism": "bar-division events + Variant equality probe (+ Edit.Undo) + key letter probe",
   "status": "confirmed",
@@ -312,6 +319,13 @@
   "mechanism": "static catalogue / Remote Control read",
   "status": "read-only",
   "evidence": "no score access or read-only RC message",
+  "date": "2026-11-10"
+ },
+ {
+  "capability": "remove_instrument",
+  "mechanism": "Project.Instrument.Delete + Dorico's confirmation answered OK",
+  "status": "confirmed",
+  "evidence": "the celesta doubling removed after Dorico's confirmation; the player keeps its first instrument",
   "date": "2026-11-10"
  },
  {

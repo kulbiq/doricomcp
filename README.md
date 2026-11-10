@@ -70,6 +70,8 @@ Claude handles these details for you; they matter when you read the tool results
 - Positions are a bar (1-based) and a beat, counted in crotchets from the start of the bar (`0`, `1`, `3/2`), or a position in crotchets from the start of the flow.
 - Voices are numbered per score (piano: 2 = right hand, 4 = left hand); `get_score_overview` lists them with their instrument, staff and voice.
 - Notes are written like `"Eb4+G4+C5:h. G4:e Eb5:q. C5:s r:q"`: C4 is middle C, durations are note values `w h q e s t` with dots, or crotchets (`3/2`).
+- Quarter-tones (in a score whose tonality system is 24-EDO, set in Dorico's Key Signatures panel) are spelled as Dorico spells them: the alteration as a fraction of an octave between the letter and the octave.
+  `A1/244` is A4 a quarter-tone sharp, `C-1/245` is C5 a quarter-tone flat, `D1/85` is D5 three quarter-tones sharp (3/24 = 1/8).
 - Dynamics, tempo, time signatures, clefs, ornaments and holds take the same text as Dorico's popovers (`p<f`, `pp<ff>pp`, `rit.`, `[2+2+3]/8`).
   The [popover guide](https://github.com/mka142/doricomcp/blob/main/docs/popovers.md) lists every entry and what Dorico 6.2 actually creates for the undocumented ones.
 - Playing techniques are given by name (`pizz.`, `con sord.`), including ones you added to the score yourself.
@@ -158,6 +160,7 @@ Claude handles these details for you; they matter when you read the tool results
 | `add_flow` | Add a new flow (movement) at the end of the project, with all players. | confirmed live |
 | `rename_flow` | Rename a flow (ids from get_score_overview flows). | confirmed live |
 | `delete_flow` | Delete a flow and all its music (one undo step; undo restores it). | confirmed live |
+| `remove_instrument` | Remove an instrument and all its music (one undo step; undo restores it). | failing |
 | `add_layout` | Add a custom score layout (optionally named). | confirmed live |
 | `rename_layout` | Rename a layout (ids from get_score_overview layouts). | confirmed live |
 | `layout_flows` | Include or exclude flows in a layout (Dorico does not expose a layout's flows for read-back). | confirmed live |
@@ -196,8 +199,12 @@ Each one is a good first contribution.
 - **div. and unis.** (`add_text`).
   They are written as staff text; Dorico's real divisi is `Edit.AddDivisi` / `Edit.RestoreUnison`, which open the Change Divisi dialog.
   Next: drive that dialog with the existing dialog tools, as `delete_flow` does with its confirmation.
-- **Deleting players and instruments** (not exposed).
-  Dorico asks for confirmation; the same dialog route as `delete_flow` would work.
+- **Tonality system** (24-EDO and others).
+  Quarter-tones are read and written, but switching a score to 24-EDO is only in Dorico's Key Signatures panel: the keys popover rejects a tonality system in its text, and `CreateKeySignature` ignores a `tonalitySystemID` parameter.
+  Next: look for the panel's command in Remote Control's command list after choosing a system there by hand.
+- **Deleting players** (`remove_instrument` removes instruments).
+  `Project.Players.Delete` needs a player selected in Setup mode, and `Project.Players.DeleteEmpty` opens a dialog listing every player without music, not just one.
+  Next: select the one player in that dialog with `dialog_set` before pressing Delete Selected Players.
 - **Copy and move with markings** (`copy_range`).
   Lua's `copyRange` is a no-op, so notes and rests are re-created and markings are not copied.
   Next: re-create slurs, dynamics and articulations from the twin, as `add_notes(replace=True)` already does for slurs.

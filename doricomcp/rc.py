@@ -11,6 +11,7 @@ import asyncio
 import json
 import os
 import pathlib
+import subprocess
 
 import websockets
 
@@ -28,6 +29,14 @@ REPLY = {
     "getstatus": "status",
 }
 
+
+
+def dorico_running() -> bool | None:
+    """Whether a Dorico process runs (macOS and Linux; None where pgrep is missing)."""
+    try:
+        return subprocess.run(["pgrep", "-f", r"Dorico [0-9]+\.app/Contents/MacOS/Dorico"], capture_output=True, check=False).returncode == 0
+    except OSError:
+        return None
 
 class RCError(RuntimeError):
     pass
@@ -47,8 +56,9 @@ class RemoteControl:
         try:
             await self._handshake()
         except websockets.ConnectionClosed as e:
-            # a token issued to another client name (or revoked in Dorico): drop it and ask Dorico again
-            if "TokenMismatch" not in str(e) or not TOKEN_FILE.exists():
+            # a stale token (kClientRejected_ConnectTokenRejected after a Dorico restart, ...TokenMismatch for another
+            # client name): drop it and ask Dorico again
+            if "kClientRejected_Connect" not in str(e) or "Token" not in str(e) or not TOKEN_FILE.exists():
                 raise
             TOKEN_FILE.unlink()
             await self._handshake()
@@ -57,8 +67,10 @@ class RemoteControl:
         try:
             ws = await websockets.connect(URL, max_size=None)
         except OSError as e:
-            raise RCError(f"Dorico is not reachable at {URL}: start Dorico and turn on Remote Control in its "
-                          f"Preferences ({e.strerror or e})") from e
+            if dorico_running():
+                raise RCError(f"Dorico is running but its Remote Control does not answer at {URL}: turn on Remote Control "
+                              "in Dorico's Preferences") from e
+            raise RCError(f"Dorico is not running: start Dorico and open a score (Remote Control at {URL})") from e
         hello = {"message": "connect", "clientName": CLIENT, "handshakeVersion": "1.0",
                  "clientoptions": {"sendPropertiesListOnSelectionChange": True}}
         if TOKEN_FILE.exists():
@@ -178,6 +190,31 @@ def _self_check():
         assert rc.latest["status"] == {"message": "status", "hasScore": True, "hasSelection": True, "zoomPercent": 200}
 
     asyncio.run(run())
+
+    async def stale_token():  # Dorico closes the socket with the reason; the token is dropped and the handshake retried
+        import tempfile
+
+        from websockets.frames import Close
+        global TOKEN_FILE
+        saved, TOKEN_FILE = TOKEN_FILE, pathlib.Path(tempfile.mkdtemp()) / "session_token"
+        try:
+            for reason in ("kClientRejected_ConnectTokenRejected", "kClientRejected_ConnectClientNameAndTokenMismatch"):
+                TOKEN_FILE.write_text("stale")
+                rc, calls = RemoteControl(), []
+
+                async def handshake(rc=rc, calls=calls, reason=reason):
+                    calls.append(TOKEN_FILE.exists())
+                    if TOKEN_FILE.exists():
+                        raise websockets.ConnectionClosedOK(Close(1000, reason), Close(1000, reason), True)
+                    rc.ws = object()
+
+                rc._handshake = handshake
+                await rc.connect()
+                assert calls == [True, False] and rc.ws is not None, (reason, calls)
+        finally:
+            TOKEN_FILE = saved
+
+    asyncio.run(stale_token())
     print("rc self-check ok")
 
 

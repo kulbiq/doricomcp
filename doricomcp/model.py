@@ -13,23 +13,28 @@ from fractions import Fraction
 
 DUMP_EVENT = re.compile(r"^.*?: (k\w+) \(id:(\d+)\) at ([\d/-]+)(?: \([\d.-]+\))?(?:, duration ([\d/]+))?(.*)$")
 DUMP_BLOCK = re.compile(r"^Start block id: (\d+) position: (\S+)")
-SPELLING = re.compile(r"\s([A-G](?:bbb|bb|b|###|##|#|x)?-?\d+)(?: \(ends|\s*$)")
+# accidental: a western one, or (in other tonality systems) the alteration as a fraction of an octave: A1/244 is A4 a
+# quarter-tone sharp in 24-EDO (1/24 octave), D-1/85 is D5 three quarter-tones flat (3/24 = 1/8)
+ACCIDENTAL = r"bbb|bb|b|###|##|#|x|-?\d+/\d+"
+SPELLING = re.compile(rf"\s([A-G](?:{ACCIDENTAL})?-?\d+)(?: \(ends|\s*$)")
 ELEMENT = re.compile(r"element ID = (\d+)")
 CLEF = re.compile(r"Clef entity ID in all layouts: (\S+)")
 TEXT = re.compile(r"\) at [\d/-]+(?: \([\d.-]+\))? : (.*?)\s*\((paragraph\.[\w.]+)\)\s*$", re.DOTALL)
 
 
 STEPS = {"C": 0, "D": 2, "E": 4, "F": 5, "G": 7, "A": 9, "B": 11}
-PITCH = re.compile(r"^([A-G])(bbb|bb|b|###|##|#|x)?(-?\d+)$")
+PITCH = re.compile(rf"^([A-G])({ACCIDENTAL})?(-?\d+)$")
 
 
-def spelling_to_midi(sp: str) -> int | None:
-    """"Eb4" -> 63 (middle C = C4 = 60), as Dorico spells pitches."""
+def spelling_to_midi(sp: str) -> int | float | None:
+    """"Eb4" -> 63 (middle C = C4 = 60), as Dorico spells pitches; "A1/244" -> 69.5."""
     m = PITCH.match(sp or "")
     if not m:
         return None
-    acc = {None: 0, "b": -1, "bb": -2, "bbb": -3, "#": 1, "##": 2, "x": 2, "###": 3}[m.group(2)]
-    return 12 * (int(m.group(3)) + 1) + STEPS[m.group(1)] + acc
+    western = {None: 0, "b": -1, "bb": -2, "bbb": -3, "#": 1, "##": 2, "x": 2, "###": 3}
+    acc = western[m.group(2)] if m.group(2) in western else Fraction(m.group(2)) * 12
+    midi = 12 * (int(m.group(3)) + 1) + STEPS[m.group(1)] + acc
+    return int(midi) if midi == int(midi) else float(midi)
 
 
 def frac(x) -> Fraction:
@@ -103,10 +108,10 @@ class Event:
         return m.group(1) if m else None
 
     @property
-    def midi(self) -> int | None:
-        v = self.props.get("kNotePitch")
-        if v not in (None, ""):
-            return int(v)
+    def midi(self) -> int | float | None:
+        v = rational(self.props.get("kNotePitch"))
+        if v is not None:  # a quarter-tone in 24-EDO reads "139/2"
+            return int(v) if v.denominator == 1 else float(v)
         return spelling_to_midi(self.spelling) if self.spelling else None
 
     def json(self) -> dict:
@@ -309,6 +314,9 @@ if __name__ == "__main__":
     assert ev[1]["id"] == 102 and "clef.treble" in ev[1]["desc"]
     e = Event(15, "kNoteEvent", 2, 2, Fraction(0), Fraction(3, 2), "kNoteEvent (id:15) at 0, duration 3/2 (1.5)  Eb4 (ends 3/2 (1.5))", {"kNotePitch": "63"})
     assert e.spelling == "Eb4" and e.midi == 63
+    assert spelling_to_midi("A1/244") == 69.5 and spelling_to_midi("D-1/85") == 72.5 and spelling_to_midi("C-1/245") == 71.5
+    assert Event(1, "kNoteEvent", 8, 8, Fraction(0), Fraction(1), "kNoteEvent (id:1) at 0, duration 1  A1/244 (ends 1)",
+                 {"kNotePitch": "139/2"}).json()["midi"] == 69.5
     assert spelling_to_midi("Eb4") == 63 and spelling_to_midi("C4") == 60 and spelling_to_midi("Dbb5") == 72 and spelling_to_midi("B#3") == 60
     pk = bar_regions([(Fraction(0), "4/4", Fraction(1)), (Fraction(9), "3/4", None)])
     assert [r.first_bar for r in pk] == [1, 4] and bar_at(pk, Fraction(5)) == (3, 0)
