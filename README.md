@@ -1,4 +1,14 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mka142/doricomcp/main/icon.png" width="128" height="128" alt="doricomcp icon: a bold letter D with a connector in its counter">
+</p>
+
 # doricomcp
+
+[![PyPI](https://img.shields.io/pypi/v/doricomcp)](https://pypi.org/project/doricomcp/)
+[![Release](https://img.shields.io/github/v/release/mka142/doricomcp)](https://github.com/mka142/doricomcp/releases/latest)
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-io.github.mka142%2Fdoricomcp-blue)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.mka142/doricomcp)
+[![CI](https://github.com/mka142/doricomcp/actions/workflows/ci.yml/badge.svg)](https://github.com/mka142/doricomcp/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/mka142/doricomcp/blob/main/LICENSE)
 
 Talk to your Dorico score.
 doricomcp connects Claude to a live Dorico 6 project, so you can ask about the music and have it edited for you:
