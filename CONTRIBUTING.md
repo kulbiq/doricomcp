@@ -11,11 +11,13 @@ The project talks to a live Dorico, so the rules below keep the score of whoever
   New write tools go through `Session.transact` with a `verify` function.
 - Never run the confirmation harness on a real score: it closes the open project without saving.
 - A Dorico behaviour you rely on must be measured, not assumed; add it to [docs/dorico-behaviour.md](docs/dorico-behaviour.md).
+  Measure it against a control (a baseline where the effect is absent) and check the effect itself (a quarter-tone sticks to a note), not only the event that should cause it.
 
 ## Running from a clone
 
 ```sh
 git clone https://github.com/mka142/doricomcp && cd doricomcp && uv sync
+git config core.hooksPath .githooks   # runs lint and the offline checks before each commit
 ```
 
 Claude Code picks up the bundled `.mcp.json` when started in the clone.
@@ -54,13 +56,16 @@ fixture.py, confirm.py   throwaway-fixture lifecycle and the live harness (never
 ```
 
 `doricomcp/data/` holds Dorico's command list and property schemas (from Remote Control), enum and property names, and the confirmation matrix.
+The first ones are generated from a live Dorico by tooling outside this repo: record a measured extra in `catalog.py`, not in the JSON.
+`confirmed.json` is written by the harness, which then regenerates the README tool table from it.
 
 ## Adding a tool
 
 1. Put the operation in the matching `doricomcp/ops/` module (or `reads.py` for a read).
 2. Expose it in `server.py` with `@mcp.tool()` and `@capability("<name>")`; the first sentence of the docstring is what the README table shows.
 3. Add a live test to `doricomcp/confirm.py` (`TESTS`) that writes on the fixture and reads the result back.
-4. Run the checks below, then `uv run python scripts/readme_table.py` to refresh the README table.
+   A test sets up everything it reads, so `confirm <name>` passes alone; `confirm --each` checks that for every test.
+4. Run the checks below; the harness refreshes the README tool table.
 
 ## Checks
 
@@ -70,7 +75,7 @@ uv run python tests/offline.py   # self-checks and layer check, no Dorico needed
 uv run python -m doricomcp.confirm   # live harness: needs Dorico with no real project open
 ```
 
-`uv run python -m doricomcp.confirm <name>` runs only the tests whose name contains `<name>`.
+`uv run python -m doricomcp.confirm <name>` runs only the tests whose name contains `<name>`; `--each` resets the fixture before every test (slow; run it before a release).
 The harness needs the Xcode Command Line Tools: before it touches Dorico it checks the open windows with a small Swift helper, so it never closes a real project.
 The harness opens `fixtures/throwaway.dorico` (restored from `throwaway.pristine.dorico`), writes `doricomcp/data/confirmed.json` and closes the fixture without saving.
 
@@ -81,6 +86,7 @@ The harness opens `fixtures/throwaway.dorico` (restored from `throwaway.pristine
    `.github/workflows/release.yml` then publishes to PyPI, attaches `doricomcp.mcpb` (the Claude Desktop extension) to a GitHub release, and updates the MCP registry entry.
 
 `scripts/build_mcpb.sh` builds the extension locally into `dist/`.
+PyPI's JSON and `uvx doricomcp@X.Y.Z` see a new version only about half a minute after the workflow finishes.
 
 ## Style
 

@@ -3,6 +3,7 @@ throwaway fixture; verify; record doricomcp/data/confirmed.json; reset the fixtu
 
     uv run python -m doricomcp.confirm            # all
     uv run python -m doricomcp.confirm add_span   # only capabilities whose name contains the argument
+    uv run python -m doricomcp.confirm --each     # each test from a fresh fixture (slow; before a release)
 
 Each tool already verifies its own write by read-back (and undoes it on failure); the checks here add an
 independent expectation per capability. Never run against a real score: it resets to fixtures/throwaway.dorico.
@@ -13,6 +14,7 @@ import asyncio
 import contextlib
 import datetime
 import json
+import pathlib
 import subprocess
 import sys
 import traceback
@@ -677,10 +679,15 @@ async def main(only: str | None):
                          "evidence": "no score access or read-only RC message", "date": today}
     await fixture.reset(S().rc)
     S().mark_written()
+    each, first = "--each" in sys.argv, True
     try:
         for name, mech, fn in TESTS:
             if only and only not in name:
                 continue
+            if each and not first:  # every test from a fresh fixture: a test may only rely on what it sets up
+                await fixture.reset(S().rc)
+                S().mark_written()
+            first = False
             try:
                 ev = await fn()
                 status = "confirmed"
@@ -706,5 +713,9 @@ async def main(only: str | None):
 
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(line_buffering=True)  # progress shows line by line when redirected to a log
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     asyncio.run(main(args[0] if args else None))
+    table = pathlib.Path(__file__).resolve().parent.parent / "scripts" / "readme_table.py"
+    if table.exists():  # the README tool table is derived from confirmed.json; keep them in step (from a clone)
+        subprocess.run([sys.executable, str(table)], cwd=table.parent.parent, check=True)
