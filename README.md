@@ -160,7 +160,7 @@ Claude handles these details for you; they matter when you read the tool results
 | `add_flow` | Add a new flow (movement) at the end of the project, with all players. | confirmed live |
 | `rename_flow` | Rename a flow (ids from get_score_overview flows). | confirmed live |
 | `delete_flow` | Delete a flow and all its music (one undo step; undo restores it). | confirmed live |
-| `remove_instrument` | Remove an instrument and all its music (one undo step; undo restores it). | failing |
+| `remove_instrument` | Remove an instrument and all its music (one undo step; undo restores it). | confirmed live |
 | `add_layout` | Add a custom score layout (optionally named). | confirmed live |
 | `rename_layout` | Rename a layout (ids from get_score_overview layouts). | confirmed live |
 | `layout_flows` | Include or exclude flows in a layout (Dorico does not expose a layout's flows for read-back). | confirmed live |
