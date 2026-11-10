@@ -4,7 +4,7 @@ set -eu
 cd "$(dirname "$0")/.."
 stage=$(mktemp -d)
 trap 'rm -rf "$stage"' EXIT
-cp manifest.json pyproject.toml uv.lock README.md LICENSE "$stage"
+cp manifest.json icon.png pyproject.toml uv.lock README.md LICENSE "$stage"
 git ls-files -co --exclude-standard doricomcp | rsync -a --files-from=- . "$stage"
 mkdir -p dist
 npx -y @anthropic-ai/mcpb@2.1.2 validate "$stage/manifest.json"

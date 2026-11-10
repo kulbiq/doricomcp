@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="doricomcp: a bold letter D whose counter is a two-prong connector">
+<rect width="512" height="512" rx="112" fill="#c76a00"/>
+<path d="M104 100 H262 C362 100 424 172 424 256 C424 340 362 412 262 412 H104 Z" fill="#F3EFE6"/>
+<rect x="104" y="244" width="86" height="24" fill="#c76a00"/>
+<rect x="180" y="196" width="112" height="120" rx="24" fill="#c76a00"/>
+<rect x="284" y="214" width="70" height="26" rx="13" fill="#c76a00"/>
+<rect x="284" y="272" width="70" height="26" rx="13" fill="#c76a00"/>
+</svg>

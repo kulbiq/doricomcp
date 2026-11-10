@@ -16,20 +16,33 @@
   "homepage": "https://github.com/mka142/doricomcp",
   "documentation": "https://github.com/mka142/doricomcp#readme",
   "support": "https://github.com/mka142/doricomcp/issues",
+  "icon": "icon.png",
   "server": {
     "type": "uv",
     "entry_point": "doricomcp/server.py",
     "mcp_config": {
       "command": "uv",
-      "args": ["run", "--directory", "${__dirname}", "doricomcp"]
+      "args": [
+        "run",
+        "--directory",
+        "${__dirname}",
+        "doricomcp"
+      ]
     }
   },
   "compatibility": {
-    "platforms": ["darwin"],
+    "platforms": [
+      "darwin"
+    ],
     "runtimes": {
       "python": ">=3.12"
     }
   },
-  "keywords": ["dorico", "music notation", "score", "composition"],
+  "keywords": [
+    "dorico",
+    "music notation",
+    "score",
+    "composition"
+  ],
   "license": "MIT"
 }
