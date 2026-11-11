@@ -163,7 +163,6 @@ async def add_hairpin(s: Session, flow: int, voice: int, start: Fraction, end: F
     return out[0] if len(out) == 1 else {"hairpins": out}
 
 
-
 async def add_dynamic(s: Session, flow: int, voices: list[int], targets: list[tuple[Fraction, str]]) -> dict:
     """Immediate dynamics: each (pos, value) of targets on the instrument of each voice, all in one undo step.
 
@@ -222,5 +221,3 @@ async def add_dynamic(s: Session, flow: int, voices: list[int], targets: list[tu
                             **({"replaced_existing": True} if pos in {q for q, _ in redo} else {}),
                             **({"joined_group_at": fstr(groups[gid].pos)} if groups[gid].pos != pos or len(d["parts"]) > 1 else {})})
     return {"dynamics": sorted(out, key=lambda x: (x["bar"], frac(x["beat"])))}
-
-

@@ -47,6 +47,7 @@ def note_steps(voice: int, t: Fraction, d: Fraction, p: str) -> list[list]:
     return [["note", voice, fstr(t), fstr(d), m.group(1) + m.group(3)], ["select_created", voice, -1],
             ["cmd", f"NoteInput.SetAccidental?AccidentalDefinitionID=accidental.24et.western.{acc}.stein"], ["selectnone"]]
 
+
 async def add_notes(s: Session, flow: int, voice: int, notes: str, bar=None, beat=None, pos=None, replace: bool = False) -> dict:
     """Write notes/chords/rests sequentially from a position into a voice. replace=True clears the span's notes and
     rests first; its text and other markings stay, and its slurs are put back on the new notes (Dorico deletes a slur
@@ -203,6 +204,7 @@ NOTE_ACTIONS = {
     "delete": "Edit.Delete", "tie": "NoteInput.Tie", "remove_rests": "Edit.RemoveRests",
 }
 
+
 async def edit_notes(s: Session, flow: int, event_ids: list[int], action: str, count: int = 1) -> dict:
     if action == "transpose":
         raise OpError("use transpose_notes for intervals")
@@ -251,7 +253,6 @@ async def set_duration(s: Session, flow: int, event_id: int, duration: str) -> d
 
     await s.transact(flow, [["duration", event_id, fstr(d)]], verify, [ev.stream], ev.pos - 1, ev.pos + d + 1)
     return {"event": event_id, "duration": fstr(d)}
-
 
 
 # ------------------------------------------------------------------ copy / move
@@ -513,5 +514,3 @@ async def add_voice(s: Session, flow: int, voice: int, pos: Fraction, notes: str
             raise WriteError(f"{e}; the new voice was removed as well") from None
     return {"new_voice": new_voice, "staff_stream": vinfo.get("staff_stream"), "notes": written,
             "undo_steps": 1 + sum(bool(c) for _, c in more)}
-
-

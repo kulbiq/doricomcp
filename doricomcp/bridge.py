@@ -54,6 +54,7 @@ def lua_literal(v) -> str:
 
 async def _wait_finished(script: str, offset: int, deadline: float):
     needle = f"notifyPostCommandExecute: Script.RunScript?ScriptPath={script}".encode()
+
     def seen() -> bool:
         try:
             with open(LOG, "rb") as f:

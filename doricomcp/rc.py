@@ -30,13 +30,13 @@ REPLY = {
 }
 
 
-
 def dorico_running() -> bool | None:
     """Whether a Dorico process runs (macOS and Linux; None where pgrep is missing)."""
     try:
         return subprocess.run(["pgrep", "-f", r"Dorico [0-9]+\.app/Contents/MacOS/Dorico"], capture_output=True, check=False).returncode == 0
     except OSError:
         return None
+
 
 class RCError(RuntimeError):
     pass

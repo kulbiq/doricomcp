@@ -231,7 +231,6 @@ def new_events(before: list[Event], after: list[Event], types: set[str] | str, p
     return [e for e in added if e.type in types and (pos is None or e.pos == pos)]
 
 
-
 # ------------------------------------------------------------------ select + command, positional anchors
 
 async def _events_by_id(s: Session, flow: int, ids: list[int]) -> dict[int, Event]:
@@ -270,7 +269,6 @@ async def select_apply(s: Session, flow: int, event_ids: list[int], commands: li
     b = {e.id: e for e in r["before"]}
     changed = [e.json() for e in r["after"] if e.id in b and (e.desc != b[e.id].desc or e.props != b[e.id].props)]
     return {"added": [e.json() for e in added], "removed": [e.json() for e in removed], "changed": changed}
-
 
 
 async def _positional(s: Session, flow: int, pos: Fraction, command: str, types: set[str], voices: list[int]) -> dict:

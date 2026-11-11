@@ -70,7 +70,6 @@ def main():
     assert reads.in_force([(grp, parts)], F(5)) == {"level": "p", "since_pos": "4", "in": {"hairpin": "cresc", "from": "4", "to": "6"}}
     assert reads.in_force([(grp, parts)], F(7)) == {"level": "f", "since_pos": "6"}
 
-
     class FakeSession:  # Dorico draws a hairpin's length from the gradual part of its dynamic group
         def __init__(self, merge):
             self.merge, self.undone, self.steps = merge, 0, []
@@ -104,7 +103,7 @@ def main():
             self.undone += 1
 
         async def regions(self, flow):
-                    return bar_regions([(F(0), "4/4", None)]), []
+            return bar_regions([(F(0), "4/4", None)]), []
 
         def mark_written(self):
             pass

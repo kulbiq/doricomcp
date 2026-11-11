@@ -314,7 +314,7 @@ class Session:
                 restored = await self.events(flow, streams, lo, hi)
                 self.mark_written()
                 tail = "; the change was undone" + ("" if _sig(restored) == _sig(before) else
-                                                  " BUT the range does not match the original - check the score")
+                                                    " BUT the range does not match the original - check the score")
             else:
                 tail = "; nothing was changed"
             raise WriteError(error + tail)

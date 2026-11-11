@@ -140,7 +140,7 @@ async def read_music(s: Session, flow: int, voices: list[int] | None, lo: Fracti
                     item["articulations"] = arts
                 extra = {k: v for e in notes for k, v in e.props.items()
                          if k not in ARTIC_NAMES and k not in ("kNotePitch", "kEventPosition", "kEventDuration",
-                                                              "kEventSecondaryPosition", "kEventSecondaryEndPositionOffset")}
+                                                               "kEventSecondaryPosition", "kEventSecondaryEndPositionOffset")}
                 if extra:
                     item["props"] = {k: ("present (value sealed)" if v == {"sealed": True} else v) for k, v in extra.items()}
                 items.append(item)

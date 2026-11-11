@@ -753,6 +753,7 @@ async def _flow_command(cmd: str, confirm: str | None = None):
     rc = S().rc
     mode = (await rc.status()).get("windowMode")
     await rc.command("Window.SwitchMode?WindowMode=kSetupMode")
+
     async def send():
         try:
             await rc.command(cmd)
@@ -811,7 +812,6 @@ async def delete_flow(flow_id: int) -> dict:
     return {"flows": _flows(after)}
 
 
-
 async def _confirm_after(text: str, button: str = "OK", timeout: float = 5) -> list[str] | None:
     """Press `button` in the modal dialog containing `text` that Dorico opens after answering a command (the
     command's reply comes first). Returns the dialog's texts, or None if it did not appear within timeout."""
@@ -850,6 +850,7 @@ async def remove_instrument(instrument_id: int) -> dict:
         res["note"] = ("the player now has no instrument; delete it in Dorico's Setup mode (select the player card, "
                        "Delete), or keep it to add another instrument")
     return res
+
 
 async def _layouts() -> list[dict]:
     return (await S().rc.request({"message": "getlayouts"})).get("layouts", [])

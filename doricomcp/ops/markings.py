@@ -33,7 +33,6 @@ ARTICULATION_PROPS = {"staccato": ("kArticulationDuration", {0, 1}), "staccatiss
                       "stress": ("kArticulationStress", {0}), "unstress": ("kArticulationStress", {1})}
 
 
-
 def articulation_targets(evs: list[Event], kind: str) -> list[int]:
     """SetArticulation is a toggle that acts on the whole chord (measured: selecting both notes of a chord in turn
     set it, then cleared it). So one note per chord, and none where the articulation is already set."""
@@ -91,7 +90,6 @@ async def set_property(s: Session, flow: int, event_ids: list[int], name: str, v
     r = await s.transact(flow, steps, verify, None, lo, hi)
     a = {e.id: e for e in r["after"]}
     return {"values": {i: (a[i].props.get(name) if i in a else None) for i in event_ids}}
-
 
 
 # ------------------------------------------------------------------ spans (select start, extend to end)
@@ -157,7 +155,6 @@ async def add_span(s: Session, flow: int, kind: str, start_id: int | None = None
     return {"created": [brief(e, regions) for e in new_events(r["before"], r["after"], types)]}
 
 
-
 # ------------------------------------------------------------------ markings on a note (select + popover/command)
 
 HOLDS = {"fermata", "fermata short", "fermata long", "breath", "caesura", "fermata very short", "fermata very long"}
@@ -200,7 +197,6 @@ BARLINES = {"|": "single", "||": "double", "|:": "start repeat", ":|": "end repe
 REPEATS = {"segno", "coda", "fine", "to coda", "D.C.", "D.C. al Fine", "D.C. al Coda", "D.S.", "D.S. al Fine", "D.S. al Coda"}
 
 
-
 async def set_time_signature(s: Session, flow: int, pos: Fraction, value: str) -> dict:
     if not TIMESIG_RX.match(value):
         raise OpError("time signature like 3/4, 6/8, 2+3/8, [2+2+3]/8, c, cut, X/4")
@@ -227,7 +223,6 @@ async def set_tempo(s: Session, flow: int, pos: Fraction, value: str) -> dict:
         raise OpError("tempo text like q=120, Allegro q=132, h.=60, rit., a tempo")
     return await _positional(s, flow, pos, f"NoteInput.CreateTempo?Definition={value}",
                              {"kImmediateTempoChangeEvent", "kGradualTempoChangeEvent", "kTempoEvent"}, await all_voices(s, flow))
-
 
 
 async def add_barline(s: Session, flow: int, bar: int, kind: str) -> dict:
@@ -289,5 +284,3 @@ async def add_clef(s: Session, flow: int, voice: int, pos: Fraction, clef: str) 
 
     r = await s.transact(flow, [["clef", stave, fstr(pos), clef]], verify, [stave], pos - 1, pos + 1)
     return {"created": [e.json() for e in new_events(r["before"], r["after"], "kClefEvent")]}
-
-

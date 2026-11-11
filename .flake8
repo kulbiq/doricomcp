@@ -1,0 +1,4 @@
+[flake8]
+# same limit as ruff (pyproject.toml), for editors that run flake8
+max-line-length = 160
+extend-exclude = .venv,re,spikes,catalog
