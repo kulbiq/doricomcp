@@ -41,6 +41,8 @@ def _gradual(subs: list[dict]) -> dict | None:
 
 
 def _length(sub: dict | None) -> Fraction | None:
+    if sub is None:
+        return None
     try:
         return frac(sub["props"][LENGTH])
     except (TypeError, KeyError, ValueError, ZeroDivisionError):
@@ -117,14 +119,14 @@ async def _add_hairpin(s: Session, flow: int, start: Fraction, end: Fraction, ki
     target = end - start
     regions, _ = await s.regions(flow)
     res = {"hairpin": kind, "from": bar_beat(regions, start), "to": bar_beat(regions, end)}
+    part_id = part["id"] if part else None
     if new:
         res["created"] = [brief(group, regions)]
     else:
         res["merged_into"] = brief(group, regions)
         res["note"] = (f"Dorico joined the {kind} to the dynamic group starting at bar {res['merged_into']['bar']} beat "
                        f"{res['merged_into']['beat']} (a dynamic at its start, or a hairpin ending there); its part is "
-                       f"sub {part['id']}")
-    part_id = part["id"] if part else None
+                       f"sub {part_id}")
     try:
         res.update(await set_hairpin_length(s, flow, group, target, part_id))
     except (WriteError, OpError) as e:
@@ -196,9 +198,11 @@ async def add_dynamic(s: Session, flow: int, voices: list[int], targets: list[tu
         cur = {_key(g, x)[1]: (g, x) for g, x in now if not _key(g, x)[2]}
         lv = await s.dynamics(flow, list({g.id: g for g, _ in (cur[p] for p, _ in redo if p in cur)}.values()))
         for p, v in redo:
-            g, x = cur.get(p, (None, None))
-            part = next((q for q in lv.get(g.id, {}).get("parts", []) if q["sub"] == x["id"]), {}) if g else {}
-            if part.get("level") == v or (g and part.get("level") is None):  # sfz, fp...: levels not readable
+            if p not in cur:
+                continue
+            g, x = cur[p]
+            part = next((q for q in lv.get(g.id, {}).get("parts", []) if q["sub"] == x["id"]), {})
+            if part.get("level") in (v, None):  # sfz, fp...: levels not readable
                 added.append((g, x))
                 at.add(p)
     missing = [p for p, _ in targets if p not in at]

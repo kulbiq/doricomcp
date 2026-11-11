@@ -23,7 +23,7 @@ from .model import frac, fstr
 from .rc import RCError
 from .session import Session
 
-INSTRUCTIONS = __doc__ + """
+INSTRUCTIONS = (__doc__ or "") + """
 Start with get_score_overview, then get_bar_map and read_music. Write with add_notes and the add_*/set_* tools.
 Use screenshot to look at the result. list_capabilities shows what is confirmed live and what is experimental.
 Dorico's API cannot read: lyrics, fp and sffz (sffz reads as sfz), tonic/mode of keys (only the signature),
@@ -373,7 +373,7 @@ async def get_selection() -> dict:
 @capability("get_options")
 async def get_options(kind: str = "kLayout", layout_id: int | None = 0, flow_id: int | None = None, filter: str = "") -> list[dict]:
     """House-style options: kind kEngraving (per score), kNotation (per flow: flow_id), kLayout (per layout: layout_id)."""
-    msg = {"message": "getoptions", "optionsType": kind}
+    msg: dict[str, str | int] = {"message": "getoptions", "optionsType": kind}
     if kind == "kLayout":
         msg["layoutID"] = layout_id or 0
     if kind == "kNotation":
@@ -646,7 +646,7 @@ async def set_option(kind: str, path: str, value: str, layout_ids: list[int] | N
         raise ops.OpError("kind: kEngraving, kNotation or kLayout")
     await S().rc.command(cmd)
     S().mark_written()
-    msg = {"message": "getoptions", "optionsType": kind}
+    msg: dict[str, str | int] = {"message": "getoptions", "optionsType": kind}
     if kind == "kLayout":
         msg["layoutID"] = (layout_ids or [0])[0]
     if kind == "kNotation":
@@ -994,7 +994,7 @@ def _self_check():
             return {"ok": True}
 
         @capability("selfcheck_fast")
-        async def fast():
+        async def fast() -> dict:
             return {"ok": True}
 
         t = asyncio.ensure_future(slow())

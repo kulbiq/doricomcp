@@ -13,6 +13,7 @@ import pathlib
 import subprocess
 import time
 import uuid
+from typing import cast
 
 from .logtail import LOG
 from .rc import HOME, RemoteControl
@@ -144,11 +145,11 @@ if __name__ == "__main__":
         global RUN_DIR, _wait_finished
         RUN_DIR = pathlib.Path(tempfile.mkdtemp())
 
-        async def finished(*a):
+        async def finished(script: str, offset: int, deadline: float) -> None:
             return None
         _wait_finished = finished
         rc = SlowDorico()
-        assert await Bridge(rc).run("tx", timeout=0.1) == 42
+        assert await Bridge(cast(RemoteControl, rc)).run("tx", timeout=0.1) == 42
         assert len(rc.sent) == 1 and not list(RUN_DIR.iterdir()), (rc.sent, list(RUN_DIR.iterdir()))
     asyncio.run(main())
     print("bridge self-check ok: a slow script is waited for, nothing else is sent meanwhile")

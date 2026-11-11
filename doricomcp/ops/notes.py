@@ -363,7 +363,9 @@ def note_input_steps(items) -> list[list]:
         if len(pitches) > 1:
             steps.append(["cmd", "NoteInput.StartEndChord"])
         for p in pitches:
-            m = re.match(r"^([A-G])(bb|b|##|#|x)?(-?\d)$", p)
+            m = PITCH.match(p)
+            if not m or m.group(2) not in ACCIDENTAL:
+                raise OpError(f"{p}: note input takes letter, accidental (b, bb, #, ##, x) and octave; write quarter-tones with add_notes")
             steps += [["cmd", f"NoteInput.SetAccidental?Type={ACCIDENTAL[m.group(2)]}"],
                       ["cmd", f"NoteInput.Pitch?Pitch={m.group(1)}&OctaveValue={m.group(3)}"]]
         if len(pitches) > 1:
@@ -397,7 +399,7 @@ def check_onsets(expect: list[tuple], notes: list[Event], durations: bool = True
     bad += [f"unexpected {' '.join(e.spelling or '?' for e in g)} at {fstr(t)}" for t, g in sorted(at.items())]
     if not bad:
         return None
-    same = sorted(e.spelling for e in notes) == sorted(p for _, _, ps in expect for p in ps)
+    same = sorted(e.spelling or "" for e in notes) == sorted(p for _, _, ps in expect for p in ps)
     return ("CHORDMODE: " if same and len(notes) > 1 else "") + "; ".join(bad[:4]) + (" ..." if len(bad) > 4 else "")
 
 
@@ -422,6 +424,7 @@ async def _note_input(s: Session, flow: int, voice: int, pos: Fraction, body: li
             await s.bridge.run("tx", flow=flow, steps=sel + [["cmd", "NoteInput.Enter?Set=true"], ["cmd", "NoteInput.StartEndChord"],
                                                              ["cmd", "NoteInput.Exit"]] + cleanup)
             s.mark_written()
+    raise AssertionError("unreachable: the second attempt returns or raises")
 
 
 TUPLET_RX = re.compile(r"^(\d+):(\d+)$")

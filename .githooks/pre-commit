@@ -2,4 +2,5 @@
 # The CI checks, before a commit lands. Enable once per clone: git config core.hooksPath .githooks
 set -e
 uvx ruff check
+uvx -q pyright@1.1.414
 uv run python tests/offline.py

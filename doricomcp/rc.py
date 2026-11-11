@@ -12,6 +12,7 @@ import json
 import os
 import pathlib
 import subprocess
+from typing import cast
 
 import websockets
 
@@ -44,7 +45,7 @@ class RCError(RuntimeError):
 
 class RemoteControl:
     def __init__(self):
-        self.ws = None
+        self.ws: websockets.ClientConnection | None = None
         self.latest: dict[str, dict] = {}  # last push per message name
         self._lock = asyncio.Lock()
         self._waiters: list[tuple[str, asyncio.Future]] = []
@@ -88,11 +89,11 @@ class RemoteControl:
                     raise RCError(f"handshake failed: {msg}")
                 break
         self.ws = ws
-        self._reader = asyncio.create_task(self._read())
+        self._reader = asyncio.create_task(self._read(ws))
 
-    async def _read(self):
+    async def _read(self, ws: websockets.ClientConnection):
         try:
-            async for raw in self.ws:
+            async for raw in ws:
                 msg = json.loads(raw)
                 name = msg.get("message")
                 # Dorico pushes only the changed status fields (no hasSelection, ...); getstatus answers with all of them
@@ -120,6 +121,8 @@ class RemoteControl:
         want = REPLY.get(payload["message"], "response")
         async with self._lock:
             fut = asyncio.get_running_loop().create_future()
+            if self.ws is None:  # Dorico closed the connection since connect()
+                raise RCError("Remote Control connection closed")
             self._waiters.append((want, fut))
             await self.ws.send(json.dumps(payload))
             try:
@@ -175,18 +178,19 @@ def _self_check():
             await asyncio.sleep(0)
             return self.msgs.pop(0)
 
+    def fake(msgs: list[dict]) -> websockets.ClientConnection:
+        return cast(websockets.ClientConnection, FakeWS(msgs))
+
     async def run():
         rc = RemoteControl()
         rc.latest["status"] = {"message": "status", "hasScore": True, "hasSelection": False, "selectedEventType": ""}
         fut = asyncio.get_running_loop().create_future()
         rc._waiters.append(("status", fut))
-        rc.ws = FakeWS([{"message": "status", "selectedEventType": "kNoteEvent"},
-                        {"message": "status", "hasScore": True, "hasSelection": True, "selectedEventType": "kNoteEvent"}])
-        await rc._read()
+        await rc._read(fake([{"message": "status", "selectedEventType": "kNoteEvent"},
+                             {"message": "status", "hasScore": True, "hasSelection": True, "selectedEventType": "kNoteEvent"}]))
         assert fut.result()["hasSelection"] is True, fut.result()
         rc.latest["status"] = {"message": "status", "hasScore": True, "hasSelection": True, "zoomPercent": 100}
-        rc.ws = FakeWS([{"message": "status", "zoomPercent": 200}])
-        await rc._read()
+        await rc._read(fake([{"message": "status", "zoomPercent": 200}]))
         assert rc.latest["status"] == {"message": "status", "hasScore": True, "hasSelection": True, "zoomPercent": 200}
 
     asyncio.run(run())
@@ -206,7 +210,7 @@ def _self_check():
                     calls.append(TOKEN_FILE.exists())
                     if TOKEN_FILE.exists():
                         raise websockets.ConnectionClosedOK(Close(1000, reason), Close(1000, reason), True)
-                    rc.ws = object()
+                    rc.ws = fake([])
 
                 rc._handshake = handshake
                 await rc.connect()

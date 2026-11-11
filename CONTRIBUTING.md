@@ -71,6 +71,7 @@ The first ones are generated from a live Dorico by tooling outside this repo: re
 
 ```sh
 uvx ruff check                    # lint
+uvx pyright@1.1.414               # types (the checker behind VS Code's Pylance)
 uv run python tests/offline.py   # self-checks and layer check, no Dorico needed
 uv run python -m doricomcp.confirm   # live harness: needs Dorico with no real project open
 ```

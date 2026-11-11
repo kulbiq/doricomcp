@@ -85,9 +85,9 @@ def check(read: dict, order: list[int] | None = None, plan: str | None = None, k
     times = sorted({n[0] for ns in lines.values() for n in ns})
     prev = None
     for t in times:
-        cur = {v: next((n for n in lines[v] if n[0] <= t < n[1]), None) for v in order}
-        at = next((n[4], n[5]) for n in cur.values() if n and n[0] == t)
-        here = [v for v in order if cur[v]]
+        cur = {v: n for v in order if (n := next((n for n in lines[v] if n[0] <= t < n[1]), None))}  # sounding voices
+        at = next((n[4], n[5]) for n in cur.values() if n[0] == t)
+        here = [v for v in order if v in cur]
         for hi, lo in pairwise(here):
             if cur[hi][2] < cur[lo][2]:
                 add("crossing", at, [hi, lo], f"{cur[hi][3]} below {cur[lo][3]}")
@@ -97,7 +97,7 @@ def check(read: dict, order: list[int] | None = None, plan: str | None = None, k
         if prev:
             for i, a in enumerate(order):
                 for b in order[i + 1:]:
-                    pa, pb, ca, cb = prev.get(a), prev.get(b), cur[a], cur[b]
+                    pa, pb, ca, cb = prev.get(a), prev.get(b), cur.get(a), cur.get(b)
                     if not (pa and pb and ca and cb) or (pa is ca and pb is cb):
                         continue
                     da, db = ca[2] - pa[2], cb[2] - pb[2]

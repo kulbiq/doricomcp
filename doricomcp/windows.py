@@ -10,6 +10,7 @@ import json
 import pathlib
 import subprocess
 import tempfile
+from typing import Any
 
 from .rc import HOME
 
@@ -149,7 +150,7 @@ def windows() -> list[dict]:
     return json.loads(subprocess.run([str(_compiled("dorico-windows", SRC))], capture_output=True, text=True, check=True).stdout or "[]")
 
 
-def _ax(*args):
+def _ax(*args) -> Any:
     r = subprocess.run([str(_compiled("dorico-ax", AX_SRC)), *map(str, args)], capture_output=True, text=True, timeout=20, check=False)
     data = json.loads(r.stdout or "null")
     if isinstance(data, dict) and "error" in data:

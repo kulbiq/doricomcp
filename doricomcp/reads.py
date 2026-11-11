@@ -193,7 +193,7 @@ async def read_markings(s: Session, flow: int, lo: Fraction, hi: Fraction) -> di
             props = {k: v for k, v in row.pop("props", {}).items() if "Gradual" not in k}
             if props:
                 row["props"] = props
-        if e.type == "kBarDivisionEvent":
+        if e.type == "kBarDivisionEvent" and e.element is not None:
             ts, _ = await s.prober.sealed(flow, [e.element], [])
             row["timesig"] = ts[e.element]
         if e.type == "kPlayingTechniqueEvent" and (tech := TECHNIQUE.search(e.desc)):

@@ -10,6 +10,7 @@ import asyncio
 import contextlib
 import json as _json
 from fractions import Fraction
+from typing import Any
 
 from .bridge import Bridge, LuaError, StillRunning
 from .catalog import library_dump
@@ -119,6 +120,7 @@ class Session:
         for e in todo:
             await self.rc.command(f"EventEdit.Select?FlowID={flow}&EventID={e.id}&EventBlockID={e.block}")
             self.selections_on_top += 1
+            pl: dict = {}
             for _ in range(3):  # a late selection push can answer the request; it names its event type
                 pl = await self.rc.request({"message": "getproperties"})
                 if pl.get("eventTypes") == [e.type]:
@@ -175,8 +177,8 @@ class Session:
         return {int(k): v for k, v in (await self.flow_info(flow))["voices"].items()}
 
     async def events(self, flow: int, streams: list[int] | None = None, lo=None, hi=None) -> list[Event]:
-        rows = await self.bridge.run("read", flow=flow, streams=streams,
-                                     **({"from": fstr(lo)} if lo is not None else {}), **({"to": fstr(hi)} if hi is not None else {}))
+        span: dict[str, Any] = {**({"from": fstr(lo)} if lo is not None else {}), **({"to": fstr(hi)} if hi is not None else {})}
+        rows = await self.bridge.run("read", flow=flow, streams=streams, **span)
         return [e for e in build_events(rows) if in_range(e, lo, hi)]
 
     # ---------------------------------------------------------------- bar map
@@ -188,10 +190,12 @@ class Session:
     async def regions(self, flow: int, timebase: list[Event] | None = None):
         tb = timebase if timebase is not None else await self.timebase(flow)
         bds = [e for e in tb if e.type == "kBarDivisionEvent"]
-        ts, _ = await self.prober.sealed(flow, [e.element for e in bds], [])
+        ts, _ = await self.prober.sealed(flow, [e.element for e in bds if e.element is not None], [])
         elems = {b["id"]: b for b in (await self.bridge.run("elements", flow=flow))["bardivs"]}
         divs = []
         for e in bds:
+            if e.element is None:
+                continue
             pick = elems.get(e.element, {}).get("props", {}).get("kBarDivisionIrregularBarLength", "0")
             pk = frac(pick) if pick not in (None, "", "0") else None
             divs.append((e.pos, ts[e.element], pk))
@@ -256,12 +260,16 @@ class Session:
         elems = {g["id"]: g for g in (await self.bridge.run("elements", flow=flow))["dynamics"]}
         refs = []
         for e in groups:
+            if e.element is None:
+                continue
             for s in elems.get(e.element, {}).get("subs", []):
                 if s["props"].get("kDynamicImmediateChangeIntensity") == {"sealed": True}:
                     refs.append((e.element, s["id"]))
         _, levels = await self.prober.sealed(flow, [], refs)
         out = {}
         for e in groups:
+            if e.element is None:
+                continue
             parts = []
             for s in elems.get(e.element, {}).get("subs", []):
                 p = s["props"]

@@ -13,5 +13,6 @@ jobs:
       - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6.8.0
       - run: uv sync
       - run: uvx ruff check
+      - run: uvx pyright@1.1.414  # types, as VS Code's Pylance checks them
       - run: uv run python tests/offline.py
       - run: scripts/build_mcpb.sh  # validates manifest.json

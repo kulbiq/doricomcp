@@ -116,9 +116,10 @@ async def add_span(s: Session, flow: int, kind: str, start_id: int | None = None
     pairs in one call (one undo step for slurs, ottavas and glissandi). Only that voice gets a slur."""
     if kind not in SPAN_COMMANDS:
         raise OpError(f"unknown span kind {kind!r}; one of {sorted(SPAN_COMMANDS)}")
-    pairs = [tuple(x) for x in spans] if spans else [(start_id, end_id)]
-    if any(len(x) != 2 or None in x for x in pairs):
+    given = [tuple(x) for x in spans] if spans else [(start_id, end_id)]
+    if any(len(x) != 2 or None in x for x in given):
         raise OpError("give start_event_id and end_event_id, or spans as [[start_id, end_id], ...]")
+    pairs = [(i, j) for i, j in given if i is not None and j is not None]
     cmd, types = SPAN_COMMANDS[kind]
     evs = await _events_by_id(s, flow, sorted({i for x in pairs for i in x}))
     for i, j in pairs:

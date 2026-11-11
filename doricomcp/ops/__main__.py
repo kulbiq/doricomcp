@@ -2,9 +2,11 @@
 grids, hairpin bookkeeping, and the compact/grid reads, against a fake session. No Dorico needed."""
 import asyncio
 from fractions import Fraction
+from typing import cast
 
 from .. import reads
 from ..model import Event, bar_regions
+from ..session import Session
 from .common import OpError, advance_steps, clear_steps, grid_for, parse_notes
 from .dynamics import LENGTH, _add_hairpin
 from .markings import articulation_targets
@@ -23,11 +25,11 @@ def main():
     good = [n(1, 10, "1/2", "Bb1"), n(2, 10, "1/2", "Bb2"), n(3, 11, "1/2", "Bb1"), n(4, 11, "1/2", "Bb2"), n(5, "23/2", 1, "C3")]
     assert check_onsets(exp, good) is None
     split = [n(1, 10, "1/2", "Bb1"), n(2, "21/2", "1/2", "Bb2")] + good[2:]  # first chord typed as two notes (seen live)
-    assert check_onsets(exp, split).startswith("CHORDMODE"), check_onsets(exp, split)
+    assert (r := check_onsets(exp, split)) and r.startswith("CHORDMODE"), r
     stacked = [n(i, 10, e.dur, e.spelling) for i, e in enumerate(good)]
-    assert check_onsets(exp, stacked).startswith("CHORDMODE")
+    assert (r := check_onsets(exp, stacked)) and r.startswith("CHORDMODE"), r
     wrong = good[:4] + [n(5, "23/2", 1, "D3")]
-    assert not check_onsets(exp, wrong).startswith("CHORDMODE")
+    assert (r := check_onsets(exp, wrong)) and not r.startswith("CHORDMODE"), r
     assert check_onsets(exp, good[:4] + [n(5, "23/2", "1/2", "C3")]) and check_onsets(exp, good[:4] + [n(5, "23/2", "1/2", "C3")], durations=False) is None
 
     # two sextuplets of semiquavers (6:4 s): 12 notated semiquavers = 3 crotchets notated, 2 sounding
@@ -111,7 +113,7 @@ def main():
     a, b = n(1, 0, 1, "C4"), n(2, 2, 2, "E4")
     for merge, key, element in ((True, "merged_into", 7), (False, "created", 8)):
         fs = FakeSession(merge)
-        r = asyncio.run(_add_hairpin(fs, 0, a.pos, b.end, "cresc", [["select", 5, 1]]))
+        r = asyncio.run(_add_hairpin(cast(Session, fs), 0, a.pos, b.end, "cresc", [["select", 5, 1]]))
         assert key in r and r["length"] == "4" and "warning" not in r and not fs.undone, (r, fs.steps)
         assert fs.steps[-1][0][:3] == ["subprop", element, 2] and fs.steps[-1][0][4] == "4", fs.steps
     print("ops self-check ok")

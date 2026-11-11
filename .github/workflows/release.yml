@@ -19,6 +19,7 @@ jobs:
           enable-cache: false  # nothing cached is trusted in a publishing run
       - run: uv sync
       - run: uvx ruff check
+      - run: uvx pyright@1.1.414
       - run: uv run python tests/offline.py
       - name: The tag matches the package version
         run: test "${GITHUB_REF_NAME#v}" = "$(python3 -c "import tomllib; print(tomllib.load(open('pyproject.toml','rb'))['project']['version'])")"

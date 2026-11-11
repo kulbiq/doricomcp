@@ -149,7 +149,7 @@ def build_events(streams: list[dict]) -> list[Event]:
             out.append(Event(r["id"], r["type"], st["id"], r.get("block"), frac(r["pos"]), frac(r["dur"]),
                              r["desc"], r.get("props") or {}, extra))
             seen.add(r["id"])
-        for r in parse_dump(st.get("dump")):
+        for r in parse_dump(st.get("dump") or ""):
             if r["id"] not in seen:
                 out.append(Event(r["id"], r["type"], st["id"], inst_block.get(r["instance"]), r["pos"], r["dur"],
                                  r["desc"], source="dump"))
@@ -165,7 +165,7 @@ def in_range(e: Event, lo: Fraction | None, hi: Fraction | None) -> bool:
 
 # ------------------------------------------------------------------ bar map
 
-def ts_length(ts: str) -> Fraction | None:
+def ts_length(ts: str | None) -> Fraction | None:
     """Bar length in crotchets for "n/d", "C" (4/4) or "cut" (2/2)."""
     if ts == "C":
         return Fraction(4)

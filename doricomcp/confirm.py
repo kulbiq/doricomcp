@@ -13,11 +13,13 @@ Depends on: catalog, fixture, model, server, windows.
 import asyncio
 import contextlib
 import datetime
+import io
 import json
 import pathlib
 import subprocess
 import sys
 import traceback
+from typing import Any
 
 from mcp.server.mcpserver.exceptions import ToolError
 
@@ -39,8 +41,8 @@ BEETHOVEN_LH = [("0", "3/2", "C3", "Eb3", "G3", "C4"), ("8", "1", "C4", "Eb4"), 
                 ("21", "2", "D4", "F4", "Ab4"), ("23", "1", "Eb4", "G4")]
 
 
-async def call(tool: str, **args):
-    r = await mcp.call_tool(tool, args)
+async def call(tool: str, **args) -> Any:  # a tool's JSON result, any shape
+    r: Any = await mcp.call_tool(tool, args)
     if getattr(r, "is_error", False):
         raise RuntimeError(r.content[0].text)
     sc = getattr(r, "structured_content", None)
@@ -64,7 +66,7 @@ def golden(data) -> set[tuple]:
     return {(p, d, *sorted(ps)) for p, d, *ps in data}
 
 
-def to_notes(data) -> list[str]:
+def to_notes(data) -> list[tuple[str, str]]:
     """Beethoven rows -> add_notes calls (pos, text) grouped into contiguous runs."""
     return [(p, "+".join(ps) + ":" + d) for p, d, *ps in data]
 
@@ -530,6 +532,7 @@ async def t_dialogs():
     # Dorico confirms instrument deletion with a modal dialog (measured): open it, read it, answer Cancel
     inst = (await call("get_score_overview"))["instruments"][-1]
     cmd = asyncio.ensure_future(S().rc.command(f"Project.Instrument.Delete?InstrumentID={inst}", timeout=60))
+    ds: list[dict] = []
     for _ in range(20):
         await asyncio.sleep(0.25)
         ds = [d for d in (await call("list_dialogs"))["dialogs"] if d["modal"]]
@@ -603,7 +606,7 @@ async def t_run_command():
 
 
 async def t_screenshot():
-    r = await mcp.call_tool("screenshot", {"bar": 31, "zoom": 200})
+    r: Any = await mcp.call_tool("screenshot", {"bar": 31, "zoom": 200})
     expect(r.content and getattr(r.content[0], "type", "") == "image", "no image")
     zoom = (await S().rc.status()).get("zoomPercent")
     return f"PNG of the score window at bar 31, 200% (zoom restored to {zoom})"
@@ -713,7 +716,8 @@ async def main(only: str | None):
 
 
 if __name__ == "__main__":
-    sys.stdout.reconfigure(line_buffering=True)  # progress shows line by line when redirected to a log
+    if isinstance(sys.stdout, io.TextIOWrapper):  # progress shows line by line when redirected to a log
+        sys.stdout.reconfigure(line_buffering=True)
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     asyncio.run(main(args[0] if args else None))
     table = pathlib.Path(__file__).resolve().parent.parent / "scripts" / "readme_table.py"

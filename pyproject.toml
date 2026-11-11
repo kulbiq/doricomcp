@@ -31,6 +31,14 @@ doricomcp = "doricomcp.server:main"
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[tool.pyright]
+# the checker behind VS Code's Pylance; same scope as ruff
+include = ["doricomcp", "scripts", "tests"]
+venvPath = "."
+venv = ".venv"
+pythonVersion = "3.12"
+typeCheckingMode = "standard"
+
 [tool.ruff]
 line-length = 160
 target-version = "py312"
